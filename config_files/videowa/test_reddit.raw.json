@@ -1,0 +1,51 @@
+[
+    {
+        "sites": [
+            "classifieds"
+        ],
+        "task_id": 0,
+        "require_login": true,
+        "storage_state": "./.auth/classifieds_state.json",
+        "start_url": "__CLASSIFIEDS__",
+        "geolocation": null,
+        "intent_template": "Find me the {{attribute}} {{item}} on this site.",
+        "intent": "Find me the cheapest blue kayak on this site.",
+        "intermediate_intent": "qna",
+        "video": null,
+        "instantiation_dict": {
+            "attribute": "cheapest",
+            "item": "blue kayak"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "11"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "11"
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=4799",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": false,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    }
+]
