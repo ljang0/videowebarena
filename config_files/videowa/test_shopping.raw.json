@@ -717,6 +717,15 @@
             "reference_url": "",
             "program_html": [
                 {
+                    "url": "__SHOPPING__/checkout/cart",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Sunset Jade Plant - Crassula - Easy to Grow House Plant - 4\" Pot"
+                        ]
+                    }
+                },
+                {
                     "url": "__SHOPPING__/checkout/cart/",
                     "locator": "lambda:(() => {try {return Array.from(document.querySelectorAll('.item-info')).find(el => el.textContent.includes('Sunset Jade Plant - Crassula - Easy to Grow House Plant - 4\" Pot')).querySelector('input').getAttribute('data-item-qty')} catch (e) {return ' '}})()",
                     "required_contents": {
@@ -3822,6 +3831,15 @@
             "reference_url": "",
             "program_html": [
                 {
+                    "url": "__SHOPPING__/checkout/cart",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Sceptre E195BD-SRR 19-Inch 720P LED TV, True Black (2017)"
+                        ]
+                    }
+                },                
+                {
                     "url": "__SHOPPING__/checkout/cart/",
                     "locator": "lambda:(() => {try {return Array.from(document.querySelectorAll(\".item-info\")).find(el => el.textContent.includes(\"Sceptre E195BD-SRR 19-Inch 720P LED TV, True Black (2017)\")).querySelector(\"input\").getAttribute(\"data-item-qty\")} catch (e) {return \" \"}})()",
                     "required_contents": {
@@ -4051,6 +4069,15 @@
             "reference_url": "",
             "program_html": [
                 {
+                    "url": "__SHOPPING__/checkout/cart",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Smucker's Uncrustables Peanut Butter and Strawberry Jam Sandwiches, 2 Ounces (Pack of 4) (Frozen)"
+                        ]
+                    }
+                },
+                {
                     "url": "__SHOPPING__/checkout/cart/",
                     "locator": "lambda:(() => {try {return Array.from(document.querySelectorAll(\".item-info\")).find(el => el.textContent.includes(\"Smucker's Uncrustables Peanut Butter and Strawberry Jam Sandwiches, 2 Ounces (Pack of 4) (Frozen)\")).querySelector(\"input\").getAttribute(\"data-item-qty\")} catch (e) {return \" \"}})()",
                     "required_contents": {
@@ -4172,6 +4199,229 @@
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 69,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "The person in the video {description}. Can you buy {description2}?",
+        "intent": "The person in the video mentions moving to a new city. Can you buy a pair of small shorts that has a skyline of the mentioned city shown in this image.",
+        "intermediate_intent": "What is the city the person in the video mentions moving to?",
+        "video": "search_sort_buy",
+        "instantiation_dict": {
+            "description": "mentions moving to a new city",
+            "description2": "a pair of small shorts that has a skyline of the mentioned city shown in this image"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "seattle"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "func:shopping_get_latest_order_url()",
+                    "locator": "document.querySelector(\".order-details-items.ordered\").outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "B07MV1JFND",
+                            "Small"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 70,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Can you add {description} to my wishlist?",
+        "intent": "Can you add the pink rain jacket from the video to my wishlist?",
+        "intermediate_intent": "What was the name of the pink rain jacket in the video?",
+        "video": "search_sort_buy",
+        "instantiation_dict": {
+            "description": "the pink rain jacket from the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "UNIPIN Women's Solid Rain Jacket Outdoor Jackets Hooded Raincoat Windproof"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/wishlist/?limit=50",
+                    "locator": "document.querySelector('.products-grid.wishlist').textContent",
+                    "required_contents": {
+                        "must_include": [
+                            "UNIPIN Women's Solid Rain Jacket Outdoor Jackets Hooded Raincoat Windproof"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 71,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Take me to the {description}?",
+        "intent": "Take me to the item page for the item that had the highest reviews visible in the last page of the video.",
+        "intermediate_intent": "What was the name of the item that had the highest reviews visible in the last page of the video?",
+        "video": "search_sort_buy",
+        "instantiation_dict": {
+            "description": "item page for the item that had the highest reviews visible in the last page of the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Mario Kart 8 Deluxe - Nintendo Switch"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING__/mario-kart-8-deluxe-nintendo-switch.html",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 72,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my cart.",
+        "intent": "Add the items that had average review ratings of 1 in the video to my cart",
+        "intermediate_intent": "What were the names of the items that had average review ratings of 1 in the video?",
+        "video": "search_sort_buy",
+        "instantiation_dict": {
+            "description": "items that had average review ratings of 1 in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.",
+                    "Nintendo Mario Kart Spiny Shell Destroys Tank Top"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/checkout/cart",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include":  [
+                            "Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.",
+                            "Nintendo Mario Kart Spiny Shell Destroys Tank Top"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 0
     }
