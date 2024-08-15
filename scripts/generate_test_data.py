@@ -40,6 +40,26 @@ def main() -> None:
             "__WIKIPEDIA__": WIKIPEDIA,
             "__CLASSIFIEDS__": CLASSIFIEDS,
         }
+    elif DATASET == "videowebarena":
+        print("DATASET: visualwebarena")
+        print(f"CLASSIFIEDS: {CLASSIFIEDS}")
+        print(f"REDDIT: {REDDIT}")
+        print(f"SHOPPING: {SHOPPING}")
+        print(f"SHOPPING_ADMIN: {SHOPPING_ADMIN}")
+        print(f"GITLAB: {GITLAB}")
+        print(f"MAP: {MAP}")
+        inp_paths = [
+            "config_files/videowa/test_classifieds.raw.json", "config_files/videowa/test_shopping.raw.json", "config_files/videowa/test_reddit.raw.json",  "config_files/vwa/test_reddit.raw.json",  "config_files/videowa/test_shopping_admin.raw.json",  "config_files/videowa/test_map.raw.json",  "config_files/videowa/test_gitlab_admin.raw.json",  "config_files/videowa/test_wikipedia_admin.raw.json"
+        ]
+        replace_map = {
+            "__REDDIT__": REDDIT,
+            "__SHOPPING__": SHOPPING,
+            "__WIKIPEDIA__": WIKIPEDIA,
+            "__CLASSIFIEDS__": CLASSIFIEDS,
+            "__SHOPPING_ADMIN__": SHOPPING_ADMIN,
+            "__GITLAB__": GITLAB,
+            "__MAP__": MAP,
+        }
     else:
         raise ValueError(f"Dataset not implemented: {DATASET}")
         
