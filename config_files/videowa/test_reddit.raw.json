@@ -1497,12 +1497,68 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
+        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent": "The person in the video mentions they are from a certain city. Can you subscribe to the most well matched forum for that city?",
+        "intermediate_intent": "What is the name of the city the person in the video says they are from?",
+        "video": "repost",
+        "instantiation_dict": {
+            "description": "mentions they are from a certain city",
+            "description2": "subscribe to the most well matched forum for that city"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "cambridge"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "program_html": [
+                {
+                    "url": "__REDDIT__",
+                    "locator": "func:get_query_text(__page__, '.sidebar')",
+                    "required_contents": {
+                        "must_include": [
+                        "CambridgeMA"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": false,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 26,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
         "intent_template": "For the {description}, can you {description2}",
         "intent": "For the person on the left in the first image that was reposted, can you search their full name and return the fourth post that comes up?",
         "intermediate_intent": "What is the full name of the person on the left in the first image that was reposted?",
         "video": "repost",
         "instantiation_dict": {
-            "description": "person on the left in the first image that was repostedhe comments section of the second post that comes up",
+            "description": "person on the left in the first image that was reposted",
             "description2": "search their full name and return the fourth post that comes up"
         },
         "require_reset": false,
@@ -1541,7 +1597,7 @@
         "sites": [
             "reddit"
         ],
-        "task_id": 26,
+        "task_id": 27,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -1562,7 +1618,8 @@
                 "must_include":[
                     "worldnews",
                     "massachusetts",
-                    "funny"
+                    "funny
+                    "
 
                 ]
             },
@@ -1601,7 +1658,7 @@
         "sites": [
             "reddit"
         ],
-        "task_id": 27,
+        "task_id": 28,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -1650,7 +1707,7 @@
         "sites": [
             "reddit"
         ],
-        "task_id": 28,
+        "task_id": 29,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -1706,7 +1763,7 @@
         "sites": [
             "reddit"
         ],
-        "task_id": 29,
+        "task_id": 30,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -1763,7 +1820,7 @@
         "sites": [
             "reddit"
         ],
-        "task_id": 30,
+        "task_id": 31,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -1821,7 +1878,7 @@
         "sites": [
             "reddit"
         ],
-        "task_id": 31,
+        "task_id": 32,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -1840,7 +1897,7 @@
             ],
             "reference_answers": {
                 "must_include":[
-                    "playstation 4 |or| ps4"
+                    "playstation 4 |or| ps4 |or| PS4 |or| Playstation 4"
                 ]
             },
             "reference_url": "",
@@ -1856,25 +1913,7 @@
             "reference_url": "",
             "program_html": [
                 {
-                    "url": "__REDDIT__/f/Washington/37077/eatonville-view",
-                    "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
-                    "required_contents": {
-                        "must_include": [
-                            "vote vote--user-upvoted"
-                        ]
-                    }
-                },
-                {
-                    "url": "__REDDIT__/f/Washington/58165/seattle-wa-december-2022",
-                    "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
-                    "required_contents": {
-                        "must_include": [
-                            "vote vote--user-upvoted"
-                        ]
-                    }
-                },
-                {
-                    "url": "__REDDIT__/f/Washington/122910/as-an-oregonian-i-m-biased-but-damn-seattle-was-gorgeous",
+                    "url": "__REDDIT__/f/gaming/19746/after-dreaming-about-a-ps4-since-2013-finally-got-one-thanks",
                     "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
                     "required_contents": {
                         "must_include": [
@@ -1885,6 +1924,299 @@
             ]
         },
         "overall_difficulty": "hard",
+        "spatial_reasoning": false,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 33,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent": "The person in the video mentions they are a fan of another NFL team. Can you search for the team (just the mascot) and find the top post from the search?",
+        "intermediate_intent": "What is the NFL team (just the mascot) the person in the video says they are a fan of?",
+        "video": "post_from_shopping",
+        "instantiation_dict": {
+            "description": "mentions they are a fan of another NFL team",
+            "description2": "search for the team (just the mascot) and find the top post from the search"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "falcons"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__REDDIT__/f/space/69699/spacex-caps-2022-with-record-setting-61st-falcon-9-launch",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": false,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 34,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you subscribe {description}",
+        "intent": "Can you subscribe to all the forums the person in the video posted to?",
+        "intermediate_intent": "What are the names of all the forums the person in the video posted to?",
+        "video": "post_from_shopping",
+        "instantiation_dict": {
+            "description": "to all the forums the person in the video posted to"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "pittsburgh",
+                    "gaming"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "program_html": [
+                {
+                    "url": "__REDDIT__",
+                    "locator": "func:get_query_text(__page__, '.sidebar')",
+                    "required_contents": {
+                        "must_include": [
+                        "gaming",
+                        "pittsburgh"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": false,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 35,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you downvote {description}",
+        "intent": "Can you downvote the top 3 posts in the second forum the user in the video posted to?",
+        "intermediate_intent": "What was the name of the second forum the user in the video posted to?",
+        "video": "post_from_shopping",
+        "instantiation_dict": {
+            "description": "the top 3 posts in the second forum the user in the video posted to"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "pittsburgh"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__REDDIT__/f/pittsburgh/45899/driving-in-pittsburgh-summed-up-by-one-traffic-sign",
+                    "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
+                    "required_contents": {
+                        "must_include": [
+                            "vote vote--user-downvoted"
+                        ]
+                    }
+                },
+                {
+                    "url": "__REDDIT__/f/pittsburgh/89846/fallingwater-by-lisa-frank-lloyd-wright",
+                    "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
+                    "required_contents": {
+                        "must_include": [
+                            "vote vote--user-downvoted"
+                        ]
+                    }
+                },
+                {
+                    "url": "__REDDIT__/f/pittsburgh/45900/happy-light-up-night-pittsburgh",
+                    "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
+                    "required_contents": {
+                        "must_include": [
+                            "vote vote--user-downvoted"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": false,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 36,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you block {description}",
+        "intent": "Can you block the authors of the posts with images broken down into panels in the video?",
+        "intermediate_intent": "What are the name of the authors who made posts with the images broken down into panels in the video?",
+        "video": "post_from_shopping",
+        "instantiation_dict": {
+            "description": "the authors of the posts with images broken down into panels in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "fart_Jr",
+                    "colmscomics"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "program_html": [
+                {
+                    "url": "__REDDIT__/user/MarvelsGrantMan136/block_list",
+                    "locator": "func:get_query_text(__page__, '.site-content')",
+                    "required_contents": {
+                        "must_include": [
+                        "fart_Jr",
+                        "colmscomics"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 37,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you change {description}",
+        "intent": "Can you change my username to the username the person in the video made the first change with?",
+        "intermediate_intent": "What was the username the person in the video made the first change with?",
+        "video": "account_info",
+        "instantiation_dict": {
+            "description": "my username to the username the person in the video made the first change with"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "MarvelsGrantMan135"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "program_html": [
+                {
+                    "url": "__REDDIT__",
+                    "locator": "func:get_query_text(__page__, '.site-nav')",
+                    "required_contents": {
+                        "must_include": [
+                            "MarvelsGrantMan135"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
@@ -1892,13 +2224,715 @@
         "comments": "",
         "intent_template_id": 0
     },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 38,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Take me to {description}.",
+        "intent": "Take me to the comments section of the top post made my the person's account visible in the video.",
+        "intermediate_intent": "What was name of the top post made my the person's account visible in the video?",
+        "video": "account_info",
+        "instantiation_dict": {
+            "description": "the comments section of the top post made my the person's account visible in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "'Yellowjackets' Season 2 Premiere Draws Nearly 2M Viewers, Breaks Showtime Streaming Record"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__REDDIT__/f/television/134942/yellowjackets-season-2-premiere-draws-nearly-2m-viewers",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 39,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you leave a comment {description}.",
+        "intent": "Can you leave a comment 'this was popular' replying to the top comment made my the person's account visible in the video.",
+        "intermediate_intent": "What was name of the post with the top comment made my the person's account visible in the video?",
+        "video": "account_info",
+        "instantiation_dict": {
+            "description": "'this was popular' replying to the top comment made my the person's account visible in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "David Cross Joins the Final Season of 'The Umbrella Academy'"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__REDDIT__/f/television/113998",
+                    "locator": "func:reddit_get_parent_comment_username_of_latest_comment_by_username(__page__, 'MarvelsGrantMan136')",
+                    "required_contents": {
+                        "exact_match": "MarvelsGrantMan136"
+                    }
+                },
+                {
+                    "url":  "__REDDIT__/f/television/113998",
+                    "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+                    "required_contents": {
+                        "exact_match": "this was popular"
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 40,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they say this?",
+        "intermediate_intent": "What was the title of the page the person in the video was on when they said thanks?",
+        "video": "account_info",
+        "instantiation_dict": {
+            "description": "says 'thanks' at a certain point",
+            "description2": "take me to the page they were on when they say this"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "user settings"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__REDDIT__/user/MarvelsGrantMan136/preferences",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 41,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent": "The person in the video mentions they are reading a certain book series currently. Can you return the image link of a flowchart about the book series on this website?",
+        "intermediate_intent": "What was the book series the person in the video says they are reading currently?",
+        "video": "vote_tutorial",
+        "instantiation_dict": {
+            "description": "mentions they are reading a certain book series currently",
+            "description2": "return the image link of a flowchart about the book series on this website"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "harry potter |OR| Harry Potter"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "__SHOPPING__/submission_images/349ef80fe547337790ce43ec72bb94e8f2d256b3416794418d8f50fd0bc04208.png"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": false,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 42,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you leave a comment {description}?",
+        "intent": "Can you leave a comment saying 'first downvote' on the first post in the video that gets a downvote?",
+        "intermediate_intent": "What was the name of the first post in the video that gets a downvote?",
+        "video": "vote_tutorial",
+        "instantiation_dict": {
+            "description": "saying 'first downvote' on the first post in the video that gets a downvote?"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "My girlfriend left me because of my abandonment issues..."
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url":  "__REDDIT__/f/Jokes/119862/my-girlfriend-left-me-because-of-my-abandonment-issues",
+                    "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+                    "required_contents": {
+                        "exact_match": "first downvote"
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 43,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "For the {description}, can you {description2}",
+        "intent": "For the first forum in the video, can you downvote all the upvoted posts and upvote all the downvoted posts?",
+        "intermediate_intent": "What was the first forum in the video?",
+        "video": "vote_tutorial",
+        "instantiation_dict": {
+            "description": "first forum in the video",
+            "description2": "downvote all the upvoted posts and upvote all the downvoted posts?"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "Jokes"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__REDDIT__/f/Jokes/119862/my-girlfriend-left-me-because-of-my-abandonment-issues",
+                    "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
+                    "required_contents": {
+                        "must_include": [
+                            "vote vote--user-downvoted"
+                        ]
+                    }
+                },
+                {
+                    "url": "__REDDIT__/f/Jokes/119951/little-johnny-s-parents-wanted-to-have-some-alone-time",
+                    "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
+                    "required_contents": {
+                        "must_include": [
+                            "vote vote--user-downvoted"
+                        ]
+                    }
+                },
+                {
+                    "url": "__REDDIT__/f/Jokes/119950/at-the-bar-last-night-a-woman-got-her-nipple-pierced-right",
+                    "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
+                    "required_contents": {
+                        "must_include": [
+                            "vote vote--user-downvoted"
+                        ]
+                    }
+                },
+                {
+                    "url": "__REDDIT__/f/Jokes/77160/i-m-surprised-that-so-many-jokes-here-are-tagged-nsfw",
+                    "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
+                    "required_contents": {
+                        "must_include": [
+                            "vote vote--user-downvoted"
+                        ]
+                    }
+                },
+                {
+                    "url": "__REDDIT__/f/Jokes/77340/this-man-went-out-with-the-boys-and-told-his-wife-that-he",
+                    "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
+                    "required_contents": {
+                        "must_include": [
+                            "vote vote--user-upvoted"
+                        ]
+                    }
+                },
+                {
+                    "url": "__REDDIT__/f/Jokes/55249/a-priest-and-a-nun-in-a-desert-cabin",
+                    "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
+                    "required_contents": {
+                        "must_include": [
+                            "vote vote--user-upvoted"
+                        ]
+                    }
+                }
 
-
-
-
-
-
-
-
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 44,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Take me to {description}.",
+        "intent": "Take me to the user page for the last post the person in the video voted on.",
+        "intermediate_intent": "What was the name of the user for the last post the person in the video voted o?",
+        "video": "vote_tutorial",
+        "instantiation_dict": {
+            "description": "the user page for the last post the person in the video voted on"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "pensieve64"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__REDDIT__/user/pensieve64/submissions",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 45,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you message {description}.",
+        "intent": "Can you message 'I loved this post' to the poster of the second most commented post in the second forum the person in the video visited, that they upvoted?",
+        "intermediate_intent": "What was the name of the poster of the second most commented post in the second forum the person in the video visited, that they upvoted?",
+        "video": "vote_tutorial",
+        "instantiation_dict": {
+            "description": "'I loved this post' to the poster of the second most commented post in the second forum the person in the video visited, that they upvoted"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "RunDNA"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__REDDIT__/messages",
+                    "locator": "func:get_query_text(__page__, \"#main > table > tbody\")",
+                    "required_contents": {
+                        "must_include": [
+                            "RunDNA",
+                            "I loved this post"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 46,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they say this?",
+        "intermediate_intent": "What was the title of the page the person in the video was on when they said thanks?",
+        "video": "subreddit",
+        "instantiation_dict": {
+            "description": "says 'thanks' at a certain point",
+            "description2": "take me to the page they were on when they say this?"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "forums"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__REDDIT__/forums/all",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 47,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you subscribe {description}",
+        "intent": "Can you subscribe to all the forums visited in the video?",
+        "intermediate_intent": "What are the names of all the forums the person in the video visited?",
+        "video": "subreddit",
+        "instantiation_dict": {
+            "description": "to all the forums visited in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "MachineLearning",
+                    "arlingtonva",
+                    "personalfinance"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "program_html": [
+                {
+                    "url": "__REDDIT__",
+                    "locator": "func:get_query_text(__page__, '.sidebar')",
+                    "required_contents": {
+                        "must_include": [
+                            "MachineLearning",
+                            "arlingtonva",
+                            "personalfinance"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 48,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you make a post {description}",
+        "intent": "Can you make a post in the second forum the person visited in the video",
+        "intermediate_intent": "What is the name of the second forum the person in the video visited?",
+        "video": "subreddit",
+        "instantiation_dict": {
+            "description": "in the second forum the person visited in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "arlingtonva"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "last",
+                    "locator": "func:get_query_text(__page__, \"#main > article > div > div.submission__inner > header\")",
+                    "required_contents": {
+                        "must_include": [
+                            "arlingtonva",
+                            "MarvelsGrantMan136"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 49,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you repost {description}",
+        "intent":"Can you repost the top post in the first forum the user visited to the second forum the user visited?",
+        "intermediate_intent": "What are the names of the first and  second forum the person in the video visited?",
+        "video": "subreddit",
+        "instantiation_dict": {
+            "description": "the top post in the first forum the user visited to the second forum the user visited?"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "MachineLearning",
+                    "arlingtonva"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html",
+                "page_image_query",
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "f/arlingtonva",
+            "url_note": "",
+            "program_html": [
+                {
+                    "url": "last",
+                    "locator": "lambda:(() => { try { return document.querySelector('.submission__link').textContent } catch { return '' } })()",
+                    "required_contents": {
+                        "exact_match": "[P] I made a command-line tool that explains your errors using ChatGPT (link in comments)"
+                    }
+                }
+            ],
+            "page_image_query": [
+                {
+                    "eval_image_url": "last",
+                    "eval_image_class": ".submission__image",
+                    "eval_fuzzy_image_match": "__REDDIT__/submission_images/c5baabe3d849e5940bdf4aa2093a81fbb30cef546ca57df3c26b56739e2a5f71.gif"
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    }
 
 ]

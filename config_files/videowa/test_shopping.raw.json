@@ -1938,14 +1938,10 @@
         },
         "eval": {
             "eval_types": [
-                "string_match"
+                "url_match"
             ],
-            "reference_answers": {
-                "must_include": [
-                    "__SHOPPING__/toothpaste-powder-teeth-whitener-helps-remove-smoking-coffee-soda-wine-stain-freshen-the-breath.html"
-                ]
-            },
-            "reference_url": "",
+            "reference_answers": null,
+            "reference_url":  "__SHOPPING__/toothpaste-powder-teeth-whitener-helps-remove-smoking-coffee-soda-wine-stain-freshen-the-breath.html",
             "program_html": [],
             "string_note": "",
             "reference_answer_raw_annotation": ""
@@ -2417,12 +2413,8 @@
             "eval_types": [
                 "string_match"
             ],
-            "reference_answers": {
-                "must_include": [
-                    "__SHOPPING__/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07W72RVK5.0.jpg |OR| __SHOPPING__/media/catalog/product/cache/829a59e57f886f8cf0598ffca4f8a940/B/0/B07W72RVK5.1.jpg"
-                ]
-            },
-            "reference_url": "",
+            "reference_answers": null,
+            "reference_url": "__SHOPPING__/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07W72RVK5.0.jpg |OR| __SHOPPING__/media/catalog/product/cache/829a59e57f886f8cf0598ffca4f8a940/B/0/B07W72RVK5.1.jpg",
             "program_html": [],
             "string_note": "",
             "reference_answer_raw_annotation": ""
@@ -3526,14 +3518,10 @@
         },
         "eval": {
             "eval_types": [
-                "string_match"
+                "url_match"
             ],
-            "reference_answers": {
-                "must_include": [
-                    "__SHOPPING__/inoomp-20-pcs-halloween-cupcake-decorations-set-acrylic-halloween-cupcake-toppers-with-witch-hat-broomstick-for-halloween-birthday-party-supplies.html"
-                ]
-            },
-            "reference_url": "",
+            "reference_answers": null,
+            "reference_url": "__SHOPPING__/inoomp-20-pcs-halloween-cupcake-decorations-set-acrylic-halloween-cupcake-toppers-with-witch-hat-broomstick-for-halloween-birthday-party-supplies.html",
             "program_html": [],
             "string_note": "",
             "reference_answer_raw_annotation": ""
@@ -3579,14 +3567,10 @@
         },
         "eval": {
             "eval_types": [
-                "string_match"
+                "url_match"
             ],
-            "reference_answers": {
-                "must_include": [
-                    "__SHOPPING__/catalogsearch/result/?q=gucci"
-                ]
-            },
-            "reference_url": "",
+            "reference_answers": null,
+            "reference_url": "__SHOPPING__/catalogsearch/result/?q=gucci",
             "program_html": [],
             "string_note": "",
             "reference_answer_raw_annotation": ""
