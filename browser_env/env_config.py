@@ -76,6 +76,51 @@ elif DATASET == "visualwebarena":
         HOMEPAGE: "http://homepage.com",
         CLASSIFIEDS: "http://classifieds.com",
     }
+
+elif DATASET == "videowebarena":
+    REDDIT = os.environ.get("REDDIT", "")
+    SHOPPING = os.environ.get("SHOPPING", "")
+    WIKIPEDIA = os.environ.get("WIKIPEDIA", "")
+    HOMEPAGE = os.environ.get("HOMEPAGE", "")
+    CLASSIFIEDS = os.environ.get("CLASSIFIEDS", "")
+    CLASSIFIEDS_RESET_TOKEN = os.environ.get("CLASSIFIEDS_RESET_TOKEN", "")
+    REDDIT_RESET_URL = os.environ.get("REDDIT_RESET_URL", "")
+    SHOPPING_ADMIN = os.environ.get("SHOPPING_ADMIN", "")
+    GITLAB = os.environ.get("GITLAB", "")
+    MAP = os.environ.get("MAP", "")
+    assert (
+        REDDIT
+        and SHOPPING
+        and WIKIPEDIA
+        and HOMEPAGE
+        and CLASSIFIEDS
+        and CLASSIFIEDS_RESET_TOKEN
+        and GITLAB
+        and SHOPPING_ADMIN
+        and MAP
+    ), (
+        f"Please setup the URLs and tokens to each site. Current: "
+        + f"Reddit: {REDDIT}"
+        + f"Shopping: {SHOPPING}"
+        + f"Wikipedia: {WIKIPEDIA}"
+        + f"Homepage: {HOMEPAGE}"
+        + f"Classifieds: {CLASSIFIEDS}"
+        + f"Classifieds reset token: {CLASSIFIEDS_RESET_TOKEN}"
+        + f"Map: {MAP}"
+        + f"Shopping Admin: {SHOPPING_ADMIN}"
+        + f"Gitlab: {GITLAB}"
+    )
+    
+    URL_MAPPINGS = {
+        REDDIT: "http://reddit.com",
+        SHOPPING: "http://onestopmarket.com",
+        WIKIPEDIA: "http://wikipedia.org",
+        HOMEPAGE: "http://homepage.com",
+        CLASSIFIEDS: "http://classifieds.com",
+        SHOPPING_ADMIN: "http://luma.com/admin",
+        GITLAB: "http://gitlab.com",
+        MAP: "http://openstreetmap.org",
+    }
     
 else:
     raise ValueError(f"Dataset not implemented: {DATASET}")
