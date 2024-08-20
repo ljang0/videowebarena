@@ -918,7 +918,7 @@
         "intent_template": "Leave a review on {description}.",
         "intent": "Leave a review on the most expensive item in the first search, using the description the video creater used to describe that item.",
         "intermediate_intent": "What does the person in the video call the most expensive item in the first search?",
-        "video": "add_to_cart",
+        "video": "search_and_scroll",
         "instantiation_dict": {
             "description": "the most expensive item in the first search, using the description the video creater used to describe that item"
         },
@@ -1784,65 +1784,6 @@
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
-        "comments": "",
-        "intent_template_id": 0
-    },
-    {
-        "sites": [
-            "shopping"
-        ],
-        "task_id": 30,
-        "require_login": true,
-        "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
-        "geolocation": null,
-        "intent_template": "Add the {description} to my comparison page.",
-        "intent": "Add the items the user added to their wishlist/cart to my comparison page?",
-        "intermediate_intent": "What were the items the user added to their wishlist/cart?",
-        "video": "add_by_category",
-        "instantiation_dict": {
-            "description": "items the user added to their wishlist/cart "
-        },
-        "require_reset": false,
-        "intermediate_eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "must_include": [
-                    "Charberry 2019 HOT Bathroom Home Tube Rolling Holder Squeezer Easy Cartoon Toothpaste Dispenser Easter party gift (B)",
-                    "Rress on Mini Toothpaste Teeth Cleansing Toothpaste Tooth Whitening Enamel Care Toothpaste Stains V34 Colour Corrector Teeth Whitening Sensitive Teeth Toothpaste 30ml(Purple&Orange)#12"
-                ]
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": "",
-            "reference_answer_raw_annotation": ""
-        },
-        "eval": {
-            "eval_types": [
-                "program_html"
-            ],
-            "reference_answers": null,
-            "reference_url": "",
-            "program_html": [
-                {
-                    "url": "__SHOPPING__/catalog/product_compare",
-                    "locator": "",
-                    "required_contents": {
-                        "must_include": [
-                            "Charberry 2019 HOT Bathroom Home Tube Rolling Holder Squeezer Easy Cartoon Toothpaste Dispenser Easter party gift (B)",
-                            "Rress on Mini Toothpaste Teeth Cleansing Toothpaste Tooth Whitening Enamel Care Toothpaste Stains V34 Colour Corrector Teeth Whitening Sensitive Teeth Toothpaste 30ml(Purple&Orange)#12"
-                        ]
-                    }
-                }
-            ]
-        },
-        "overall_difficulty": "hard",
-        "visual_reasoning": false,
-        "audio_reasoning": false,
-        "multihop_reasoning": true,
-        "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 0
     },

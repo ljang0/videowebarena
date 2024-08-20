@@ -114,68 +114,6 @@
         "sites": [
             "reddit"
         ],
-        "task_id": 1,
-        "require_login": true,
-        "storage_state": "./.auth/reddit_state.json",
-        "start_url": "__REDDIT__",
-        "geolocation": null,
-        "intent_template": "Can you leave a comment {description}.",
-        "intent": "Can you leave a comment stating 'I want to visit!' replying to all the comments in the video that had 4 upvotes?",
-        "intermediate_intent": "What are the username(s) of the author(s) who wrote the comment(s) in the video that had 4 upvotes?",
-        "video": "go_to_comments",
-        "instantiation_dict": {
-            "description": "replying to all the comments in the video that had 4 upvotes"
-        },
-        "require_reset": false,
-        "intermediate_eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "must_include": [
-                    "Candid-Mine5119"
-                ]
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": "",
-            "reference_answer_raw_annotation": ""
-        },
-        "eval": {
-            "eval_types": [
-                "program_html"
-            ],
-            "reference_answers": null,
-            "reference_url": "",
-            "program_html": [
-                {
-                    "url": "__REDDIT__/f/Washington/37077/eatonville-view",
-                    "locator": "func:reddit_get_parent_comment_username_of_latest_comment_by_username(__page__, 'MarvelsGrantMan136')",
-                    "required_contents": {
-                        "exact_match": "Candid-Mine5119"
-                    }
-                },
-                {
-                    "url":  "__REDDIT__/f/Washington/37077/eatonville-view",
-                    "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
-                    "required_contents": {
-                        "exact_match": "I want to visit!"
-                    }
-                }
-            ]
-        },
-        "overall_difficulty": "hard",
-        "spatial_reasoning": false,
-        "audio_reasoning": false,
-        "multihop_reasoning": true,
-        "temporal_reasoning": false,
-        "comments": "",
-        "intent_template_id": 0
-    },
-    {
-        "sites": [
-            "reddit"
-        ],
         "task_id": 2,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
@@ -1170,61 +1108,6 @@
         "sites": [
             "reddit"
         ],
-        "task_id": 19,
-        "require_login": true,
-        "storage_state": "./.auth/reddit_state.json",
-        "start_url": "__REDDIT__",
-        "geolocation": null,
-        "intent_template": "Can you leave a comment {description}.",
-        "intent": "Can you leave a comment stating 'gotcha!' on the post(s) made by the author that are present in the video, but was not created in the video.",
-        "intermediate_intent": "What is the name of the post made by the author that is present in the video, but was not created in the video?",
-        "video": "make_post",
-        "instantiation_dict": {
-            "description": "stating 'gotcha!' on the post(s) made by the author that are present in the video, but was not created in the video"
-        },
-        "require_reset": false,
-        "intermediate_eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "must_include":[
-                    "Nvidia RTX 4090"
-                ]
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": "",
-            "reference_answer_raw_annotation": ""
-        },
-        "eval": {
-            "eval_types": [
-                "program_html"
-            ],
-            "reference_answers": null,
-            "reference_url": "",
-            "program_html": [
-                {
-                    "url":  "__REDDIT__/f/MachineLearning/1/nvidia-rtx-4090",
-                    "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
-                    "required_contents": {
-                        "exact_match": "gotcha!"
-                    }
-                }
-            ]
-        },
-        "overall_difficulty": "hard",
-        "spatial_reasoning": true,
-        "audio_reasoning": false,
-        "multihop_reasoning": true,
-        "temporal_reasoning": false,
-        "comments": "",
-        "intent_template_id": 0
-    },
-    {
-        "sites": [
-            "reddit"
-        ],
         "task_id": 20,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
@@ -1618,8 +1501,7 @@
                 "must_include":[
                     "worldnews",
                     "massachusetts",
-                    "funny
-                    "
+                    "funny"
 
                 ]
             },
@@ -1715,7 +1597,7 @@
         "intent_template": "The person in the video {description}. Can you {description2}.",
         "intent": "The person in the video states a certain movie series has the best trailers. Can you search for the mentioned series and comment 'they were right' on the post that comes up with a gif?",
         "intermediate_intent": "What movie series has the best trailers according to the person in the video?",
-        "video": "repost",
+        "video": "subscribe",
         "instantiation_dict": {
             "description": "states a certain movie series has the best trailers",
             "description2": "search for the mentioned series and comment 'they were right' on the post that comes up with a gif"
@@ -1771,7 +1653,7 @@
         "intent_template": "Can you subscribe {description}?",
         "intent": "Can you subscribe to all the forums that the user in the video subscribed to?",
         "intermediate_intent": "What are the names of the forums that the user subscribed to in the video?",
-        "video": "repost",
+        "video": "subscribe",
         "instantiation_dict": {
             "description": "to all the forums that the user in the video subscribed to"
         },
@@ -1827,8 +1709,8 @@
         "geolocation": null,
         "intent_template": "Can you message {description}.",
         "intent": "Can you message 'lucky post you got there' to the author of the top post in the first forum the user in the video subscribed to?",
-        "intermediate_intent": "What is the names of the first forum that the user subscribed to in the video?",
-        "video": "repost",
+        "intermediate_intent": "What is the name of the first forum that the user subscribed to in the video?",
+        "video": "subscribe",
         "instantiation_dict": {
             "description": "'lucky post you got there' to the author of the top post in the first forum the user in the video subscribed to"
         },
@@ -1884,11 +1766,11 @@
         "start_url": "__REDDIT__",
         "geolocation": null,
         "intent_template": "Can you upvote all the posts {description}?.",
-        "intent": "Can you upvote all the posts on Postmill that show the menu screen of the gaming console the person in the video said they use?",
-        "intermediate_intent": "What is the gaming console the person in the video said they use?",
-        "video": "repost",
+        "intent": "Can you upvote all the posts on Postmill that show the home menu screen of the previous generation version of the gaming console the person in the video said they use?",
+        "intermediate_intent": "What is the previous generation version of the gaming console the person in the video said they use?",
+        "video": "post_from_shopping",
         "instantiation_dict": {
-            "description": "on Postmill that show the menu screen of the gaming console the person in the video said they use"
+            "description": "on Postmill that show the menu screen of the previous generation version of the gaming console the person in the video said they use"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2933,6 +2815,619 @@
         "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 50,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__ |AND| __SHOPPING__ ",
+        "geolocation": null,
+        "intent_template": "Can you make a post {description}",
+        "intent":"Can you make a post in the gaming forum using the title and image of the second item item the user added to cart in the video?",
+        "intermediate_intent": "What was the name of the second item item the user added to cart in the video?",
+        "video": "reddit_shopping_buy",
+        "instantiation_dict": {
+            "description": "in the gaming forum using the title and image of the second item item the user added to cart in the video?"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "SCUF Instinct Pro Steel Gray Custom Wireless Performance Controller for Xbox Series X|S, Xbox One, PC, and Mobile - Steel Gray - Xbox Series X"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html",
+                "page_image_query"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "last",
+                    "locator": "func:get_query_text(__page__, \"#main > article > div > div.submission__inner > header\")",
+                    "required_contents": {
+                        "must_include": [
+                            "SCUF Instinct Pro Steel Gray Custom Wireless Performance Controller for Xbox Series X|S, Xbox One, PC, and Mobile - Steel Gray - Xbox Series X",
+                            "MarvelsGrantMan136"
+                        ]
+                    }
+                }
+            ],
+            "page_image_query": [
+                {
+                    "eval_image_url": "last",
+                    "eval_image_class": ".submission__image",
+                    "eval_fuzzy_image_match": "__SHOPPING__/media/catalog/product/cache/829a59e57f886f8cf0598ffca4f8a940/B/0/B06VTRJGCP.0.jpg"
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 51,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__ |AND| __SHOPPING__ ",
+        "geolocation": null,
+        "intent_template": "Can you make a post {description}",
+        "intent":"Can you make a post in the gaming forum using the title and image of the first item item the user added to cart in the video?",
+        "intermediate_intent": "What was the name of the first item item the user added to cart in the video?",
+        "video": "reddit_shopping_buy",
+        "instantiation_dict": {
+            "description": "in the gaming forum using the title and image of the first item item the user added to cart in the video?"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "The Lord of The Rings Men's Film Trilogy Logo Sleepwear Lounge Bottoms Pajama Pants"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html",
+                "page_image_query"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "last",
+                    "locator": "func:get_query_text(__page__, \"#main > article > div > div.submission__inner > header\")",
+                    "required_contents": {
+                        "must_include": [
+                            "SCUF Instinct Pro Steel Gray Custom Wireless Performance Controller for Xbox Series X|S, Xbox One, PC, and Mobile - Steel Gray - Xbox Series X",
+                            "MarvelsGrantMan136"
+                        ]
+                    }
+                }
+            ],
+            "page_image_query": [
+                {
+                    "eval_image_url": "last",
+                    "eval_image_class": ".submission__image",
+                    "eval_fuzzy_image_match": "__SHOPPING__/media/catalog/product/cache/829a59e57f886f8cf0598ffca4f8a940/B/0/B093CFW2S1.0.jpg"
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 52,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Take me to {description}.",
+        "intent":"Take me to the comments section of the Postmill post with the most upvotes in the video.",
+        "intermediate_intent": "How many upvotes did the post with the most upvotes in the video have?",
+        "video": "reddit_shopping_buy",
+        "instantiation_dict": {
+            "description": "the comments section of the Postmill post with the most upvotes in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "3591"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__REDDIT__/f/books/81371/the-letters-of-t-s-eliot-to-emily-hale-that-were-kept-sealed",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 53,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you leave a comment {description}.",
+        "intent":"Can you leave a comment 'I just bought one too' on the first post that came up after the person in the video used the search bar in Postmill?" ,
+        "intermediate_intent": "What was the name of the first post that came up after the person in the video used the search bar in Postmill",
+        "video": "reddit_shopping_buy",
+        "instantiation_dict": {
+            "description": "'I just bought one too' on the first post that came up after the person in the video used the search bar in Postmill?"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "Any reason to keep my Xbox? Can I remote play from a tablet from a different room? Like Xbox Remote Play?"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url":  "__REDDIT__/f/Washington/37077/eatonville-view",
+                    "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+                    "required_contents": {
+                        "exact_match": "I just bought one too"
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 54,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you leave a comment {description}.",
+        "intent":"Can you leave a comment 'this seems controversial' on the post with the most comments that came up after the person in the video used the search bar in Postmill?" ,
+        "intermediate_intent": "What was the name of the post with the most comments that came up after the person in the video used the search bar in Postmill?",
+        "video": "reddit_shopping_buy",
+        "instantiation_dict": {
+            "description": "'this seems controversial' on the post with the most comments that came up after the person in the video used the search bar in Postmill?"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "Any reason to keep my Xbox? Can I remote play from a tablet from a different room? Like Xbox Remote Play?"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url":  "__REDDIT__/f/consoles/59868/should-i-stay-on-playstation-or-switch-to-xbox",
+                    "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+                    "required_contents": {
+                        "exact_match": "'this seems controversial'"
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 55,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they say this?",
+        "intermediate_intent": "What was the page the person in the video was on when they said thanks?",
+        "video": "reddit_shopping_buy",
+        "instantiation_dict": {
+            "description": "says 'thanks' at a certain point",
+            "description2": "take me to the page they were on when they say this"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "xbox",
+                    "search"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__REDDIT__/search?q=xbox",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 56,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they say this?",
+        "intermediate_intent": "What was the title of the page the person in the video was on when they said thanks?",
+        "video": "reddit_wikipedia_info",
+        "instantiation_dict": {
+            "description": "says 'thanks' at a certain point",
+            "description2": "take me to the page they were on when they say this"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "Russians kidnapped 30 mayors, 7 of them went missing - Kyiv Mayor"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__REDDIT__/f/worldnews/72951/russians-kidnapped-30-mayors-7-of-them-went-missing-kyiv",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 57,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Make a new post {description}.",
+        "intent": "Make a new post in the same forum as the third post visited in the video, and title the new post as 'New Tech Company on the rise?'.",
+        "intermediate_intent": "What was the forum of the third post visited in the video?",
+        "video": "reddit_wikipedia_info",
+        "instantiation_dict": {
+            "description": "in the same forum as the third post visited in the video, and title the new post as 'New Tech Company on the rise?'"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "technology"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "last",
+                    "locator": "func:get_query_text(__page__, \"#main > article > div > div.submission__inner > header\")",
+                    "required_contents": {
+                        "must_include": [
+                    "New Tech Company on the rise?",
+                    "technology",
+                    "MarvelsGrantMan136"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 58,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Make a new post {description}.",
+        "intent": "Make a new post in the same forum as the fourth post visited in the video, and title the new post as 'Where should I start?'.",
+        "intermediate_intent": "What was the forum of the fourth post visited in the video?",
+        "video": "reddit_wikipedia_info",
+        "instantiation_dict": {
+            "description": "in the same forum as the fourth post visited in the video, and title the new post as 'Where should I start?'"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "sports"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "last",
+                    "locator": "func:get_query_text(__page__, \"#main > article > div > div.submission__inner > header\")",
+                    "required_contents": {
+                        "must_include": [
+                    "Where should I start?",
+                    "sports",
+                    "MarvelsGrantMan136"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 59,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Make a new post {description}.",
+        "intent": "Make a new post in the same forum as the second post visited in the video, and title the new post as 'My own report'.",
+        "intermediate_intent": "What was the forum of the second post visited in the video?",
+        "video": "reddit_wikipedia_info",
+        "instantiation_dict": {
+            "description": "in the same forum as the second post visited in the video, and title the new post as 'My own report'"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "worldnews"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "last",
+                    "locator": "func:get_query_text(__page__, \"#main > article > div > div.submission__inner > header\")",
+                    "required_contents": {
+                        "must_include": [
+                    "My own report",
+                    "worldnews",
+                    "MarvelsGrantMan136"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 60,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Take me to {description}.",
+        "intent":"Take me to the comments section of the Postmill post with the most upvotes in the video.",
+        "intermediate_intent": "How many upvotes did the post with the most upvotes in the video have?",
+        "video": "reddit_wikipedia_info",
+        "instantiation_dict": {
+            "description": "the comments section of the Postmill post with the most upvotes in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "13682"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__REDDIT__/f/technology/48670/brain-cancer-vaccine-succeeds-at-prolonging-survival-in",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
     }
-
 ]
