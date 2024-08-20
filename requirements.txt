@@ -144,3 +144,10 @@ wcwidth==0.2.8
 websockets==11.0.3
 xxhash==3.3.0
 yarl==1.9.2
+
+
+torchaudio
+# moviepy from GitHub  
+git+https://github.com/Zulko/moviepy.git  
+openai-whisper
+tiktoken==0.7.0

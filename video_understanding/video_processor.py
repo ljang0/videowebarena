@@ -1,0 +1,66 @@
+import cv2  
+import os  
+import numpy as np  
+import moviepy.editor as mp  
+import whisper
+from PIL import Image
+
+class VideoProcessor:  
+    def __init__(self):  
+        self.temp_audio_path = "temp/temp.wav"
+        self.temp_image_path = "temp/video_frames"
+        os.makedirs("temp", exist_ok=True)
+        self.total_num_frames = 5
+    def sample_frames(self, video_path, total_num_frames=None, save_files=False):
+        if total_num_frames is None:
+            total_num_frames = self.total_num_frames
+        cap = cv2.VideoCapture(video_path)
+        if not cap.isOpened():
+            raise ValueError(f"Error opening video file at {video_path}")
+        if save_files:
+            os.makedirs(self.temp_image_path, exist_ok=True)
+        sampled_frames = []
+        fps = cap.get(cv2.CAP_PROP_FPS)
+        total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+        interval = max(1, total_frames // total_num_frames)
+        current_frame = 0
+        saved_frame_count = 0
+        while True:
+            ret, frame = cap.read()
+            if not ret:
+                break
+
+            if current_frame % interval == 0 and saved_frame_count < total_num_frames:
+                if save_files:
+                    frame_path = os.path.join(self.temp_image_path, f"frame_{saved_frame_count}.jpg")
+                    cv2.imwrite(frame_path, frame)
+                sampled_frames.append(frame)
+                saved_frame_count += 1
+
+            current_frame += 1
+
+        cap.release()
+        sampled_frames = [Image.fromarray(x) for x in sampled_frames]
+        return sampled_frames
+  
+    def extract_audio(self, video_path, sampling_rate=16000):  
+        video = mp.VideoFileClip(video_path)  
+        audio = video.audio  
+        audio_array = audio.to_soundarray(fps=sampling_rate) 
+        if len(audio_array.shape) > 1:
+            audio_array = np.mean(audio_array, axis=1) 
+        return audio_array, sampling_rate
+
+    def get_transcript(self, video_path):  
+        video = mp.VideoFileClip(video_path)  
+        audio = video.audio  
+        audio.write_audiofile(self.temp_audio_path)
+        model = whisper.load_model("base")
+        result = model.transcribe(self.temp_audio_path)
+        os.remove(self.temp_audio_path)
+        return result["text"] 
+    def clean_up(self):
+        try:
+            os.remove("temp")
+        except:
+            print("Error removing temp directory")

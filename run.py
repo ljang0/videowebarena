@@ -176,6 +176,9 @@ def config() -> argparse.Namespace:
 
     # logging related
     parser.add_argument("--result_dir", type=str, default="")
+    parser.add_argument("--video_dir", type=str, default=None)
+    parser.add_argument("--video_summary_instruction_path", type=str, default=None)
+
     args = parser.parse_args()
 
     # check the whether the action space is compatible with the observation space
@@ -381,6 +384,7 @@ def test(
 
             meta_data = {"action_history": ["None"]}
             while True:
+                # ipdb.set_trace()
                 early_stop_flag, stop_info = early_stop(
                     trajectory, max_steps, early_stop_thresholds
                 )
@@ -389,6 +393,7 @@ def test(
                     action = create_stop_action(f"Early stop: {stop_info}")
                 else:
                     try:
+                        # ipdb.set_trace()
                         action = agent.next_action(
                             trajectory,
                             intent,
@@ -526,7 +531,8 @@ if __name__ == "__main__":
     ed_idx = args.test_end_idx
     for i in range(st_idx, ed_idx):
         test_file_list.append(os.path.join(test_config_base_dir, f"{i}.json"))
-    test_file_list = get_unfinished(test_file_list, args.result_dir)
+    #test_file_list = get_unfinished(test_file_list, args.result_dir)
+    # import ipdb; ipdb.set_trace()
     print(f"Total {len(test_file_list)} tasks left")
     args.render = False
     args.render_screenshot = True
