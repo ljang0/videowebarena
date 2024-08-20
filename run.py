@@ -178,7 +178,7 @@ def config() -> argparse.Namespace:
     parser.add_argument("--result_dir", type=str, default="")
     parser.add_argument("--video_dir", type=str, default=None)
     parser.add_argument("--video_summary_instruction_path", type=str, default=None)
-
+    parser.add_argument("--max_frame_num", type=int, default=5)
     args = parser.parse_args()
 
     # check the whether the action space is compatible with the observation space

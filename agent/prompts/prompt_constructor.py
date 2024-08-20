@@ -454,10 +454,12 @@ class VideoFramePromptConstructor(PromptConstructor):
         instruction_path: str | Path,
         lm_config: lm_config.LMConfig,
         tokenizer: Tokenizer,
+        max_frame_num: int,
     ):
         super().__init__(instruction_path, lm_config, tokenizer)
         self.answer_phrase = self.instruction["meta_data"]["answer_phrase"]
         self.video_processor = VideoProcessor()
+        self.max_frame_num = max_frame_num
 
     def construct(
         self,
@@ -468,7 +470,7 @@ class VideoFramePromptConstructor(PromptConstructor):
         examples = self.instruction["examples"]
         template = self.instruction["template"]
         keywords = self.instruction["meta_data"]["keywords"]
-        images = self.video_processor.sample_frames(video_path)
+        images = self.video_processor.sample_frames(video_path, self.max_frame_num)
         audio = self.video_processor.get_transcript(video_path)
         video = " ".join([f"[FRAME-{i+1}]" for i in range(len(images))])
         current = template.format(
@@ -563,12 +565,14 @@ class MultimodalVideoCoTPromptConstructor(MultimodalCoTPromptConstructor):
         instruction_path: str | Path,
         lm_config: lm_config.LMConfig,
         tokenizer: Tokenizer,
+        max_frame_num: int
     ):
         super().__init__(instruction_path, lm_config, tokenizer)
         self.video_processor = VideoProcessor()
         self.current_video_path = None
         self.video_frames = None
         self.audio = None
+        self.max_frame_num = max_frame_num
 
     def construct(
         self,
@@ -587,7 +591,7 @@ class MultimodalVideoCoTPromptConstructor(MultimodalCoTPromptConstructor):
 
         if video_path != self.current_video_path: # if there is a new video
             self.current_video_path = video_path
-            self.video_frames = self.video_processor.sample_frames(video_path)
+            self.video_frames = self.video_processor.sample_frames(video_path, self.max_frame_num)
             self.audio = self.video_processor.get_transcript(video_path)
             
         video = " ".join([f"[FRAME{i+1}]" for i in range(len(self.video_frames))])

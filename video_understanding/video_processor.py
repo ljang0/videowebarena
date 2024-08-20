@@ -10,10 +10,8 @@ class VideoProcessor:
         self.temp_audio_path = "temp/temp.wav"
         self.temp_image_path = "temp/video_frames"
         os.makedirs("temp", exist_ok=True)
-        self.total_num_frames = 5
-    def sample_frames(self, video_path, total_num_frames=None, save_files=False):
-        if total_num_frames is None:
-            total_num_frames = self.total_num_frames
+
+    def sample_frames(self, video_path, max_frame_num, save_files=False):
         cap = cv2.VideoCapture(video_path)
         if not cap.isOpened():
             raise ValueError(f"Error opening video file at {video_path}")
@@ -21,16 +19,19 @@ class VideoProcessor:
             os.makedirs(self.temp_image_path, exist_ok=True)
         sampled_frames = []
         fps = cap.get(cv2.CAP_PROP_FPS)
-        total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
-        interval = max(1, total_frames // total_num_frames)
+        total_num_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+        print(fps, total_num_frames)
+        if total_num_frames//fps > max_frame_num:
+            interval = (total_num_frames + max_frame_num - 1) // max_frame_num  
+        else:
+            interval = fps
         current_frame = 0
         saved_frame_count = 0
         while True:
             ret, frame = cap.read()
             if not ret:
                 break
-
-            if current_frame % interval == 0 and saved_frame_count < total_num_frames:
+            if current_frame % interval == 0:
                 if save_files:
                     frame_path = os.path.join(self.temp_image_path, f"frame_{saved_frame_count}.jpg")
                     cv2.imwrite(frame_path, frame)
