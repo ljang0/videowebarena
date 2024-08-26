@@ -47,6 +47,9 @@ elif DATASET == "videowebarena":
         CLASSIFIEDS,
         REDDIT,
         SHOPPING,
+        GITLAB,
+        SHOPPING_ADMIN,
+    
     )
     SITES = ["shopping", "reddit", "classifieds", "shopping_admin", "gitlab"]
     URLS = [
