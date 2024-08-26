@@ -144,8 +144,11 @@ config_files/vwa/test_reddit.json
 config_files/vwatest_shopping.json
 config_files/wa/test_webarena.json
 config_files/wa/test_webarena/*
-
+config_files/videowa/test_classifieds/*
+config_files/videowa/test_shopping/*
+config_files/videowa/test_reddit/*
 cache/*
+config_files/vwa/presentation*
 agents/prompts/jsons/*
 # /browser_env/env_config.py
 media/*.mp4
