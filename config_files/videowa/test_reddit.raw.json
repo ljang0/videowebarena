@@ -2514,7 +2514,7 @@
                 "url_match"
             ],
             "reference_answers": null,
-            "reference_url": "__REDDIT__/user/pensieve64/submissions",
+            "reference_url": "__REDDIT__/user/pensieve64",
             "program_html": [],
             "url_note": "EXACT"
         },
@@ -2760,11 +2760,11 @@
         "start_url": "__REDDIT__",
         "geolocation": null,
         "intent_template": "Can you repost {description}",
-        "intent":"Can you repost the top post in the first forum the user visited to the second forum the user visited?",
-        "intermediate_intent": "What are the names of the first and  second forum the person in the video visited?",
+        "intent":"Can you repost the top post in the first forum to the second forum the user visited video?",
+        "intermediate_intent": "What are the names of the first and second forum the person in the video visited?",
         "video": "subreddit",
         "instantiation_dict": {
-            "description": "the top post in the first forum the user visited to the second forum the user visited?"
+            "description": "the top post in the first forum to the second forum the user visited in the video?"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -3429,5 +3429,1370 @@
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 61,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you make a new forum {description}.",
+        "intent": "Can you make a new forum identical to the first one in the video.",
+        "intermediate_intent": "What was the name of the first forum in the video?",
+        "video": "new_forum",
+        "instantiation_dict": {
+            "description": "identical to the first one in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "f/carnegiemellon"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+              "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+              {
+                "url": "__REDDIT__/f/carnegiemellon",
+                "locator": "document.querySelector(\"#forum_description\").value",
+                "required_contents": {
+                  "must_include": [
+                    "A Forum For Carnegie Mellon University"
+                  ]
+                }
+              },
+              {
+                "url": "__REDDIT__/f/carnegiemellon",
+                "locator": "document.querySelector(\"#forum_sidebar\").value",
+                "required_contents": {
+                  "must_include": [
+                    "Go Tartans!"
+                  ]
+                }
+              }
+            ]
+          },
+        "overall_difficulty": "hard",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 62,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you make a new forum {description}.",
+        "intent": "Can you make a new forum identical to the second one in the video.",
+        "intermediate_intent": "What was the name of the second forum in the video?",
+        "video": "new_forum",
+        "instantiation_dict": {
+            "description": "identical to the second one in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "f/llmagents"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+              "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+              {
+                "url": "__REDDIT__/f/llmagents",
+                "locator": "document.querySelector(\"#forum_description\").value",
+                "required_contents": {
+                  "must_include": [
+                    "A Forum for LLM Agents"
+                  ]
+                }
+              },
+              {
+                "url": "__REDDIT__/f/llmagents",
+                "locator": "document.querySelector(\"#forum_sidebar\").value",
+                "required_contents": {
+                  "must_include": [
+                    "LLM Agents"
+                  ]
+                }
+              }
+            ]
+          },
+        "overall_difficulty": "hard",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 63,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they say this?",
+        "intermediate_intent": "What was the title of the page the person in the video was on when they said thanks?",
+        "video": "new_forum",
+        "instantiation_dict": {
+            "description": "says 'thanks' at a certain point",
+            "description2": "take me to the page they were on when they say this"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "user settings"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "fuzzy_match": "N/A"
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "forum doesn't exist on the base website."
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 63,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Take me to {description}.",
+        "intent": "Take me to the first forum in the video.",
+        "intermediate_intent": "What was the first forum in the video?",
+        "video": "new_forum",
+        "instantiation_dict": {
+            "description": "the first forum in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "f/carnegiemellon"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "fuzzy_match": "N/A"
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "forum doesn't exist on the base website."
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 64,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Take me to {description}.",
+        "intent": "Take me to the second forum in the video.",
+        "intermediate_intent": "What was the second forum in the video?",
+        "video": "new_forum",
+        "instantiation_dict": {
+            "description": "the first forum in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "f/llmagents"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "fuzzy_match": "N/A"
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "forum doesn't exist on the base website."
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 64,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Make a new post {description}.",
+        "intent": "Make a new post in the forum that was visited first in the video.",
+        "intermediate_intent": "What was the first forum in the video?",
+        "video": "new_forum",
+        "instantiation_dict": {
+            "description": "the first forum in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "f/carnegiemellon"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "fuzzy_match": "N/A"
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "forum doesn't exist on the base website."
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 65,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Make a new post {description}.",
+        "intent": "Make a new post in the forum that was visited second in the video.",
+        "intermediate_intent": "What was the second forum in the video?",
+        "video": "new_forum",
+        "instantiation_dict": {
+            "description": "the first forum in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "f/llmagents"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "fuzzy_match": "N/A"
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "forum doesn't exist on the base website."
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 66,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Make all the forums {description}.",
+        "intent": "Make all the forums identically to the ones created in the video.",
+        "intermediate_intent": "What were the names of the forums created in the video?",
+        "video": "new_forum",
+        "instantiation_dict": {
+            "description": "identically to the ones created in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "f/llmagents",
+                    "f/carnegiemellon"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+              "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+              {
+                "url": "__REDDIT__/f/llmagents",
+                "locator": "document.querySelector(\"#forum_description\").value",
+                "required_contents": {
+                  "must_include": [
+                    "A Forum for LLM Agents"
+                  ]
+                }
+              },
+              {
+                "url": "__REDDIT__/f/llmagents",
+                "locator": "document.querySelector(\"#forum_sidebar\").value",
+                "required_contents": {
+                  "must_include": [
+                    "LLM Agents"
+                  ]
+                }
+              },
+              {
+                "url": "__REDDIT__/f/carnegiemellon",
+                "locator": "document.querySelector(\"#forum_description\").value",
+                "required_contents": {
+                  "must_include": [
+                    "A Forum For Carnegie Mellon University"
+                  ]
+                }
+              },
+              {
+                "url": "__REDDIT__/f/carnegiemellon",
+                "locator": "document.querySelector(\"#forum_sidebar\").value",
+                "required_contents": {
+                  "must_include": [
+                    "Go Tartans!"
+                  ]
+                }
+              }
+
+            ]
+          },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 41,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent": "The person in the video mentions their major. Can you go to the comments of the first post that comes up when searching for their major?",
+        "intermediate_intent": "What was the person in the video's major?",
+        "video": "vote_all_poster",
+        "instantiation_dict": {
+            "description": "mentions their major",
+            "description2": "go to the search page when searching for their major"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "Computer Science |OR| computer science"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__REDDIT__/f/MachineLearning/34877/what-is-better-to-study-bachelor-in-computer-science-or-in",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": false,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 42,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you leave a comment {description}?",
+        "intent": "Can you leave a comment saying 'first downvote' on the first post in the video that gets a downvote?",
+        "intermediate_intent": "What was the name of the first post in the video that gets a downvote?",
+        "video": "vote_all_poster",
+        "instantiation_dict": {
+            "description": "saying 'first downvote' on the first post in the video that gets a downvote?"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "[N] new SNAPCHAT feature transfers an image of an upper body garment in realtime on a person in AR"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url":  "__REDDIT__",
+                    "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+                    "required_contents": {
+                        "exact_match": "first downvote"
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 42,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you leave a comment {description}?",
+        "intent": "Can you leave a comment saying 'second downvote' on the second post in the video that gets a downvote?",
+        "intermediate_intent": "What was the name of the second post in the video that gets a downvote?",
+        "video": "vote_all_poster",
+        "instantiation_dict": {
+            "description": "saying 'second downvote' on the second post in the video that gets a downvote?"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "[R] APPLE research: GAUDI — a neural architect for immersive 3D scene generation"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url":  "__REDDIT__",
+                    "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+                    "required_contents": {
+                        "exact_match": "second downvote"
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 42,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you leave a comment {description}?",
+        "intent": "Can you leave a comment saying 'first upvote' on the first post in the video that gets a upvote?",
+        "intermediate_intent": "What was the name of the first post in the video that gets a upvote?",
+        "video": "vote_all_poster",
+        "instantiation_dict": {
+            "description": "saying 'first upvote' on the first post in the video that gets a upvote"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "[R] META presents MAV3D — text to 3D video"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url":  "__REDDIT__",
+                    "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+                    "required_contents": {
+                        "exact_match": "first upvote"
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 42,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you leave a comment {description}?",
+        "intent": "Can you leave a comment saying 'second upvote' on the second post in the video that gets a upvote?",
+        "intermediate_intent": "What was the name of the second post in the video that gets a upvote?",
+        "video": "vote_all_poster",
+        "instantiation_dict": {
+            "description": "saying 'second upvote' on the second post in the video that gets a upvote"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "[R] QUALCOMM demos 3D reconstruction on AR glasses — monocular depth estimation with self supervised neural network processed on glasses and smartphone in realtime"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url":  "__REDDIT__",
+                    "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+                    "required_contents": {
+                        "exact_match": "second upvote"
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 42,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you leave a comment {description}?",
+        "intent": "Can you leave a comment saying 'last upvote' on the last post in the video that gets a upvote?",
+        "intermediate_intent": "What was the name of the last post in the video that gets a upvote?",
+        "video": "vote_all_poster",
+        "instantiation_dict": {
+            "description": "saying 'last upvote' on the last post in the video that gets a upvote"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "4 Trillion dollar corrective response"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url":  "__REDDIT__",
+                    "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+                    "required_contents": {
+                        "exact_match": "last upvote"
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 43,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "For the {description}, can you {description2}",
+        "intent": "For all the posts voted in the video, can you downvote all the upvoted posts and upvote all the downvoted posts?",
+        "intermediate_intent": "What are the names of all the voted posts in the video?",
+        "video": "vote_all_poster",
+        "instantiation_dict": {
+            "description": "all the posts voted in the video",
+            "description2": "downvote all the upvoted posts and upvote all the downvoted posts?"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "[R] APPLE research: GAUDI — a neural architect for immersive 3D scene generation",
+                    "[R] QUALCOMM demos 3D reconstruction on AR glasses — monocular depth estimation with self supervised neural network processed on glasses and smartphone in realtime",
+                    "[N] new SNAPCHAT feature transfers an image of an upper body garment in realtime on a person in AR",
+                    "[R] APPLE research: GAUDI — a neural architect for immersive 3D scene generation",
+                    "4 Trillion dollar corrective response"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__REDDIT__/f/wallstreetbets/136192/4-trillion-dollar-corrective-response",
+                    "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
+                    "required_contents": {
+                        "must_include": [
+                            "vote vote--user-downvoted"
+                        ]
+                    }
+                },
+                {
+                    "url": "__REDDIT__/f/MachineLearning/77983/r-meta-presents-mav3d-text-to-3d-video",
+                    "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
+                    "required_contents": {
+                        "must_include": [
+                            "vote vote--user-downvoted"
+                        ]
+                    }
+                },
+                {
+                    "url": "__REDDIT__/f/MachineLearning/34862/r-qualcomm-demos-3d-reconstruction-on-ar-glasses-monocular",
+                    "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
+                    "required_contents": {
+                        "must_include": [
+                            "vote vote--user-downvoted"
+                        ]
+                    }
+                },
+                {
+                    "url": "__REDDIT__/f/MachineLearning/34825/n-new-snapchat-feature-transfers-an-image-of-an-upper-body",
+                    "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
+                    "required_contents": {
+                        "must_include": [
+                            "vote vote--user-upvoted"
+                        ]
+                    }
+                },
+                {
+                    "url": "__REDDIT__/f/MachineLearning/34760/r-apple-research-gaudi-a-neural-architect-for-immersive-3d",
+                    "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
+                    "required_contents": {
+                        "must_include": [
+                            "vote vote--user-upvoted"
+                        ]
+                    }
+                }
+
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 43,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "For the {description}, can you {description2}",
+        "intent": "For all the posts voted in the video, can you downvote all the downvoted posts and upvote all the upvoted posts?",
+        "intermediate_intent": "What are the names of all the voted posts in the video?",
+        "video": "vote_all_poster",
+        "instantiation_dict": {
+            "description": "all the posts voted in the video",
+            "description2": "downvote all the downvoted posts and upvote all the upvoted posts?"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "[R] APPLE research: GAUDI — a neural architect for immersive 3D scene generation",
+                    "[R] QUALCOMM demos 3D reconstruction on AR glasses — monocular depth estimation with self supervised neural network processed on glasses and smartphone in realtime",
+                    "[N] new SNAPCHAT feature transfers an image of an upper body garment in realtime on a person in AR",
+                    "[R] APPLE research: GAUDI — a neural architect for immersive 3D scene generation",
+                    "4 Trillion dollar corrective response"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__REDDIT__/f/wallstreetbets/136192/4-trillion-dollar-corrective-response",
+                    "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
+                    "required_contents": {
+                        "must_include": [
+                            "vote vote--user-upvoted"
+                        ]
+                    }
+                },
+                {
+                    "url": "__REDDIT__/f/MachineLearning/77983/r-meta-presents-mav3d-text-to-3d-video",
+                    "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
+                    "required_contents": {
+                        "must_include": [
+                            "vote vote--user-upvoted"
+                        ]
+                    }
+                },
+                {
+                    "url": "__REDDIT__/f/MachineLearning/34862/r-qualcomm-demos-3d-reconstruction-on-ar-glasses-monocular",
+                    "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
+                    "required_contents": {
+                        "must_include": [
+                            "vote vote--user-upvoted"
+                        ]
+                    }
+                },
+                {
+                    "url": "__REDDIT__/f/MachineLearning/34825/n-new-snapchat-feature-transfers-an-image-of-an-upper-body",
+                    "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
+                    "required_contents": {
+                        "must_include": [
+                            "vote vote--user-downvoted"
+                        ]
+                    }
+                },
+                {
+                    "url": "__REDDIT__/f/MachineLearning/34760/r-apple-research-gaudi-a-neural-architect-for-immersive-3d",
+                    "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
+                    "required_contents": {
+                        "must_include": [
+                            "vote vote--user-downvoted"
+                        ]
+                    }
+                }
+
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 44,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Take me to {description}.",
+        "intent": "Take me to the user page for the last post the person in the video voted on.",
+        "intermediate_intent": "What was the name of the user for the last post the person in the video voted o?",
+        "video": "vote_all_poster",
+        "instantiation_dict": {
+            "description": "the user page for the last post the person in the video voted on"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "Theorysquatch"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__REDDIT__/user/Theorysquatch",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 40,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they say this?",
+        "intermediate_intent": "What was the title of the page the person in the video was on when they said thanks?",
+        "video": "vote_all_poster",
+        "instantiation_dict": {
+            "description": "says 'thanks' at a certain point",
+            "description2": "take me to the page they were on when they say this"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "Theorysquatch",
+                    "comments"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__REDDIT__/user/Theorysquatch",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 40,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the forum of the post they were on when they say this?",
+        "intermediate_intent": "What was the forum of the post they were on when they say 'thanks'?",
+        "video": "edit_post",
+        "instantiation_dict": {
+            "description": "says 'thanks' at a certain point",
+            "description2": "take me to the forum of the post they were on when they say this"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "movies"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__REDDIT__/f/movies",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 40,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you subscribe {description}",
+        "intent": "Can you subscribe to all the forums that the user in the video edited a post from?",
+        "intermediate_intent": "What were the forums of the posts edited in the video?",
+        "video": "edit_post",
+        "instantiation_dict": {
+            "description": "to all the forums that the user in the video edited a post from?"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "movies",
+                    "television"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "program_html": [
+                {
+                    "url": "__REDDIT__",
+                    "locator": "func:get_query_text(__page__, '.sidebar')",
+                    "required_contents": {
+                        "must_include": [
+                            "movies",
+                            "television"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 40,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you subscribe {description}",
+        "intent": "Can you subscribe to the forum with the first post that the user in the video edited?",
+        "intermediate_intent": "What were the forums of the first post edited in the video?",
+        "video": "edit_post",
+        "instantiation_dict": {
+            "description": "to the forum with the first post that the user in the video edited?"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "television"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "program_html": [
+                {
+                    "url": "__REDDIT__",
+                    "locator": "func:get_query_text(__page__, '.sidebar')",
+                    "required_contents": {
+                        "must_include": [
+                            "television"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 40,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you subscribe {description}",
+        "intent": "Can you subscribe to the forum with the second post that the user in the video edited?",
+        "intermediate_intent": "What were the forums of the second post edited in the video?",
+        "video": "edit_post",
+        "instantiation_dict": {
+            "description": "to the forum with the second post that the user in the video edited?"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "movies"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "program_html": [
+                {
+                    "url": "__REDDIT__",
+                    "locator": "func:get_query_text(__page__, '.sidebar')",
+                    "required_contents": {
+                        "must_include": [
+                            "movies"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 40,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you edit the post {description}",
+        "intent": "Can you edit the post with the most upvotes in the video to include 'found it!' in the body?",
+        "intermediate_intent": "What was the name of the post with the most upvotes in the video?",
+        "video": "edit_post",
+        "instantiation_dict": {
+            "description": "the post with the most upvotes in the video to include 'found it!' in the body"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include":[
+                    "Editing submission 'Yellowjackets' Season 2 Premiere Draws Nearly 2M Viewers, Breaks Showtime Streaming Record"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+              "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+              {
+                "url": "__REDDIT__/f/television/134942/yellowjackets-season-2-premiere-draws-nearly-2m-viewers",
+                "locator": "document.querySelector('.submission__body').outerText",
+                "required_contents": {
+                  "exact_match": "found it!"
+                }
+              }
+            ]
+          },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
     }
+
+
+
+
 ]

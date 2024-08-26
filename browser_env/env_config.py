@@ -2,7 +2,7 @@
 import os
 
 DATASET = os.environ["DATASET"]
-if DATASET not in ["webarena", "visualwebarena"]:
+if DATASET not in ["webarena", "visualwebarena", "videowebarena"]:
     raise ValueError("Please set the DATASET environment variable, the possible options are `webarena`, `visualwebarena` and `miniwob++`")
 
 # WebArena

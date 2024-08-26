@@ -172,54 +172,6 @@
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
-        "intent_template": "Click on the {description}",
-        "intent": "Click on the first button that was used in the video",
-        "intermediate_intent": "What was the first button that was used in the video",
-        "video": "add_to_wishlist",
-        "instantiation_dict": {
-            "description": "first button that was used in the video"
-        },
-        "require_reset": false,
-        "intermediate_eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "must_include": [
-                    "My Wish List"
-                ]
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": "",
-            "reference_answer_raw_annotation": ""
-        },
-        "eval": {
-            "eval_types": [
-                "url_match"
-            ],
-            "reference_answers": null,
-            "reference_url": "__SHOPPING__/wishlist/",
-            "program_html": [],
-            "url_note": "EXACT"
-        },
-        "overall_difficulty": "easy",
-        "visual_reasoning": false,
-        "audio_reasoning": true,
-        "multihop_reasoning": false,
-        "temporal_reasoning": false,
-        "comments": "",
-        "intent_template_id": 0
-    },   
-    {
-        "sites": [
-            "shopping"
-        ],
-        "task_id": 3,
-        "require_login": true,
-        "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
-        "geolocation": null,
         "intent_template": "Give me the url of the {description}",
         "intent": "Give me the url of the page where the user first mentions the word 'heart'",
         "intermediate_intent": "What page was the user on when they first mention the word 'heart'?",
@@ -268,12 +220,73 @@
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
-        "intent_template": "Add the {description} to my cart.",
+        "intent_template": "Add the {description} to my wishlist.",
         "intent": "Add the items that were added to the cart in the video to my wishlist",
         "intermediate_intent": "What were the names of the items that were added to the cart in the video?",
         "video": "add_to_cart",
         "instantiation_dict": {
             "description": "items that were added to the cart in the video to my wishlist"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Men & Boy Long Sleeve Flannel Plaid Casual Shirts Button Down Regular Fit Long Sleeve Cotton Polo Shirt L-5XL",
+                    "Armor3 'Soundtac' Universal Gaming Headset (Black) for Xbox Series X/ Xbox Series S/ Nintendo Switch/ Lite/ PS4/ PS5/ Xbox One/ Wii U/ PC/ Mac - Nintendo Switch",
+                    "Briess DME - Pilsen Light - 1 lb Bag"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/wishlist/?limit=50",
+                    "locator": "document.querySelector('.products-grid.wishlist').textContent",
+                    "required_contents": {
+                        "must_include": [
+                            "Men & Boy Long Sleeve Flannel Plaid Casual Shirts Button Down Regular Fit Long Sleeve Cotton Polo Shirt L-5XL",
+                            "Armor3 'Soundtac' Universal Gaming Headset (Black) for Xbox Series X/ Xbox Series S/ Nintendo Switch/ Lite/ PS4/ PS5/ Xbox One/ Wii U/ PC/ Mac - Nintendo Switch",
+                            "Briess DME - Pilsen Light - 1 lb Bag"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "visual_reasoning": false,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 4,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my cart.",
+        "intent": "Add the items that were added to the cart in the video to my cart",
+        "intermediate_intent": "What were the names of the items that were added to the cart in the video?",
+        "video": "add_to_cart",
+        "instantiation_dict": {
+            "description": "items that were added to the cart in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -320,6 +333,7 @@
         "comments": "",
         "intent_template_id": 0
     },
+
     {
         "sites": [
             "shopping"
@@ -361,6 +375,64 @@
                 {
                     "url": "__SHOPPING__/checkout/cart",
                     "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Silicone Thumb Stick Joystick Cap Analog Grip Thumbsticks Cap Cover Case for PS4 PS3 Xbox One Xbox 360 Game Controllers (Black-Red)"
+
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 5,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my wishlist.",
+        "intent": "Add the cheapest item that was in the same category as the red item in the cart in the video to my wishlit",
+        "intermediate_intent": "What was the red item in the cart in the video?",
+        "video": "add_to_cart",
+        "instantiation_dict": {
+            "description": "cheapest item that was in the same category as the red item in the cart in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Armor3 'Soundtac' Universal Gaming Headset (Black) for Xbox Series X/ Xbox Series S/ Nintendo Switch/ Lite/ PS4/ PS5/ Xbox One/ Wii U/ PC/ Mac - Nintendo Switch"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/wishlist/?limit=50",
+                    "locator": "document.querySelector('.products-grid.wishlist').textContent",
                     "required_contents": {
                         "must_include": [
                             "Silicone Thumb Stick Joystick Cap Analog Grip Thumbsticks Cap Cover Case for PS4 PS3 Xbox One Xbox 360 Game Controllers (Black-Red)"
@@ -486,6 +558,65 @@
                 {
                     "url": "__SHOPPING__/checkout/cart",
                     "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "MAPOLO Blue Sharks Pattern Men's Boys Casual Walking Shoes Sneaker Lightweight Stylish Athletic Tennis Sports Running Shoes for Outdoor Hiking Travel Driving"
+
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "visual_reasoning": false,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 7,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "The person in the video {description}. Can you add {description2} to my wishlist?",
+        "intent": "The person in the video mentions another category besides clothing in the men's section when searching for the last item to add to the cart. Can you add the cheapest item from the mentioned category to my wishlist?",
+        "intermediate_intent": "What was the other category mentioned besides clothing in the men's section when searching for the last item to add to the cart?",
+        "video": "add_to_cart",
+        "instantiation_dict": {
+            "description": "mentions another category besides clothing in the men's section when searching for the last item to add to the cart",
+            "description2": "the cheapest item from the mentioned category"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "shoes"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/wishlist/?limit=50",
+                    "locator": "document.querySelector('.products-grid.wishlist').textContent",
                     "required_contents": {
                         "must_include": [
                             "MAPOLO Blue Sharks Pattern Men's Boys Casual Walking Shoes Sneaker Lightweight Stylish Athletic Tennis Sports Running Shoes for Outdoor Hiking Travel Driving"
@@ -1962,8 +2093,8 @@
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
-        "intent_template": "The person in the video {description}. Can you add {description2} to my cart?",
-        "intent":  "The person in the video mentions they live next to the headquarters of a certain company. Can you add the cheapest item available on the OneStopMarket from that company to my cart?",
+        "intent_template": "The person in the video {description}. Can you add {description2} to my wishlist?",
+        "intent":  "The person in the video mentions they live next to the headquarters of a certain company. Can you add the cheapest item available on the OneStopMarket from that company to my wishlist?",
         "intermediate_intent": "What was the company that the person in the video said they live next to?",
         "video": "change_contact",
         "instantiation_dict": {
@@ -1993,8 +2124,8 @@
             "reference_url": "",
             "program_html": [
                 {
-                    "url": "__SHOPPING__/checkout/cart",
-                    "locator": "",
+                    "url": "__SHOPPING__/wishlist/?limit=50",
+                    "locator": "document.querySelector('.products-grid.wishlist').textContent",
                     "required_contents": {
                         "must_include": [
                             "Apple iMac MF885LL/A 27-Inch 5K Retina Display (3.3 Ghz Quad-core processor, 1TB Hard Drive, 8GB DDR3L) (Renewed)"
@@ -2209,7 +2340,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "The person in the video {description}. Can you add {description2} to my wishlist?",
-        "intent":  "The person in the video mentions their favorite color from their favorite soccer team. Can you add the cheapest soccer cleats of the same color in their display imageto my wishlist?",
+        "intent":  "The person in the video mentions their favorite color from their favorite soccer team. Can you add the cheapest soccer cleats of the same color in their display image to my wishlist?",
         "intermediate_intent": "What was the person in the video's favorite color and favorite soccer team?",
         "video": "add_to_comparison_page",
         "instantiation_dict": {
@@ -2242,6 +2373,65 @@
                 {
                     "url": "__SHOPPING__/wishlist/?limit=50",
                     "locator": "document.querySelector('.products-grid.wishlist').textContent",
+                    "required_contents": {
+                        "must_include": [
+                            "PUMA Men's King FG Soccer Cleat"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "visual_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 36,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "The person in the video {description}. Can you add {description2} to my cart?",
+        "intent":  "The person in the video mentions their favorite color from their favorite soccer team. Can you add the cheapest soccer cleats of the same color in their display image to my cart?",
+        "intermediate_intent": "What was the person in the video's favorite color and favorite soccer team?",
+        "video": "add_to_comparison_page",
+        "instantiation_dict": {
+            "description": "mentions their favorite color from their favorite soccer team",
+            "description2": "the cheapest soccer cleats of the same color in their display image"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Manchester United",
+                    "Red"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/checkout/cart",
+                    "locator": "",
                     "required_contents": {
                         "must_include": [
                             "PUMA Men's King FG Soccer Cleat"
@@ -2553,6 +2743,63 @@
         "sites": [
             "shopping"
         ],
+        "task_id": 41,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my comparison page.",
+        "intent":  "Add the headphones in the video that were multicolor to my comparison page.",
+        "intermediate_intent": "What was the name of the multicolor headphones in the video?",
+        "video": "review_tutorial",
+        "instantiation_dict": {
+            "description": "headphones in the video that were multicolor"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Lifestyle Kids Panda Headphones Bear Ear-Inspired LED, Wired On/Over Ear Gaming Headsets 85dB for Kids Tablet, iPad, iPhone, Android, PC (Blue)"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/catalog/product_compare",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Lifestyle Kids Panda Headphones Bear Ear-Inspired LED, Wired On/Over Ear Gaming Headsets 85dB for Kids Tablet, iPad, iPhone, Android, PC (Blue)"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
         "task_id": 42,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
@@ -2589,6 +2836,63 @@
             "program_html": [
                 {
                     "url": "__SHOPPING__/catalog/product_compare",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Bluetooth Headphones with Microphone Wireless and Wired Headphones for TV Over The Ear Exercise Headphones Built-in Micro TF FM Radio,Stereo Deep Bass Foldable Soft Earmuffs Wireless PC Headset,White"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 42,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my cart.",
+        "intent":  "Add the first grey headphones that appeared the in the video to my cart.",
+        "intermediate_intent": "What was the name of the first grey headphones that appeared in the video?",
+        "video": "review_tutorial",
+        "instantiation_dict": {
+            "description": "first grey headphones that appeared the in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Bluetooth Headphones with Microphone Wireless and Wired Headphones for TV Over The Ear Exercise Headphones Built-in Micro TF FM Radio,Stereo Deep Bass Foldable Soft Earmuffs Wireless PC Headset,White"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/checkout/cart",
                     "locator": "",
                     "required_contents": {
                         "must_include": [
@@ -2906,64 +3210,6 @@
             "shopping"
         ],
         "task_id": 48,
-        "require_login": true,
-        "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__/tmp-pop-tarts-breakfast-toaster-pastries-frosted-banana-creme-pie-bakery-inspired-snack-food-16-count-2-pack.html",
-        "geolocation": null,
-        "intent_template": "Leave a review on {description}.",
-        "intent": "Leave a review on this item, stating 'I need breakfast because it is (time)' where (time) is the time the person in the video mentioned it was at the moment of recording.",
-        "intermediate_intent": "What time was it for the person recording the video?",
-        "video": "images_and_description",
-        "instantiation_dict": {
-            "description": "this item, stating 'I need breakfast because it is (time)' where (time) is the time the person in the video mentioned it was at the moment of recording."
-        },
-        "require_reset": false,
-        "intermediate_eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "must_include": [
-                    "9 AM |OR| 9:00 |OR| 9 |OR| 9:00 AM"
-                ]
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": "",
-            "reference_answer_raw_annotation": ""
-        },
-        "eval": {
-            "eval_types": [
-                "program_html"
-            ],
-            "reference_answers": null,
-            "reference_url": "",
-            "program_html": [
-                {
-                    "url": "__SHOPPING__",
-                    "locator": "func:shopping_get_sku_latest_review_text(\"B097XSNCX4\")",
-                    "required_contents": {
-                        "must_include": [
-                            "I need breakfast because it is",
-                            "9"
-                        ]
-                    }
-                }
-            ]
-        },
-        "overall_difficulty": "easy",
-        "visual_reasoning": false,
-        "audio_reasoning": true,
-        "multihop_reasoning": false,
-        "temporal_reasoning": false,
-        "comments": "",
-        "intent_template_id": 0
-    },
-    {
-        "sites": [
-            "shopping"
-        ],
-        "task_id": 49,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__/tmp-pop-tarts-breakfast-toaster-pastries-frosted-banana-creme-pie-bakery-inspired-snack-food-16-count-2-pack.html",
@@ -4247,6 +4493,63 @@
         "sites": [
             "shopping"
         ],
+        "task_id": 70,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Can you add {description} to my cart?",
+        "intent": "Can you add the pink rain jacket from the video to my cart?",
+        "intermediate_intent": "What was the name of the pink rain jacket in the video?",
+        "video": "search_sort_buy",
+        "instantiation_dict": {
+            "description": "the pink rain jacket from the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "UNIPIN Women's Solid Rain Jacket Outdoor Jackets Hooded Raincoat Windproof"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/checkout/cart",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "UNIPIN Women's Solid Rain Jacket Outdoor Jackets Hooded Raincoat Windproof"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
         "task_id": 71,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
@@ -4349,5 +4652,2079 @@
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 73,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my wishlist.",
+        "intent": "Add the items that had average review ratings of 1 in the video to my wishlist",
+        "intermediate_intent": "What were the names of the items that had average review ratings of 1 in the video?",
+        "video": "search_sort_buy",
+        "instantiation_dict": {
+            "description": "items that had average review ratings of 1 in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.",
+                    "Nintendo Mario Kart Spiny Shell Destroys Tank Top"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/wishlist/?limit=50",
+                    "locator": "document.querySelector('.products-grid.wishlist').textContent",
+                    "required_contents": {
+                        "must_include":  [
+                            "Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.",
+                            "Nintendo Mario Kart Spiny Shell Destroys Tank Top"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 74,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my comparison page.",
+        "intent": "Add the items that had average review ratings of 1 in the video to my comparison page",
+        "intermediate_intent": "What were the names of the items that had average review ratings of 1 in the video?",
+        "video": "search_sort_buy",
+        "instantiation_dict": {
+            "description": " items that had average review ratings of 1 in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.",
+                    "Nintendo Mario Kart Spiny Shell Destroys Tank Top"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/catalog/product_compare",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.",
+                            "Nintendo Mario Kart Spiny Shell Destroys Tank Top"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my comparison page.",
+        "intent": "Add the item that was bought in the video to my comparison page",
+        "intermediate_intent": "What was the name of the item that was bought in the video?",
+        "video": "order_history",
+        "instantiation_dict": {
+            "description": "item that was bought in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Tv Stand with Led Lights- Muebles para El Dormitorio Tv Stand Bedroom Mesas para Televisiones De Sala Under Tv Stand Dresser Tv Stand -51.2x13.8x17.7in"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/catalog/product_compare",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Tv Stand with Led Lights- Muebles para El Dormitorio Tv Stand Bedroom Mesas para Televisiones De Sala Under Tv Stand Dresser Tv Stand -51.2x13.8x17.7in"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my cart.",
+        "intent": "Add the item that was bought in the video to my cart",
+        "intermediate_intent": "What was the name of the item that was bought in the video?",
+        "video": "order_history",
+        "instantiation_dict": {
+            "description": "item that was bought in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Tv Stand with Led Lights- Muebles para El Dormitorio Tv Stand Bedroom Mesas para Televisiones De Sala Under Tv Stand Dresser Tv Stand -51.2x13.8x17.7in"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/checkout/cart",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include":  [
+                            "Tv Stand with Led Lights- Muebles para El Dormitorio Tv Stand Bedroom Mesas para Televisiones De Sala Under Tv Stand Dresser Tv Stand -51.2x13.8x17.7in"
+
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my wishlist.",
+        "intent": "Add the item that was bought in the video to my wishlist",
+        "intermediate_intent": "What was the name of the item that was bought in the video?",
+        "video": "order_history",
+        "instantiation_dict": {
+            "description": "item that was bought in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Tv Stand with Led Lights- Muebles para El Dormitorio Tv Stand Bedroom Mesas para Televisiones De Sala Under Tv Stand Dresser Tv Stand -51.2x13.8x17.7in"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/wishlist/?limit=50",
+                    "locator": "document.querySelector('.products-grid.wishlist').textContent",
+                    "required_contents": {
+                        "must_include": [
+                            "Tv Stand with Led Lights- Muebles para El Dormitorio Tv Stand Bedroom Mesas para Televisiones De Sala Under Tv Stand Dresser Tv Stand -51.2x13.8x17.7in"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Take me to the {description}?",
+        "intent": "Take me to the listing of the item that was bought in the video",
+        "intermediate_intent": "What was the name of the item that was bought in the video?",
+        "video": "order_history",
+        "instantiation_dict": {
+            "description": "the listing of the item that was bought in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Tv Stand with Led Lights- Muebles para El Dormitorio Tv Stand Bedroom Mesas para Televisiones De Sala Under Tv Stand Dresser Tv Stand -51.2x13.8x17.7in"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING__/tv-stand-with-led-lights-muebles-para-el-dormitorio-tv-stand-bedroom-mesas-para-televisiones-de-sala-under-tv-stand-dresser-tv-stand-51-2-13-8-17-7in.html",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my comparison page.",
+        "intent": "Add the most expensive visible item in the video to my comparison page",
+        "intermediate_intent": "What was the name of the most expensive visible item in the video?",
+        "video": "order_history",
+        "instantiation_dict": {
+            "description": "most expensive visible item in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Alaffia Everyday Shea Conditioner, Lavender, 32 Oz. Moisturizes, Restores and Protects. Made with Fair Trade Shea Butter, Cruelty Free, No Parabens, Vegan."
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/catalog/product_compare",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Alaffia Everyday Shea Conditioner, Lavender, 32 Oz. Moisturizes, Restores and Protects. Made with Fair Trade Shea Butter, Cruelty Free, No Parabens, Vegan."
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my cart.",
+        "intent": "Add the most expensive visible item in the video to my cart",
+        "intermediate_intent": "What was the name of the most espensive item in the video?",
+        "video": "order_history",
+        "instantiation_dict": {
+            "description": "most expensive visible item in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Alaffia Everyday Shea Conditioner, Lavender, 32 Oz. Moisturizes, Restores and Protects. Made with Fair Trade Shea Butter, Cruelty Free, No Parabens, Vegan."
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/checkout/cart",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include":  [
+                            "Alaffia Everyday Shea Conditioner, Lavender, 32 Oz. Moisturizes, Restores and Protects. Made with Fair Trade Shea Butter, Cruelty Free, No Parabens, Vegan."
+
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my wishlist.",
+        "intent": "Add the most expensive visible item in the video to my wishlist",
+        "intermediate_intent": "What was the name of the most expensive visible item in the video?",
+        "video": "order_history",
+        "instantiation_dict": {
+            "description": "most expensive visible item in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Alaffia Everyday Shea Conditioner, Lavender, 32 Oz. Moisturizes, Restores and Protects. Made with Fair Trade Shea Butter, Cruelty Free, No Parabens, Vegan."
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/wishlist/?limit=50",
+                    "locator": "document.querySelector('.products-grid.wishlist').textContent",
+                    "required_contents": {
+                        "must_include": [
+                            "Alaffia Everyday Shea Conditioner, Lavender, 32 Oz. Moisturizes, Restores and Protects. Made with Fair Trade Shea Butter, Cruelty Free, No Parabens, Vegan."
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Take me to the {description}?",
+        "intent": "Take me to the listing of the most expensive item in the video",
+        "intermediate_intent": "What was the name of the  most expensive item in the video?",
+        "video": "order_history",
+        "instantiation_dict": {
+            "description": "the listing of the most expensive item in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Alaffia Everyday Shea Conditioner, Lavender, 32 Oz. Moisturizes, Restores and Protects. Made with Fair Trade Shea Butter, Cruelty Free, No Parabens, Vegan."
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING__/alaffia-everyday-shea-conditioner-lavender-32-oz-moisturizes-restores-and-protects-made-with-fair-trade-shea-butter-cruelty-free-no-parabens-vegan.html",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my comparison page.",
+        "intent": "Add the cheapest visible item in the video to my comparison page",
+        "intermediate_intent": "What was the name of the cheapest visible item in the video?",
+        "video": "order_history",
+        "instantiation_dict": {
+            "description": "cheapest visible item in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "TUNUSKAT Womens Bikini Sets Summer Spaghetti Strap Bathing Suit Beachwear Color Patchwork Sexy Two Piece Swimsuit Swimwear"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/catalog/product_compare",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "TUNUSKAT Womens Bikini Sets Summer Spaghetti Strap Bathing Suit Beachwear Color Patchwork Sexy Two Piece Swimsuit Swimwear"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my cart.",
+        "intent": "Add the cheapest visible item in the video to my cart",
+        "intermediate_intent": "What was the name of the cheapest item in the video?",
+        "video": "order_history",
+        "instantiation_dict": {
+            "description": "cheapest visible item in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "TUNUSKAT Womens Bikini Sets Summer Spaghetti Strap Bathing Suit Beachwear Color Patchwork Sexy Two Piece Swimsuit Swimwear"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/checkout/cart",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include":  [
+                            "TUNUSKAT Womens Bikini Sets Summer Spaghetti Strap Bathing Suit Beachwear Color Patchwork Sexy Two Piece Swimsuit Swimwear"
+
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my wishlist.",
+        "intent": "Add the cheapest visible item in the video to my wishlist",
+        "intermediate_intent": "What was the name of the cheapest visible item in the video?",
+        "video": "order_history",
+        "instantiation_dict": {
+            "description": "cheapest visible item in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "TUNUSKAT Womens Bikini Sets Summer Spaghetti Strap Bathing Suit Beachwear Color Patchwork Sexy Two Piece Swimsuit Swimwear"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/wishlist/?limit=50",
+                    "locator": "document.querySelector('.products-grid.wishlist').textContent",
+                    "required_contents": {
+                        "must_include": [
+                            "TUNUSKAT Womens Bikini Sets Summer Spaghetti Strap Bathing Suit Beachwear Color Patchwork Sexy Two Piece Swimsuit Swimwear"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Take me to the {description}?",
+        "intent": "Take me to the listing of the cheapest item in the video",
+        "intermediate_intent": "What was the name of the cheapest item in the video?",
+        "video": "order_history",
+        "instantiation_dict": {
+            "description": "the listing of the cheapest item in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "TUNUSKAT Womens Bikini Sets Summer Spaghetti Strap Bathing Suit Beachwear Color Patchwork Sexy Two Piece Swimsuit Swimwear"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING__/tunuskat-womens-bikini-sets-summer-spaghetti-strap-bathing-suit-beachwear-color-patchwork-sexy-two-piece-swimsuit-swimwear.html",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "The person in the video {description}. Can you {description2}?",
+        "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they said this?",
+        "intermediate_intent": "What was the page the person in the video was on when they said 'thanks'?",
+        "video": "order_history",
+        "instantiation_dict": {
+            "description": "says 'thanks' at a certain point",
+            "description2": "take me to the page they were on when they said this?"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "order page"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING__/sales/order/view/order_id/149/",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "The person in the video {description}. Can you {description2}?",
+        "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they said this?",
+        "intermediate_intent": "What was the page the person in the video was on when they said 'thanks'?",
+        "video": "contact_refund_subscribe",
+        "instantiation_dict": {
+            "description": "says 'thanks' at a certain point",
+            "description2": "take me to the page they were on when they said this?"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "order page"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING__/grocery-gourmet-food.html",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "The person in the video {description}. Can you {description2}?",
+        "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they said this?",
+        "intermediate_intent": "What was the page the person in the video was on when they said 'thanks'?",
+        "video": "contact_refund_subscribe",
+        "instantiation_dict": {
+            "description": "says 'thanks' at a certain point",
+            "description2": "take me to the page they were on when they said this?"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "order page"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING__/grocery-gourmet-food.html",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my comparison page.",
+        "intent": "Add the cheapest item asked for return in the video to my comparison page",
+        "intermediate_intent": "What was the name of cheapest item asked for return in the video?",
+        "video": "order_history",
+        "instantiation_dict": {
+            "description": "cheapest item asked for return in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "HORMEL COMPLEATS Roast Beef & Mashed Potatoes With Gravy Microwave Tray, 9 oz. (6 Pack)"                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/catalog/product_compare",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "HORMEL COMPLEATS Roast Beef & Mashed Potatoes With Gravy Microwave Tray, 9 oz. (6 Pack)"                
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my cart.",
+        "intent": "Add the cheapest item asked for return in the video to my cart",
+        "intermediate_intent": "What was the name of the cheapest item asked for return in the video?",
+        "video": "order_history",
+        "instantiation_dict": {
+            "description": "cheapest item asked for return in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "HORMEL COMPLEATS Roast Beef & Mashed Potatoes With Gravy Microwave Tray, 9 oz. (6 Pack)"                
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/checkout/cart",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include":  [
+                            "HORMEL COMPLEATS Roast Beef & Mashed Potatoes With Gravy Microwave Tray, 9 oz. (6 Pack)"                
+
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my wishlist.",
+        "intent": "Add the cheapest item asked for return in the video to my wishlist",
+        "intermediate_intent": "What was the name of the cheapest item asked for return in the video?",
+        "video": "order_history",
+        "instantiation_dict": {
+            "description": "cheapest item asked for return in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "HORMEL COMPLEATS Roast Beef & Mashed Potatoes With Gravy Microwave Tray, 9 oz. (6 Pack)"                
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/wishlist/?limit=50",
+                    "locator": "document.querySelector('.products-grid.wishlist').textContent",
+                    "required_contents": {
+                        "must_include": [
+                            "HORMEL COMPLEATS Roast Beef & Mashed Potatoes With Gravy Microwave Tray, 9 oz. (6 Pack)"                
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Take me to the {description}?",
+        "intent": "Take me to the listing of the cheapest item asked for return in the video",
+        "intermediate_intent": "What was the name of the cheapest item asked for return in the video?",
+        "video": "order_history",
+        "instantiation_dict": {
+            "description": "listing of the cheapest item asked for return in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "HORMEL COMPLEATS Roast Beef & Mashed Potatoes With Gravy Microwave Tray, 9 oz. (6 Pack)"                
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING__/hormel-compleats-roast-beef-mashed-potatoes-with-gravy-microwave-tray-9-oz-6-pack.html",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my comparison page.",
+        "intent": "Add the most expensive item asked for return in the video to my comparison page",
+        "intermediate_intent": "What was the name of most expensive item asked for return in the video?",
+        "video": "order_history",
+        "instantiation_dict": {
+            "description": "most expensive item asked for return in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                "Orangina - Citrus Sparkling Juice Beverage - Light Pulp - Original Imported European French Recipe - No Artificial Ingredients - (Pack of 24) (11.5 oz Can)"
+                ]
+                },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/catalog/product_compare",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Orangina - Citrus Sparkling Juice Beverage - Light Pulp - Original Imported European French Recipe - No Artificial Ingredients - (Pack of 24) (11.5 oz Can)"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my cart.",
+        "intent": "Add the most expensive item asked for return in the video to my cart",
+        "intermediate_intent": "What was the name of the most expensive item asked for return in the video?",
+        "video": "order_history",
+        "instantiation_dict": {
+            "description": "most expensive item asked for return in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Orangina - Citrus Sparkling Juice Beverage - Light Pulp - Original Imported European French Recipe - No Artificial Ingredients - (Pack of 24) (11.5 oz Can)"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/checkout/cart",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include":  [
+                            "Orangina - Citrus Sparkling Juice Beverage - Light Pulp - Original Imported European French Recipe - No Artificial Ingredients - (Pack of 24) (11.5 oz Can)"
+
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my wishlist.",
+        "intent": "Add the most expensive item asked for return in the video to my wishlist",
+        "intermediate_intent": "What was the name of the most expensive item asked for return in the video?",
+        "video": "order_history",
+        "instantiation_dict": {
+            "description": "most expensive item asked for return in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Orangina - Citrus Sparkling Juice Beverage - Light Pulp - Original Imported European French Recipe - No Artificial Ingredients - (Pack of 24) (11.5 oz Can)"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/wishlist/?limit=50",
+                    "locator": "document.querySelector('.products-grid.wishlist').textContent",
+                    "required_contents": {
+                        "must_include": [
+                            "Orangina - Citrus Sparkling Juice Beverage - Light Pulp - Original Imported European French Recipe - No Artificial Ingredients - (Pack of 24) (11.5 oz Can)"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Take me to the {description}?",
+        "intent": "Take me to the listing of the most expensive item asked for return in the video",
+        "intermediate_intent": "What was the name of the most expensive item asked for return in the video?",
+        "video": "order_history",
+        "instantiation_dict": {
+            "description": "listing of the most expensive item asked for return in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Orangina - Citrus Sparkling Juice Beverage - Light Pulp - Original Imported European French Recipe - No Artificial Ingredients - (Pack of 24) (11.5 oz Can)"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING__/orangina-citrus-sparkling-juice-beverage-light-pulp-original-imported-european-french-recipe-no-artificial-ingredients-pack-of-24-11-5-oz-can.html",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my comparison page.",
+        "intent": "Add the cheapest item visible in the first category in the video to my comparison page",
+        "intermediate_intent": "What was the name of the cheapest item visible in the first category in the video?",
+        "video": "price_range_url",
+        "instantiation_dict": {
+            "description": "cheapest item in the first category in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Pharmacist Gift for Women Appreciation Gifts Travel Makeup Mirror Pharmacy Tech Gift for Nurse Doctor Nursing Gift Medical School Birthday Graduation Gift Compact Makeup Mirror for Friend Coworker"
+                ]
+                },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/catalog/product_compare",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Pharmacist Gift for Women Appreciation Gifts Travel Makeup Mirror Pharmacy Tech Gift for Nurse Doctor Nursing Gift Medical School Birthday Graduation Gift Compact Makeup Mirror for Friend Coworker"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my cart.",
+        "intent": "Add the cheapest visible item in the first category in the video to my cart",
+        "intermediate_intent": "What was the name of the cheapest visible item in the first category in the video?",
+        "video": "price_range_url",
+        "instantiation_dict": {
+            "description": "the cheapest visible item in the first category in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Pharmacist Gift for Women Appreciation Gifts Travel Makeup Mirror Pharmacy Tech Gift for Nurse Doctor Nursing Gift Medical School Birthday Graduation Gift Compact Makeup Mirror for Friend Coworker"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/checkout/cart",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include":  [
+                            "Pharmacist Gift for Women Appreciation Gifts Travel Makeup Mirror Pharmacy Tech Gift for Nurse Doctor Nursing Gift Medical School Birthday Graduation Gift Compact Makeup Mirror for Friend Coworker"
+
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my wishlist.",
+        "intent": "Add the cheapest visible item in the first category in the video to my wishlist",
+        "intermediate_intent": "What was the name of the cheapest visible item in the first category in the video?",
+        "video": "price_range_url",
+        "instantiation_dict": {
+            "description": "cheapest visible item in the first category in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Pharmacist Gift for Women Appreciation Gifts Travel Makeup Mirror Pharmacy Tech Gift for Nurse Doctor Nursing Gift Medical School Birthday Graduation Gift Compact Makeup Mirror for Friend Coworker"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/wishlist/?limit=50",
+                    "locator": "document.querySelector('.products-grid.wishlist').textContent",
+                    "required_contents": {
+                        "must_include": [
+                            "Pharmacist Gift for Women Appreciation Gifts Travel Makeup Mirror Pharmacy Tech Gift for Nurse Doctor Nursing Gift Medical School Birthday Graduation Gift Compact Makeup Mirror for Friend Coworker"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Take me to the {description}?",
+        "intent": "Take me to the listing of the cheapest visible item in the first category in the video",
+        "intermediate_intent": "What was the name of the cheapest visible item in the first category in the video?",
+        "video": "price_range_url",
+        "instantiation_dict": {
+            "description": "listing of the cheapest visible item in the first category in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Pharmacist Gift for Women Appreciation Gifts Travel Makeup Mirror Pharmacy Tech Gift for Nurse Doctor Nursing Gift Medical School Birthday Graduation Gift Compact Makeup Mirror for Friend Coworker"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING__/pharmacist-gift-for-women-appreciation-gifts-travel-makeup-mirror-pharmacy-tech-gift-for-nurse-doctor-nursing-gift-medical-school-birthday-graduation-gift-compact-makeup-mirror-for-friend-coworker.html",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "The person in the video {description}. Can you {description2}?",
+        "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they said this?",
+        "intermediate_intent": "What was the page the person in the video was on when they said 'thanks'?",
+        "video": "price_range_url",
+        "instantiation_dict": {
+            "description": "says 'thanks' at a certain point",
+            "description2": "take me to the page they were on when they said this?"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Skinit Decal Gaming Skin Compatible with Xbox One S Console and Controller Bundle - Officially Licensed NFL Baltimore Ravens Design"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING__/skinit-decal-gaming-skin-compatible-with-xbox-one-s-console-and-controller-bundle-officially-licensed-nfl-baltimore-ravens-design.html",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my comparison page.",
+        "intent": "Add the cheapest item visible in the second category in the video to my comparison page",
+        "intermediate_intent": "What was the name of the cheapest item visible in the second category in the video?",
+        "video": "price_range_url",
+        "instantiation_dict": {
+            "description": "cheapest item in the second category in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "2/Pack! NSF Green Epoxy Wire Shelf 24\" x 24\". Storage shelf. Shelving unit. Garage storage shelves. Shelving units and storage. Food storage shelf. Storage rack. Kitchen shelves. Bakers racks"
+                ]
+                },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/catalog/product_compare",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "2/Pack! NSF Green Epoxy Wire Shelf 24\" x 24\". Storage shelf. Shelving unit. Garage storage shelves. Shelving units and storage. Food storage shelf. Storage rack. Kitchen shelves. Bakers racks"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my cart.",
+        "intent": "Add the cheapest visible item in the second category in the video to my cart",
+        "intermediate_intent": "What was the name of the cheapest visible item in the second category in the video?",
+        "video": "price_range_url",
+        "instantiation_dict": {
+            "description": "the cheapest visible item in the second category in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "2/Pack! NSF Green Epoxy Wire Shelf 24\" x 24\". Storage shelf. Shelving unit. Garage storage shelves. Shelving units and storage. Food storage shelf. Storage rack. Kitchen shelves. Bakers racks"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/checkout/cart",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include":  [
+                            "2/Pack! NSF Green Epoxy Wire Shelf 24\" x 24\". Storage shelf. Shelving unit. Garage storage shelves. Shelving units and storage. Food storage shelf. Storage rack. Kitchen shelves. Bakers racks"
+
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my wishlist.",
+        "intent": "Add the cheapest visible item in the second category in the video to my wishlist",
+        "intermediate_intent": "What was the name of the cheapest visible item in the second category in the video?",
+        "video": "price_range_url",
+        "instantiation_dict": {
+            "description": "cheapest visible item in the second category in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "2/Pack! NSF Green Epoxy Wire Shelf 24\" x 24\". Storage shelf. Shelving unit. Garage storage shelves. Shelving units and storage. Food storage shelf. Storage rack. Kitchen shelves. Bakers racks"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/wishlist/?limit=50",
+                    "locator": "document.querySelector('.products-grid.wishlist').textContent",
+                    "required_contents": {
+                        "must_include": [
+                            "2/Pack! NSF Green Epoxy Wire Shelf 24\" x 24\". Storage shelf. Shelving unit. Garage storage shelves. Shelving units and storage. Food storage shelf. Storage rack. Kitchen shelves. Bakers racks"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Take me to the {description}?",
+        "intent": "Take me to the listing of the cheapest visible item in the second category in the video",
+        "intermediate_intent": "What was the name of the cheapest visible item in the second category in the video?",
+        "video": "price_range_url",
+        "instantiation_dict": {
+            "description": "listing of the cheapest visible item in the second category in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "2/Pack! NSF Green Epoxy Wire Shelf 24\" x 24\". Storage shelf. Shelving unit. Garage storage shelves. Shelving units and storage. Food storage shelf. Storage rack. Kitchen shelves. Bakers racks"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING__/2-pack-nsf-green-epoxy-wire-shelf-24-x-24-storage-shelf-shelving-unit-garage-storage-shelves-shelving-units-and-storage-food-storage-shelf-storage-rack-kitchen-shelves-bakers-racks.html",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my comparison page.",
+        "intent": "Add the cheapest item visible in the third category in the video to my comparison page",
+        "intermediate_intent": "What was the name of the cheapest item visible in the third category in the video?",
+        "video": "price_range_url",
+        "instantiation_dict": {
+            "description": "cheapest item in the third category in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Magnetic Metal Stainless Steel D-pads Kits Directional Pad Replacement Parts for Xbox One Elite Controller, Elite Series 2, Xbox One, Xbox One S/X Controller"
+                ]
+                },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/catalog/product_compare",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Magnetic Metal Stainless Steel D-pads Kits Directional Pad Replacement Parts for Xbox One Elite Controller, Elite Series 2, Xbox One, Xbox One S/X Controller"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my cart.",
+        "intent": "Add the cheapest visible item in the third category in the video to my cart",
+        "intermediate_intent": "What was the name of the cheapest visible item in the third category in the video?",
+        "video": "price_range_url",
+        "instantiation_dict": {
+            "description": "the cheapest visible item in the third category in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Magnetic Metal Stainless Steel D-pads Kits Directional Pad Replacement Parts for Xbox One Elite Controller, Elite Series 2, Xbox One, Xbox One S/X Controller"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/checkout/cart",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include":  [
+                            "Magnetic Metal Stainless Steel D-pads Kits Directional Pad Replacement Parts for Xbox One Elite Controller, Elite Series 2, Xbox One, Xbox One S/X Controller"
+
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Add the {description} to my wishlist.",
+        "intent": "Add the cheapest visible item in the third category in the video to my cart" ,
+        "intermediate_intent": "What was the name of the cheapest visible item in the third category in the video?",
+        "video": "price_range_url",
+        "instantiation_dict": {
+            "description": "cheapest visible item in the third category in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Magnetic Metal Stainless Steel D-pads Kits Directional Pad Replacement Parts for Xbox One Elite Controller, Elite Series 2, Xbox One, Xbox One S/X Controller"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__SHOPPING__/wishlist/?limit=50",
+                    "locator": "document.querySelector('.products-grid.wishlist').textContent",
+                    "required_contents": {
+                        "must_include": [
+                            "Magnetic Metal Stainless Steel D-pads Kits Directional Pad Replacement Parts for Xbox One Elite Controller, Elite Series 2, Xbox One, Xbox One S/X Controller"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping"
+        ],
+        "task_id": 75,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_state.json",
+        "start_url": "__SHOPPING__",
+        "geolocation": null,
+        "intent_template": "Take me to the {description}?",
+        "intent": "Take me to the listing of the cheapest visible item in the third category in the video",
+        "intermediate_intent": "What was the name of the cheapest visible item in the third category in the video?",
+        "video": "price_range_url",
+        "instantiation_dict": {
+            "description": "listing of the cheapest visible item in the third category in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Magnetic Metal Stainless Steel D-pads Kits Directional Pad Replacement Parts for Xbox One Elite Controller, Elite Series 2, Xbox One, Xbox One S/X Controller"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING__/magnetic-metal-stainless-steel-d-pads-kits-directional-pad-replacement-parts-for-xbox-one-elite-controller-elite-series-2-xbox-one-xbox-one-s-x-controller.html",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
     }
+
 ]

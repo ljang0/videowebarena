@@ -249,8 +249,8 @@
         "overall_difficulty": "hard",
         "spatial_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": false,
-        "temporal_reasoning": true,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 0
     },
@@ -861,54 +861,6 @@
         },
         "overall_difficulty": "hard",
         "spatial_reasoning": false,
-        "audio_reasoning": false,
-        "multihop_reasoning": true,
-        "temporal_reasoning": false,
-        "comments": "",
-        "intent_template_id": 0
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 17,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__",
-        "geolocation": null,
-        "intent_template": "Can you take me to {description}?",
-        "intent": "Can you take me to the most expensive listing listed on November 16 2023 shown in the video?",
-        "intermediate_intent": "What was the name of the most expensive listing listed on November 16 2023 shown in the video?",
-        "video": "sort_by_price_range",
-        "instantiation_dict": {
-            "description": "the most expensive listing listed on November 16 2023 shown in the video"
-        },
-        "require_reset": false,
-        "intermediate_eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "must_include": [
-                    "Canon EF 100-400mm f/4.5-5.6L IS II USM with extender EF 1.4X III" 
-                ]
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": "",
-            "reference_answer_raw_annotation": ""
-        },
-        "eval": {
-            "eval_types": [
-                "url_match"
-            ],
-            "reference_answers": null,
-            "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=10542",
-            "program_html": [],
-            "url_note": "EXACT"
-        },
-        "overall_difficulty": "hard",
-        "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,

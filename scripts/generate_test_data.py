@@ -49,7 +49,7 @@ def main() -> None:
         print(f"GITLAB: {GITLAB}")
         print(f"MAP: {MAP}")
         inp_paths = [
-            "config_files/videowa/test_classifieds.raw.json", "config_files/videowa/test_shopping.raw.json", "config_files/videowa/test_reddit.raw.json",  "config_files/vwa/test_reddit.raw.json",  "config_files/videowa/test_shopping_admin.raw.json",  "config_files/videowa/test_map.raw.json",  "config_files/videowa/test_gitlab_admin.raw.json",  "config_files/videowa/test_wikipedia_admin.raw.json"
+            "config_files/videowa/test_presentation.raw.json", "config_files/videowa/test_classifieds.raw.json", "config_files/videowa/test_shopping.raw.json", "config_files/videowa/test_reddit.raw.json",  "config_files/videowa/test_shopping_admin.raw.json",  "config_files/videowa/test_map.raw.json",  "config_files/videowa/test_gitlab_admin.raw.json",  "config_files/videowa/test_wikipedia_admin.raw.json"
         ]
         replace_map = {
             "__REDDIT__": REDDIT,
@@ -59,7 +59,7 @@ def main() -> None:
             "__SHOPPING_ADMIN__": SHOPPING_ADMIN,
             "__GITLAB__": GITLAB,
             "__MAP__": MAP,
-        }
+        }    
     else:
         raise ValueError(f"Dataset not implemented: {DATASET}")
         
@@ -77,6 +77,7 @@ def main() -> None:
         for idx, item in enumerate(data):
             with open(os.path.join(output_dir, f"{idx}.json"), "w") as f:
                 json.dump(item, f, indent=2)
+        print("FINISHED", inp_path)
 
 
 if __name__ == "__main__":
