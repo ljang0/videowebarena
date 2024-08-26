@@ -147,7 +147,7 @@ config_files/wa/test_webarena/*
 
 cache/*
 agents/prompts/jsons/*
-/browser_env/env_config.py
+# /browser_env/env_config.py
 media/*.mp4
 media/*.mov
 media/videoframes/*
