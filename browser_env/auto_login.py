@@ -42,24 +42,6 @@ elif DATASET == "visualwebarena":
     ]
     EXACT_MATCH = [True, True, True]
     KEYWORDS = ["", "Delete", "My listings"]
-elif DATASET == "videowebarena":
-    from browser_env.env_config import (
-        CLASSIFIEDS,
-        REDDIT,
-        SHOPPING,
-        GITLAB,
-        SHOPPING_ADMIN,
-    )
-    SITES = ["gitlab", "shopping", "shopping_admin", "reddit", "classifieds"]
-    URLS = [
-        f"{GITLAB}/-/profile",
-        f"{SHOPPING}/wishlist/",
-        f"{SHOPPING_ADMIN}/dashboard",
-        f"{REDDIT}/user/{ACCOUNTS['reddit']['username']}/account",
-        f"{CLASSIFIEDS}/index.php?page=user&action=items",
-    ]
-    EXACT_MATCH = [True, True, True, True, True]
-    KEYWORDS = ["", "", "Dashboard", "Delete", "My listings"]
 else:
     raise ValueError(f"Dataset not implemented: {DATASET}")
 
