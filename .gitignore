@@ -156,3 +156,4 @@ log_files/*
 
 scripts/test_run.sh
 video_understanding/dev.ipynb
+result*

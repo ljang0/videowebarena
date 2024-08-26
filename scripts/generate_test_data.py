@@ -32,7 +32,7 @@ def main() -> None:
         print(f"REDDIT: {REDDIT}")
         print(f"SHOPPING: {SHOPPING}")
         inp_paths = [
-            "config_files/vwa/test_classifieds.raw.json", "config_files/vwa/test_shopping.raw.json", "config_files/vwa/test_reddit.raw.json",
+            "config_files/vwa/test_classifieds.raw.json", "config_files/vwa/test_shopping.raw.json", "config_files/vwa/test_reddit.raw.json", "config_files/vwa/presentation.raw.json"
         ]
         replace_map = {
             "__REDDIT__": REDDIT,
