@@ -147,10 +147,10 @@ config_files/wa/test_webarena/*
 config_files/videowa/test_classifieds/*
 config_files/videowa/test_shopping/*
 config_files/videowa/test_reddit/*
-# config_files/videowa/test_classifieds.json
-# config_files/videowa/test_reddit.json
-# config_files/videowa/test_shopping.json
-# config_files/videowa/test_shopping_admin.json
+config_files/videowa/test_classifieds.json
+config_files/videowa/test_reddit.json
+config_files/videowa/test_shopping.json
+config_files/videowa/test_shopping_admin.json
 cache/*
 config_files/vwa/presentation*
 agents/prompts/jsons/*
