@@ -10,6 +10,7 @@ from browser_env.utils import StateInfo, pil_to_b64, pil_to_vertex
 from llms import lm_config
 from llms.tokenizers import Tokenizer
 from llms.utils import APIInput
+from video_understanding.video_processor import VideoProcessor
 
 
 class Instruction(TypedDict):
@@ -39,13 +40,12 @@ class PromptConstructor(object):
     def get_lm_api_input(
         self, intro: str, examples: list[tuple[str, str]], current: str
     ) -> APIInput:
-
         """Return the require format for an API"""
         message: list[dict[str, str]] | str
-        if "openai" in self.lm_config.provider:
+        if "openai" in self.lm_config.provider or "azopenai" in self.lm_config.provider:
             if self.lm_config.mode == "chat":
                 message = [{"role": "system", "content": intro}]
-                for (x, y) in examples:
+                for x, y in examples:
                     message.append(
                         {
                             "role": "system",
@@ -174,7 +174,9 @@ class DirectPromptConstructor(PromptConstructor):
         max_obs_length = self.lm_config.gen_config["max_obs_length"]
         if max_obs_length:
             if self.lm_config.provider == "google":
-                print("NOTE: This is a Gemini model, so we use characters instead of tokens for max_obs_length.")
+                print(
+                    "NOTE: This is a Gemini model, so we use characters instead of tokens for max_obs_length."
+                )
                 obs = obs[:max_obs_length]
             else:
                 obs = self.tokenizer.decode(self.tokenizer.encode(obs)[:max_obs_length])  # type: ignore[arg-type]
@@ -203,9 +205,7 @@ class DirectPromptConstructor(PromptConstructor):
         if match:
             return match.group(1).strip()
         else:
-            raise ActionParsingError(
-                f"Cannot parse action from response {response}"
-            )
+            raise ActionParsingError(f"Cannot parse action from response {response}")
 
 
 class CoTPromptConstructor(PromptConstructor):
@@ -236,7 +236,9 @@ class CoTPromptConstructor(PromptConstructor):
         max_obs_length = self.lm_config.gen_config["max_obs_length"]
         if max_obs_length:
             if self.lm_config.provider == "google":
-                print("NOTE: This is a Gemini model, so we use characters instead of tokens for max_obs_length.")
+                print(
+                    "NOTE: This is a Gemini model, so we use characters instead of tokens for max_obs_length."
+                )
                 obs = obs[:max_obs_length]
             else:
                 obs = self.tokenizer.decode(self.tokenizer.encode(obs)[:max_obs_length])  # type: ignore[arg-type]
@@ -299,7 +301,9 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
         max_obs_length = self.lm_config.gen_config["max_obs_length"]
         if max_obs_length:
             if self.lm_config.provider == "google":
-                print("NOTE: This is a Gemini model, so we use characters instead of tokens for max_obs_length.")
+                print(
+                    "NOTE: This is a Gemini model, so we use characters instead of tokens for max_obs_length."
+                )
                 obs = obs[:max_obs_length]
             else:
                 obs = self.tokenizer.decode(self.tokenizer.encode(obs)[:max_obs_length])  # type: ignore[arg-type]
@@ -339,7 +343,7 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
                         "content": [{"type": "text", "text": intro}],
                     }
                 ]
-                for (x, y, z) in examples:
+                for x, y, z in examples:
                     example_img = Image.open(z)
                     message.append(
                         {
@@ -353,9 +357,7 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
                                 },
                                 {
                                     "type": "image_url",
-                                    "image_url": {
-                                        "url": pil_to_b64(example_img)
-                                    },
+                                    "image_url": {"url": pil_to_b64(example_img)},
                                 },
                             ],
                         }
@@ -369,7 +371,6 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
                     )
 
                 # Encode images and page_screenshot_img as base64 strings.
-                current_prompt = current
                 content = [
                     {
                         "type": "text",
@@ -393,7 +394,7 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
                             },
                         ]
                     )
-                content = [{"type": "text", "text": current_prompt}] + content
+                content = [{"type": "text", "text": current}] + content
 
                 message.append({"role": "user", "content": content})
                 return message
@@ -407,7 +408,7 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
                     intro,
                     "Here are a few examples:",
                 ]
-                for (x, y, z) in examples:
+                for x, y, z in examples:
                     example_img = Image.open(z)
                     message.append(f"Observation\n:{x}\n")
                     message.extend(
@@ -444,3 +445,339 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
             raise NotImplementedError(
                 f"Provider {self.lm_config.provider} not implemented"
             )
+
+
+class VideoFramePromptConstructor(PromptConstructor):
+
+    def __init__(
+        self,
+        instruction_path: str | Path,
+        lm_config: lm_config.LMConfig,
+        tokenizer: Tokenizer,
+        max_frame_num: int,
+    ):
+        super().__init__(instruction_path, lm_config, tokenizer)
+        self.answer_phrase = self.instruction["meta_data"]["answer_phrase"]
+        self.video_processor = VideoProcessor()
+        self.max_frame_num = max_frame_num
+
+    def construct(
+        self,
+        video_path: str,
+        intent: str,
+    ) -> APIInput:
+        intro = self.instruction["intro"]
+        examples = self.instruction["examples"]
+        template = self.instruction["template"]
+        keywords = self.instruction["meta_data"]["keywords"]
+        images = self.video_processor.sample_frames(video_path, self.max_frame_num)
+        audio = self.video_processor.get_transcript(video_path)
+        video = " ".join([f"[FRAME-{i+1}]" for i in range(len(images))])
+        current = template.format(
+            video=video,
+            objective=intent,
+            audio=audio,
+        )
+
+        assert all([f"{{k}}" not in current for k in keywords])
+
+        prompt = self.get_lm_api_input(intro, examples, current, images)
+        return prompt
+
+    def get_lm_api_input(
+        self,
+        intro: str,
+        examples: list[tuple[str, str, list[str]]],
+        current: str,
+        images: list[Image.Image],
+    ) -> APIInput:
+        """Return the require format for an API"""
+        message: list[dict[str, str]] | str | list[str | Image.Image]
+
+        if "azopenai" in self.lm_config.provider:
+            if self.lm_config.mode == "chat":
+                message = [
+                    {
+                        "role": "system",
+                        "content": [{"type": "text", "text": intro}],
+                    }
+                ]
+                for x, y, z in examples:
+                    example_user_message = {
+                        "role": "system",
+                        "name": "example_user",
+                        "content": [                       
+                            {"type": "text", "text": x}                            
+                        ],
+                    }
+
+                    for idx, example_frame in enumerate(z):
+
+                        example_user_message["content"].append(
+                            {
+                                "type": "text",
+                                "text": f"frame-{idx}",
+                            }
+                        )
+                        example_user_message["content"].append(
+                            {
+                                "type": "image_url",
+                                "image_url": {
+                                    "url": pil_to_b64(Image.open(example_frame))
+                                },
+                            }
+                        )
+                    example_assistant_message = {
+                        "role": "system",
+                        "name": "example_assistant",
+                        "content": y,
+                    }
+                    message.append(example_user_message)
+                    message.append(example_assistant_message)
+
+            content = []
+            for idx, image in enumerate(images):
+                content.extend(
+                    [
+                        {
+                            "type": "text",
+                            "text": f"frame-{idx}",
+                        },
+                        {
+                            "type": "image_url",
+                            "image_url": {"url": pil_to_b64(image)},
+                        },
+                    ]
+                )
+            content = [{"type": "text", "text": current}] + content
+            message.append({"role": "user", "content": content})
+            return message
+        else:
+            raise NotImplementedError(
+                f"Provider {self.lm_config.provider} not implemented"
+            )
+
+
+class MultimodalVideoCoTPromptConstructor(MultimodalCoTPromptConstructor):
+
+    def __init__(
+        self,
+        instruction_path: str | Path,
+        lm_config: lm_config.LMConfig,
+        tokenizer: Tokenizer,
+        max_frame_num: int
+    ):
+        super().__init__(instruction_path, lm_config, tokenizer)
+        self.video_processor = VideoProcessor()
+        self.current_video_path = None
+        self.video_frames = None
+        self.audio = None
+        self.max_frame_num = max_frame_num
+
+    def construct(
+        self,
+        trajectory: Trajectory,
+        intent: str,
+        page_screenshot_img: Image.Image,
+        images: list[Image.Image],
+        video_path: str,
+        meta_data: dict[str, Any] = {},
+    ) -> APIInput:
+        intro = self.instruction["intro"]
+        examples = self.instruction["examples"]
+        template = self.instruction["template"]
+        keywords = self.instruction["meta_data"]["keywords"]
+        state_info: StateInfo = trajectory[-1]  # type: ignore[assignment]
+
+        if video_path != self.current_video_path: # if there is a new video
+            self.current_video_path = video_path
+            self.video_frames = self.video_processor.sample_frames(video_path, self.max_frame_num)
+            self.audio = self.video_processor.get_transcript(video_path)
+            
+        video = " ".join([f"[FRAME{i+1}]" for i in range(len(self.video_frames))])
+
+        obs = state_info["observation"][self.obs_modality]
+        max_obs_length = self.lm_config.gen_config["max_obs_length"]
+        if max_obs_length:
+            if self.lm_config.provider == "google":
+                print("NOTE: This is a Gemini model, so we use characters instead of tokens for max_obs_length.")
+                obs = obs[:max_obs_length]
+            else:
+                obs = self.tokenizer.decode(self.tokenizer.encode(obs)[:max_obs_length])  # type: ignore[arg-type]
+
+        page = state_info["info"]["page"]
+        url = page.url
+        previous_action_str = meta_data["action_history"][-1]
+        current = template.format(
+            objective=intent,
+            url=self.map_url_to_real(url),
+            observation=obs,
+            previous_action=previous_action_str,
+            video=video,
+            audio=self.audio,
+        )
+
+        assert all([f"{{k}}" not in current for k in keywords])
+
+        prompt = self.get_lm_api_input(
+            intro, examples, current, page_screenshot_img, images, video_frames=self.video_frames
+        )
+        return prompt
+    def get_lm_api_input(
+        self,
+        intro: str,
+        examples: list[tuple[str, str, str]],
+        current: str,
+        page_screenshot_img: Image.Image,
+        images: list[Image.Image],
+        video_frames: list[Image.Image],
+    ) -> APIInput:
+        if "azopenai" in self.lm_config.provider:
+            if self.lm_config.mode == "chat":
+                message = [
+                    {
+                        "role": "system",
+                        "content": [{"type": "text", "text": intro}],
+                    }
+                ]
+                for x, y, z, l in examples:
+                    example_img = Image.open(z)
+                    example_user_message = {
+                        "role": "system",
+                        "name": "example_user",
+                        "content": [
+                            {"type": "text", "text": x},
+                        ],
+                    }
+
+                    example_user_message["content"].extend(
+                        [{
+                            "type": "text",
+                            "text": "IMAGES: (1) current page screenshot",
+                        },
+                        {
+                            "type": "image_url",
+                            "image_url": {"url": pil_to_b64(example_img)},
+                        }]
+                    )
+                    for idx, example_img in enumerate(l):
+
+                        example_user_message["content"].append(
+                            {
+                                "type": "text",
+                                "text": f"frame-{idx}",
+                            }
+                        )
+                        example_user_message["content"].append(
+                            {
+                                "type": "image_url",
+                                "image_url": {
+                                    "url": pil_to_b64(Image.open(example_img))
+                                },
+                            }
+                        )
+                    message.append(example_user_message)
+                    message.append(
+                        {
+                            "role": "system",
+                            "name": "example_assistant",
+                            "content": [{"type": "text", "text": y}],
+                        }
+                    )
+                # Encode images and page_screenshot_img as base64 strings.
+                content = [
+                    {
+                        "type": "text",
+                        "text": "IMAGES: (1) current page screenshot",
+                    },
+                    {
+                        "type": "image_url",
+                        "image_url": {"url": pil_to_b64(page_screenshot_img)},
+                    },
+                ]
+                for image_i, image in enumerate(images):
+                    content.extend(
+                        [
+                            {
+                                "type": "text",
+                                "text": f"({image_i+2}) input image {image_i+1}",
+                            },
+                            {
+                                "type": "image_url",
+                                "image_url": {"url": pil_to_b64(image)},
+                            },
+                        ]
+                    )
+                content.append({"type": "text", "text": "Video frames"})
+                for frame_i, frame in enumerate(video_frames):
+                    content.extend(
+                        [
+                            {
+                                "type": "text",
+                                "text": f"frame-{frame_i}",
+                            },
+                            {
+                                "type": "image_url",
+                                "image_url": {"url": pil_to_b64(frame)},
+                            },
+                        ]
+                    )
+                content = [{"type": "text", "text": current}] + content
+
+                message.append({"role": "user", "content": content})
+                return message
+            else:
+                raise ValueError(
+                    f"GPT-4V models do not support mode {self.lm_config.mode}"
+                )
+        else:
+            raise NotImplementedError(
+                f"Provider {self.lm_config.provider} not implemented"
+            )
+
+
+class MultimodalVideoSummaryCoTPromptConstructor(MultimodalCoTPromptConstructor):
+    def construct(
+        self,
+        trajectory: Trajectory,
+        intent: str,
+        video_summary: str,
+        page_screenshot_img: Image.Image,
+        images: list[Image.Image],
+        meta_data: dict[str, Any] = {},
+    ) -> APIInput:
+        intro = self.instruction["intro"]
+        examples = self.instruction["examples"]
+        template = self.instruction["template"]
+        tutorial = video_summary
+        keywords = self.instruction["meta_data"]["keywords"]
+        state_info: StateInfo = trajectory[-1]  # type: ignore[assignment]
+
+        obs = state_info["observation"][self.obs_modality]
+        max_obs_length = self.lm_config.gen_config["max_obs_length"]
+        if max_obs_length:
+            if self.lm_config.provider == "google":
+                print(
+                    "NOTE: This is a Gemini model, so we use characters instead of tokens for max_obs_length."
+                )
+                obs = obs[:max_obs_length]
+            else:
+                obs = self.tokenizer.decode(self.tokenizer.encode(obs)[:max_obs_length])  # type: ignore[arg-type]
+
+        page = state_info["info"]["page"]
+        url = page.url
+        previous_action_str = meta_data["action_history"][-1]
+        current = template.format(
+            objective=intent,
+            url=self.map_url_to_real(url),
+            observation=obs,
+            previous_action=previous_action_str,
+            tutorial=tutorial
+        )
+
+        assert all([f"{{k}}" not in current for k in keywords])
+
+        prompt = self.get_lm_api_input(
+            intro, examples, current, page_screenshot_img, images
+        )           
+        return prompt

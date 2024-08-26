@@ -6,7 +6,7 @@
         "task_id": 0,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
         "intent": "Add the two items that were added to the wishlist in the video to my cart",
@@ -39,7 +39,7 @@
             "reference_url": "",
             "program_html": [
                 {
-                    "url": "__SHOPPING__/checkout/cart",
+                    "url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/checkout/cart",
                     "locator": "",
                     "required_contents": {
                         "must_include": [
@@ -65,7 +65,7 @@
         "task_id": 1,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
         "intent": "Add the item that was to the left of the second item that was added to the wishlist to my cart",
@@ -97,7 +97,7 @@
             "reference_url": "",
             "program_html": [
                 {
-                    "url": "__SHOPPING__/checkout/cart",
+                    "url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/checkout/cart",
                     "locator": "",
                     "required_contents": {
                         "must_include": [
@@ -122,7 +122,7 @@
         "task_id": 2,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "Click on the {}",
         "intent": "Click on the first button that was used in the video",
@@ -151,7 +151,7 @@
                 "url_match"
             ],
             "reference_answers": null,
-            "reference_url": "__SHOPPING__/wishlist/",
+            "reference_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/wishlist/",
             "program_html": [],
             "url_note": "EXACT"
         },
@@ -170,7 +170,7 @@
         "task_id": 3,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "Click on the {description}",
         "intent": "Click on the first button that was used in the video",
@@ -199,7 +199,7 @@
                 "url_match"
             ],
             "reference_answers": null,
-            "reference_url": "__SHOPPING__/wishlist/",
+            "reference_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/wishlist/",
             "program_html": [],
             "url_note": "EXACT"
         },
@@ -218,7 +218,7 @@
         "task_id": 3,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "Give me the url of the {description}",
         "intent": "Give me the url of the page where the user first mentions the word 'heart'",
@@ -247,7 +247,7 @@
                 "url_match"
             ],
             "reference_answers": null,
-            "reference_url": "__SHOPPING__",
+            "reference_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
             "program_html": [],
             "url_note": "EXACT"
         },
@@ -266,7 +266,7 @@
         "task_id": 4,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
         "intent": "Add the items that were added to the cart in the video to my wishlist",
@@ -300,7 +300,7 @@
             "reference_url": "",
             "program_html": [
                 {
-                    "url": "__SHOPPING__/checkout/cart",
+                    "url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/checkout/cart",
                     "locator": "",
                     "required_contents": {
                         "must_include": [
@@ -327,7 +327,7 @@
         "task_id": 5,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
         "intent": "Add the cheapest item that was in the same category as the red item in the cart in the video to my cart",
@@ -359,7 +359,7 @@
             "reference_url": "",
             "program_html": [
                 {
-                    "url": "__SHOPPING__/checkout/cart",
+                    "url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/checkout/cart",
                     "locator": "",
                     "required_contents": {
                         "must_include": [
@@ -385,7 +385,7 @@
         "task_id": 6,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "Leave a review on {description}.",
         "intent": "Leave a review on the item that was added last to the cart in the video, with 4 stars and state 'Different colors would be nice'.",
@@ -417,7 +417,7 @@
             "reference_url": "",
             "program_html": [
                 {
-                    "url": "__SHOPPING__",
+                    "url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
                     "locator": "func:shopping_get_sku_latest_review_rating(\"B09MTYTV4H\")",
                     "required_contents": {
                         "must_include": [
@@ -426,7 +426,7 @@
                     }
                 },
                 {
-                    "url": "__SHOPPING__",
+                    "url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
                     "locator": "func:shopping_get_sku_latest_review_text(\"B09MTYTV4H\")",
                     "required_contents": {
                         "must_include": [
@@ -451,7 +451,7 @@
         "task_id": 7,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "The person in the video {description}. Can you add {description2} to my cart?",
         "intent": "The person in the video mentions another category besides clothing in the men's section when searching for the last item to add to the cart. Can you add the cheapest item from the mentioned category to my cart?",
@@ -484,7 +484,7 @@
             "reference_url": "",
             "program_html": [
                 {
-                    "url": "__SHOPPING__/checkout/cart",
+                    "url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/checkout/cart",
                     "locator": "",
                     "required_contents": {
                         "must_include": [
@@ -510,7 +510,7 @@
         "task_id": 8,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "For {description}, can you instead add {description2} to my cart?",
         "intent": "For each item added to cart in the video, can you instead add the items that were second to the left in the same row to my cart?",
@@ -544,7 +544,7 @@
             "reference_url": "",
             "program_html": [
                 {
-                    "url": "__SHOPPING__/checkout/cart",
+                    "url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/checkout/cart",
                     "locator": "",
                     "required_contents": {
                         "must_include": [
@@ -570,7 +570,7 @@
         "task_id": 9,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__/cell-phones-accessories/cases-holsters-sleeves/basic-cases.html?p=5",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/cell-phones-accessories/cases-holsters-sleeves/basic-cases.html?p=5",
         "geolocation": null,
         "intent_template": "Can you add {description} to my cart?",
         "intent": "Can you add the cheapest case on this page that is the same color as the phone ordered in the video to my cart?",
@@ -602,7 +602,7 @@
             "reference_url": "",
             "program_html": [
                 {
-                    "url": "__SHOPPING__/checkout/cart",
+                    "url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/checkout/cart",
                     "locator": "",
                     "required_contents": {
                         "must_include": [
@@ -627,7 +627,7 @@
         "task_id": 10,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "The person in the video {description}. Can you add {description2} to my wishlist?",
         "intent": "The person in the video mentions another phone type besides Android. Can you add the cheapest phone from that brand to my wishlist?",
@@ -660,7 +660,7 @@
             "reference_url": "",
             "program_html": [
                 {
-                    "url": "__SHOPPING__/wishlist/?limit=50",
+                    "url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/wishlist/?limit=50",
                     "locator": "document.querySelector('.products-grid.wishlist').textContent",
                     "required_contents": {
                         "must_include": [
@@ -685,7 +685,7 @@
         "task_id": 11,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__/sunset-jade-plant-crassula-easy-to-grow-house-plant-4-pot.html",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/sunset-jade-plant-crassula-easy-to-grow-house-plant-4-pot.html",
         "geolocation": null,
         "intent_template": "Can you add {description} to my cart?",
         "intent": "Can you add enough of this item to come out to more than the first item added in the video to my cart?",
@@ -717,7 +717,7 @@
             "reference_url": "",
             "program_html": [
                 {
-                    "url": "__SHOPPING__/checkout/cart/",
+                    "url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/checkout/cart/",
                     "locator": "lambda:(() => {try {return Array.from(document.querySelectorAll('.item-info')).find(el => el.textContent.includes('Sunset Jade Plant - Crassula - Easy to Grow House Plant - 4\" Pot')).querySelector('input').getAttribute('data-item-qty')} catch (e) {return ' '}})()",
                     "required_contents": {
                         "must_include": [
@@ -742,7 +742,7 @@
         "task_id": 12,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "Take me to the {description}?",
         "intent": "Take me to the item page for the first result when combining the first and second search terms in the video as the search term.",
@@ -771,7 +771,7 @@
                 "url_match"
             ],
             "reference_answers": null,
-            "reference_url": "__SHOPPING__/mario-kart-bowser-mario-racing-tank-top.html",
+            "reference_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/mario-kart-bowser-mario-racing-tank-top.html",
             "program_html": [],
             "url_note": "EXACT"
         },
@@ -790,7 +790,7 @@
         "task_id": 13,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
         "intent": "Add the second-most expensive item from the first search page to my cart.",
@@ -822,7 +822,7 @@
             "reference_url": "",
             "program_html": [
                 {
-                    "url": "__SHOPPING__/checkout/cart",
+                    "url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/checkout/cart",
                     "locator": "",
                     "required_contents": {
                         "must_include": [
@@ -847,7 +847,7 @@
         "task_id": 14,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "Add the {description} to my wishlist.",
         "intent": "Add the snacks with a purple packaging variant that is in the video to my wishlist.",
@@ -879,7 +879,7 @@
             "reference_url": "",
             "program_html": [
                 {
-                    "url": "__SHOPPING__/wishlist/?limit=50",
+                    "url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/wishlist/?limit=50",
                     "locator": "document.querySelector('.products-grid.wishlist').textContent",
                     "required_contents": {
                         "must_include": [
@@ -904,7 +904,7 @@
         "task_id": 15,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "Leave a review on {description}.",
         "intent": "Leave a review on the most expensive item in the first search, using the description the video creater used to describe that item.",
@@ -936,7 +936,7 @@
             "reference_url": "",
             "program_html": [
                 {
-                    "url": "__SHOPPING__",
+                    "url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
                     "locator": "func:shopping_get_sku_latest_review_text(\"B09L4K1GNX\")",
                     "required_contents": {
                         "must_include": [
@@ -961,7 +961,7 @@
         "task_id": 16,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "{condition}. Add {description} to cart.",
         "intent": "When searching for cheese, the person in the video mentions they are looking for a certain type of cheese first. Add the type of cheese they mentioned first to my cart",
@@ -994,7 +994,7 @@
             "reference_url": "",
             "program_html": [
                 {
-                    "url": "__SHOPPING__/checkout/cart",
+                    "url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/checkout/cart",
                     "locator": "",
                     "required_contents": {
                         "must_include": [
@@ -1019,7 +1019,7 @@
         "task_id": 17,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "Add {description} to my cart.",
         "intent": "Add all the items that were added to cart in the video to my cart",
@@ -1054,7 +1054,7 @@
             "reference_url": "",
             "program_html": [
                 {
-                    "url": "__SHOPPING__/checkout/cart",
+                    "url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/checkout/cart",
                     "locator": "",
                     "required_contents": {
                         "must_include": [
@@ -1082,7 +1082,7 @@
         "task_id": 18,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "Buy {description}.",
         "intent": "Buy 2 of the last item added to cart in the video, but with the other flavor option.",
@@ -1149,7 +1149,7 @@
         "task_id": 19,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "Add the {description} to my wishlist.",
         "intent": "Add the ketchup item in the video with 3 bottles to my wishlist",
@@ -1181,7 +1181,7 @@
             "reference_url": "",
             "program_html": [
                 {
-                    "url": "__SHOPPING__/wishlist/?limit=50",
+                    "url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/wishlist/?limit=50",
                     "locator": "document.querySelector('.products-grid.wishlist').textContent",
                     "required_contents": {
                         "must_include": [
@@ -1206,7 +1206,7 @@
         "task_id": 20,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "{condition}. Add {description} to cart.",
         "intent": "The person in the video visited two categories. Add the item in the first row and first column for both categories explored to cart.",
@@ -1240,7 +1240,7 @@
             "reference_url": "",
             "program_html": [
                 {
-                    "url": "__SHOPPING__/checkout/cart",
+                    "url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/checkout/cart",
                     "locator": "",
                     "required_contents": {
                         "must_include": [
@@ -1266,7 +1266,7 @@
         "task_id": 21,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "The person in the video {description}. Can you take me to the search page for {request}",
         "intent": "The person in the video states they want protein powder because they play a certain sport. Can you take me to the search page for shoes for that sport, using the search term '{sport mentioned} shoes'?",
@@ -1296,7 +1296,7 @@
                 "url_match"
             ],
             "reference_answers": null,
-            "reference_url": "__SHOPPING__/catalogsearch/result/?q=basketball+shoes",
+            "reference_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/catalogsearch/result/?q=basketball+shoes",
             "program_html": [],
             "url_note": "EXACT"
         },
@@ -1315,7 +1315,7 @@
         "task_id": 22,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "{condition}. Add {description} to wishlist.",
         "intent": "In the first category opened by the person in the video, there is a item on the page that has a grey background. Add the item with the grey background in its image to wishlist.",
@@ -1348,7 +1348,7 @@
             "reference_url": "",
             "program_html": [
                 {
-                    "url": "__SHOPPING__/wishlist/?limit=50",
+                    "url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/wishlist/?limit=50",
                     "locator": "document.querySelector('.products-grid.wishlist').textContent",
                     "required_contents": {
                         "must_include": [
@@ -1373,7 +1373,7 @@
         "task_id": 23,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
+        "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
         "geolocation": null,
         "intent_template": "Add {description} to cart.",
         "intent": "Add the item in the second row and fourth column from the last category page opened in the video to cart.",
@@ -1405,7 +1405,7 @@
             "reference_url": "",
             "program_html": [
                 {
-                    "url": "__SHOPPING__/checkout/cart",
+                    "url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770/checkout/cart",
                     "locator": "",
                     "required_contents": {
                         "must_include": [

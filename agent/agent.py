@@ -1,6 +1,7 @@
 import argparse
 import json
 from typing import Any, Optional
+import os
 
 import tiktoken
 from beartype import beartype
@@ -69,9 +70,7 @@ class TeacherForcingAgent(Agent):
                 elif self.action_set_tag == "id_accessibility_tree":
                     cur_action = create_id_based_action(a_str)
                 else:
-                    raise ValueError(
-                        f"Unknown action type {self.action_set_tag}"
-                    )
+                    raise ValueError(f"Unknown action type {self.action_set_tag}")
             except ActionParsingError as e:
                 cur_action = create_none_action()
 
@@ -107,7 +106,7 @@ class PromptAgent(Agent):
         action_set_tag: str,
         lm_config: lm_config.LMConfig,
         prompt_constructor: PromptConstructor,
-        captioning_fn = None,
+        captioning_fn=None,
     ) -> None:
         super().__init__()
         self.lm_config = lm_config
@@ -116,7 +115,11 @@ class PromptAgent(Agent):
         self.captioning_fn = captioning_fn
 
         # Check if the model is multimodal.
-        if ("gemini" in lm_config.model or "gpt-4" in lm_config.model and "vision" in lm_config.model) and type(prompt_constructor) == MultimodalCoTPromptConstructor:
+        if (
+            "gemini" in lm_config.model
+            or "gpt-4" in lm_config.model
+            and "vision" in lm_config.model
+        ) and type(prompt_constructor) == MultimodalCoTPromptConstructor:
             self.multimodal_inputs = True
         else:
             self.multimodal_inputs = False
@@ -126,8 +129,12 @@ class PromptAgent(Agent):
 
     @beartype
     def next_action(
-        self, trajectory: Trajectory, intent: str, meta_data: dict[str, Any], images: Optional[list[Image.Image]] = None,
-        output_response: bool = False
+        self,
+        trajectory: Trajectory,
+        intent: str,
+        meta_data: dict[str, Any],
+        images: Optional[list[Image.Image]] = None,
+        output_response: bool = False,
     ) -> Action:
         # Create page screenshot image for multimodal models.
         if self.multimodal_inputs:
@@ -150,33 +157,27 @@ class PromptAgent(Agent):
                 # Update intent to include captions of input images.
                 intent = f"{image_input_caption}\nIntent: {intent}"
             elif not self.multimodal_inputs:
-                print(
-                    "WARNING: Input image provided but no image captioner available."
-                )
+                print("WARNING: Input image provided but no image captioner available.")
 
         if self.multimodal_inputs:
             prompt = self.prompt_constructor.construct(
                 trajectory, intent, page_screenshot_img, images, meta_data
             )
         else:
-            prompt = self.prompt_constructor.construct(
-                trajectory, intent, meta_data
-            )
+            prompt = self.prompt_constructor.construct(trajectory, intent, meta_data)
         lm_config = self.lm_config
         n = 0
         while True:
             response = call_llm(lm_config, prompt)
-            force_prefix = self.prompt_constructor.instruction[
-                "meta_data"
-            ].get("force_prefix", "")
+            force_prefix = self.prompt_constructor.instruction["meta_data"].get(
+                "force_prefix", ""
+            )
             response = f"{force_prefix}{response}"
             if output_response:
-                print(f'Agent: {response}', flush=True)
+                print(f"Agent: {response}", flush=True)
             n += 1
             try:
-                parsed_response = self.prompt_constructor.extract_action(
-                    response
-                )
+                parsed_response = self.prompt_constructor.extract_action(response)
                 if self.action_set_tag == "id_accessibility_tree":
                     action = create_id_based_action(parsed_response)
                 elif self.action_set_tag == "playwright":
@@ -184,9 +185,7 @@ class PromptAgent(Agent):
                 elif self.action_set_tag == "som":
                     action = create_id_based_action(parsed_response)
                 else:
-                    raise ValueError(
-                        f"Unknown action type {self.action_set_tag}"
-                    )
+                    raise ValueError(f"Unknown action type {self.action_set_tag}")
                 action["raw_prediction"] = response
                 break
             except ActionParsingError as e:
@@ -199,6 +198,209 @@ class PromptAgent(Agent):
 
     def reset(self, test_config_file: str) -> None:
         pass
+
+
+class VideoUnderstanding:
+    def __init__(
+        self,
+        lm_config: lm_config.LMConfig,
+        prompt_constructor: VideoFramePromptConstructor,
+    ):
+        self.prompt_constructor = prompt_constructor
+        self.lm_config = lm_config
+
+    def get_video_summary(self, video_path: str, intent: str):
+        prompt = self.prompt_constructor.construct(video_path, intent)
+        response = call_llm(self.lm_config, prompt)
+        print(f"Video Path: {video_path}\nVideo Summary: {response}", flush=True)
+        return response
+
+
+class VideoPromptAgent(PromptAgent):
+    def __init__(
+        self,
+        action_set_tag: str,
+        lm_config: lm_config.LMConfig,
+        prompt_constructor: PromptConstructor,
+        video_dir: str,
+    ):
+        super().__init__(action_set_tag, lm_config, prompt_constructor)
+        self.video_dir = video_dir
+        assert (
+            "gpt-4o" in lm_config.model
+            and type(prompt_constructor) == MultimodalVideoCoTPromptConstructor
+        ), "VideoPromptAgent only supports gpt-4o model and MultimodalVideoCoTPromptConstructor"
+
+    @beartype
+    def next_action(
+        self,
+        trajectory: Trajectory,
+        intent: str,
+        meta_data: dict[str, Any],
+        images: Optional[list[Image.Image]] = None,
+        output_response: bool = False,
+    ) -> Action:
+        # Create page screenshot image for multimodal models.
+        page_screenshot_arr = trajectory[-1]["observation"]["image"]
+        page_screenshot_img = Image.fromarray(
+            page_screenshot_arr
+        )  # size = (viewport_width, viewport_width)
+
+        # Caption the input image, if provided.
+        if images is not None and len(images) > 0:
+            if self.captioning_fn is not None:
+                image_input_caption = ""
+                for image_i, image in enumerate(images):
+                    if image_i == 0:
+                        image_input_caption += f'Input image {image_i+1}: "{self.captioning_fn([image])[0]}"'
+                    else:
+                        image_input_caption += f'input image {image_i+1}: "{self.captioning_fn([image])[0]}"'
+                    if len(images) > 1:
+                        image_input_caption += ", "
+                # Update intent to include captions of input images.
+                intent = f"{image_input_caption}\nIntent: {intent}"
+            elif not self.multimodal_inputs:
+                print("WARNING: Input image provided but no image captioner available.")
+
+        prompt = self.prompt_constructor.construct(
+            trajectory, intent, page_screenshot_img, images, self.video_path, meta_data
+        )
+        # prompt = self.prompt_constructor.construct(
+        #     trajectory, intent, meta_data
+        # )
+        lm_config = self.lm_config
+        n = 0
+        while True:
+            response = call_llm(lm_config, prompt)
+            force_prefix = self.prompt_constructor.instruction["meta_data"].get(
+                "force_prefix", ""
+            )
+            response = f"{force_prefix}{response}"
+            if output_response:
+                print(f"Agent: {response}", flush=True)
+            n += 1
+            try:
+                parsed_response = self.prompt_constructor.extract_action(response)
+                if self.action_set_tag == "id_accessibility_tree":
+                    action = create_id_based_action(parsed_response)
+                elif self.action_set_tag == "playwright":
+                    action = create_playwright_action(parsed_response)
+                elif self.action_set_tag == "som":
+                    action = create_id_based_action(parsed_response)
+                else:
+                    raise ValueError(f"Unknown action type {self.action_set_tag}")
+                action["raw_prediction"] = response
+                break
+            except ActionParsingError as e:
+                if n >= lm_config.gen_config["max_retry"]:
+                    action = create_none_action()
+                    action["raw_prediction"] = response
+                    break
+
+        return action
+
+    def reset(self, test_config_file: str) -> None:  # add video_path
+        config = json.load(open(test_config_file))
+        self.video_name = config["video"]
+        self.video_path = os.path.join(self.video_dir, self.video_name + ".mov")
+
+
+class VideoSummaryPromptAgent(PromptAgent):
+    def __init__(
+        self,
+        action_set_tag: str,
+        lm_config: lm_config.LMConfig,
+        prompt_constructor: PromptConstructor,
+        video_dir: str,
+        video_prompt_constructor: VideoFramePromptConstructor,
+    ):
+        super().__init__(action_set_tag, lm_config, prompt_constructor)
+        self.video_dir = video_dir
+        self.video_understanding = VideoUnderstanding(
+            lm_config, video_prompt_constructor
+        )
+        assert (
+            "gpt-4o" in lm_config.model
+            and type(prompt_constructor) == MultimodalVideoSummaryCoTPromptConstructor
+            and type(video_prompt_constructor) == VideoFramePromptConstructor
+        ), "VideoSummaryPromptAgent only supports gpt-4o model and MultimodalVideoCoTPromptConstructor"
+
+    def reset(self, test_config_file: str) -> None:
+        config = json.load(open(test_config_file))
+        self.video_name = config["video"]
+        self.video_path = os.path.join(self.video_dir, self.video_name + ".mov")
+        self.video_summary = self.video_understanding.get_video_summary(
+            self.video_path, config["intent"]
+        )
+
+    @beartype
+    def next_action(
+        self,
+        trajectory: Trajectory,
+        intent: str,
+        meta_data: dict[str, Any],
+        images: Optional[list[Image.Image]] = None,
+        output_response: bool = False,
+    ) -> Action:
+        # Create page screenshot image for multimodal models.
+        page_screenshot_arr = trajectory[-1]["observation"]["image"]
+        page_screenshot_img = Image.fromarray(
+            page_screenshot_arr
+        )  # size = (viewport_width, viewport_width)
+
+        # Caption the input image, if provided.
+        if images is not None and len(images) > 0:
+            if self.captioning_fn is not None:
+                image_input_caption = ""
+                for image_i, image in enumerate(images):
+                    if image_i == 0:
+                        image_input_caption += f'Input image {image_i+1}: "{self.captioning_fn([image])[0]}"'
+                    else:
+                        image_input_caption += f'input image {image_i+1}: "{self.captioning_fn([image])[0]}"'
+                    if len(images) > 1:
+                        image_input_caption += ", "
+                # Update intent to include captions of input images.
+                intent = f"{image_input_caption}\nIntent: {intent}"
+
+        prompt = self.prompt_constructor.construct(
+            trajectory,
+            intent,
+            self.video_summary,
+            page_screenshot_img,
+            images,
+            meta_data,
+        )
+        lm_config = self.lm_config
+        n = 0
+        while True:
+            response = call_llm(lm_config, prompt)
+            force_prefix = self.prompt_constructor.instruction["meta_data"].get(
+                "force_prefix", ""
+            )
+            response = f"{force_prefix}{response}"
+            # raise ValueError(response)
+            if output_response:
+                print(f"Agent: {response}", flush=True)
+            n += 1
+            try:
+                parsed_response = self.prompt_constructor.extract_action(response)
+                if self.action_set_tag == "id_accessibility_tree":
+                    action = create_id_based_action(parsed_response)
+                elif self.action_set_tag == "playwright":
+                    action = create_playwright_action(parsed_response)
+                elif self.action_set_tag == "som":
+                    action = create_id_based_action(parsed_response)
+                else:
+                    raise ValueError(f"Unknown action type {self.action_set_tag}")
+                action["raw_prediction"] = response
+                break
+            except ActionParsingError as e:
+                if n >= lm_config.gen_config["max_retry"]:
+                    action = create_none_action()
+                    action["raw_prediction"] = response
+                    break
+
+        return action
 
 
 def construct_agent(args: argparse.Namespace, captioning_fn=None) -> Agent:
@@ -218,10 +420,46 @@ def construct_agent(args: argparse.Namespace, captioning_fn=None) -> Agent:
             action_set_tag=args.action_set_tag,
             lm_config=llm_config,
             prompt_constructor=prompt_constructor,
-            captioning_fn=captioning_fn
+            captioning_fn=captioning_fn,
+        )
+    elif args.agent_type == "video_prompt":
+        with open(args.instruction_path) as f:
+            constructor_type = json.load(f)["meta_data"]["prompt_constructor"]
+        tokenizer = Tokenizer(args.provider, args.model)
+        prompt_constructor = eval(constructor_type)(
+            args.instruction_path,
+            lm_config=llm_config,
+            tokenizer=tokenizer,
+            max_frame_num=args.max_frame_num,
+        )
+        agent = VideoPromptAgent(
+            action_set_tag=args.action_set_tag,
+            lm_config=llm_config,
+            prompt_constructor=prompt_constructor,
+            video_dir=args.video_dir,
+        )
+    elif args.agent_type == "video_summary_prompt":
+        with open(args.instruction_path) as f:
+            constructor_type = json.load(f)["meta_data"]["prompt_constructor"]
+        tokenizer = Tokenizer(args.provider, args.model)
+        prompt_constructor = eval(constructor_type)(
+            instruction_path=args.instruction_path,
+            lm_config=llm_config,
+            tokenizer=tokenizer,
+        )
+        video_prompt_constructor = VideoFramePromptConstructor(
+            instruction_path=args.video_summary_instruction_path,
+            lm_config=llm_config,
+            tokenizer=tokenizer,
+            max_frame_num=args.max_frame_num,
+        )
+        agent = VideoSummaryPromptAgent(
+            action_set_tag=args.action_set_tag,
+            lm_config=llm_config,
+            prompt_constructor=prompt_constructor,
+            video_dir=args.video_dir,
+            video_prompt_constructor=video_prompt_constructor,
         )
     else:
-        raise NotImplementedError(
-            f"agent type {args.agent_type} not implemented"
-        )
+        raise NotImplementedError(f"agent type {args.agent_type} not implemented")
     return agent

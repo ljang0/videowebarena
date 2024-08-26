@@ -1,0 +1,48 @@
+{
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 3,
+  "require_login": true,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
+  "geolocation": null,
+  "intent_template": "Give me the url of the {description}",
+  "intent": "Give me the url of the page where the user first mentions the word 'heart'",
+  "intermediate_intent": "What page was the user on when they first mention the word 'heart'?",
+  "video": "add_to_wishlist",
+  "instantiation_dict": {
+    "description": "page where the user first mentions the word 'heart'"
+  },
+  "require_reset": false,
+  "intermediate_eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "must_include": [
+        "homepage"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": ""
+  },
+  "eval": {
+    "eval_types": [
+      "url_match"
+    ],
+    "reference_answers": null,
+    "reference_url": "http://ec2-18-191-115-61.us-east-2.compute.amazonaws.com:7770",
+    "program_html": [],
+    "url_note": "EXACT"
+  },
+  "overall_difficulty": "easy",
+  "visual_reasoning": false,
+  "audio_reasoning": true,
+  "multihop_reasoning": false,
+  "temporal_reasoning": true,
+  "comments": "",
+  "intent_template_id": 0
+}

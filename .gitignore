@@ -147,3 +147,13 @@ config_files/wa/test_webarena/*
 
 cache/*
 agents/prompts/jsons/*
+/browser_env/env_config.py
+media/*.mp4
+media/*.mov
+media/videoframes/*
+results/*
+log_files/*
+
+scripts/test_run.sh
+video_understanding/dev.ipynb
+result*
