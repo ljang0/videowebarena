@@ -1,0 +1,347 @@
+[
+    {
+        "sites": [
+            "shopping_admin"
+        ],
+        "task_id": 0,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_admin_state.json",
+        "start_url": "__SHOPPING_ADMIN__",
+        "geolocation": null,
+        "intent_template": "The person in the video mentions that {description}. Can you take me to {description2}?",
+        "intent": "The person in the video mentions that the store started selling items at a certain date. Can you take me to the page where I can find the best selling item from the store's start up to the end of 2023 (make sure to set the period to year)?",
+        "intermediate_intent": "What date did the store start selling (in MM/DD/YY)?",
+        "video": "find_best_selling",
+        "instantiation_dict": {
+            "description": "the store started selling items at a certain date",
+            "description2": "the page where I can find the best selling item from the store's start up to the end of 2023 (make sure to set the period to year)"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "01/01/21 |OR| 1/1/21"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING_ADMIN__/admin/reports/report_sales/bestsellers/filter/cGVyaW9kX3R5cGU9ZGF5JmZyb209MDElMkYxJTJGMjAyMSZ0bz0xMiUyRjMxJTJGMjAyMyZzaG93X2VtcHR5X3Jvd3M9MA==/",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": false,
+        "audio_reasoning": true,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping_admin"
+        ],
+        "task_id": 0,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_admin_state.json",
+        "start_url": "__SHOPPING_ADMIN__",
+        "geolocation": null,
+        "intent_template": "The person in the video mentions that {description}. Can you take me to {description2}?",
+        "intent": "The person in the video mentions that the store started selling items at a certain date. Can you take me to the page where I can find the best selling item from the store's start up to the end of 2023 (make sure to set the period to month)?",
+        "intermediate_intent": "What date did the store start selling (in MM/DD/YY)?",
+        "video": "find_best_selling",
+        "instantiation_dict": {
+            "description": "the store started selling items at a certain date",
+            "description2": "the page where I can find the best selling item from the store's start up to the end of 2023 (make sure to set the period to month)"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "01/01/21 |OR| 1/1/21"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING_ADMIN__/admin/reports/report_sales/bestsellers/filter/cGVyaW9kX3R5cGU9ZGF5JmZyb209MDElMkYxJTJGMjAyMSZ0bz0xMiUyRjMxJTJGMjAyMyZzaG93X2VtcHR5X3Jvd3M9MA==/",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": false,
+        "audio_reasoning": true,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping_admin"
+        ],
+        "task_id": 0,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_admin_state.json",
+        "start_url": "__SHOPPING_ADMIN__",
+        "geolocation": null,
+        "intent_template": "The person in the video mentions that {description}. Can you take me to {description2}?",
+        "intent": "The person in the video mentions that the store started selling items at a certain date. Can you take me to the page where I can find the best selling item from the store's start up to the end of 2023 (make sure to set the period to day)?",
+        "intermediate_intent": "What date did the store start selling (in MM/DD/YY)?",
+        "video": "find_best_selling",
+        "instantiation_dict": {
+            "description": "the store started selling items at a certain date",
+            "description2": "the page where I can find the best selling item from the store's start up to the end of 2023 (make sure to set the period to day)"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "01/01/21 |OR| 1/1/21"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING_ADMIN__/admin/reports/report_sales/bestsellers/filter/cGVyaW9kX3R5cGU9ZGF5JmZyb209MDElMkYxJTJGMjAyMSZ0bz0xMiUyRjMxJTJGMjAyMyZzaG93X2VtcHR5X3Jvd3M9MA==/",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": false,
+        "audio_reasoning": true,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping_admin"
+        ],
+        "task_id": 0,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_admin_state.json",
+        "start_url": "__SHOPPING_ADMIN__",
+        "geolocation": null,
+        "intent_template": "The person in the video mentions that {description}. Can you take me to {description2}?",
+        "intent": "The person in the video mentions that the bestsellers tab is under a certain section in reports. Can you take me to the tab below the bestsellers tab in that section?",
+        "intermediate_intent": "What tab is below the bestsellers tab in that section?",
+        "video": "find_best_selling",
+        "instantiation_dict": {
+            "description": "the bestsellers tab is under a certain section in reports",
+            "description2": "the tab below the bestsellers tab in that section"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Low Stock"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING_ADMIN__/admin/reports/report_product/lowstock/",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping_admin"
+        ],
+        "task_id": 0,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_admin_state.json",
+        "start_url": "__SHOPPING_ADMIN__",
+        "geolocation": null,
+        "intent_template": "Can you {description}?",
+        "intent": "Can you search using the search term at the top of the search query column when the person in the video first goes to the search terms report?",
+        "intermediate_intent": "What search term was at the top of the search query column when the person in the video first goes to the search terms report?",
+        "video": "find_best_selling",
+        "instantiation_dict": {
+            "description": "search using the search term at the top of the search query column when the person in the video first goes to the search terms report"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "tanks"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING_ADMIN__/admin/search/term/report/filter/cXVlcnlfdGV4dD10YW5rcyZzdG9yZV9pZD0w/form_key/wTdxFzzlMSEh59KU/",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping_admin"
+        ],
+        "task_id": 0,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_admin_state.json",
+        "start_url": "__SHOPPING_ADMIN__",
+        "geolocation": null,
+        "intent_template": "Can you {description}?",
+        "intent": "Can you tell me how many total orders were made by Grace Nguyen in March 2023?",
+        "intermediate_intent": "What section of reports would the information be under?",
+        "video": "find_best_selling",
+        "instantiation_dict": {
+            "description": "tell me how many total orders were made by Grace Nguyen in March 2023"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Customers |OR| Order Total"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "4 |OR| four |OR| Four"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "overall_difficulty": "hard",
+        "visual_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping_admin"
+        ],
+        "task_id": 0,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_admin_state.json",
+        "start_url": "__SHOPPING_ADMIN__",
+        "geolocation": null,
+        "intent_template": "Can you {description}?",
+        "intent": "Can you search using the third search term from the top of the search query column when the person in the video first goes to the search terms report?",
+        "intermediate_intent": "What was the third search term from the top of the search query column when the person in the video first goes to the search terms report",
+        "video": "find_best_selling",
+        "instantiation_dict": {
+            "description": "search using the third search term from the top of the search query column when the person in the video first goes to the search terms report"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Antonia Racer Tank"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING_ADMIN__/admin/search/term/report/filter/cXVlcnlfdGV4dD1hbnRvbmlhK3JhY2VyK3Rhbmsmc3RvcmVfaWQ9MA==/form_key/wTdxFzzlMSEh59KU/",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+]
