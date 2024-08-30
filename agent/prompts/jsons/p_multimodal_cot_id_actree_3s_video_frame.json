@@ -25,7 +25,7 @@
       "observation",
       "previous_action"
     ],
-    "prompt_constructor": "MultimodalVideoCoTPromptConstructor",
+    "prompt_constructor": "VideoFramePromptConstructor",
     "answer_phrase": "In summary, the next action I will perform is",
     "action_splitter": "```"
   }

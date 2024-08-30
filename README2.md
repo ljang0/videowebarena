@@ -1,1 +1,0 @@
-install https://github.com/openai/whisper
