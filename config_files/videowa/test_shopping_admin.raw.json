@@ -33,7 +33,7 @@
         },
         "eval": {
             "eval_types": [
-                "string_match"
+                "url_match"
             ],
             "reference_answers": null,
             "reference_url": "__SHOPPING_ADMIN__/admin/reports/report_sales/bestsellers/filter/cGVyaW9kX3R5cGU9ZGF5JmZyb209MDElMkYxJTJGMjAyMSZ0bz0xMiUyRjMxJTJGMjAyMyZzaG93X2VtcHR5X3Jvd3M9MA==/",
@@ -82,7 +82,7 @@
         },
         "eval": {
             "eval_types": [
-                "string_match"
+                "url_match"
             ],
             "reference_answers": null,
             "reference_url": "__SHOPPING_ADMIN__/admin/reports/report_sales/bestsellers/filter/cGVyaW9kX3R5cGU9ZGF5JmZyb209MDElMkYxJTJGMjAyMSZ0bz0xMiUyRjMxJTJGMjAyMyZzaG93X2VtcHR5X3Jvd3M9MA==/",
@@ -131,7 +131,7 @@
         },
         "eval": {
             "eval_types": [
-                "string_match"
+                "url_match"
             ],
             "reference_answers": null,
             "reference_url": "__SHOPPING_ADMIN__/admin/reports/report_sales/bestsellers/filter/cGVyaW9kX3R5cGU9ZGF5JmZyb209MDElMkYxJTJGMjAyMSZ0bz0xMiUyRjMxJTJGMjAyMyZzaG93X2VtcHR5X3Jvd3M9MA==/",
@@ -180,7 +180,7 @@
         },
         "eval": {
             "eval_types": [
-                "string_match"
+                "url_match"
             ],
             "reference_answers": null,
             "reference_url": "__SHOPPING_ADMIN__/admin/reports/report_product/lowstock/",
@@ -228,7 +228,7 @@
         },
         "eval": {
             "eval_types": [
-                "string_match"
+                "url_match"
             ],
             "reference_answers": null,
             "reference_url": "__SHOPPING_ADMIN__/admin/search/term/report/filter/cXVlcnlfdGV4dD10YW5rcyZzdG9yZV9pZD0w/form_key/wTdxFzzlMSEh59KU/",
@@ -307,7 +307,7 @@
         "geolocation": null,
         "intent_template": "Can you {description}?",
         "intent": "Can you search using the third search term from the top of the search query column when the person in the video first goes to the search terms report?",
-        "intermediate_intent": "What was the third search term from the top of the search query column when the person in the video first goes to the search terms report",
+        "intermediate_intent": "What was the third search term from the top of the search query column when the person in the video first goes to the search terms report?",
         "video": "find_best_selling",
         "instantiation_dict": {
             "description": "search using the third search term from the top of the search query column when the person in the video first goes to the search terms report"
@@ -329,7 +329,7 @@
         },
         "eval": {
             "eval_types": [
-                "string_match"
+                "url_match"
             ],
             "reference_answers": null,
             "reference_url": "__SHOPPING_ADMIN__/admin/search/term/report/filter/cXVlcnlfdGV4dD1hbnRvbmlhK3JhY2VyK3Rhbmsmc3RvcmVfaWQ9MA==/form_key/wTdxFzzlMSEh59KU/",
@@ -340,6 +340,532 @@
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping_admin"
+        ],
+        "task_id": 0,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_admin_state.json",
+        "start_url": "__SHOPPING_ADMIN__",
+        "geolocation": null,
+        "intent_template": "Can you {description}?",
+        "intent": "Can you traverse to the review details of the third review from the top when the person in the video first goes to All Reviews from the Marketing tab?",
+        "intermediate_intent": "What was the nickname of the customer for the third review from the top when the person in the video first goes to All Reviews from the Marketing tab?",
+        "video": "find_best_selling",
+        "instantiation_dict": {
+            "description": "search using the nickname of the third review from the top when the person in the video first goes to All Reviews from the Marketing tab"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "see_review_tutorials"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Emma"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING_ADMIN__/admin/review/product/edit/id/351/",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping_admin"
+        ],
+        "task_id": 0,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_admin_state.json",
+        "start_url": "__SHOPPING_ADMIN__",
+        "geolocation": null,
+        "intent_template": "Can you {description}?",
+        "intent": "Can you traverse to the review details of the second review from the top for all reviews made before or on April 20, 2023?",
+        "intermediate_intent": "What was the nickname of the customer for the second review from the top for all reviews made before or on April 20, 2023?",
+        "video": "see_reviews_tutorial",
+        "instantiation_dict": {
+            "description": "traverse to the review details of the second review from the top for all reviews made before or on April 20, 2023"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Emerald"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING_ADMIN__/admin/review/product/edit/id/334/",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping_admin"
+        ],
+        "task_id": 0,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_admin_state.json",
+        "start_url": "__SHOPPING_ADMIN__",
+        "geolocation": null,
+        "intent_template": "The person in the video {description}. Can you take me to {description2}?",
+        "intent": "The person in the video searches for reviews with the word \"good\" in it under the Review tab of All Reviews? Can you take me to the review details of the review at the top?",
+        "intermediate_intent": "The person in the video searches for reviews with the word good in it under the Review tab of All Reviews? What is the ID of the review at the top?",
+        "video": "see_reviews_tutorial",
+        "instantiation_dict": {
+            "description": "searches for reviews with the word good in it under the Review tab of All Reviews",
+            "description2": "the review details of the review at the top"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "138"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING_ADMIN__/admin/review/product/edit/id/334/",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping_admin"
+        ],
+        "task_id": 0,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_admin_state.json",
+        "start_url": "__SHOPPING_ADMIN__",
+        "geolocation": null,
+        "intent_template": "Take me to {description}.",
+        "intent": "Take me to the review details of the review at the top of the second page of all reviews that mention the term \"like\".",
+        "intermediate_intent": "What is the ID of the review at the top of the second page of all reviews that mention the term \"like\"?",
+        "video": "see_reviews_tutorial",
+        "instantiation_dict": {
+            "description": "the review details of the review at the top of the second page of all reviews that mention the term \"like\""
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "270"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING_ADMIN__/admin/review/product/edit/id/270/",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping_admin"
+        ],
+        "task_id": 0,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_admin_state.json",
+        "start_url": "__SHOPPING_ADMIN__",
+        "geolocation": null,
+        "intent_template": "Take me to {description}.",
+        "intent": "Take me to the review details of the review from Maisie on the Diva Gym Tee.",
+        "intermediate_intent": "What is the ID of the review from Maisie on the Diva Gym Tee?",
+        "video": "see_reviews_tutorial",
+        "instantiation_dict": {
+            "description": "the review details of the review from Maisie on the Diva Gym Tee"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "277"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING_ADMIN__/admin/review/product/edit/id/277/",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "hard",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping_admin"
+        ],
+        "task_id": 0,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_admin_state.json",
+        "start_url": "__SHOPPING_ADMIN__",
+        "geolocation": null,
+        "intent_template": "Take me to {description}?",
+        "intent": "Take me to the detailed page of the second most recent processing order.",
+        "intermediate_intent": "What is the ID of the second most recent processing order?",
+        "video": "sales_tutorial",
+        "instantiation_dict": {
+            "description": "the detailed page of the second most recent processing order"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "300 |OR| 000000300"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING_ADMIN__/admin/sales/order/view/order_id/300/",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping_admin"
+        ],
+        "task_id": 0,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_admin_state.json",
+        "start_url": "__SHOPPING_ADMIN__",
+        "geolocation": null,
+        "intent_template": "Take me to {description}?",
+        "intent": "Take me to the detailed page of the second most recent processing order.",
+        "intermediate_intent": "What is the ID of the second most recent processing order?",
+        "video": "sales_tutorial",
+        "instantiation_dict": {
+            "description": "the detailed page of the second most recent processing order"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "300 |OR| 000000300"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING_ADMIN__/admin/sales/order/view/order_id/300/",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping_admin"
+        ],
+        "task_id": 0,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_admin_state.json",
+        "start_url": "__SHOPPING_ADMIN__",
+        "geolocation": null,
+        "intent_template": "Take me to {description}?",
+        "intent": "Take me to the page where I can change the shipping address for the invoice with ID 1.",
+        "intermediate_intent": "What is the name of the customer for that invoice?",
+        "video": "sales_tutorial",
+        "instantiation_dict": {
+            "description": "the page where I can change the shipping address for the invoice with ID 1"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Veronica Costello"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING_ADMIN__/admin/sales/order/address/address_id/1/",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping_admin"
+        ],
+        "task_id": 0,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_admin_state.json",
+        "start_url": "__SHOPPING_ADMIN__",
+        "geolocation": null,
+        "intent_template": "Send a message to {description}?",
+        "intent": "Send a message to Grace Nguyen for her most recent processing order: \"Sorry we are out of stock, please reorder\".",
+        "intermediate_intent": "Take me to the detailed order page where I can send a message to Grace Nguyen for her most recent processing order.",
+        "video": "sales_tutorial",
+        "instantiation_dict": {
+            "description": "the detailed page of the second most recent processing order"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING_ADMIN__/admin/sales/order/view/order_id/300/",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ], 
+            "reference_answers": null, 
+            "reference_url": "", 
+            "program_html": [
+                {
+                    "url": "__SHOPPING_ADMIN__/sales/order/view/order_id/300/", 
+                    "locator": "document.querySelector(\"#order_history_block\").querySelector(\".note-list\").firstElementChild.querySelector(\".note-list-comment\").outerText", 
+                    "required_contents": {
+                        "exact_match": "Sorry we are out of stock, please reorder"
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping_admin"
+        ],
+        "task_id": 0,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_admin_state.json",
+        "start_url": "__SHOPPING_ADMIN__",
+        "geolocation": null,
+        "intent_template": "Take me to {description}?",
+        "intent": "Take me to the fourth most recent order details of the order with the same status as the last status the person in the video filtered with.",
+        "intermediate_intent": "What is the last status the person in the video filtered with?",
+        "video": "sales_tutorial",
+        "instantiation_dict": {
+            "description": "the fourth most recent order details of the order with the same status as the last status the person in the video filtered with"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Pending"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING_ADMIN__/admin/sales/order/view/order_id/307/",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "shopping_admin"
+        ],
+        "task_id": 0,
+        "require_login": true,
+        "storage_state": "./.auth/shopping_admin_state.json",
+        "start_url": "__SHOPPING_ADMIN__",
+        "geolocation": null,
+        "intent_template": "Take me to {description}?",
+        "intent": "Take me to the page where I can change the shipping address of the fourth most recent order details of the order with the same status as the last status the person in the video filtered with.",
+        "intermediate_intent": "Take me to the fourth most recent order details of the order with the same status as the last status the person in the video filtered with.",
+        "video": "sales_tutorial",
+        "instantiation_dict": {
+            "description": "the page where I can change the shipping address of the fourth most recent order details of the order with the same status as the last status the person in the video filtered with"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING_ADMIN__/admin/sales/order/view/order_id/307/",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__SHOPPING_ADMIN__/admin/sales/order/address/address_id/613/",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "hard",
+        "visual_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": true,
         "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 0
