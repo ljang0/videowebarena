@@ -1,0 +1,148 @@
+[
+    {
+        "sites": [
+          "map"
+        ],
+        "task_id": 0,
+        "require_login": false,
+        "storage_state": "./.auth/map_state.json",
+        "start_url": "__MAP__",
+        "geolocation": null,
+        "intent_template": "Is it faster to drive or bike to {locationA} from {locationB}?",
+        "instantiation_dict": {
+          "locationA": "University of Pittsburgh",
+          "locationB": "Carnegie Mellon University"
+        },
+        "intent": "Is it faster to drive or bike to University of Pittsburgh from Carnegie Mellon University?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "drive"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+          "map"
+        ],
+        "task_id": 1,
+        "require_login": false,
+        "storage_state": "./.auth/map_state.json",
+        "start_url": "__MAP__",
+        "geolocation": null,
+        "intent_template": "Is it faster to drive or bike to {locationA} from {locationB}?",
+        "instantiation_dict": {
+          "locationA": "Schenley Park",
+          "locationB": "Carnegie Mellon University"
+        },
+        "intent": "Is it faster to drive or bike to Schenley Park from Carnegie Mellon University?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "drive"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+          "map"
+        ],
+        "task_id": 2,
+        "require_login": false,
+        "storage_state": "./.auth/map_state.json",
+        "start_url": "__MAP__",
+        "geolocation": null,
+        "intent_template": "Compare the distance walking/driving from {locationA} to {locationB}",
+        "instantiation_dict": {
+          "locationA": "Gates Hillman Center",
+          "locationB": "Carnegie Library of Pittsburgh"
+        },
+        "intent": "Compare the distance walking/driving from Gates Hillman Center to Carnegie Library of Pittsburgh",
+        "require_reset": false,
+        "eval": {
+            "eval_types": ["string_match"],
+            "reference_answers": {
+                "fuzzy_match": ["driving: 1.4km", "walking: 1.2km"]},
+            "reference_url": "", 
+            "program_html": [], 
+            "string_note": "", 
+            "reference_answer_raw_annotation": "driving: 1.4km, walking: 1.2km."
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 1
+    },
+    {
+        "sites": [
+          "map"
+        ],
+        "task_id": 2,
+        "require_login": false,
+        "storage_state": "./.auth/map_state.json",
+        "start_url": "__MAP__",
+        "geolocation": null,
+        "intent_template": "What were the 3 locations that were used to find the optimal route in the video?",
+        "instantiation_dict": {
+        },
+        "intent": "What were the 3 locations that were used to find the optimal route in the video?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": ["string_match"],
+            "reference_answers": {
+                "must_include": [
+                    "Carnegie Mellon University",
+                    "University of Pittsburgh",
+                    "Schenley Park"
+                ]
+            },
+            "reference_url": "", 
+            "program_html": [], 
+            "string_note": "", 
+            "reference_answer_raw_annotation": "driving: 1.4km, walking: 1.2km."
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 1
+    }
+    
+]
