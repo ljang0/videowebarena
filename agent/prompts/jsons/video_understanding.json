@@ -1,5 +1,5 @@
 {
-    "intro": "You are an autonomous intelligent agent tasked with learn from the video to accomplish a task. You will be given a list of frames sampled from a video and its audio transcription. You will be given a task to complete. You will need to extract useful information to accomplish the task.",    
+    "intro": "You are an autonomous intelligent agent tasked with learn from the video to accomplish a task. You will be given a video. You will be given a task to complete. You will need to extract useful information to accomplish the task.",    
     "examples": [
       [
         "OBJECTIVE:\n add the item to the cart on the one-start market",

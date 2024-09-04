@@ -20,7 +20,6 @@ class VideoProcessor:
         sampled_frames = []
         fps = cap.get(cv2.CAP_PROP_FPS)
         total_num_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
-        print(fps, total_num_frames)
         if total_num_frames//fps > max_frame_num:
             interval = (total_num_frames + max_frame_num - 1) // max_frame_num  
         else:

@@ -13,7 +13,7 @@ import tempfile
 import time
 from pathlib import Path
 from typing import List
-
+import copy
 import openai
 import requests
 import torch
@@ -22,6 +22,7 @@ from PIL import Image
 from agent import (
     PromptAgent,
     construct_agent,
+    construct_intermediate_intent_agent
 )
 from agent.prompts import *
 from browser_env import (
@@ -179,6 +180,7 @@ def config() -> argparse.Namespace:
     parser.add_argument("--video_dir", type=str, default=None)
     parser.add_argument("--video_summary_instruction_path", type=str, default=None)
     parser.add_argument("--max_frame_num", type=int, default=5)
+    parser.add_argument("--intermediate_intent_instruction_path", type=str, default=None, help="if path is provided, intermidate intent eval will be conducted")
     args = parser.parse_args()
 
     # check the whether the action space is compatible with the observation space
@@ -259,6 +261,8 @@ def test(
     config_file_list: list[str]
 ) -> None:
     scores = []
+    intermediate_scores = []
+
     max_steps = args.max_steps
 
     early_stop_thresholds = {
@@ -307,6 +311,10 @@ def test(
         else None,
     )  # NOTE: captioning_fn here is used for captioning input images.
 
+    if args.intermediate_intent_instruction_path:
+        intermediate_intent_agent = construct_intermediate_intent_agent(args)
+    else:
+        intermediate_intent_agent = None
     env = ScriptBrowserEnv(
         headless=not args.render,
         slow_mo=args.slow_mo,
@@ -441,7 +449,23 @@ def test(
             page=env.page
         )
 
-        scores.append(score)
+
+        if intermediate_intent_agent:
+            intermediate_intent = intermediate_intent_agent.get_intermidiate_intent(args, config_file)
+            logger.info(f"[Intermidiate Intent]: {intermediate_intent}")
+            intermediate_evaluator = evaluator_router(
+                config_file, captioning_fn=eval_caption_image_fn, eval_key="intermediate_eval"
+            )
+            intermediate_score = intermediate_evaluator(
+            trajectory=intermediate_intent,
+            config_file=config_file,
+            page=env.page,
+            )
+            intermediate_scores.append(intermediate_score)
+            if intermediate_score == 1:
+                logger.info(f"[Intermediate Result] (PASS) {config_file}")
+            else:
+                logger.info(f"[Intermediate Result] (FAIL) {config_file}")
 
         if score == 1:
             logger.info(f"[Result] (PASS) {config_file}")
@@ -472,6 +496,8 @@ def test(
     env.close()
     if len(scores):
         logger.info(f"Average score: {sum(scores) / len(scores)}")
+    if len(intermediate_scores):
+        logger.info(f"Average intermediate score: {sum(intermediate_scores) / len(intermediate_scores)}")
 
 
 def prepare(args: argparse.Namespace) -> None:
