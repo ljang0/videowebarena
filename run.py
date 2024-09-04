@@ -343,6 +343,7 @@ def test(
             intent = _c["intent"]
             task_id = _c["task_id"]
             image_paths = _c.get("image", None)
+            intermediate_intent = _c.get("intermediate_intent", None)
             images = []
 
             # automatically login
@@ -451,13 +452,14 @@ def test(
 
 
         if intermediate_intent_agent:
-            intermediate_intent = intermediate_intent_agent.get_intermidiate_intent(args, config_file)
+            detected_intermediate_intent = intermediate_intent_agent.get_intermidiate_intent(args, config_file)
             logger.info(f"[Intermidiate Intent]: {intermediate_intent}")
+            logger.info(f"[Detected Intermidiate Intent]: {detected_intermediate_intent}")
             intermediate_evaluator = evaluator_router(
                 config_file, captioning_fn=eval_caption_image_fn, eval_key="intermediate_eval"
             )
             intermediate_score = intermediate_evaluator(
-            trajectory=intermediate_intent,
+            trajectory=detected_intermediate_intent,
             config_file=config_file,
             page=env.page,
             )
