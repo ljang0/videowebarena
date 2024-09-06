@@ -1,0 +1,25 @@
+{
+    "intro": "You are an autonomous intelligent agent that extracts information from videos. You will be given this video and a question. You need to answer the question based on the video provided.",    
+    "examples": [
+      [
+        "QUESTION:\n what is the first item that gets added to the cart on the one-start market",
+        "ANSWER: Briess DME - Pilsen Ligght - 1 lb Bag",
+        "agent/prompts/video_examples/add_to_cart.mov"
+
+    ]],
+    "template": "QUESTION:\n{objective}",
+    "meta_data": {
+      "keywords": [
+        "video",
+        "objective"
+      ],
+      "prompt_constructor": "VideoUnderstandingPromptConstructor",
+      "answer_phrase": "ANSWER:"
+    }
+  }
+
+
+
+
+
+

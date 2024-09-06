@@ -32,7 +32,7 @@ def main() -> None:
         print(f"REDDIT: {REDDIT}")
         print(f"SHOPPING: {SHOPPING}")
         inp_paths = [
-            "config_files/vwa/test_classifieds.raw.json", "config_files/vwa/test_shopping.raw.json", "config_files/vwa/test_reddit.raw.json", "config_files/vwa/presentation.raw.json"
+            "config_files/vwa/test_classifieds.raw.json", "config_files/vwa/test_shopping.raw.json", "config_files/vwa/test_reddit.raw.json"
         ]
         replace_map = {
             "__REDDIT__": REDDIT,
@@ -49,7 +49,7 @@ def main() -> None:
         print(f"GITLAB: {GITLAB}")
         print(f"MAP: {MAP}")
         inp_paths = [
-            "config_files/videowa/test_presentation.raw.json", "config_files/videowa/test_classifieds.raw.json", "config_files/videowa/test_shopping.raw.json", "config_files/videowa/test_reddit.raw.json",  "config_files/videowa/test_shopping_admin.raw.json",  "config_files/videowa/test_map.raw.json",  "config_files/videowa/test_gitlab_admin.raw.json",  "config_files/videowa/test_wikipedia_admin.raw.json"
+           "config_files/videowa/test_classifieds.raw.json", "config_files/videowa/test_shopping.raw.json", "config_files/videowa/test_reddit.raw.json", # "config_files/videowa/test_shopping_admin.raw.json",  "config_files/videowa/test_map.raw.json",  "config_files/videowa/test_gitlab_admin.raw.json",  "config_files/videowa/test_wikipedia_admin.raw.json"
         ]
         replace_map = {
             "__REDDIT__": REDDIT,

@@ -20,7 +20,7 @@
       "observation",
       "previous_action"
     ],
-    "prompt_constructor": "MultimodalVideoSummaryCoTPromptConstructor",
+    "prompt_constructor": "VideoSummaryPromptConstructor",
     "answer_phrase": "In summary, the next action I will perform is",
     "action_splitter": "```"
   }
