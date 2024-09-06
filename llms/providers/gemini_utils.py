@@ -70,6 +70,7 @@ def generate_from_gemini_completion(
     temperature: float,
     max_tokens: int,
     top_p: float,
+    stream: bool = False,
 ) -> str:
     model = GenerativeModel(engine)
     safety_config = {
@@ -88,8 +89,15 @@ def generate_from_gemini_completion(
             temperature=temperature,
         ),
         safety_settings=safety_config,
+        stream=stream
     )
-    answer = response.text
+    if stream:
+        answer = ""
+        for content in response:
+            print(content.text)
+            answer += content.text
+    else:
+        answer = response.text
     return answer
 
 
