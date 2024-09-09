@@ -1165,62 +1165,6 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 23,
-        "require_login": true,
-        "storage_state": "./.auth/gitlab_state.json",
-        "start_url": "__GITLAB__",
-        "geolocation": null,
-        "intent_template": "Open an issue with the title {title} in {{repo}}.",
-        "instantiation_dict": {
-            "repo": "the first repository visited in the video",
-            "title": "'had issues with merging'"
-        },
-        "video:": "issue_repo_tutorial",
-        "intent": "Open an issue with the title 'had issues with merging' in the first repository visited in the video.",
-        "intermediate_intent": "What was the name of the first repository visited in the video?",
-        "require_reset": false,
-        "intermediate_eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "must_include": [
-                    "a11yproject.com"
-                ]
-            }
-        },
-        "eval": {
-            "eval_types": [
-                "url_match",
-                "program_html"
-            ],
-            "reference_answers": null,
-            "reference_url": "__GITLAB__/a11yproject/a11yproject.com/-/issues",
-            "program_html": [
-                {
-                    "url": "last",
-                    "locator": "document.querySelector('.detail-page-description').outerText",
-                    "required_contents": {
-                        "must_include": [
-                            "had issues with merging"
-                        ]
-                    }
-                }
-            ],
-            "url_note": "GOLD in PRED"
-        },
-        "overall_difficulty": "hard",
-        "spatial_reasoning": true,
-        "audio_reasoning": false,
-        "multihop_reasoning": false,
-        "temporal_reasoning": true,
-        "comments": "",
-        "intent_template_id": 0
-    },
-    {
-        "sites": [
-            "gitlab"
-        ],
         "task_id": 24,
         "require_login": true,
         "storage_state": "./.auth/gitlab_state.json",
