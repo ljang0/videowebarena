@@ -1,0 +1,3742 @@
+[
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 0,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you star {description}?",
+        "intent": "Can you star the first repo the person in the video visited?",
+        "intermediate_intent": "What was the name of the first repo the person in the video visited?",
+        "video": "explore_star_tutorial",
+        "instantiation_dict": {
+            "description": "the first repo the person in the video visited"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "ffm-peg-python"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/users/byteblaze/starred",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "ffm-peg-python"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": false,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 1,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you star {description}?",
+        "intent": "Can you star all the repos the person in the video visited?",
+        "intermediate_intent": "What are the names of the all repos the person in the video visited?",
+        "video": "explore_star_tutorial",
+        "instantiation_dict": {
+            "description": "all the repos the person in the video visited"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "ffm-peg-python"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/users/byteblaze/starred",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "ffm-peg-python"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": false,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 2,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you follow {description}?",
+        "intent": "Can you follow all the users whose user page the person in the video visited?",
+        "intermediate_intent": "What are the names of all the users whose user page the person in the video visited?",
+        "video": "explore_star_tutorial",
+        "instantiation_dict": {
+            "description": "all the repos the person in the video visited"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Roshan Jossy |OR| @Roshanjossey",
+                    "Meta |OR| @facebook",
+                    "Karl Kroening |OR| @kkroening"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/users/byteblaze/following",
+                    "locator": "document.querySelector('.user-profile').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "@Roshanjossey",
+                            "@facebook",
+                            "@kkroening"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": false,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 3,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you follow {description}?",
+        "intent": "Can you follow the last two users whose user page the person in the video visited?",
+        "intermediate_intent": "What are the names of the last two users whose user page the person in the video visited?",
+        "video": "explore_star_tutorial",
+        "instantiation_dict": {
+            "description": "the last two users whose user page the person in the video visited"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Roshan Jossy |OR| @Roshanjossey",
+                    "Meta |OR| @facebook"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/users/byteblaze/following",
+                    "locator": "document.querySelector('.user-profile').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "@Roshanjossey",
+                            "@facebook"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": false,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 4,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "The person in the video says {description1}. Can you {description2}?",
+        "intent": "The person in the video says 'thank you' at a certain point in the video. Can you take me to the page they were on when they say this?",
+        "intermediate_intent": "What page was the person in the video on when they said 'thank you'?",
+        "video": "explore_star_tutorial",
+        "instantiation_dict": {
+            "description1": "'thank you' at a certain point in the video",
+            "description2": "take me to the page they were on when they say this"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Roshan Jossy |OR| @Roshanjossey"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/Roshanjossey",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 5,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you star {description}?",
+        "intent": "Can you star the repo in the video that had the most forks?",
+        "intermediate_intent": "What was the name of the repo in the video that had the most forks?",
+        "video": "explore_star_tutorial",
+        "instantiation_dict": {
+            "description": "the repo in the video that had the most forks"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "empathy-prompts"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/users/byteblaze/starred",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "empathy-prompts"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 6,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you star {description}?",
+        "intent": "Can you star the repo in the video that had the most merge requests?",
+        "intermediate_intent": "What was the name of the repo in the video that had the most merge requests?",
+        "video": "explore_star_tutorial",
+        "instantiation_dict": {
+            "description": "the repo in the video that had the most merge requests"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "create-react-app"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/users/byteblaze/starred",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "create-react-app"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 7,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you follow {description}?",
+        "intent": "Can you follow the author of the repo in the video that had the most merge requests?",
+        "intermediate_intent": "What was the name of author of the repo in the video that had the most merge requests?",
+        "video": "explore_star_tutorial",
+        "instantiation_dict": {
+            "description": "the author of the repo in the video that had the most merge requests"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Meta |OR| @facebook"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/users/byteblaze/following",
+                    "locator": "document.querySelector('.user-profile').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "@facebook"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 8,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you take me to {description}?",
+        "intent": "Can you take me the user page of the author of the repo in the video that had the most issues?",
+        "intermediate_intent": "What was the name of author of the repo in the video that had the most issues?",
+        "video": "explore_star_tutorial",
+        "instantiation_dict": {
+            "description": "the user page of the author of the repo in the video that had the most issues"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Keycloak |OR| @keycloak"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/keycloak",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 9,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you take me to {description}?",
+        "intent": "Can you take me to the repo in the video that had the most issues?",
+        "intermediate_intent": "What was the name the repo in the video that had the most issues?",
+        "video": "explore_star_tutorial",
+        "instantiation_dict": {
+            "description": "the repo in the video that had the most issues"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "keycloak"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/keycloak/keycloak",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 10,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you make a project named {description}?",
+        "intent": "Can you make a project named 'videowebarena' and invite the author of the repo in the video that had the most issues?",
+        "intermediate_intent": "What was the name of author of the repo in the video that had the most issues?",
+        "video": "explore_star_tutorial",
+        "instantiation_dict": {
+            "description": "'videowebarena' and invite the author of the repo in the video that had the most issues"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "keycloak"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/byteblaze/videowebarena/-/commits",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Initial commit"
+                        ]
+                    }
+                },
+                {
+                    "url": "__GITLAB__/byteblaze/awesome_web_agents/-/project_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@keycloak"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 11,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you take me to {description}?",
+        "intent": "Can you take me to the repo page for the repo whose issue, not assigned to the person in the video, had the most comments in the video?",
+        "intermediate_intent": "What was the name of the repo page for the repo whose issue, not assigned to the person in the video,  had the most comments in the video?",
+        "video": "issue_tutorial",
+        "instantiation_dict": {
+            "description": "the repo page for the repo whose issue, not assigned to the person in the video,  had the most comments in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "keycloak"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/http-party/node-http-proxy",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 12,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you take me to {description}?",
+        "intent": "Can you take me to the author page for the author of the repo whose issue, not assigned to the person in the video, had the most comments in the video?",
+        "intermediate_intent": "What was the name of the author of the repo whose issue, not assigned to the person in the video,  had the most comments in the video?",
+        "video": "issue_tutorial",
+        "instantiation_dict": {
+            "description": "the author page for the author of the repo whose issue, not assigned to the person in the video,  had the most comments in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "http ... PARTY! |OR| @http-party"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/http-party",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 13,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you take me to {description}?",
+        "intent": "Can you take me to the repo page for the repo whose issue had the most comments in the video?",
+        "intermediate_intent": "What was the name of the repo page for the repo whose issue had the most comments in the video?",
+        "video": "issue_tutorial",
+        "instantiation_dict": {
+            "description": "the repo page for the repo whose issue had the most comments in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "a11y-syntax-highlighting"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/byteblaze/a11y-syntax-highlighting",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 14,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you take me to {description}?",
+        "intent": "Can you take me to the author page for the author of the repo whose issue had the most comments in the video?",
+        "intermediate_intent": "What was the name of the author of the repo whose issue had the most comments in the video?",
+        "video": "issue_tutorial",
+        "instantiation_dict": {
+            "description": "the author page for the author of the repo whose issue had the most comments in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Byte Blaze |OR| @byteblaze "
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/byteblaze",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 15,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you assign the issue {description}?",
+        "intent": "Can you assign the issue with the most comments in the video to @earlev4?",
+        "intermediate_intent": "What was the name of the issue that had the most comments in the video?",
+        "video": "issue_tutorial",
+        "instantiation_dict": {
+            "description": "with the most comments in the video to @earlev4"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Tm Theme Editor"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/dashboard/issues?scope=all&state=opened&assignee_username=earlev4",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Tm Theme Editor"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 16,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "The person in the video says {description1}. Can you {description2}?",
+        "intent": "The person in the video says 'thank you' at a certain point in the video. Can you take me to the page they were on when they say this?",
+        "intermediate_intent": "What page was the person in the video on when they said 'thank you'?",
+        "video": "explore_star_tutorial",
+        "instantiation_dict": {
+            "description1": "'thank you' at a certain point in the video",
+            "description2": "take me to the page they were on when they say this"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "\new command"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/mathjax/MathJax/-/issues/43",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 17,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you assign the issue {description}?",
+        "intent": "Can you assign the issue with the critical priority label which showed up first in the video to @earlev4?",
+        "intermediate_intent": "What was the name of the issue with the critical priority label which showed up first in the video?",
+        "video": "issue_tutorial",
+        "instantiation_dict": {
+            "description": "with the critical priority label which showed up first in the video to @earlev4"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Outdated dependencies"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/dashboard/issues?scope=all&state=opened&assignee_username=earlev4",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Outdated dependencies"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 18,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "The person in the video says {description1}. Can you {description2}?",
+        "intent": "The person in the video says 'thank you' at a certain point in the video. Can you take me to the page they were on when they say this?",
+        "intermediate_intent": "What page was the person in the video on when they said 'thank you'?",
+        "video": "issue_repo_tutorial",
+        "instantiation_dict": {
+            "description1": "'thank you' at a certain point in the video",
+            "description2": "take me to the page they were on when they say this"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "empathy-prompts"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/byteblaze/empathy-prompts",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 19,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you assign the issue {description}?",
+        "intent": "Can you assign issue that is the oldest with the enhancement label in the video to @yjlou?",
+        "intermediate_intent": "What was the name of the oldest issue with the enhancement label in the video?",
+        "video": "issue_repo_tutorial",
+        "instantiation_dict": {
+            "description": "that is the oldest with the enhancement label in the video to @yjlou"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Article translations"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/dashboard/issues?scope=all&state=opened&assignee_username=yjlou",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Article translations"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 20,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you assign the issue {description}?",
+        "intent": "Can you assign the issue with the most comments in the video to @yjlou?",
+        "intermediate_intent": "What was the name of the issue that had the most comments in the video?",
+        "video": "issue_repo_tutorial",
+        "instantiation_dict": {
+            "description": "with the most comments in the video to @earlev4"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "List of Post Ideas"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/dashboard/issues?scope=all&state=opened&assignee_username=yjlou",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "List of Post Ideas"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 21,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Open an issue with the title {title} in {{repo}}.",
+        "instantiation_dict": {
+            "repo": "the last repository visited in the video",
+            "title": "'had issues with cloning'"
+        },
+        "video:": "issue_repo_tutorial",
+        "intent": "Open an issue with the title 'had issues with cloning' in the last repository visited in the video.",
+        "intermediate_intent": "What was the name of the last repository visited in the video?",
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "empathy-prompts"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match",
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/byteblaze/empathy-prompts/-/issues",
+            "program_html": [
+                {
+                    "url": "last",
+                    "locator": "document.querySelector('.detail-page-description').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "had issues with cloning"
+                        ]
+                    }
+                }
+            ],
+            "url_note": "GOLD in PRED"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 22,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Open an issue with the title {title} in {{repo}}.",
+        "instantiation_dict": {
+            "repo": "the first repository visited in the video",
+            "title": "'had issues with merging'"
+        },
+        "video:": "issue_repo_tutorial",
+        "intent": "Open an issue with the title 'had issues with merging' in the first repository visited in the video.",
+        "intermediate_intent": "What was the name of the first repository visited in the video?",
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "a11yproject.com"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match",
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/a11yproject/a11yproject.com/-/issues",
+            "program_html": [
+                {
+                    "url": "last",
+                    "locator": "document.querySelector('.detail-page-description').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "had issues with merging"
+                        ]
+                    }
+                }
+            ],
+            "url_note": "GOLD in PRED"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 23,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Open an issue with the title {title} in {{repo}}.",
+        "instantiation_dict": {
+            "repo": "the first repository visited in the video",
+            "title": "'had issues with merging'"
+        },
+        "video:": "issue_repo_tutorial",
+        "intent": "Open an issue with the title 'had issues with merging' in the first repository visited in the video.",
+        "intermediate_intent": "What was the name of the first repository visited in the video?",
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "a11yproject.com"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match",
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/a11yproject/a11yproject.com/-/issues",
+            "program_html": [
+                {
+                    "url": "last",
+                    "locator": "document.querySelector('.detail-page-description').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "had issues with merging"
+                        ]
+                    }
+                }
+            ],
+            "url_note": "GOLD in PRED"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 24,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Create a milestone with the title {title} and dates {dates} in {{repo}}.",
+        "instantiation_dict": {
+            "repo": "the repository with the most merge requests in the video",
+            "title": "'want to submit to conference'",
+            "dates": "starting on January 1st 2023 to September 1st 2024"
+        },
+        "video:": "issue_repo_tutorial",
+        "intent": "Create a milestone with the title 'want to submit to conference' and dates starting on January 1st 2023 to September 1st 2024 in the repository with the most merge requests in the video.",
+        "intermediate_intent": "What was the name of the repository with the most merge requests in the video?",
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "design"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match",
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/primer/design/-/milestones",
+            "program_html": [
+                {
+                    "url": "last",
+                    "locator": "document.querySelector(\"#content-body\").outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "want to submit to conference"
+                        ]
+                    }
+                },
+                {
+                    "url": "last",
+                    "locator": "document.querySelector('.block.start_date').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "Sep 1, 2024"
+                        ]
+                    }
+                },
+                {
+                    "url": "last",
+                    "locator": "document.querySelector('.block.due_date').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "Jan 1, 2023"
+                        ]
+                    }
+                }
+            ],
+            "url_note": "GOLD in PRED"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 25,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "The person in the video says {description1}. Can you {description2}?",
+        "intent": "The person in the video says 'thank you' at a certain point in the video. Can you take me to the page they were on when they say this?",
+        "intermediate_intent": "What page was the person in the video on when they said 'thank you'?",
+        "video": "repo_attributes",
+        "instantiation_dict": {
+            "description1": "'thank you' at a certain point in the video",
+            "description2": "take me to the page they were on when they say this"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Projects"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 26,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you take me to {description}?",
+        "intent": "Can you take me to the user page of the user who had the most commits in the first repo?",
+        "intermediate_intent": "What was the name of the user who had the most commits in the first repo?",
+        "video": "repo_attribute",
+        "instantiation_dict": {
+            "description": "the user page of the author of the repo in the video that had the most issues"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "William Cheng"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/wing328",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 27,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you take me to {description}?",
+        "intent": "Can you take me to the user page of the user who had the most commits across all repos in the video?",
+        "intermediate_intent": "What was the name of the user who had the most commits across all repos in the video?",
+        "video": "repo_attribute",
+        "instantiation_dict": {
+            "description": "the user page of the author of the repo in the video that had the most issues"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "William Cheng"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/wing328",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 28,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you invite {description}?",
+        "intent": "Can you invite the user who had the most commits across all repos in the video to a11y-syntax-highlighting?",
+        "intermediate_intent": "What was the name of the user who had the most commits across all repos in the video?",
+        "video": "repo_attribute",
+        "instantiation_dict": {
+            "description": "the user who had the most commits across all repos in the video to a11y-syntax-highlighting"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "William Cheng"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/byteblaze/a11y-syntax-highlighting/-/project_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@wing328"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 29,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you invite {description}?",
+        "intent": "Can you invite all the users as guest role who had at least 90 commits in the first repo in the video to a11y-syntax-highlighting?",
+        "intermediate_intent": "What was the name of the users who had at least 90 commits in the first repo in the video?",
+        "video": "repo_attribute",
+        "instantiation_dict": {
+            "description": "all the users as guest role who had at least 90 commits in the first repo in the video to a11y-syntax-highlighting"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "William Cheng",
+                    "Peter Leibiger",
+                    "Jim Schubert"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/byteblaze/a11y-syntax-highlighting/-/project_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@kuhnroyal",
+                            "@wing328",
+                            "@jimschubert"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 30,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you assign the issue {description}?",
+        "intent": "Can you assign the issue that is the most recent and open to the author of the first repo in the video?",
+        "intermediate_intent": "What was the name of the author of the first repo in the video?",
+        "video": "issue_tutorial",
+        "instantiation_dict": {
+            "description": "that is the most recent and open to the author of the first repo in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "OpenAPI Tools |OR| @OpenAPITools"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/dashboard/issues?scope=all&state=opened&assignee_username=OpenAPITools",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "[Feature suggestion] Support linking to an accessibility statement"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 31,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you assign the merge request {description}?",
+        "intent": "Can you assign the merge request that was above the first one the person in the video clicked to Dave Greene?",
+        "intermediate_intent": "What was the name of the merge request that was above the first one the person in the video clicked?",
+        "video": "merge_request",
+        "instantiation_dict": {
+            "description": "that was above the first one the person in the video clicked to Dave Greene"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Add verification functions"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match",
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/byteblaze/a11y-webring.club/-/merge_requests",
+            "program_html": [
+                {
+                    "url": "last",
+                    "locator": "document.querySelector('.block.reviewer').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "Dave Greene"
+                        ]
+                    }
+                }
+            ],
+            "url_note": "GOLD in PRED"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 32,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you assign the merge request {description}?",
+        "intent": "Can you assign the merge request that was below the first one the person in the video clicked to Dave Greene?",
+        "intermediate_intent": "What was the name of the merge request that was below the first one the person in the video clicked?",
+        "video": "merge_request",
+        "instantiation_dict": {
+            "description": "that was above the first one the person in the video clicked to Dave Greene"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "feat: add WCAG levels"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match",
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/a11yproject/a11yproject.com/-/merge_requests",
+            "program_html": [
+                {
+                    "url": "last",
+                    "locator": "document.querySelector('.block.reviewer').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "Agustina Chaer"
+                        ]
+                    }
+                }
+            ],
+            "url_note": "GOLD in PRED"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 33,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "The person in the video says {description1}. Can you {description2}?",
+        "intent": "The person in the video says 'thank you' at a certain point in the video. Can you take me to the page they were on when they say this?",
+        "intermediate_intent": "What page was the person in the video on when they said 'thank you'?",
+        "video": "merge_request",
+        "instantiation_dict": {
+            "description1": "'thank you' at a certain point in the video",
+            "description2": "take me to the page they were on when they say this"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Security Configuration"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/a11yproject/a11yproject.com/-/security/configuration",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 34,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you take me to {description}?",
+        "intent": "Can you take me to the merge request that had the most comments in the video?",
+        "intermediate_intent": "What was the name of the merge request that had the most comments in the video?",
+        "video": "merge_request",
+        "instantiation_dict": {
+            "description": "the merge request that had the most comments in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "How to: Article how to make an accessible nav with dropdowns"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/a11yproject/a11yproject.com/-/merge_requests/1472",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 35,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you take me to {description}?",
+        "intent": "Can you take me to the merge request that had 9 comments in the video?",
+        "intermediate_intent": "What was the name of the merge request that had 9 comments in the video?",
+        "video": "merge_request",
+        "instantiation_dict": {
+            "description": "the merge request that had 9 comments in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Restructure checklist data"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/a11yproject/a11yproject.com/-/merge_requests/1268",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 36,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you comment {description}?",
+        "intent": "Can you comment 'can we refactor this' on the merge request that had 9 comments in the video?",
+        "intermediate_intent": "What was the name of the merge request that had 9 comments in the video?",
+        "video": "merge_request",
+        "instantiation_dict": {
+            "description": "the merge request that had 9 comments in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Restructure checklist data"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/a11yproject/a11yproject.com/-/merge_requests/1268",
+                    "locator": "document.querySelector('[id=\"notes-list\"').lastElementChild.querySelector('.timeline-discussion-body').outerText",
+                    "required_contents": {
+                        "exact_match": "can we refactor this"
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 37,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "The person in the video says {description1}. Can you {description2}?",
+        "intent": "The person in the video says 'oops' at a certain point in the video. Can you take me to the page they were on when they say this?",
+        "intermediate_intent": "What page was the person in the video on when they said 'oops'?",
+        "video": "merge_request",
+        "instantiation_dict": {
+            "description1": "'oops' at a certain point in the video",
+            "description2": "take me to the page they were on when they say this"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "404 |OR| Jossy"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/a11yproject/a11yproject.com/-/merge_requests/1485",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 38,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "The person in the video says {description1}. Can you {description2}?",
+        "intent": "The person in the video says 'thank you' at a certain point in the video. Can you take me to the page they were on when they say this?",
+        "intermediate_intent": "What page was the person in the video on when they said 'thank you'?",
+        "video": "edit_personal",
+        "instantiation_dict": {
+            "description1": "'thank you' at a certain point in the video",
+            "description2": "take me to the page they were on when they say this"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Byte Blaze |OR| profile"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/byteblaze",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 39,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you change the status update {description}?",
+        "intent": "Can you change the status update to reflect the first status update that was in the video?",
+        "intermediate_intent": "What was the first status update made in the video?",
+        "video": "merge_request",
+        "instantiation_dict": {
+            "description": "to reflect the first status update that was in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "I'm hungry"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/byteblaze",
+                    "locator": "document.querySelector('.cover-status').lastChild.textContent",
+                    "required_contents": {
+                        "exact_match": "I'm hungry"
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 40,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you change the status update {description}?",
+        "intent": "Can you change the status update to reflect the second status update that was in the video?",
+        "intermediate_intent": "What was the second status update made in the video?",
+        "video": "merge_request",
+        "instantiation_dict": {
+            "description": "to reflect the second status update that was in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "I'm not hungry anymore"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/byteblaze",
+                    "locator": "document.querySelector('.cover-status').lastChild.textContent",
+                    "required_contents": {
+                        "exact_match": "I'm not hungry anymore"
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 41,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you change my profile website {description}?",
+        "intent": "Can you change my profile website to the first website profile in the video?",
+        "intermediate_intent": "What was the address of the first website profile in the video?",
+        "video": "merge_request",
+        "instantiation_dict": {
+            "description": "to the first website profile in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "https://www.microsoft.com/en-us"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/byteblaze",
+                    "locator": "document.querySelector('.profile-header [itemprop=\"url\"]').outerText",
+                    "required_contents": {
+                        "exact_match": "https://www.microsoft.com/en-us"
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 42,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you change my profile website {description}?",
+        "intent": "Can you change my profile website to the second website profile in the video?",
+        "intermediate_intent": "What was the address of the second website profile in the video?",
+        "video": "merge_request",
+        "instantiation_dict": {
+            "description": "to the second website profile in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "https://www.cmu.edu/"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/byteblaze",
+                    "locator": "document.querySelector('.profile-header [itemprop=\"url\"]').outerText",
+                    "required_contents": {
+                        "exact_match": "https://www.cmu.edu/"
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 43,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you change my profile website {description}?",
+        "intent": "Can you change my profile website to the page the user in the video was on right before going to the RSS token?",
+        "intermediate_intent": "What was the page the user in the video was on right before going to the RSS token?",
+        "video": "merge_request",
+        "instantiation_dict": {
+            "description": "to the page the user in the video was on right before going to the RSS token"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Profile"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/byteblaze",
+                    "locator": "document.querySelector('.profile-header [itemprop=\"url\"]').outerText",
+                    "required_contents": {
+                        "exact_match": "__GITLAB__/-/profile"
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 44,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "The person in the video says {description1}. Can you {description2}?",
+        "intent": "The person in the video says 'thank you' at a certain point in the video. Can you take me to the page they were on when they say this?",
+        "intermediate_intent": "What page was the person in the video on when they said 'thank you'?",
+        "video": "create_group",
+        "instantiation_dict": {
+            "description1": "'thank you' at a certain point in the video",
+            "description2": "take me to the page they were on when they say this"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Oliver"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/antikalk",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 45,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you create a group {description}",
+        "intent": "Can you create a group called 'videowebarena' and add all the users that were added in the video?",
+        "intermediate_intent": "What were the @s of all the users added to the group in the video?",
+        "video": "create_group",
+        "instantiation_dict": {
+            "description1": "called 'videowebarena' and add all the users that were added in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "@alexandergitter",
+                    "@alexrobomind",
+                    "@samdark",
+                    "@antikalk",
+                    "@hartkopp",
+                    "@OliverwengFiltered"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/groups/videowebarena/-/group_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@alexandergitter",
+                            "@alexrobomind",
+                            "@samdark",
+                            "@antikalk",
+                            "@hartkopp",
+                            "@OliverwengFiltered"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 46,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you create a group {description}",
+        "intent": "Can you create a group called 'videowebarena' and add the first group of users that were added in the video?",
+        "intermediate_intent": "What were the @s of the first group of users added to the group in the video?",
+        "video": "create_group",
+        "instantiation_dict": {
+            "description1": "called 'videowebarena1' and add the first group of users that were added in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "@alexandergitter",
+                    "@alexrobomind",
+                    "@samdark"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/groups/videowebarena1/-/group_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@alexandergitter",
+                            "@alexrobomind",
+                            "@samdark"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 47,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you create a group {description}",
+        "intent": "Can you create a group called 'videowebarena' and add the second group of users that were added in the video?",
+        "intermediate_intent": "What were the @s of the second group of users added to the group in the video?",
+        "video": "create_group",
+        "instantiation_dict": {
+            "description1": "called 'videowebarena1' and add the second group of users that were added in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "@antikalk",
+                    "@hartkopp",
+                    "@OliverwengFiltered"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/groups/videowebarena1/-/group_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@antikalk",
+                            "@hartkopp",
+                            "@OliverwengFiltered"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 48,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you take me to {description}?",
+        "intent": "Can you take me to the profile page of the first person added to the group in the video?",
+        "intermediate_intent": "What was the @ of the first person added to the group in the video?",
+        "video": "create_group",
+        "instantiation_dict": {
+            "description": "the profile page of the first person added to the group in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "@antikalk"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/antikalk",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 49,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you take me to {description}?",
+        "intent": "Can you take me to the profile page of the second person added to the group in the video?",
+        "intermediate_intent": "What was the @ of the second person added to the group in the video?",
+        "video": "create_group",
+        "instantiation_dict": {
+            "description": "the profile page of the second person added to the group in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "@OliverwengFiltered"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/OliverwengFiltered",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 50,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you take me to {description}?",
+        "intent": "Can you take me to the profile page of the third person added to the group in the video?",
+        "intermediate_intent": "What was the @ of the third person added to the group in the video?",
+        "video": "create_group",
+        "instantiation_dict": {
+            "description": "the profile page of the third person added to the group in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "@hartkopp"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/hartkopp",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 51,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you take me to {description}?",
+        "intent": "Can you take me to the profile page of the fourth person added to the group in the video?",
+        "intermediate_intent": "What was the @ of the fourth person added to the group in the video?",
+        "video": "create_group",
+        "instantiation_dict": {
+            "description": "the profile page of the fourth person added to the group in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "@alexandergitter"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/alexandergitter",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 52,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you take me to {description}?",
+        "intent": "Can you take me to the profile page of the fifth person added to the group in the video?",
+        "intermediate_intent": "What was the @ of the fifth person added to the group in the video?",
+        "video": "create_group",
+        "instantiation_dict": {
+            "description": "the profile page of the fifth person added to the group in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "@samdark"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/samdark",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 53,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you take me to {description}?",
+        "intent": "Can you take me to the profile page of the last person added to the group in the video?",
+        "intermediate_intent": "What was the @ of the last person added to the group in the video?",
+        "video": "create_group",
+        "instantiation_dict": {
+            "description": "the profile page of the last person added to the group in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "@alexrobomind"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/alexrobomind",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 54,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you take me to {description}?",
+        "intent": "Can you take me to the repository that was directly above the one the person in the video clicked on?",
+        "intermediate_intent": "What was the name of the repository that was directly above the one the person in the video clicked on?",
+        "video": "edit_project",
+        "instantiation_dict": {
+            "description": "the repository that was directly above the one the person in the video clicked on"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "ericwbailey.website"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/byteblaze/ericwbailey.website",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 55,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you take me to {description}?",
+        "intent": "Can you take me to the profile page of the first person added to the repo in the video?",
+        "intermediate_intent": "What was the @ of the first person added to the repo in the video?",
+        "video": "edit_project",
+        "instantiation_dict": {
+            "description": "the profile page of the first person added to the repo in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "@lovexj88"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/lovexj88",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 56,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you take me to {description}?",
+        "intent": "Can you take me to the profile page of the second person added to the repo in the video?",
+        "intermediate_intent": "What was the @ of the second person added to the repo in the video?",
+        "video": "edit_project",
+        "instantiation_dict": {
+            "description": "the profile page of the second person added to the repo in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "@MrMerkin"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/MrMerkin",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 57,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you take me to {description}?",
+        "intent": "Can you take me to the profile page of the third person added to the repo in the video?",
+        "intermediate_intent": "What was the @ of the third person added to the repo in the video?",
+        "video": "edit_project",
+        "instantiation_dict": {
+            "description": "the profile page of the third person added to the repo in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "@nimbius"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/nimbius",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 58,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Open an issue with the title {title} in {repo}, and assign it to {person}.",
+        "instantiation_dict": {
+            "repo": "the last repository visited in the video",
+            "title": "'had issues with cloning'"
+        },
+        "video:": "issue_repo_tutorial",
+        "intent": "Open an issue with the title 'need some literature' in the repository visited in the video, and assign it to the first person added to the repo in the video.",
+        "intermediate_intent": "What was the @ of the first person added to the repo in the video?",
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "@lovexj88"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match",
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/byteblaze/gimmiethat.space/-/issues",
+            "program_html": [
+                {
+                    "url": "last",
+                    "locator": "document.querySelector('.detail-page-description').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "need some literature"
+                        ]
+                    }
+                },
+                {
+                    "url": "__GITLAB__/dashboard/issues?scope=all&state=opened&assignee_username=lovexj88",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "need some literature"
+                        ]
+                    }
+                }
+            ],
+            "url_note": "GOLD in PRED"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 59,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Create a project {description}.",
+        "instantiation_dict": {
+            "description": "named 'repo_duplicate' using the same template as the person in the video"
+        },
+        "video:": "project_tutorial",
+        "intent": "Create a project named 'repo_duplicate' using the same template as the person in the video.",
+        "intermediate_intent": "What template did the person in the video use?",
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Pages/Plain HTML"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/byteblaze/web_agent_index",
+                    "locator": "document.querySelector('.home-panel-description-markdown').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "Example plain HTML site using GitLab Pages: https://pages.gitlab.io/plain-html |OR| A plain HTML site that uses Netlify for CI/CD instead of GitLab, but still with all the other great GitLab features."
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 60,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Change the license {description}.",
+        "instantiation_dict": {
+            "description": "of the first repo in the video to GNU General Public License v3.0"
+        },
+        "video:": "project_tutorial",
+        "intent": "Change the license of the first repo in the video to GNU General Public License v3.0.",
+        "intermediate_intent": "What was the name of the first repo in the video?",
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "a11y-syntax-highlighting"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/byteblaze/a11y-syntax-highlighting/-/blob/main/LICENSE",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "GNU General Public License v3.0"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 61,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "The person in the video says {description1}. Can you {description2}?",
+        "intent": "The person in the video says 'thank you' at a certain point in the video. Can you take me to the page they were on when they say this?",
+        "intermediate_intent": "What page was the person in the video on when they said 'thank you'?",
+        "video": "project_tutorial",
+        "instantiation_dict": {
+            "description1": "'thank you' at a certain point in the video",
+            "description2": "take me to the page they were on when they say this"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Starred"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/dashboard/projects/starred",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 62,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Create a project {description}.",
+        "instantiation_dict": {
+            "description": "named 'first_duplicate' which is the same in content as the first repository made in the video"
+        },
+        "video:": "project_tutorial",
+        "intent": "Create a project named 'first_duplicate' which is the same in content as the first repository made in the video.",
+        "intermediate_intent": "What was the name of the first repo made in the video?",
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "test_repo_1"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/byteblaze/first_duplicate",
+                    "locator": "document.querySelector('.visibility-icon').getAttribute('title')",
+                    "required_contents": {
+                        "must_include": [
+                            "Private"
+                        ]
+                    }
+                },
+                {
+                    "url": "__GITLAB__/byteblaze/first_duplicate/-/commits",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Initial commit"
+                        ]
+                    }
+                },
+                {
+                    "url": "__GITLAB__/byteblaze/first_duplicate/-/project_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@joecam1673",
+                            "@jclee",
+                            "@jodoglevy"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 63,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Create a project {description}.",
+        "instantiation_dict": {
+            "description": "named 'second_duplicate' which is the same as the second repository made in the video"
+        },
+        "video:": "project_tutorial",
+        "intent": "Create a project named 'second_duplicate' which is the same as the second repository made in the video.",
+        "intermediate_intent": "What was the name of the second repo made in the video?",
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "test_repo_2"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/byteblaze/second_duplicate/-/commits",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Initial commit"
+                        ]
+                    }
+                },
+                {
+                    "url": "__GITLAB__/byteblaze/second_duplicate/-/blob/main/LICENSE",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "GNU General Public License v3.0"
+                        ]
+                    }
+                },
+                {
+                    "url": "__GITLAB__/byteblaze/second_duplicate",
+                    "locator": "document.querySelector('.home-panel-description-markdown').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "Example plain HTML site using GitLab Pages: https://pages.gitlab.io/plain-html |OR| A plain HTML site that uses Netlify for CI/CD instead of GitLab, but still with all the other great GitLab features."
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 64,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Create a project {description}.",
+        "instantiation_dict": {
+            "description": "named 'third_duplicate' which is the same in content as the first repository made in the video, but add an MIT License"
+        },
+        "video:": "project_tutorial",
+        "intent": "Create a project named 'third_duplicate' which is the same in content as the first repository made in the video, but add an MIT License.",
+        "intermediate_intent": "What was the name of the first repo made in the video?",
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "test_repo_1"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/byteblaze/third_duplicate",
+                    "locator": "document.querySelector('.visibility-icon').getAttribute('title')",
+                    "required_contents": {
+                        "must_include": [
+                            "Private"
+                        ]
+                    }
+                },
+                {
+                    "url": "__GITLAB__/byteblaze/third_duplicate/-/commits",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Initial commit"
+                        ]
+                    }
+                },
+                {
+                    "url": "__GITLAB__/byteblaze/third_duplicate/-/project_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@joecam1673",
+                            "@jclee",
+                            "@jodoglevy"
+                        ]
+                    }
+                },
+                {
+                    "url": "__GITLAB__/byteblaze/third_duplicate/-/blob/main/LICENSE",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "MIT license",
+                            "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software."
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 65,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Create a project {description}.",
+        "instantiation_dict": {
+            "description": "named 'fourth_duplicate' which is the same as the second repository made in the video, but with an MIT License"
+        },
+        "video:": "project_tutorial",
+        "intent": "Create a project named 'fourth_duplicate' which is the same as the second repository made in the video, but with an MIT License.",
+        "intermediate_intent": "What was the name of the second repo made in the video?",
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "test_repo_2"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/byteblaze/fourth_duplicate/-/commits",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Initial commit"
+                        ]
+                    }
+                },
+                {
+                    "url": "__GITLAB__/byteblaze/fourth_duplicate/-/blob/main/LICENSE",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "MIT license",
+                            "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software."
+                        ]
+                    }
+                },
+                {
+                    "url": "__GITLAB__/byteblaze/second_duplicate",
+                    "locator": "document.querySelector('.home-panel-description-markdown').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "Example plain HTML site using GitLab Pages: https://pages.gitlab.io/plain-html |OR| A plain HTML site that uses Netlify for CI/CD instead of GitLab, but still with all the other great GitLab features."
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 66,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Create a project {description}.",
+        "instantiation_dict": {
+            "description": "that is empty but with the same name as the one made in the video"
+        },
+        "video:": "project_wikipediareddit_tutorial",
+        "intent": "Create a project that is empty but with the same name as the one made in the video.",
+        "intermediate_intent": "What was the name of the repo made in the video?",
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "list_of_awesome_things"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/byteblaze/list_of_awesome_things/-/commits",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Initial commit"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 67,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Create a project {description}.",
+        "instantiation_dict": {
+            "description": "that is empty but with the same name as the one made in the video and an MIT license"
+        },
+        "video:": "project_wikipediareddit_tutorial",
+        "intent": "Create a project that is empty but with the same name as the one made in the video and an MIT License.",
+        "intermediate_intent": "What was the name of the repo made in the video?",
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "list_of_awesome_things"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/byteblaze/list_of_awesome_things/-/commits",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Initial commit"
+                        ]
+                    }
+                },
+                {
+                    "url": "__GITLAB__/byteblaze/list_of_awesome_things/-/blob/main/LICENSE",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "MIT license",
+                            "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software."
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 68,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Create a project {description}.",
+        "instantiation_dict": {
+            "description": "that includes the person searched on Wikipedia in README file, and with the same name as the one made in the video and an MIT License"
+        },
+        "video:": "project_wikipediareddit_tutorial",
+        "intent": "Create a project that includes the person searched on Wikipedia in README file, and with the same name as the one made in the video and an MIT License.",
+        "intermediate_intent": "What was the name of the repo made in the video and the person searched on Wikipedia?",
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "list_of_awesome_things",
+                    "Chris Evans"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/byteblaze/list_of_awesome_things/-/commits",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Initial commit"
+                        ]
+                    }
+                },
+                {
+                    "url": "__GITLAB__/byteblaze/list_of_awesome_things/-/blob/main/LICENSE",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "MIT license",
+                            "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software."
+                        ]
+                    }
+                },
+                {
+                    "url": "__GITLAB__/byteblaze/list_of_awesome_things/-/raw/main/README.md",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Chris Evans"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 69,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Create a project {description}.",
+        "instantiation_dict": {
+            "description": "that includes the city searched on Wikipedia in README file, and with the same name as the one made in the video and an MIT License"
+        },
+        "video:": "project_wikipediareddit_tutorial",
+        "intent": "Create a project that includes the city searched on Wikipedia in README file, and with the same name as the one made in the video and an MIT License.",
+        "intermediate_intent": "What was the name of the repo made in the video and the city searched on Wikipedia?",
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "list_of_awesome_things",
+                    "Boston"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/byteblaze/list_of_awesome_things/-/commits",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Initial commit"
+                        ]
+                    }
+                },
+                {
+                    "url": "__GITLAB__/byteblaze/list_of_awesome_things/-/blob/main/LICENSE",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "MIT license",
+                            "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software."
+                        ]
+                    }
+                },
+                {
+                    "url": "__GITLAB__/byteblaze/list_of_awesome_things/-/raw/main/README.md",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Boston"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 70,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Create a project {description}.",
+        "instantiation_dict": {
+            "description": "that includes the reddit post link copied in the video in README file, and with the same name as the one made in the video and an MIT License"
+        },
+        "video:": "project_wikipediareddit_tutorial",
+        "intent": "Create a project that includes the reddit post link copied in the video in README file, and with the same name as the one made in the video and an MIT License.",
+        "intermediate_intent": "What was the name of the repo made in the video and the reddit post that was copied?",
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "list_of_awesome_things",
+                    "[D] Turns out, Othello-GPT does have a world model."
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__GITLAB__/byteblaze/list_of_awesome_things/-/commits",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Initial commit"
+                        ]
+                    }
+                },
+                {
+                    "url": "__GITLAB__/byteblaze/list_of_awesome_things/-/blob/main/LICENSE",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "MIT license",
+                            "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software."
+                        ]
+                    }
+                },
+                {
+                    "url": "__GITLAB__/byteblaze/list_of_awesome_things/-/raw/main/README.md",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "__REDDIT__/f/MachineLearning/120470/d-turns-out-othello-gpt-does-have-a-world-model"
+                        ]
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    }
+]
