@@ -9,6 +9,8 @@
         "start_url": "__MAP__",
         "geolocation": null,
         "intent_template": "There was a stadium mentioned in the video. Can you return the distance to {location1} driving",
+        "intermediate_intent": "What is the stadium mentioned in the video?",
+        "video":"get_times",
         "instantiation_dict": {
           "location1": "Carnegie Mellon University"
         },
@@ -60,6 +62,8 @@
         "start_url": "__MAP__",
         "geolocation": null,
         "intent_template": "In the video, there were 4 states that were mentioned to be bordering Conneticut, which state's capital city is closest to {LocationA}?",
+        "intermediate_intent": "What are the 4 states mentioned in the video?",
+        "video": "get_border",
         "instantiation_dict": {
           "locationA": "Pittsburgh"
         },
@@ -118,6 +122,8 @@
           "locationB": "Carnegie Mellon University"
         },
         "intent": "To find the optimal route there were 3 locations mentioned in the video. Compare the distance walking/driving from each location pairwise, which ones are the closest by distance driving?",
+        "intermediate_intent": "What were the 3 locations mentioned in the video?",
+        "video":"multistop_total_time",
         "require_reset": false,
         "intermediate_eval": {
             "eval_types": [
@@ -172,6 +178,8 @@
             "location3": "University of Pittsburgh"
         },
         "intent": "Is going from the hotel mentioned in the video to Carnegie Mellon University faster or to University of Pittsburgh faster?",
+        "intermediate_intent": "What was the hotel mentioned in the video?",
+        "video": "get_times",
         "require_reset": false,
         "intermediate_eval": {
             "eval_types": [
@@ -220,6 +228,8 @@
         "instantiation_dict": {
         },
         "intent": "How long does it take to get from the first destination in the video to the second destination?",
+        "intermediate_intent": "What were the first and second destinations in the video?",
+        "video": "get_times",
         "require_reset": false,
         "intermediate_eval": {
             "eval_types": [
@@ -273,6 +283,8 @@
 
         },
         "intent": "Is going from the park mentioned in the video to Frick Park faster or to Point State Park faster?",
+        "intermediate_intent": "What was the park mentioned in the video?",
+        "video": "get_times",
         "require_reset": false,
         "intermediate_eval": {
             "eval_types": [
@@ -323,6 +335,8 @@
 
         },
         "intent": "The video mentioned a starting point to figure out the optimal route between 3 locations. What is the optimal route if we instead start from Point State Park?",
+        "intermediate_intent":"What were the 3 locations mentioned in the video?",
+        "video": "multistop_total_time",
         "require_reset": false,
         "intermediate_eval": {
             "eval_types": [
@@ -373,6 +387,8 @@
 
         },
         "intent": "The video mentioned a starting point to figure out the optimal route between 3 locations. What is the optimal route if we instead start from Carnegie Mellon University",
+        "intermediate_intent":"What was the starting point mentioned in the video?",
+        "video": "multistop_total_time",
         "require_reset": false,
         "intermediate_eval": {
             "eval_types": [
@@ -419,9 +435,10 @@
         "geolocation": null,
         "intent_template": "Recall in the video the states that border Conneticut. Can you list them in counterclockwise order starting from the east?",
         "instantiation_dict": {
-
         },
         "intent": "Recall in the video the states that border Conneticut. Can you list them in counterclockwise order starting from the east?",
+        "intermediate_intent":"What are the 4 states mentioned in the video?",
+        "video":"get_border",
         "require_reset": false,
         "intermediate_eval": {
             "eval_types": [
@@ -473,6 +490,8 @@
 
         },
         "intent": "Recall in the video the states that border Conneticut. Which state's capital is the closest to the capital of Conneticut?",
+        "intermediate_intent":"What are the 4 states mentioned in the video?",
+        "video":"get_border",
         "require_reset": false,
         "intermediate_eval": {
             "eval_types": [
@@ -524,6 +543,8 @@
 
         },
         "intent": "Recall the city that had the Empire State building. Return its zipcode.",
+        "intermediate_intent":"What was the city that had the Empire State building",
+        "video": "get_times",
         "require_reset": false,
         "intermediate_eval": {
             "eval_types": [
@@ -573,6 +594,8 @@
 
         },
         "intent": "Recall the national park in the video. Return the distance from the New York to the park.",
+        "intermediate_intent":"What was the national park mentioned in the video?",
+        "video": "get_times",
         "require_reset": false,
         "intermediate_eval": {
             "eval_types": [
@@ -621,7 +644,9 @@
         "instantiation_dict": {
             "location1":"Strip District"
         },
-        "intent": "",
+        "intent": "Recall the 3 locations used to determine the optimal route. Which location is closest to the Strip District",
+        "intermediate_intent": "What were the 3 locations mentioned in the video?",
+        "video":"multistop_total_time",
         "require_reset": false,
         "intermediate_eval": {
             "eval_types": [
@@ -663,15 +688,17 @@
         "sites": [
           "map"
         ],
-        "task_id": 14,
+        "task_id": 13,
         "require_login": false,
         "storage_state": "./.auth/map_state.json",
         "start_url": "__MAP__",
         "geolocation": null,
-        "intent_template": "Recall the state to the west of Conneticut. What is the distance between its capital and New York City",
+        "intent_template": "Recall the state to the west of Conneticut. What is the distance between its capital and New York City?",
         "instantiation_dict": {
         },
-        "intent": "",
+        "intent": "Recall the state to the west of Conneticut. What is the distance between its capital and New York City?",
+        "intermediate_intent": "What was the capital of the state to the west of Connecticut?",
+        "video": "get_border",
         "require_reset": false,
         "intermediate_eval": {
             "eval_types": [
@@ -707,5 +734,56 @@
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 11
+    },
+    {
+        "sites": [
+          "map"
+        ],
+        "task_id": 13,
+        "require_login": false,
+        "storage_state": "./.auth/map_state.json",
+        "start_url": "__MAP__",
+        "geolocation": null,
+        "intent_template": "Recall the state to the north of Conneticut. What is the distance between its capital and Philadelphia?",
+        "instantiation_dict": {
+        },
+        "intent": "Recall the state to the north of Conneticut. What is the distance between its capital and Philadelphia?",
+        "intermediate_intent": "What was the capital of the state to the north of Connecticut?",
+        "video": "get_border",
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Boston",
+                    "Massachusetts"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": ["string_match"],
+            "reference_answers": {
+                "must_include": [
+                    "494km"
+                  ]
+            },
+            "reference_url": "", 
+            "program_html": [], 
+            "string_note": "", 
+            "reference_answer_raw_annotation": ""
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 12
     }
 ]
