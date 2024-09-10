@@ -63,13 +63,14 @@ def retry_with_exponential_backoff(  # type: ignore
     return wrapper
 
 
-# @retry_with_exponential_backoff
+@retry_with_exponential_backoff
 def generate_from_gemini_completion(
     prompt: list[str | Image],
     engine: str,
     temperature: float,
     max_tokens: int,
     top_p: float,
+    stream: bool = False,
 ) -> str:
     model = GenerativeModel(engine)
     safety_config = {
@@ -88,8 +89,15 @@ def generate_from_gemini_completion(
             temperature=temperature,
         ),
         safety_settings=safety_config,
+        stream=stream
     )
-    answer = response.text
+    if stream:
+        answer = ""
+        for content in response:
+            print(content.text)
+            answer += content.text
+    else:
+        answer = response.text
     return answer
 
 
