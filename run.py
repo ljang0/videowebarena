@@ -332,166 +332,166 @@ def test(
     )
 
     for config_file in config_file_list:
-        # try:
-        render_helper = RenderHelper(
-            config_file, args.result_dir, args.action_set_tag
-        )
-
-        # Load task.
-        with open(config_file) as f:
-            _c = json.load(f)
-            intent = _c["intent"]
-            task_id = _c["task_id"]
-            image_paths = _c.get("image", None)
-            intermediate_intent = _c.get("intermediate_intent", None)
-            images = []
-
-            # automatically login
-            if _c["storage_state"]:
-                cookie_file_name = os.path.basename(_c["storage_state"])
-                comb = get_site_comb_from_filepath(cookie_file_name)
-                temp_dir = tempfile.mkdtemp()
-                # subprocess to renew the cookie
-                subprocess.run(
-                    [
-                        "python",
-                        "browser_env/auto_login.py",
-                        "--auth_folder",
-                        temp_dir,
-                        "--site_list",
-                        *comb,
-                    ]
-                )
-                _c["storage_state"] = f"{temp_dir}/{cookie_file_name}"
-                assert os.path.exists(_c["storage_state"])
-                # update the config file
-                config_file = f"{temp_dir}/{os.path.basename(config_file)}"
-                with open(config_file, "w") as f:
-                    json.dump(_c, f)
-
-            # Load input images for the task, if any.
-            if image_paths is not None:
-                if isinstance(image_paths, str):
-                    image_paths = [image_paths]
-                for image_path in image_paths:
-                    # Load image either from the web or from a local path.
-                    if image_path.startswith("http"):
-                        input_image = Image.open(requests.get(image_path, stream=True).raw)
-                    else:
-                        input_image = Image.open(image_path)
-
-                    images.append(input_image)
-
-        logger.info(f"[Config file]: {config_file}")
-        logger.info(f"[Intent]: {intent}")
-
-        agent.reset(config_file)
-        trajectory: Trajectory = []
-        obs, info = env.reset(options={"config_file": config_file})
-        state_info: StateInfo = {"observation": obs, "info": info}
-        trajectory.append(state_info)
-
-        meta_data = {"action_history": ["None"]}
-        while True:
-            # ipdb.set_trace()
-            early_stop_flag, stop_info = early_stop(
-                trajectory, max_steps, early_stop_thresholds
+        try:
+            render_helper = RenderHelper(
+                config_file, args.result_dir, args.action_set_tag
             )
 
-            if early_stop_flag:
-                action = create_stop_action(f"Early stop: {stop_info}")
-            else:
-                try:
-                    # ipdb.set_trace()
-                    action = agent.next_action(
-                        trajectory,
-                        intent,
-                        images=images,
-                        meta_data=meta_data,
+            # Load task.
+            with open(config_file) as f:
+                _c = json.load(f)
+                intent = _c["intent"]
+                task_id = _c["task_id"]
+                image_paths = _c.get("image", None)
+                intermediate_intent = _c.get("intermediate_intent", None)
+                images = []
+
+                # automatically login
+                if _c["storage_state"]:
+                    cookie_file_name = os.path.basename(_c["storage_state"])
+                    comb = get_site_comb_from_filepath(cookie_file_name)
+                    temp_dir = tempfile.mkdtemp()
+                    # subprocess to renew the cookie
+                    subprocess.run(
+                        [
+                            "python",
+                            "browser_env/auto_login.py",
+                            "--auth_folder",
+                            temp_dir,
+                            "--site_list",
+                            *comb,
+                        ]
                     )
-                except ValueError as e:
-                    # get the error message
-                    action = create_stop_action(f"ERROR: {str(e)}")
+                    _c["storage_state"] = f"{temp_dir}/{cookie_file_name}"
+                    assert os.path.exists(_c["storage_state"])
+                    # update the config file
+                    config_file = f"{temp_dir}/{os.path.basename(config_file)}"
+                    with open(config_file, "w") as f:
+                        json.dump(_c, f)
 
-            trajectory.append(action)
+                # Load input images for the task, if any.
+                if image_paths is not None:
+                    if isinstance(image_paths, str):
+                        image_paths = [image_paths]
+                    for image_path in image_paths:
+                        # Load image either from the web or from a local path.
+                        if image_path.startswith("http"):
+                            input_image = Image.open(requests.get(image_path, stream=True).raw)
+                        else:
+                            input_image = Image.open(image_path)
 
-            action_str = get_action_description(
-                action,
-                state_info["info"]["observation_metadata"],
-                action_set_tag=args.action_set_tag,
-                prompt_constructor=agent.prompt_constructor
-                if isinstance(agent, PromptAgent)
-                else None,
-            )
-            render_helper.render(
-                action, state_info, meta_data, args.render_screenshot
-            )
-            meta_data["action_history"].append(action_str)
+                        images.append(input_image)
 
-            if action["action_type"] == ActionTypes.STOP:
-                break
+            logger.info(f"[Config file]: {config_file}")
+            logger.info(f"[Intent]: {intent}")
 
-            obs, _, terminated, _, info = env.step(action)
-            state_info = {"observation": obs, "info": info}
+            agent.reset(config_file)
+            trajectory: Trajectory = []
+            obs, info = env.reset(options={"config_file": config_file})
+            state_info: StateInfo = {"observation": obs, "info": info}
             trajectory.append(state_info)
 
-            if terminated:
-                # add a action place holder
-                trajectory.append(create_stop_action(""))
-                break
+            meta_data = {"action_history": ["None"]}
+            while True:
+                # ipdb.set_trace()
+                early_stop_flag, stop_info = early_stop(
+                    trajectory, max_steps, early_stop_thresholds
+                )
 
-        # NOTE: eval_caption_image_fn is used for running eval_vqa functions.
-        evaluator = evaluator_router(
-            config_file, captioning_fn=eval_caption_image_fn
-        )
-        score = evaluator(
-            trajectory=trajectory,
-            config_file=config_file,
-            page=env.page
-        )
+                if early_stop_flag:
+                    action = create_stop_action(f"Early stop: {stop_info}")
+                else:
+                    try:
+                        # ipdb.set_trace()
+                        action = agent.next_action(
+                            trajectory,
+                            intent,
+                            images=images,
+                            meta_data=meta_data,
+                        )
+                    except ValueError as e:
+                        # get the error message
+                        action = create_stop_action(f"ERROR: {str(e)}")
 
+                trajectory.append(action)
 
-        if intermediate_intent_agent:
-            detected_intermediate_intent = intermediate_intent_agent.get_intermidiate_intent(args, config_file)
-            logger.info(f"[Intermidiate Intent]: {intermediate_intent}")
-            logger.info(f"[Detected Intermidiate Intent]: {detected_intermediate_intent}")
-            intermediate_evaluator = evaluator_router(
-                config_file, captioning_fn=eval_caption_image_fn, eval_key="intermediate_eval"
+                action_str = get_action_description(
+                    action,
+                    state_info["info"]["observation_metadata"],
+                    action_set_tag=args.action_set_tag,
+                    prompt_constructor=agent.prompt_constructor
+                    if isinstance(agent, PromptAgent)
+                    else None,
+                )
+                render_helper.render(
+                    action, state_info, meta_data, args.render_screenshot
+                )
+                meta_data["action_history"].append(action_str)
+
+                if action["action_type"] == ActionTypes.STOP:
+                    break
+
+                obs, _, terminated, _, info = env.step(action)
+                state_info = {"observation": obs, "info": info}
+                trajectory.append(state_info)
+
+                if terminated:
+                    # add a action place holder
+                    trajectory.append(create_stop_action(""))
+                    break
+
+            # NOTE: eval_caption_image_fn is used for running eval_vqa functions.
+            evaluator = evaluator_router(
+                config_file, captioning_fn=eval_caption_image_fn
             )
-            intermediate_score = intermediate_evaluator(
-            trajectory=detected_intermediate_intent,
-            config_file=config_file,
-            page=env.page,
+            score = evaluator(
+                trajectory=trajectory,
+                config_file=config_file,
+                page=env.page
             )
-            intermediate_scores.append(intermediate_score)
-            if intermediate_score == 1:
-                logger.info(f"[Intermediate Result] (PASS) {config_file}")
+
+
+            if intermediate_intent_agent:
+                detected_intermediate_intent = intermediate_intent_agent.get_intermidiate_intent(args, config_file)
+                logger.info(f"[Intermidiate Intent]: {intermediate_intent}")
+                logger.info(f"[Detected Intermidiate Intent]: {detected_intermediate_intent}")
+                intermediate_evaluator = evaluator_router(
+                    config_file, captioning_fn=eval_caption_image_fn, eval_key="intermediate_eval"
+                )
+                intermediate_score = intermediate_evaluator(
+                trajectory=detected_intermediate_intent,
+                config_file=config_file,
+                page=env.page,
+                )
+                intermediate_scores.append(intermediate_score)
+                if intermediate_score == 1:
+                    logger.info(f"[Intermediate Result] (PASS) {config_file}")
+                else:
+                    logger.info(f"[Intermediate Result] (FAIL) {config_file}")
+
+            if score == 1:
+                logger.info(f"[Result] (PASS) {config_file}")
             else:
-                logger.info(f"[Intermediate Result] (FAIL) {config_file}")
+                logger.info(f"[Result] (FAIL) {config_file}")
 
-        if score == 1:
-            logger.info(f"[Result] (PASS) {config_file}")
-        else:
-            logger.info(f"[Result] (FAIL) {config_file}")
+            if args.save_trace_enabled:
+                env.save_trace(
+                    Path(args.result_dir) / "traces" / f"{task_id}.zip"
+                )
+        except openai.OpenAIError as e:
+            logger.info(f"[OpenAI Error] {repr(e)}")
+            with open(Path(args.result_dir) / "error.txt", "a") as f:
+                f.write(f"[Config file]: {config_file}\n")
+                f.write(f"[Unhandled Error] {repr(e)}\n")
+                f.write(traceback.format_exc())  # write stack trace to file
+        except Exception as e:
+            logger.info(f"[Unhandled Error] {repr(e)}]")
+            import traceback
 
-        if args.save_trace_enabled:
-            env.save_trace(
-                Path(args.result_dir) / "traces" / f"{task_id}.zip"
-            )
-        # except openai.OpenAIError as e:
-        #     logger.info(f"[OpenAI Error] {repr(e)}")
-        #     with open(Path(args.result_dir) / "error.txt", "a") as f:
-        #         f.write(f"[Config file]: {config_file}\n")
-        #         f.write(f"[Unhandled Error] {repr(e)}\n")
-        #         f.write(traceback.format_exc())  # write stack trace to file
-        # except Exception as e:
-        #     logger.info(f"[Unhandled Error] {repr(e)}]")
-        #     import traceback
-
-        #     with open(Path(args.result_dir) / "error.txt", "a") as f:
-        #         f.write(f"[Config file]: {config_file}\n")
-        #         f.write(f"[Unhandled Error] {repr(e)}\n")
-        #         f.write(traceback.format_exc())  # write stack trace to file
+            with open(Path(args.result_dir) / "error.txt", "a") as f:
+                f.write(f"[Config file]: {config_file}\n")
+                f.write(f"[Unhandled Error] {repr(e)}\n")
+                f.write(traceback.format_exc())  # write stack trace to file
 
         render_helper.close()
 

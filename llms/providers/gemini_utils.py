@@ -63,7 +63,7 @@ def retry_with_exponential_backoff(  # type: ignore
     return wrapper
 
 
-# @retry_with_exponential_backoff
+@retry_with_exponential_backoff
 def generate_from_gemini_completion(
     prompt: list[str | Image],
     engine: str,
