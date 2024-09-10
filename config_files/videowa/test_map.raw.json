@@ -32,14 +32,10 @@
         },
         "eval": {
             "eval_types": [
-                "string_match"
+                "url_match"
             ],
-            "reference_answers": {
-                "must_include": [
-                    "8.4km"
-                ]
-            },
-            "reference_url": "",
+            "reference_answers": null,
+            "reference_url": "__MAP__/directions?engine=fossgis_osrm_car&route=40.447%2C-80.016%3B40.444%2C-79.943#map=14/40.4418/-79.9804",
             "program_html": [],
             "string_note": "",
             "reference_answer_raw_annotation": ""
@@ -61,8 +57,8 @@
         "storage_state": "./.auth/map_state.json",
         "start_url": "__MAP__",
         "geolocation": null,
-        "intent_template": "In the video, there were 4 states that were mentioned to be bordering Conneticut, which state's capital city is closest to {LocationA}?",
-        "intermediate_intent": "What are the 4 states mentioned in the video?",
+        "intent_template": "In the video, there were 3 states that bordered a state mentioned in the video, which state's capital city is closest to {LocationA}?",
+        "intermediate_intent": "What are the 3 states mentioned in the video?",
         "video": "get_border",
         "instantiation_dict": {
           "locationA": "Pittsburgh"
@@ -247,13 +243,9 @@
             "reference_answer_raw_annotation": ""
         },
         "eval": {
-            "eval_types": ["string_match"],
-            "reference_answers": {
-                "fuzzy_match": [
-                    "driving: 4hr 49min"
-                  ]
-            },
-            "reference_url": "", 
+            "eval_types": ["url_match"],
+            "reference_answers": null,
+            "reference_url": "__MAP__/directions?engine=fossgis_osrm_car&route=42.355%2C-71.061%3B40.713%2C-74.006#map=8/41.540/-72.532", 
             "program_html": [], 
             "string_note": "", 
             "reference_answer_raw_annotation": ""
@@ -433,11 +425,11 @@
         "storage_state": "./.auth/map_state.json",
         "start_url": "__MAP__",
         "geolocation": null,
-        "intent_template": "Recall in the video the states that border Conneticut. Can you list them in counterclockwise order starting from the east?",
+        "intent_template": "Recall the states that border the state mentioned in the video. Can you list them in counterclockwise order starting from the east?",
         "instantiation_dict": {
         },
         "intent": "Recall in the video the states that border Conneticut. Can you list them in counterclockwise order starting from the east?",
-        "intermediate_intent":"What are the 4 states mentioned in the video?",
+        "intermediate_intent":"What are the 3 states mentioned in the video?",
         "video":"get_border",
         "require_reset": false,
         "intermediate_eval": {
@@ -485,11 +477,11 @@
         "storage_state": "./.auth/map_state.json",
         "start_url": "__MAP__",
         "geolocation": null,
-        "intent_template": "Recall in the video the states that border Conneticut. Which state's capital is the closest to the capital of Conneticut?",
+        "intent_template": "Recall the states that border the state mentioned in the video. Which state's capital is the closest to the capital of Conneticut?",
         "instantiation_dict": {
 
         },
-        "intent": "Recall in the video the states that border Conneticut. Which state's capital is the closest to the capital of Conneticut?",
+        "intent": "Recall the states that border the state mentioned in the video. Which state's capital is the closest to the capital of Conneticut?",
         "intermediate_intent":"What are the 4 states mentioned in the video?",
         "video":"get_border",
         "require_reset": false,
@@ -538,12 +530,12 @@
         "storage_state": "./.auth/map_state.json",
         "start_url": "__MAP__",
         "geolocation": null,
-        "intent_template": "Recall the city that had the Empire State building. Return its zipcode.",
+        "intent_template": "Recall the second destination in the video. Return its zipcode.",
         "instantiation_dict": {
 
         },
-        "intent": "Recall the city that had the Empire State building. Return its zipcode.",
-        "intermediate_intent":"What was the city that had the Empire State building",
+        "intent": "Recall the second destination in the video. Return its zipcode.",
+        "intermediate_intent":"What was the second destination in the video?",
         "video": "get_times",
         "require_reset": false,
         "intermediate_eval": {
@@ -612,13 +604,9 @@
             "reference_answer_raw_annotation": ""
         },
         "eval": {
-            "eval_types": ["string_match"],
-            "reference_answers": {
-                "must_include": [
-                    "789km"
-                  ]
-            },
-            "reference_url": "", 
+            "eval_types": ["url_match"],
+            "reference_answers": null,
+            "reference_url": "__MAP__/directions?engine=fossgis_osrm_car&route=40.71273%2C-74.00602%3B44.35618%2C-68.23810#map=7/42.814/-71.118", 
             "program_html": [], 
             "string_note": "", 
             "reference_answer_raw_annotation": ""
@@ -693,11 +681,11 @@
         "storage_state": "./.auth/map_state.json",
         "start_url": "__MAP__",
         "geolocation": null,
-        "intent_template": "Recall the state to the west of Conneticut. What is the distance between its capital and New York City?",
+        "intent_template": "Recall the state to the west of the first state mentioned in the video. What is the distance between its capital and New York City?",
         "instantiation_dict": {
         },
-        "intent": "Recall the state to the west of Conneticut. What is the distance between its capital and New York City?",
-        "intermediate_intent": "What was the capital of the state to the west of Connecticut?",
+        "intent": "Recall the state to the west of the first state mentioned in the video. What is the distance between its capital and New York City?",
+        "intermediate_intent": "What was the first state mentioned in the video?",
         "video": "get_border",
         "require_reset": false,
         "intermediate_eval": {
@@ -716,13 +704,9 @@
             "reference_answer_raw_annotation": ""
         },
         "eval": {
-            "eval_types": ["string_match"],
-            "reference_answers": {
-                "must_include": [
-                    "240km"
-                  ]
-            },
-            "reference_url": "", 
+            "eval_types": ["url_match"],
+            "reference_answers": null,
+            "reference_url": "__MAP__/directions?engine=fossgis_osrm_car&route=42.651%2C-73.755%3B40.713%2C-74.006#map=8/41.689/-73.971", 
             "program_html": [], 
             "string_note": "", 
             "reference_answer_raw_annotation": ""
@@ -739,16 +723,16 @@
         "sites": [
           "map"
         ],
-        "task_id": 13,
+        "task_id": 14,
         "require_login": false,
         "storage_state": "./.auth/map_state.json",
         "start_url": "__MAP__",
         "geolocation": null,
-        "intent_template": "Recall the state to the north of Conneticut. What is the distance between its capital and Philadelphia?",
+        "intent_template": "Recall the state to the north of the first state mentioned in the video. What is the distance between its capital and Philadelphia?",
         "instantiation_dict": {
         },
-        "intent": "Recall the state to the north of Conneticut. What is the distance between its capital and Philadelphia?",
-        "intermediate_intent": "What was the capital of the state to the north of Connecticut?",
+        "intent": "Recall the state to the north of the first state mentioned in the video. What is the distance between its capital and Philadelphia?",
+        "intermediate_intent": "What was the capital of the state to the north of the first state mentioned in the video?",
         "video": "get_border",
         "require_reset": false,
         "intermediate_eval": {
@@ -767,13 +751,9 @@
             "reference_answer_raw_annotation": ""
         },
         "eval": {
-            "eval_types": ["string_match"],
-            "reference_answers": {
-                "must_include": [
-                    "494km"
-                  ]
-            },
-            "reference_url": "", 
+            "eval_types": ["url_match"],
+            "reference_answers": null,
+            "reference_url": "__MAP__/directions?engine=fossgis_osrm_car&route=42.3554%2C-71.0605%3B39.9527%2C-75.1635#map=8/41.158/-73.109", 
             "program_html": [], 
             "string_note": "", 
             "reference_answer_raw_annotation": ""
