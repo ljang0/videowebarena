@@ -158,9 +158,11 @@ agents/prompts/jsons/*
 media/*.mp4
 media/*.mov
 media/videoframes/*
+media/videowebarena*
 results/*
 log_files/*
 
 scripts/test_run.sh
 video_understanding/dev.ipynb
 result*
+

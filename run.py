@@ -18,6 +18,7 @@ import openai
 import requests
 import torch
 from PIL import Image
+import traceback
 
 from agent import (
     PromptAgent,
@@ -486,7 +487,6 @@ def test(
                 f.write(traceback.format_exc())  # write stack trace to file
         except Exception as e:
             logger.info(f"[Unhandled Error] {repr(e)}]")
-            import traceback
 
             with open(Path(args.result_dir) / "error.txt", "a") as f:
                 f.write(f"[Config file]: {config_file}\n")

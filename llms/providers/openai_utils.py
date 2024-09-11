@@ -248,7 +248,7 @@ async def agenerate_from_openai_chat_completion(
     return [x["choices"][0]["message"]["content"] for x in responses]
 
 
-@retry_with_exponential_backoff
+# @retry_with_exponential_backoff
 def generate_from_openai_chat_completion(
     messages: list[dict[str, str]],
     model: str,
