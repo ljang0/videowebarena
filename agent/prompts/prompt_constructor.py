@@ -281,7 +281,7 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
         tokenizer: Tokenizer,
     ):
         super().__init__(instruction_path, lm_config, tokenizer)
-
+        self.gpt_system_example_role = "user" if lm_config.provider == "openai" else "system"
     def construct(
         self,
         trajectory: Trajectory,
@@ -346,7 +346,7 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
                     example_img = Image.open(z)
                     message.append(
                         {
-                            "role": "system",
+                            "role": self.gpt_system_example_role,
                             "name": "example_user",
                             "content": [
                                 {"type": "text", "text": x},
@@ -363,7 +363,7 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
                     )
                     message.append(
                         {
-                            "role": "system",
+                            "role": self.gpt_system_example_role,
                             "name": "example_assistant",
                             "content": [{"type": "text", "text": y}],
                         }
@@ -458,6 +458,7 @@ class VideoFrameUnderstandingPromptConstructor(PromptConstructor):
         super().__init__(instruction_path, lm_config, tokenizer)
         self.video_processor = VideoProcessor()
         self.max_frame_num = max_frame_num
+        self.gpt_system_example_role = "user" if lm_config.provider == "openai" else "system"
 
     def construct(
         self,
@@ -492,7 +493,7 @@ class VideoFrameUnderstandingPromptConstructor(PromptConstructor):
         """Return the require format for an API"""
         message: list[dict[str, str]] | str | list[str | Image.Image]
 
-        if "azopenai" in self.lm_config.provider:
+        if "openai" in self.lm_config.provider:
             if self.lm_config.mode == "chat":
                 message = [
                     {
@@ -502,7 +503,7 @@ class VideoFrameUnderstandingPromptConstructor(PromptConstructor):
                 ]
                 for x, y, z in examples:
                     example_user_message = {
-                        "role": "system",
+                        "role": self.gpt_system_example_role,
                         "name": "example_user",
                         "content": [                       
                             {"type": "text", "text": x}                            
@@ -526,7 +527,7 @@ class VideoFrameUnderstandingPromptConstructor(PromptConstructor):
                             }
                         )
                     example_assistant_message = {
-                        "role": "system",
+                        "role": self.gpt_system_example_role,
                         "name": "example_assistant",
                         "content": y,
                     }
@@ -630,7 +631,7 @@ class VideoFramePromptConstructor(MultimodalCoTPromptConstructor):
         images: list[Image.Image],
         video_frames: list[Image.Image],
     ) -> APIInput:
-        if "azopenai" in self.lm_config.provider:
+        if "openai" in self.lm_config.provider:
             if self.lm_config.mode == "chat":
                 message = [
                     {
@@ -641,7 +642,7 @@ class VideoFramePromptConstructor(MultimodalCoTPromptConstructor):
                 for x, y, z, l in examples:
                     example_img = Image.open(z)
                     example_user_message = {
-                        "role": "system",
+                        "role": self.gpt_system_example_role,
                         "name": "example_user",
                         "content": [
                             {"type": "text", "text": x},
@@ -677,7 +678,7 @@ class VideoFramePromptConstructor(MultimodalCoTPromptConstructor):
                     message.append(example_user_message)
                     message.append(
                         {
-                            "role": "system",
+                            "role": self.gpt_system_example_role,
                             "name": "example_assistant",
                             "content": [{"type": "text", "text": y}],
                         }
