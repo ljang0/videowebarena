@@ -9,12 +9,12 @@
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
         "intent_template": "The person in the video {description}. Can you {description2}?",
-        "intent": "The person in the video says they are from a certain university. Can you tell me the email of the poster of the cheapest bike from that city?",
+        "intent": "The person in the video says they are from a certain university. Can you tell me the email of the poster of the cheapest bike from the city the university is based in?",
         "intermediate_intent": "What university did the person in the video say they attend?",
         "video": "search_sort_comment",
         "instantiation_dict": {
             "description": "says they are from a certain university",
-            "description2": "tell me the email of the poster of the cheapest bike from that city"
+            "description2": "tell me the email of the poster of the cheapest bike from the city the university is based in"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -23,7 +23,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "Carnegie Mellon" 
+                    "Carnegie Mellon"
                 ]
             },
             "reference_url": "",
@@ -44,7 +44,7 @@
             "program_html": [],
             "string_note": ""
         },
-        "overall_difficulty": "hard",
+        "overall_difficulty": "medium",
         "spatial_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": false,
@@ -76,7 +76,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "cell phones" 
+                    "cell phones"
                 ]
             },
             "reference_url": "",
@@ -93,8 +93,8 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "medium",
-        "spatial_reasoning": false,
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
@@ -124,7 +124,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "BOAT 1967 FIBRA /FISHING GEAR" 
+                    "BOAT 1967 FIBRA /FISHING GEAR"
                 ]
             },
             "reference_url": "",
@@ -141,8 +141,8 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "medium",
-        "spatial_reasoning": false,
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
@@ -158,12 +158,12 @@
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you change {description}?",
         "intent": "Can you change the first refined search in the video by increasing the max price to $40000 and then comment 'too expensive' on the most expensive item?",
         "intermediate_intent": "What was the original max price in the first refined search?",
         "video": "search_sort_comment",
         "instantiation_dict": {
-            "description": "change the first refined search in the video by increasing the max price to $40000 and then comment 'too expensive' on the most expensive item"
+            "description": "the first refined search in the video by increasing the max price to $40000 and then comment 'too expensive' on the most expensive item"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -172,7 +172,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "25000" 
+                    "25000"
                 ]
             },
             "reference_url": "",
@@ -229,7 +229,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "1986 nova xl 23ft" 
+                    "1986 nova xl 23ft"
                 ]
             },
             "reference_url": "",
@@ -246,7 +246,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "hard",
+        "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
@@ -277,7 +277,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "Young Chang Piano for Sale" 
+                    "Young Chang Piano for Sale"
                 ]
             },
             "reference_url": "",
@@ -294,8 +294,8 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "hard",
-        "spatial_reasoning": false,
+        "overall_difficulty": "medium",
+        "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
@@ -326,7 +326,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "Dumfries" 
+                    "Dumfries"
                 ]
             },
             "reference_url": "",
@@ -343,7 +343,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "medium",
+        "overall_difficulty": "easy",
         "spatial_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
@@ -360,12 +360,12 @@
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you find {description}?",
         "intent": "Can you find the iPhone listing with an iPad in the image in the video then comment 'does this mean free ipad lol' on the item?",
         "intermediate_intent": "What was the name of the iPhone listing with an iPad in the image in the video?",
         "video": "navigate_tutorial",
         "instantiation_dict": {
-            "description": "find the iPhone listing with an iPad in the image in the video then comment 'does this mean free ipad lol' on the item"
+            "description": "the iPhone listing with an iPad in the image in the video then comment 'does this mean free ipad lol' on the item"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -374,7 +374,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "iphone 14 pro max" 
+                    "iphone 14 pro max"
                 ]
             },
             "reference_url": "",
@@ -417,12 +417,12 @@
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you tell me {description}?",
         "intent": "Can you tell me the the email of the seller of the first farm animal listing in the video?",
         "intermediate_intent": "What was the name of the first farm animal listing in the video?",
         "video": "navigate_tutorial",
         "instantiation_dict": {
-            "description": "find the iPhone listing with an iPad in the image in the video then comment 'does this mean free ipad lol' on the item"
+            "description": "the email of the seller of the first farm animal listing in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -431,7 +431,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "Black angus bull" 
+                    "Black angus bull"
                 ]
             },
             "reference_url": "",
@@ -452,7 +452,7 @@
             "program_html": [],
             "string_note": ""
         },
-        "overall_difficulty": "hard",
+        "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
@@ -483,7 +483,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "2022 Tesla Model 3 Long Range ****We Finance! ****" 
+                    "2022 Tesla Model 3 Long Range ****We Finance! ****"
                 ]
             },
             "reference_url": "",
@@ -532,7 +532,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "Playstation 4 |OR| PS4 |OR| playstation 4" 
+                    "Playstation 4 |OR| PS4 |OR| playstation 4"
                 ]
             },
             "reference_url": "",
@@ -566,12 +566,12 @@
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you return {description}?",
         "intent": "Can you return the image links of all the listings the person in the video visited?",
         "intermediate_intent": "What are the names of all the listings the person in the video visited?",
         "video": "comments_seller",
         "instantiation_dict": {
-            "description": "return the image links of all the listings the person in the video visited"
+            "description": "the image links of all the listings the person in the video visited"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -606,7 +606,7 @@
             "string_note": ""
         },
         "overall_difficulty": "hard",
-        "spatial_reasoning": false,
+        "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
@@ -653,8 +653,8 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "hard",
-        "spatial_reasoning": false,
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
@@ -670,12 +670,12 @@
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you tell {description}?",
         "intent": "Can you tell me the email of the most expensive Xbox Series X item in the video?",
         "intermediate_intent": "What is the name of the most expensive Xbox Series X item in the video?",
         "video": "comments_seller",
         "instantiation_dict": {
-            "description": "tell me the email of the most expensive Xbox Series X item in the video"
+            "description": "me the email of the most expensive Xbox Series X item in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -705,8 +705,8 @@
             "program_html": [],
             "string_note": ""
         },
-        "overall_difficulty": "hard",
-        "spatial_reasoning": false,
+        "overall_difficulty": "medium",
+        "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
@@ -722,12 +722,12 @@
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you comment {description}?",
         "intent": "Can you comment 'my favorite pokemon!' on the first item in the video that shows Pikachu in the image?",
         "intermediate_intent": "What is the name of first item in the video that shows Pikachu in the image?",
         "video": "comments_seller",
         "instantiation_dict": {
-            "description": "comment 'my favorite pokemon!' on the first item in the video that shows Pikachu in the image"
+            "description": "'my favorite pokemon!' on the first item in the video that shows Pikachu in the image"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -762,7 +762,7 @@
                 }
             ]
         },
-        "overall_difficulty": "medium",
+        "overall_difficulty": "hard",
         "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
@@ -794,7 +794,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "Beauty + health" 
+                    "Beauty + health"
                 ]
             },
             "reference_url": "",
@@ -811,8 +811,8 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "medium",
-        "spatial_reasoning": false,
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
@@ -842,7 +842,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "Canon EF 100-400mm f/4.5-5.6L IS II USM with extender EF 1.4X III" 
+                    "Canon EF 100-400mm f/4.5-5.6L IS II USM with extender EF 1.4X III"
                 ]
             },
             "reference_url": "",
@@ -860,7 +860,7 @@
             "url_note": "EXACT"
         },
         "overall_difficulty": "hard",
-        "spatial_reasoning": false,
+        "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
@@ -871,17 +871,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 18,
+        "task_id": 17,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you return {description}?",
         "intent": "Can you return the links of all the Maryland furniture listings in the video?",
         "intermediate_intent": "What are the names of all the Maryland furniture listings in the video?",
         "video": "sort_by_price_range",
         "instantiation_dict": {
-            "description": "return the image links of all the listings the person in the video visited"
+            "description": "the links of all the Maryland furniture listings in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -925,17 +925,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 19,
+        "task_id": 18,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you tell me {description}?",
         "intent": "Can you tell me the the email of the seller of the first listing with a green book in the video?",
         "intermediate_intent": "What was the name of the first listing with a green book in the video?",
         "video": "sort_by_price_range",
         "instantiation_dict": {
-            "description": "tell me the the email of the seller of the first listing with a green book in the video"
+            "description": "the the email of the seller of the first listing with a green book in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -977,7 +977,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 20,
+        "task_id": 19,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -997,7 +997,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "pitbull" 
+                    "pitbull"
                 ]
             },
             "reference_url": "",
@@ -1015,7 +1015,7 @@
             "url_note": "EXACT"
         },
         "overall_difficulty": "medium",
-        "spatial_reasoning": false,
+        "spatial_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
@@ -1026,17 +1026,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 21,
+        "task_id": 20,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you return {description}?",
         "intent": "Can you return the links of all the listing pages the person in the video went to?",
         "intermediate_intent": "What are the names of all the listing pages the person in the video went to?",
         "video": "item_page",
         "instantiation_dict": {
-            "description": "return the links of all the listing pages the person in the video went to"
+            "description": "the links of all the listing pages the person in the video went to"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1047,7 +1047,7 @@
                 "must_include": [
                     "Rehoming 3.5 yr old pitbull/American bully",
                     "Ford 8670",
-                    "Compact Canister Vacuum Cleaner - Lightweight and Powerful"                
+                    "Compact Canister Vacuum Cleaner - Lightweight and Powerful"
                 ]
             },
             "reference_url": "",
@@ -1082,17 +1082,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 22,
+        "task_id": 21,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you comment {description}?",
         "intent": "Can you comment 'I love red stuff' to the most expensive red item from the same city as where the first listing the person in the video opened was posted?",
         "intermediate_intent": "What was the city where the first listing the person in the video opened was posted?",
         "video": "item_page",
         "instantiation_dict": {
-            "description": "comment 'I love red stuff' to the most expensive red item from the same city as where the first listing the person in the video opened was posted"
+            "description": "'I love red stuff' to the most expensive red item from the same city as where the first listing the person in the video opened was posted"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1139,17 +1139,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 23,
+        "task_id": 22,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you tell {description}?",
         "intent": "Can you tell me the email of the second item page the person in the video went to?",
         "intermediate_intent": "What was the name of the second item page the person in the video went to?",
         "video": "item_page",
         "instantiation_dict": {
-            "description": "comment 'I love red stuff' to the most expensive red item from the same city as where the first listing the person in the video opened was posted"
+            "description": "me the email of the second item page the person in the video went to"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1172,7 +1172,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "daiki.kovÃ¡cs375@example.com"
+                    "daiki.kov\u00c3\u00a1cs375@example.com"
                 ]
             },
             "reference_url": "",
@@ -1192,17 +1192,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 24,
+        "task_id": 23,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you comment {description}?",
         "intent": "Can you comment 'I'm interested' on the last listing the person in the video opened?",
         "intermediate_intent": "What was the name of the last listing the person in the video opened?",
         "video": "item_page",
         "instantiation_dict": {
-            "description": "comment 'I'm interested' on the last listing the person in the video opened"
+            "description": "'I'm interested' on the last listing the person in the video opened"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1249,12 +1249,12 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 25,
+        "task_id": 24,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you comment {description}?",
         "intent": "Can you comment 'this one looks sick' on the last listing the person in the video opened?",
         "intermediate_intent": "What was the name of the last listing the person in the video opened?",
         "video": "sort_by_recent",
@@ -1306,12 +1306,12 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 26,
+        "task_id": 25,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you comment {description}?",
         "intent": "Can you comment 'this one is really pricey, please lower the price' on the most expensive listing in the video?",
         "intermediate_intent": "What was the name of the most expensive listing in the video?",
         "video": "sort_by_recent",
@@ -1363,17 +1363,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 27,
+        "task_id": 26,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you change {description}?",
         "intent": "Can you change the price of my cheapest listing to be the same as the most expensive listing in the video?",
         "intermediate_intent": "What was the price of the most expensive listing in the video?",
         "video": "sort_by_recent",
         "instantiation_dict": {
-            "description": "change the price of my cheapest listing to be the same as the most expensive listing in the video"
+            "description": "the price of my cheapest listing to be the same as the most expensive listing in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1420,7 +1420,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 28,
+        "task_id": 27,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -1440,7 +1440,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "vespa" 
+                    "vespa"
                 ]
             },
             "reference_url": "",
@@ -1469,17 +1469,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 29,
+        "task_id": 28,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you take {description}?",
         "intent": "Can you take me to the first red vehicle listing that appears in the video?",
         "intermediate_intent": "What was the name of the first red vehicle listing that appears in the video?",
         "video": "sort_by_recent",
         "instantiation_dict": {
-            "description": "take me to the first red vehicle listing that appears in the video"
+            "description": "me to the first red vehicle listing that appears in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1517,17 +1517,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 30,
+        "task_id": 29,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you take me {description}?",
         "intent": "Can you take me to the cheapest RV in the second row for the RV page in the video?",
         "intermediate_intent": "What was the name of the cheapest RV in the second row for the RV page in the video?",
         "video": "spatial_tutorial",
         "instantiation_dict": {
-            "description": "take me to the cheapest RV in the second row for the RV page in the video"
+            "description": "to the cheapest RV in the second row for the RV page in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1565,17 +1565,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 31,
+        "task_id": 30,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you take me {description}?",
         "intent": "Can you take me to the most expensive item in the third column for the second category page the person in the video visits?",
         "intermediate_intent": "What was the name of the most expensive item in the third column for the second category page the person in the video visits?",
         "video": "spatial_tutorial",
         "instantiation_dict": {
-            "description": "take me to the most expensive item in the third column for the second category page the person in the video visits"
+            "description": "to the most expensive item in the third column for the second category page the person in the video visits"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1613,7 +1613,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 32,
+        "task_id": 31,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -1633,7 +1633,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "Guinness" 
+                    "Guinness"
                 ]
             },
             "reference_url": "",
@@ -1662,17 +1662,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 33,
+        "task_id": 32,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you comment {description}?",
         "intent": "Can you comment 'I think I would buy if you lower the price' on the cheapest listing visible in the video?",
         "intermediate_intent": "What was the name of the cheapest listing visible in the video?",
         "video": "spatial_tutorial",
         "instantiation_dict": {
-            "description": "comment 'I think I would buy if you lower the price' on the most cheapest listing visible in the video"
+            "description": "'I think I would buy if you lower the price' on the most cheapest listing visible in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1681,7 +1681,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "Audio Books" 
+                    "Audio Books"
                 ]
             },
             "reference_url": "",
@@ -1710,17 +1710,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 34,
+        "task_id": 33,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you comment {description}?",
         "intent": "Can you comment 'Spidey!!' on all the listings in the video with Spiderman in the image?",
         "intermediate_intent": "What are the name(s) of all the listings in the video with Spiderman in the image?",
         "video": "spatial_tutorial",
         "instantiation_dict": {
-            "description": "comment 'Spidey!!' on all the listings in the video with Spiderman in the image?"
+            "description": "'Spidey!!' on all the listings in the video with Spiderman in the image?"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1729,7 +1729,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "Storytime Collection Books" 
+                    "Storytime Collection Books"
                 ]
             },
             "reference_url": "",
@@ -1767,17 +1767,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 35,
+        "task_id": 34,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you find {description}?",
         "intent": "Can you find the listing in the video that was deleted (it should still exist on your site) and change its price to 10 dollars?",
         "intermediate_intent": "What was the listing in the video that was deleted (it should still exist on your site)?",
         "video": "edit_listings",
         "instantiation_dict": {
-            "description": "find the listing in the video that was deleted (it should still exist on your site) and change its price to 10 dollars"
+            "description": "the listing in the video that was deleted (it should still exist on your site) and change its price to 10 dollars"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1818,17 +1818,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 36,
+        "task_id": 35,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you comment {description}?",
         "intent": "Can you comment 'this is a steal' on the cheapest item with blue in its image in the video?",
         "intermediate_intent": "What was the cheapest item with blue in its image in the video?",
         "video": "edit_listings",
         "instantiation_dict": {
-            "description": "comment 'this is a steal' on the cheapest item with blue in its image in the video"
+            "description": "'this is a steal' on the cheapest item with blue in its image in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1871,17 +1871,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 37,
+        "task_id": 36,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you find {description}?",
         "intent": "Can you find the first listing in the video that appeared with an image of a car?",
         "intermediate_intent": "What was the first listing in the video that appeared with an image of a car?",
         "video": "edit_listings",
         "instantiation_dict": {
-            "description": "find the first listing in the video that appeared with an image of a car"
+            "description": "the first listing in the video that appeared with an image of a car"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1915,17 +1915,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 38,
+        "task_id": 37,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you find {description}?",
         "intent": "Can you find the first listing in the video that appeared with an image of a bike?",
         "intermediate_intent": "What was the first listing in the video that appeared with an image of a bike?",
         "video": "edit_listings",
         "instantiation_dict": {
-            "description": "find the first listing in the video that appeared with an image of a bike"
+            "description": "the first listing in the video that appeared with an image of a bike"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1959,17 +1959,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 39,
+        "task_id": 38,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you find {description}?",
         "intent": "Can you find the most expensive listing in the video below $10000",
         "intermediate_intent": "What was the most expensive listing in the video below $10000?",
         "video": "edit_listings",
         "instantiation_dict": {
-            "description": "find the most expensive listing in the video below $10000"
+            "description": "the most expensive listing in the video below $10000"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2003,7 +2003,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 40,
+        "task_id": 39,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2023,7 +2023,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "listings" 
+                    "listings"
                 ]
             },
             "reference_url": "",
@@ -2052,7 +2052,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 41,
+        "task_id": 40,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2072,7 +2072,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "folding bike" 
+                    "folding bike"
                 ]
             },
             "reference_url": "",
@@ -2101,17 +2101,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 42,
+        "task_id": 41,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
-        "intent": "Can you take me the most expensive bike visible in the video?",
+        "intent_template": "Can you take {description}?",
+        "intent": "Can you take me to the most expensive bike visible in the video?",
         "intermediate_intent": "What was the name of the most expensive bike visible in the video?",
         "video": "multiple_tabs",
         "instantiation_dict": {
-            "description": "take me the most expensive bike visible in the video"
+            "description": "me to the most expensive bike visible in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2145,17 +2145,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 43,
+        "task_id": 42,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you take {description}?",
         "intent": "Can you take me to the cheapest listing above 1 dollar that appears in the video?",
         "intermediate_intent": "What was the name of the cheapest listing above 1 dollar that appears in the video?",
         "video": "multiple_tabs",
         "instantiation_dict": {
-            "description": "take me to the cheapest listing above 1 dollar that appears in the video"
+            "description": "me to the cheapest listing above 1 dollar that appears in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2189,17 +2189,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 44,
+        "task_id": 43,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you comment {description}?",
         "intent": "Can you comment 'testing comment functionality' on the first item the user commented on in the video?",
         "intermediate_intent": "What was the name of the first item the user commented on in the video?",
         "video": "multiple_tabs",
         "instantiation_dict": {
-            "description": "comment 'testing comment functionality' on the first item the user commented on in the video"
+            "description": "'testing comment functionality' on the first item the user commented on in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2242,17 +2242,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 45,
+        "task_id": 44,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you comment {description}?",
         "intent": "Can you comment 'I want to buy this item from this location as well' on the cheapest item from the same city as the first item the user commented on in the video?",
         "intermediate_intent": "What was the name of city where the first item the user commented on in the video was posted?",
         "video": "multiple_tabs",
         "instantiation_dict": {
-            "description": "comment 'I want to buy this item from this location as well' on the cheapest item from the same city as the first item the user commented on in the video"
+            "description": "'I want to buy this item from this location as well' on the cheapest item from the same city as the first item the user commented on in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2295,7 +2295,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 46,
+        "task_id": 45,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2315,7 +2315,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "harry potter" 
+                    "harry potter"
                 ]
             },
             "reference_url": "",
@@ -2344,7 +2344,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 47,
+        "task_id": 46,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2364,7 +2364,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "harry potter" 
+                    "harry potter"
                 ]
             },
             "reference_url": "",
@@ -2393,17 +2393,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 48,
+        "task_id": 47,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you comment {description}?",
         "intent": "Can you comment 'This has definitely been sold' on the oldest item listing that appears in the video?",
         "intermediate_intent": "What was the name of the oldest item listing that appears in the video?",
         "video": "recent_range_links",
         "instantiation_dict": {
-            "description": "comment 'This has definitely been sold' on the oldest item listing that appears in the video"
+            "description": "'This has definitely been sold' on the oldest item listing that appears in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2446,17 +2446,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 49,
+        "task_id": 48,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you find the email {description}?",
         "intent": "Can you find the email of poster of the first coin listing that appears in the video?",
         "intermediate_intent": "What was the name of the first coin listing that appears in the video?",
         "video": "recent_range_links",
         "instantiation_dict": {
-            "description": "find the email of poster of the first coin listing that appears in the video"
+            "description": "of poster of the first coin listing that appears in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2491,17 +2491,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 50,
+        "task_id": 49,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you take {description}?",
         "intent": "Can you take me to the most recent bike listing from the same city as the Skylanders listing in the video?",
         "intermediate_intent": "What city was the Skylanders listing that appears in the video listed from?",
         "video": "recent_range_links",
         "instantiation_dict": {
-            "description": "take me to the most recent bike listing from the same city as the Skylanders listing in the video"
+            "description": "me to the most recent bike listing from the same city as the Skylanders listing in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2535,17 +2535,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 51,
+        "task_id": 50,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you take {description}?",
         "intent": "Can you take me to the oldest listing that appears in the video?",
         "intermediate_intent": "What was the name of the oldest listing that appears in the video?",
         "video": "search_sort",
         "instantiation_dict": {
-            "description": "take me to the oldest listing that appears in the video"
+            "description": "me to the oldest listing that appears in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2584,12 +2584,12 @@
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you take {description}?",
         "intent": "Can you take me to the newest listing from the same city as oldest listing that appears in the video?",
         "intermediate_intent": "What was the city in which the oldest listing that appears in the video was posted?",
         "video": "search_sort",
         "instantiation_dict": {
-            "description": "take me to the newest listing from the same city as oldest listing that appears in the video"
+            "description": "me to the newest listing from the same city as oldest listing that appears in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2623,7 +2623,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 53,
+        "task_id": 52,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2668,17 +2668,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 54,
+        "task_id": 53,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you comment {description}?",
         "intent": "Can you comment 'what a niche color' on the first yellow car that appears in the video?",
         "intermediate_intent": "What was the name of the first yellow car that appears in the video?",
         "video": "search_sort",
         "instantiation_dict": {
-            "description": "comment 'what a niche color' on the first yellow car that appears in the video"
+            "description": "'what a niche color' on the first yellow car that appears in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2721,17 +2721,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 55,
+        "task_id": 54,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you comment {description}?",
         "intent": "Can you comment 'yikes' on the first listing above 20k that appears in the video?",
         "intermediate_intent": "What was the name of the first listing above 20k that appears in the video?",
         "video": "search_sort",
         "instantiation_dict": {
-            "description": "comment 'yikes' on the first listing above 20k that appears in the video"
+            "description": "'yikes' on the first listing above 20k that appears in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2774,12 +2774,12 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 56,
+        "task_id": 55,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you comment {description}?",
         "intent": "Can you comment 'that's so old' on the first the person in the video visits?",
         "intermediate_intent": "What was the name of the first listing the person in the video visits?",
         "video": "post_tutorial",
@@ -2827,7 +2827,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 57,
+        "task_id": 56,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2872,17 +2872,17 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 58,
+        "task_id": 57,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you get the email {description}?",
         "intent": "Can you get the email of the seller of the second most expensive listing with pigs in the video?",
         "intermediate_intent": "How much was the second most expensive listing with pigs in the video?",
         "video": "post_tutorial",
         "instantiation_dict": {
-            "description": "get the email of the seller of the second most expensive listing with pigs in the video"
+            "description": "of the seller of the second most expensive listing with pigs in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2901,7 +2901,56 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "ananya_schneider275@example.com" 
+                    "ananya_schneider275@example.com"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "overall_difficulty": "medium",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "classifieds"
+        ],
+        "task_id": 58,
+        "require_login": true,
+        "storage_state": "./.auth/classifieds_state.json",
+        "start_url": "__CLASSIFIEDS__",
+        "geolocation": null,
+        "intent_template": "Can you get the name {description}?",
+        "intent": "Can you get the name of the seller of the cheapest computer listing from Pennsylvania in the video?",
+        "intermediate_intent": "What was the name of the cheapest computer listing from Pennsylvania in the video?",
+        "video": "post_tutorial",
+        "instantiation_dict": {
+            "description": "of the seller of the cheapest computer listing from Pennsylvania in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "HP Laptop"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Emma Williams"
                 ]
             },
             "reference_url": "",
@@ -2926,61 +2975,12 @@
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
-        "intent": "Can you get the name of the seller of the cheapest computer listing from Pennsylvania in the video?",
-        "intermediate_intent": "What was the name of the cheapest computer listing from Pennsylvania in the video?",
-        "video": "post_tutorial",
-        "instantiation_dict": {
-            "description": "get the name of the seller of the cheapest computer listing from Pennsylvania in the video"
-        },
-        "require_reset": false,
-        "intermediate_eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "must_include": [
-                    "HP Laptop"
-                ]
-            }
-        },
-        "eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "must_include": [
-                    "Emma Williams" 
-                ]
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": "",
-            "reference_answer_raw_annotation": ""
-        },
-        "overall_difficulty": "medium",
-        "spatial_reasoning": true,
-        "audio_reasoning": false,
-        "multihop_reasoning": true,
-        "temporal_reasoning": false,
-        "comments": "",
-        "intent_template_id": 0
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 60,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__",
-        "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you repost {description}?",
         "intent": "Can you repost a listing using the last listing the person in the video visited, but price it a dollar cheaper?",
         "intermediate_intent": "What was the cost of the last listing the person in the video visited?",
         "video": "post_tutorial",
         "instantiation_dict": {
-            "description": "repost a listing using the last listing the person in the video visited, but price it a dollar cheaper"
+            "description": "a listing using the last listing the person in the video visited, but price it a dollar cheaper"
         },
         "require_reset": false,
         "intermediate_eval": {

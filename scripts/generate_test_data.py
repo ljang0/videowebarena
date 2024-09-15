@@ -49,7 +49,7 @@ def main() -> None:
         print(f"GITLAB: {GITLAB}")
         print(f"MAP: {MAP}")
         inp_paths = [
-           "config_files/videowa/test_classifieds.raw.json", "config_files/videowa/test_shopping.raw.json", "config_files/videowa/test_reddit.raw.json", # "config_files/videowa/test_shopping_admin.raw.json",  "config_files/videowa/test_map.raw.json",  "config_files/videowa/test_gitlab_admin.raw.json",  "config_files/videowa/test_wikipedia_admin.raw.json"
+           "config_files/videowa/test_classifieds.raw.json", "config_files/videowa/test_shopping.raw.json", "config_files/videowa/test_reddit.raw.json", "config_files/videowa/test_shopping_admin.raw.json",  "config_files/videowa/test_map.raw.json",  "config_files/videowa/test_gitlab.raw.json", 
         ]
         replace_map = {
             "__REDDIT__": REDDIT,

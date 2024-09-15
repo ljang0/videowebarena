@@ -43,8 +43,8 @@
                     "locator": "",
                     "required_contents": {
                         "must_include": [
-                    "V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can ,Pack of 24",
-                    "BHNDOING DIY Night Vision Scope for riflescopes, FCC Certified, Digital Night Vision Scope Hunting with IR Flashlight Scope Camera and 5'' Screen Day & Night"
+                            "V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can ,Pack of 24",
+                            "BHNDOING DIY Night Vision Scope for riflescopes, FCC Certified, Digital Night Vision Scope Hunting with IR Flashlight Scope Camera and 5'' Screen Day & Night"
                         ]
                     }
                 }
@@ -101,7 +101,7 @@
                     "locator": "",
                     "required_contents": {
                         "must_include": [
-                    "Bushnell 743333 Boresighter with Case & ARbors,Black"
+                            "Bushnell 743333 Boresighter with Case & ARbors,Black"
                         ]
                     }
                 }
@@ -114,7 +114,7 @@
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 0
-    },   
+    },
     {
         "sites": [
             "shopping"
@@ -162,7 +162,7 @@
         "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 0
-    },   
+    },
     {
         "sites": [
             "shopping"
@@ -210,7 +210,7 @@
         "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 0
-    },   
+    },
     {
         "sites": [
             "shopping"
@@ -276,7 +276,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 4,
+        "task_id": 5,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -333,12 +333,11 @@
         "comments": "",
         "intent_template_id": 0
     },
-
     {
         "sites": [
             "shopping"
         ],
-        "task_id": 5,
+        "task_id": 6,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -378,7 +377,6 @@
                     "required_contents": {
                         "must_include": [
                             "Silicone Thumb Stick Joystick Cap Analog Grip Thumbsticks Cap Cover Case for PS4 PS3 Xbox One Xbox 360 Game Controllers (Black-Red)"
-
                         ]
                     }
                 }
@@ -396,7 +394,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 5,
+        "task_id": 7,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -436,7 +434,6 @@
                     "required_contents": {
                         "must_include": [
                             "Silicone Thumb Stick Joystick Cap Analog Grip Thumbsticks Cap Cover Case for PS4 PS3 Xbox One Xbox 360 Game Controllers (Black-Red)"
-
                         ]
                     }
                 }
@@ -454,7 +451,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 6,
+        "task_id": 8,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -520,7 +517,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 7,
+        "task_id": 9,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -561,7 +558,6 @@
                     "required_contents": {
                         "must_include": [
                             "MAPOLO Blue Sharks Pattern Men's Boys Casual Walking Shoes Sneaker Lightweight Stylish Athletic Tennis Sports Running Shoes for Outdoor Hiking Travel Driving"
-
                         ]
                     }
                 }
@@ -579,7 +575,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 7,
+        "task_id": 10,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -620,7 +616,6 @@
                     "required_contents": {
                         "must_include": [
                             "MAPOLO Blue Sharks Pattern Men's Boys Casual Walking Shoes Sneaker Lightweight Stylish Athletic Tennis Sports Running Shoes for Outdoor Hiking Travel Driving"
-
                         ]
                     }
                 }
@@ -638,7 +633,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 8,
+        "task_id": 11,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -698,7 +693,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 9,
+        "task_id": 12,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__/cell-phones-accessories/cases-holsters-sleeves/basic-cases.html?p=5",
@@ -755,7 +750,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 10,
+        "task_id": 13,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -813,7 +808,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 11,
+        "task_id": 14,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__/sunset-jade-plant-crassula-easy-to-grow-house-plant-4-pot.html",
@@ -879,7 +874,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 12,
+        "task_id": 15,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -927,7 +922,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 13,
+        "task_id": 16,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -966,7 +961,7 @@
                     "locator": "",
                     "required_contents": {
                         "must_include": [
-                        "Nintendo 2020 Newest - Mario Kart Live: Home Circuit - Mario Set Edition - Holiday Family Gaming Bundle for Nintendo Switch, Nintendo Switch Lite - RED (Renewed)"
+                            "Nintendo 2020 Newest - Mario Kart Live: Home Circuit - Mario Set Edition - Holiday Family Gaming Bundle for Nintendo Switch, Nintendo Switch Lite - RED (Renewed)"
                         ]
                     }
                 }
@@ -984,7 +979,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 14,
+        "task_id": 17,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -1023,7 +1018,7 @@
                     "locator": "document.querySelector('.products-grid.wishlist').textContent",
                     "required_contents": {
                         "must_include": [
-                           "Barnana Organic Chewy Banana Bites - Variety Pack - 3.5 Ounce, 4 Pack Bites - Healthy Vegetarian Banana Fruit Snacks - Made with Sustainable, Eco Friendly Upcycled Bananas"
+                            "Barnana Organic Chewy Banana Bites - Variety Pack - 3.5 Ounce, 4 Pack Bites - Healthy Vegetarian Banana Fruit Snacks - Made with Sustainable, Eco Friendly Upcycled Bananas"
                         ]
                     }
                 }
@@ -1041,7 +1036,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 15,
+        "task_id": 18,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -1098,7 +1093,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 16,
+        "task_id": 19,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -1156,7 +1151,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 17,
+        "task_id": 20,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -1219,7 +1214,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 18,
+        "task_id": 21,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -1286,7 +1281,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 19,
+        "task_id": 22,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -1325,7 +1320,7 @@
                     "locator": "document.querySelector('.products-grid.wishlist').textContent",
                     "required_contents": {
                         "must_include": [
-                        "KC Natural - BBQ and No Tomato Ketchup Bundle - Paleo And AIP Friendly - Nightshade Free"
+                            "KC Natural - BBQ and No Tomato Ketchup Bundle - Paleo And AIP Friendly - Nightshade Free"
                         ]
                     }
                 }
@@ -1343,7 +1338,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 20,
+        "task_id": 23,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -1384,8 +1379,8 @@
                     "locator": "",
                     "required_contents": {
                         "must_include": [
-                    "Thinkthin High Protein Super Variety Pack, 2.1 Ounce (Pack of 10)",
-                    "COUNTRY FARMS Super Greens Berry Flavor, 50 Organic Foods, USDA Drink Mix, Multicolor, Multi, 40 Servings, 21 Oz, 2 Pack"
+                            "Thinkthin High Protein Super Variety Pack, 2.1 Ounce (Pack of 10)",
+                            "COUNTRY FARMS Super Greens Berry Flavor, 50 Organic Foods, USDA Drink Mix, Multicolor, Multi, 40 Servings, 21 Oz, 2 Pack"
                         ]
                     }
                 }
@@ -1403,7 +1398,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 21,
+        "task_id": 24,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -1452,7 +1447,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 22,
+        "task_id": 25,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -1492,7 +1487,7 @@
                     "locator": "document.querySelector('.products-grid.wishlist').textContent",
                     "required_contents": {
                         "must_include": [
-                        "Pomegranate Seltzer by Polar Beverages 1 liter (33.8 fl oz) Bottles (4 Bottles)"
+                            "Pomegranate Seltzer by Polar Beverages 1 liter (33.8 fl oz) Bottles (4 Bottles)"
                         ]
                     }
                 }
@@ -1510,7 +1505,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 23,
+        "task_id": 26,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -1549,7 +1544,7 @@
                     "locator": "",
                     "required_contents": {
                         "must_include": [
-                         "Ritebite Max Protein Daily Choco Almond Bars 300 G - Pack Of 6 (50G X 6)"
+                            "Ritebite Max Protein Daily Choco Almond Bars 300 G - Pack Of 6 (50G X 6)"
                         ]
                     }
                 }
@@ -1567,7 +1562,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 24,
+        "task_id": 27,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -1601,7 +1596,7 @@
             "eval_types": [
                 "program_html"
             ],
-        "reference_answers": {
+            "reference_answers": {
                 "must_include": [
                     "__SHOPPING__/media/catalog/product/cache/40f473354257c5370e4a8aeb61c91822/B/0/B09LCDGBDY.0.jpg",
                     "__SHOPPING__/media/catalog/product/cache/40f473354257c5370e4a8aeb61c91822/B/0/B08R5SWKX4.0.jpg",
@@ -1626,7 +1621,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 25,
+        "task_id": 28,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -1683,7 +1678,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 26,
+        "task_id": 29,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -1722,7 +1717,7 @@
                     "locator": "document.querySelector('.products-grid.wishlist').textContent",
                     "required_contents": {
                         "must_include": [
-                        "Bonzy Home Glossy LED TV Stand, Black TV Stand with LED RGB Lights, Wood Media Storage Console for 65 Inch TV, Flat Screen TV Cabinet, Gaming Consoles - in Lounge Room, Living Room and Bedroom (Black)"
+                            "Bonzy Home Glossy LED TV Stand, Black TV Stand with LED RGB Lights, Wood Media Storage Console for 65 Inch TV, Flat Screen TV Cabinet, Gaming Consoles - in Lounge Room, Living Room and Bedroom (Black)"
                         ]
                     }
                 }
@@ -1740,7 +1735,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 27,
+        "task_id": 30,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -1780,7 +1775,7 @@
                     "locator": "",
                     "required_contents": {
                         "must_include": [
-                         "JTJxop Upholstered Bed, Full Size Upholstered Bed Frame with Headboard, Fabric Modern Bed, Fabric Ottoman Bed Frame, Wood Slat Support,180x200cm"
+                            "JTJxop Upholstered Bed, Full Size Upholstered Bed Frame with Headboard, Fabric Modern Bed, Fabric Ottoman Bed Frame, Wood Slat Support,180x200cm"
                         ]
                     }
                 }
@@ -1798,7 +1793,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 28,
+        "task_id": 31,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -1838,7 +1833,7 @@
                     "locator": "",
                     "required_contents": {
                         "must_include": [
-                         "Global Seafoods - Alaskan Red King Crab Legs Jumbo 10 Lbs | King Crab"
+                            "Global Seafoods - Alaskan Red King Crab Legs Jumbo 10 Lbs | King Crab"
                         ]
                     }
                 }
@@ -1856,7 +1851,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 29,
+        "task_id": 32,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -1922,7 +1917,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 30,
+        "task_id": 33,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -1981,13 +1976,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 31,
+        "task_id": 34,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Get the item listing url of {description}.",
-        "intent":  "Get the item listing url of the posting that was in the same column as the frog item but in one row below.",
+        "intent": "Get the item listing url of the posting that was in the same column as the frog item but in one row below.",
         "intermediate_intent": "What was the category of the posting that was in the same column as the frog item but in one row below?",
         "video": "add_by_category",
         "instantiation_dict": {
@@ -2013,7 +2008,7 @@
                 "url_match"
             ],
             "reference_answers": null,
-            "reference_url":  "__SHOPPING__/toothpaste-powder-teeth-whitener-helps-remove-smoking-coffee-soda-wine-stain-freshen-the-breath.html",
+            "reference_url": "__SHOPPING__/toothpaste-powder-teeth-whitener-helps-remove-smoking-coffee-soda-wine-stain-freshen-the-breath.html",
             "program_html": [],
             "string_note": "",
             "reference_answer_raw_annotation": ""
@@ -2030,13 +2025,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 32,
+        "task_id": 35,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "The person in the video {description}. Can you add {description2} to my cart?",
-        "intent":  "The person in the video mentions they live next to the headquarters of a certain company. Can you add the cheapest item available on the OneStopMarket from that company to my cart?",
+        "intent": "The person in the video mentions they live next to the headquarters of a certain company. Can you add the cheapest item available on the OneStopMarket from that company to my cart?",
         "intermediate_intent": "What was the company that the person in the video said they live next to?",
         "video": "change_contact",
         "instantiation_dict": {
@@ -2088,13 +2083,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 32,
+        "task_id": 36,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "The person in the video {description}. Can you add {description2} to my wishlist?",
-        "intent":  "The person in the video mentions they live next to the headquarters of a certain company. Can you add the cheapest item available on the OneStopMarket from that company to my wishlist?",
+        "intent": "The person in the video mentions they live next to the headquarters of a certain company. Can you add the cheapest item available on the OneStopMarket from that company to my wishlist?",
         "intermediate_intent": "What was the company that the person in the video said they live next to?",
         "video": "change_contact",
         "instantiation_dict": {
@@ -2146,13 +2141,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 33,
+        "task_id": 37,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Change my {information}",
-        "intent":  "Change my default shipping address to the original address in the video before it was ever changed.",
+        "intent": "Change my default shipping address to the original address in the video before it was ever changed.",
         "intermediate_intent": "What was  the original address in the video before it was ever changed?",
         "video": "change_contact",
         "instantiation_dict": {
@@ -2207,13 +2202,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 34,
+        "task_id": 38,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html",
         "geolocation": null,
         "intent_template": "Leave a review on {description}.",
-        "intent":  "Leave a review on this page with 3 stars including all the full names that were seen in the account info in the video",
+        "intent": "Leave a review on this page with 3 stars including all the full names that were seen in the account info in the video",
         "intermediate_intent": "What were all the different names seen in the video?",
         "video": "change_contact",
         "instantiation_dict": {
@@ -2277,13 +2272,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 35,
+        "task_id": 39,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my wishlist.",
-        "intent":  "Add the hairmask item in the video that had a blank OneStopMarket logo as their image to my wishlist.",
+        "intent": "Add the hairmask item in the video that had a blank OneStopMarket logo as their image to my wishlist.",
         "intermediate_intent": "What was the hairmask item in the video that had a blank OneStopMarket logo as their image?",
         "video": "change_contact",
         "instantiation_dict": {
@@ -2316,7 +2311,7 @@
                     "locator": "document.querySelector('.products-grid.wishlist').textContent",
                     "required_contents": {
                         "must_include": [
-                        "Wella Biotouch Extra Rich Nutrition Intensive Mask for Damaged Hair, 25.5 oz - professional size"
+                            "Wella Biotouch Extra Rich Nutrition Intensive Mask for Damaged Hair, 25.5 oz - professional size"
                         ]
                     }
                 }
@@ -2334,13 +2329,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 36,
+        "task_id": 40,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "The person in the video {description}. Can you add {description2} to my wishlist?",
-        "intent":  "The person in the video mentions their favorite color from their favorite soccer team. Can you add the cheapest soccer cleats of the same color in their display image to my wishlist?",
+        "intent": "The person in the video mentions their favorite color from their favorite soccer team. Can you add the cheapest soccer cleats of the same color in their display image to my wishlist?",
         "intermediate_intent": "What was the person in the video's favorite color and favorite soccer team?",
         "video": "add_to_comparison_page",
         "instantiation_dict": {
@@ -2393,13 +2388,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 36,
+        "task_id": 41,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "The person in the video {description}. Can you add {description2} to my cart?",
-        "intent":  "The person in the video mentions their favorite color from their favorite soccer team. Can you add the cheapest soccer cleats of the same color in their display image to my cart?",
+        "intent": "The person in the video mentions their favorite color from their favorite soccer team. Can you add the cheapest soccer cleats of the same color in their display image to my cart?",
         "intermediate_intent": "What was the person in the video's favorite color and favorite soccer team?",
         "video": "add_to_comparison_page",
         "instantiation_dict": {
@@ -2452,13 +2447,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 37,
+        "task_id": 42,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
-        "intent":  "Add the items that were present in the comparison page in the video to my cart?",
+        "intent": "Add the items that were present in the comparison page in the video to my cart?",
         "intermediate_intent": "What were the names of the items in the comparison page in the video?",
         "video": "add_to_comparison_page",
         "instantiation_dict": {
@@ -2513,13 +2508,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 38,
+        "task_id": 43,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Can you return the image link of {description}",
-        "intent":  "Can you return the image link of the first item the person in the video added to the comparison page?",
+        "intent": "Can you return the image link of the first item the person in the video added to the comparison page?",
         "intermediate_intent": "What was the name of the first item the person in the video added to the comparison page?",
         "video": "add_to_comparison_page",
         "instantiation_dict": {
@@ -2562,13 +2557,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 39,
+        "task_id": 44,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Can you buy {description}?",
-        "intent":  "Can you buy the item in the video with Mario on the design and send it a shipping address with 'Mario' as the first name and 'Luigi' as the last name?",
+        "intent": "Can you buy the item in the video with Mario on the design and send it a shipping address with 'Mario' as the first name and 'Luigi' as the last name?",
         "intermediate_intent": "What was the item in the video with Mario on the design?",
         "video": "add_to_comparison_page",
         "instantiation_dict": {
@@ -2610,7 +2605,7 @@
                     "locator": "func:get_query_text(__page__, \"#maincontent > div.columns > div.column.main > div.block.block-order-details-view > div.block-content > div.box.box-order-shipping-address > div > address\")",
                     "required_contents": {
                         "must_include": [
-                            "Mario", 
+                            "Mario",
                             "Luigi"
                         ]
                     }
@@ -2629,13 +2624,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 40,
+        "task_id": 45,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "The person in the video {description}. Can you add {description2} to my cart?",
-        "intent":  "The person in the video mentions that they use headphones to play a certain game. Can you add the most expensive item with the theme of that game to my cart?",
+        "intent": "The person in the video mentions that they use headphones to play a certain game. Can you add the most expensive item with the theme of that game to my cart?",
         "intermediate_intent": "What was game the person in the video mentions they play using the headphones?",
         "video": "review_tutorial",
         "instantiation_dict": {
@@ -2686,13 +2681,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 41,
+        "task_id": 46,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my wishlist.",
-        "intent":  "Add the headphones in the video that were multicolor to my wishlist.",
+        "intent": "Add the headphones in the video that were multicolor to my wishlist.",
         "intermediate_intent": "What was the name of the multicolor headphones in the video?",
         "video": "review_tutorial",
         "instantiation_dict": {
@@ -2743,13 +2738,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 41,
+        "task_id": 47,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my comparison page.",
-        "intent":  "Add the headphones in the video that were multicolor to my comparison page.",
+        "intent": "Add the headphones in the video that were multicolor to my comparison page.",
         "intermediate_intent": "What was the name of the multicolor headphones in the video?",
         "video": "review_tutorial",
         "instantiation_dict": {
@@ -2800,13 +2795,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 42,
+        "task_id": 48,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my comparison page.",
-        "intent":  "Add the first grey headphones that appeared the in the video to my comparison page.",
+        "intent": "Add the first grey headphones that appeared the in the video to my comparison page.",
         "intermediate_intent": "What was the name of the first grey headphones that appeared in the video?",
         "video": "review_tutorial",
         "instantiation_dict": {
@@ -2857,13 +2852,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 42,
+        "task_id": 49,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
-        "intent":  "Add the first grey headphones that appeared the in the video to my cart.",
+        "intent": "Add the first grey headphones that appeared the in the video to my cart.",
         "intermediate_intent": "What was the name of the first grey headphones that appeared in the video?",
         "video": "review_tutorial",
         "instantiation_dict": {
@@ -2914,13 +2909,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 43,
+        "task_id": 50,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Return the {description}.",
-        "intent":  "Return the links of all the items the user on the video either wrote a review for or added to cart.",
+        "intent": "Return the links of all the items the user on the video either wrote a review for or added to cart.",
         "intermediate_intent": "What were the names of all the items the user on the video either wrote a review for or added to cart?",
         "video": "review_tutorial",
         "instantiation_dict": {
@@ -2969,13 +2964,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 44,
+        "task_id": 51,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "The person in the video {description}. Can you add {description2} to my cart?",
-        "intent":  "The person in the video says there are a fan of a certain basketball player. Can you add a sweatshirt from the OneStopMarket that has a theme of this player to my cart?",
+        "intent": "The person in the video says there are a fan of a certain basketball player. Can you add a sweatshirt from the OneStopMarket that has a theme of this player to my cart?",
         "intermediate_intent": "Who did the person in the video say they were a fan of?",
         "video": "buy_shoes",
         "instantiation_dict": {
@@ -3027,13 +3022,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 45,
+        "task_id": 52,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Can you buy {description}?",
-        "intent":  "Can you buy the first pair of pink shoes that appear in the video?",
+        "intent": "Can you buy the first pair of pink shoes that appear in the video?",
         "intermediate_intent": "What is the name of the first pair of pink shoes that appear in the video?",
         "video": "buy_shoes",
         "instantiation_dict": {
@@ -3084,13 +3079,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 46,
+        "task_id": 53,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Buy {description}.",
-        "intent":  "Buy all the shoes that the person in the video clicked on.",
+        "intent": "Buy all the shoes that the person in the video clicked on.",
         "intermediate_intent": "What are the names of all the shoes that the person clicked on in the video?",
         "video": "buy_shoes",
         "instantiation_dict": {
@@ -3143,13 +3138,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 47,
+        "task_id": 54,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Leave a review on {description}.",
-        "intent":  "Leave a review on the last shoes page the person in the video visited, leaving 1 star and mentioning how the shoes run small.",
+        "intent": "Leave a review on the last shoes page the person in the video visited, leaving 1 star and mentioning how the shoes run small.",
         "intermediate_intent": "What was the last shoes page the person in the video visisted?",
         "video": "buy_shoes",
         "instantiation_dict": {
@@ -3209,7 +3204,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 48,
+        "task_id": 55,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__/tmp-pop-tarts-breakfast-toaster-pastries-frosted-banana-creme-pie-bakery-inspired-snack-food-16-count-2-pack.html",
@@ -3267,13 +3262,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 50,
+        "task_id": 56,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my comparison page.",
-        "intent":  "Add the items where the user visited the item page in the video to my comparison page.",
+        "intent": "Add the items where the user visited the item page in the video to my comparison page.",
         "intermediate_intent": "What are the names of the items where the user visited the item page in the video?",
         "video": "images_and_description",
         "instantiation_dict": {
@@ -3289,7 +3284,7 @@
                     "McCabe Organic Whole Oat Groats, 2lbs (3 Packs)",
                     "Original Cheerios Heart Healthy Cereal, Gluten Free Cereal with Whole Grain Oats, 8.9 oz",
                     "Food For Life Muffins, Free Brown Rice English, 18 Ounce (Pack of 6)",
-                    "All Inklusive Cereal Bars (28 Pack) – Almonds, Cranberries, Strawberries, & Raisins Healthy Cereal Bars w/ ZERO Sugar Added Breakfast Cereal Bars Made w/ Oats, Rice & More - High Fiber Cereal Bars w/ Vitamins & Mineral (24.6 oz) 80 Cal."
+                    "All Inklusive Cereal Bars (28 Pack) \u2013 Almonds, Cranberries, Strawberries, & Raisins Healthy Cereal Bars w/ ZERO Sugar Added Breakfast Cereal Bars Made w/ Oats, Rice & More - High Fiber Cereal Bars w/ Vitamins & Mineral (24.6 oz) 80 Cal."
                 ]
             },
             "reference_url": "",
@@ -3312,7 +3307,7 @@
                             "McCabe Organic Whole Oat Groats, 2lbs (3 Packs)",
                             "Original Cheerios Heart Healthy Cereal, Gluten Free Cereal with Whole Grain Oats, 8.9 oz",
                             "Food For Life Muffins, Free Brown Rice English, 18 Ounce (Pack of 6)",
-                            "All Inklusive Cereal Bars (28 Pack) – Almonds, Cranberries, Strawberries, & Raisins Healthy Cereal Bars w/ ZERO Sugar Added Breakfast Cereal Bars Made w/ Oats, Rice & More - High Fiber Cereal Bars w/ Vitamins & Mineral (24.6 oz) 80 Cal."
+                            "All Inklusive Cereal Bars (28 Pack) \u2013 Almonds, Cranberries, Strawberries, & Raisins Healthy Cereal Bars w/ ZERO Sugar Added Breakfast Cereal Bars Made w/ Oats, Rice & More - High Fiber Cereal Bars w/ Vitamins & Mineral (24.6 oz) 80 Cal."
                         ]
                     }
                 }
@@ -3330,13 +3325,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 51,
+        "task_id": 57,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
-        "intent":  "Add the last two items where the user visited the item page in the video to my cart.",
+        "intent": "Add the last two items where the user visited the item page in the video to my cart.",
         "intermediate_intent": "What are the names of the last two items where the user visited the item page in the video?",
         "video": "images_and_description",
         "instantiation_dict": {
@@ -3389,13 +3384,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 52,
+        "task_id": 58,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Can you return the image link of {description}",
-        "intent":  "Can you return the image link of the breakfast food in the video that showed food outside the package in its image.",
+        "intent": "Can you return the image link of the breakfast food in the video that showed food outside the package in its image.",
         "intermediate_intent": "What was the breakfast food item in the video whose image showed food outside the package in its image?",
         "video": "images_and_description",
         "instantiation_dict": {
@@ -3442,7 +3437,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 53,
+        "task_id": 59,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -3501,7 +3496,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 54,
+        "task_id": 60,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -3558,7 +3553,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 55,
+        "task_id": 61,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -3598,8 +3593,8 @@
                     "locator": "",
                     "required_contents": {
                         "must_include": [
-                        "The Amazing Spider-Man 2 (Spiderman) Sony Playstation 4 PS4 Game",
-                        "DualShock 4 Wireless Controller for PlayStation 4 - Magma Red"
+                            "The Amazing Spider-Man 2 (Spiderman) Sony Playstation 4 PS4 Game",
+                            "DualShock 4 Wireless Controller for PlayStation 4 - Magma Red"
                         ]
                     }
                 }
@@ -3617,7 +3612,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 56,
+        "task_id": 62,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -3675,7 +3670,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 57,
+        "task_id": 63,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -3686,7 +3681,7 @@
         "video": "brand",
         "instantiation_dict": {
             "description": "adds the socks to their cart in anticipation of a holiday",
-            "description2":"take me to the third item that comes up in the OneStopMarket by relevance when searching for this holiday?"
+            "description2": "take me to the third item that comes up in the OneStopMarket by relevance when searching for this holiday?"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -3725,7 +3720,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 58,
+        "task_id": 64,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -3774,7 +3769,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 59,
+        "task_id": 65,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -3814,8 +3809,8 @@
                     "locator": "",
                     "required_contents": {
                         "must_include": [
-                        "Nike Every Plus Lightweight Crew 3-Pair Pack",
-                        "Gucci Premiere Fragrance Set, 3 Count"
+                            "Nike Every Plus Lightweight Crew 3-Pair Pack",
+                            "Gucci Premiere Fragrance Set, 3 Count"
                         ]
                     }
                 }
@@ -3833,7 +3828,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 60,
+        "task_id": 66,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -3899,7 +3894,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 61,
+        "task_id": 67,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -3965,7 +3960,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 62,
+        "task_id": 68,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -4009,7 +4004,7 @@
                             "Sceptre E195BD-SRR 19-Inch 720P LED TV, True Black (2017)"
                         ]
                     }
-                },                
+                },
                 {
                     "url": "__SHOPPING__/checkout/cart/",
                     "locator": "lambda:(() => {try {return Array.from(document.querySelectorAll(\".item-info\")).find(el => el.textContent.includes(\"Sceptre E195BD-SRR 19-Inch 720P LED TV, True Black (2017)\")).querySelector(\"input\").getAttribute(\"data-item-qty\")} catch (e) {return \" \"}})()",
@@ -4033,7 +4028,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 63,
+        "task_id": 69,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -4090,7 +4085,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 64,
+        "task_id": 70,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -4147,7 +4142,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 65,
+        "task_id": 71,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -4204,7 +4199,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 66,
+        "task_id": 72,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -4271,7 +4266,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 67,
+        "task_id": 73,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -4329,7 +4324,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 68,
+        "task_id": 74,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -4377,7 +4372,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 69,
+        "task_id": 75,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -4436,7 +4431,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 70,
+        "task_id": 76,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -4493,7 +4488,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 70,
+        "task_id": 77,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -4550,7 +4545,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 71,
+        "task_id": 78,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -4598,7 +4593,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 72,
+        "task_id": 79,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -4637,7 +4632,7 @@
                     "url": "__SHOPPING__/checkout/cart",
                     "locator": "",
                     "required_contents": {
-                        "must_include":  [
+                        "must_include": [
                             "Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.",
                             "Nintendo Mario Kart Spiny Shell Destroys Tank Top"
                         ]
@@ -4657,7 +4652,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 73,
+        "task_id": 80,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -4696,7 +4691,7 @@
                     "url": "__SHOPPING__/wishlist/?limit=50",
                     "locator": "document.querySelector('.products-grid.wishlist').textContent",
                     "required_contents": {
-                        "must_include":  [
+                        "must_include": [
                             "Pre-baked Gingerbread House Kit Value Pack, 17 oz., Pack of 2, Total 34 oz.",
                             "Nintendo Mario Kart Spiny Shell Destroys Tank Top"
                         ]
@@ -4716,7 +4711,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 74,
+        "task_id": 81,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -4775,7 +4770,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 82,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -4832,7 +4827,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 83,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -4870,9 +4865,8 @@
                     "url": "__SHOPPING__/checkout/cart",
                     "locator": "",
                     "required_contents": {
-                        "must_include":  [
+                        "must_include": [
                             "Tv Stand with Led Lights- Muebles para El Dormitorio Tv Stand Bedroom Mesas para Televisiones De Sala Under Tv Stand Dresser Tv Stand -51.2x13.8x17.7in"
-
                         ]
                     }
                 }
@@ -4890,7 +4884,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 84,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -4947,7 +4941,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 85,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -4995,7 +4989,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 86,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -5052,7 +5046,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 87,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -5090,9 +5084,8 @@
                     "url": "__SHOPPING__/checkout/cart",
                     "locator": "",
                     "required_contents": {
-                        "must_include":  [
+                        "must_include": [
                             "Alaffia Everyday Shea Conditioner, Lavender, 32 Oz. Moisturizes, Restores and Protects. Made with Fair Trade Shea Butter, Cruelty Free, No Parabens, Vegan."
-
                         ]
                     }
                 }
@@ -5110,7 +5103,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 88,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -5167,7 +5160,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 89,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -5215,7 +5208,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 90,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -5272,7 +5265,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 91,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -5310,9 +5303,8 @@
                     "url": "__SHOPPING__/checkout/cart",
                     "locator": "",
                     "required_contents": {
-                        "must_include":  [
+                        "must_include": [
                             "TUNUSKAT Womens Bikini Sets Summer Spaghetti Strap Bathing Suit Beachwear Color Patchwork Sexy Two Piece Swimsuit Swimwear"
-
                         ]
                     }
                 }
@@ -5330,7 +5322,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 92,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -5387,7 +5379,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 93,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -5435,7 +5427,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 94,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -5484,7 +5476,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 95,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -5533,7 +5525,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 96,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -5582,7 +5574,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 97,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -5601,7 +5593,8 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "HORMEL COMPLEATS Roast Beef & Mashed Potatoes With Gravy Microwave Tray, 9 oz. (6 Pack)"                ]
+                    "HORMEL COMPLEATS Roast Beef & Mashed Potatoes With Gravy Microwave Tray, 9 oz. (6 Pack)"
+                ]
             },
             "reference_url": "",
             "program_html": [],
@@ -5620,7 +5613,7 @@
                     "locator": "",
                     "required_contents": {
                         "must_include": [
-                            "HORMEL COMPLEATS Roast Beef & Mashed Potatoes With Gravy Microwave Tray, 9 oz. (6 Pack)"                
+                            "HORMEL COMPLEATS Roast Beef & Mashed Potatoes With Gravy Microwave Tray, 9 oz. (6 Pack)"
                         ]
                     }
                 }
@@ -5638,7 +5631,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 98,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -5657,7 +5650,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "HORMEL COMPLEATS Roast Beef & Mashed Potatoes With Gravy Microwave Tray, 9 oz. (6 Pack)"                
+                    "HORMEL COMPLEATS Roast Beef & Mashed Potatoes With Gravy Microwave Tray, 9 oz. (6 Pack)"
                 ]
             },
             "reference_url": "",
@@ -5676,9 +5669,8 @@
                     "url": "__SHOPPING__/checkout/cart",
                     "locator": "",
                     "required_contents": {
-                        "must_include":  [
-                            "HORMEL COMPLEATS Roast Beef & Mashed Potatoes With Gravy Microwave Tray, 9 oz. (6 Pack)"                
-
+                        "must_include": [
+                            "HORMEL COMPLEATS Roast Beef & Mashed Potatoes With Gravy Microwave Tray, 9 oz. (6 Pack)"
                         ]
                     }
                 }
@@ -5696,7 +5688,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 99,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -5715,7 +5707,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "HORMEL COMPLEATS Roast Beef & Mashed Potatoes With Gravy Microwave Tray, 9 oz. (6 Pack)"                
+                    "HORMEL COMPLEATS Roast Beef & Mashed Potatoes With Gravy Microwave Tray, 9 oz. (6 Pack)"
                 ]
             },
             "reference_url": "",
@@ -5735,7 +5727,7 @@
                     "locator": "document.querySelector('.products-grid.wishlist').textContent",
                     "required_contents": {
                         "must_include": [
-                            "HORMEL COMPLEATS Roast Beef & Mashed Potatoes With Gravy Microwave Tray, 9 oz. (6 Pack)"                
+                            "HORMEL COMPLEATS Roast Beef & Mashed Potatoes With Gravy Microwave Tray, 9 oz. (6 Pack)"
                         ]
                     }
                 }
@@ -5753,7 +5745,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 100,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -5772,7 +5764,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "HORMEL COMPLEATS Roast Beef & Mashed Potatoes With Gravy Microwave Tray, 9 oz. (6 Pack)"                
+                    "HORMEL COMPLEATS Roast Beef & Mashed Potatoes With Gravy Microwave Tray, 9 oz. (6 Pack)"
                 ]
             },
             "reference_url": "",
@@ -5801,7 +5793,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 101,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -5820,9 +5812,9 @@
             ],
             "reference_answers": {
                 "must_include": [
-                "Orangina - Citrus Sparkling Juice Beverage - Light Pulp - Original Imported European French Recipe - No Artificial Ingredients - (Pack of 24) (11.5 oz Can)"
+                    "Orangina - Citrus Sparkling Juice Beverage - Light Pulp - Original Imported European French Recipe - No Artificial Ingredients - (Pack of 24) (11.5 oz Can)"
                 ]
-                },
+            },
             "reference_url": "",
             "program_html": [],
             "string_note": "",
@@ -5858,7 +5850,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 102,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -5896,9 +5888,8 @@
                     "url": "__SHOPPING__/checkout/cart",
                     "locator": "",
                     "required_contents": {
-                        "must_include":  [
+                        "must_include": [
                             "Orangina - Citrus Sparkling Juice Beverage - Light Pulp - Original Imported European French Recipe - No Artificial Ingredients - (Pack of 24) (11.5 oz Can)"
-
                         ]
                     }
                 }
@@ -5916,7 +5907,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 103,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -5973,7 +5964,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 104,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -6021,7 +6012,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 105,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -6042,7 +6033,7 @@
                 "must_include": [
                     "Pharmacist Gift for Women Appreciation Gifts Travel Makeup Mirror Pharmacy Tech Gift for Nurse Doctor Nursing Gift Medical School Birthday Graduation Gift Compact Makeup Mirror for Friend Coworker"
                 ]
-                },
+            },
             "reference_url": "",
             "program_html": [],
             "string_note": "",
@@ -6078,7 +6069,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 106,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -6116,9 +6107,8 @@
                     "url": "__SHOPPING__/checkout/cart",
                     "locator": "",
                     "required_contents": {
-                        "must_include":  [
+                        "must_include": [
                             "Pharmacist Gift for Women Appreciation Gifts Travel Makeup Mirror Pharmacy Tech Gift for Nurse Doctor Nursing Gift Medical School Birthday Graduation Gift Compact Makeup Mirror for Friend Coworker"
-
                         ]
                     }
                 }
@@ -6136,7 +6126,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 107,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -6193,7 +6183,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 108,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -6241,7 +6231,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 109,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -6290,7 +6280,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 110,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -6311,7 +6301,7 @@
                 "must_include": [
                     "2/Pack! NSF Green Epoxy Wire Shelf 24\" x 24\". Storage shelf. Shelving unit. Garage storage shelves. Shelving units and storage. Food storage shelf. Storage rack. Kitchen shelves. Bakers racks"
                 ]
-                },
+            },
             "reference_url": "",
             "program_html": [],
             "string_note": "",
@@ -6347,7 +6337,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 111,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -6385,9 +6375,8 @@
                     "url": "__SHOPPING__/checkout/cart",
                     "locator": "",
                     "required_contents": {
-                        "must_include":  [
+                        "must_include": [
                             "2/Pack! NSF Green Epoxy Wire Shelf 24\" x 24\". Storage shelf. Shelving unit. Garage storage shelves. Shelving units and storage. Food storage shelf. Storage rack. Kitchen shelves. Bakers racks"
-
                         ]
                     }
                 }
@@ -6405,7 +6394,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 112,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -6462,7 +6451,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 113,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -6510,7 +6499,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 114,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -6531,7 +6520,7 @@
                 "must_include": [
                     "Magnetic Metal Stainless Steel D-pads Kits Directional Pad Replacement Parts for Xbox One Elite Controller, Elite Series 2, Xbox One, Xbox One S/X Controller"
                 ]
-                },
+            },
             "reference_url": "",
             "program_html": [],
             "string_note": "",
@@ -6567,7 +6556,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 115,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -6605,9 +6594,8 @@
                     "url": "__SHOPPING__/checkout/cart",
                     "locator": "",
                     "required_contents": {
-                        "must_include":  [
+                        "must_include": [
                             "Magnetic Metal Stainless Steel D-pads Kits Directional Pad Replacement Parts for Xbox One Elite Controller, Elite Series 2, Xbox One, Xbox One S/X Controller"
-
                         ]
                     }
                 }
@@ -6625,13 +6613,13 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 116,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my wishlist.",
-        "intent": "Add the cheapest visible item in the third category in the video to my cart" ,
+        "intent": "Add the cheapest visible item in the third category in the video to my cart",
         "intermediate_intent": "What was the name of the cheapest visible item in the third category in the video?",
         "video": "price_range_url",
         "instantiation_dict": {
@@ -6682,7 +6670,7 @@
         "sites": [
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 117,
         "require_login": true,
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
@@ -6726,5 +6714,4 @@
         "comments": "",
         "intent_template_id": 0
     }
-
 ]
