@@ -23,7 +23,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "Carnegie Mellon" 
+                    "Carnegie Mellon"
                 ]
             },
             "reference_url": "",
@@ -76,7 +76,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "cell phones" 
+                    "cell phones"
                 ]
             },
             "reference_url": "",
@@ -124,7 +124,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "BOAT 1967 FIBRA /FISHING GEAR" 
+                    "BOAT 1967 FIBRA /FISHING GEAR"
                 ]
             },
             "reference_url": "",
@@ -172,7 +172,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "25000" 
+                    "25000"
                 ]
             },
             "reference_url": "",
@@ -229,7 +229,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "1986 nova xl 23ft" 
+                    "1986 nova xl 23ft"
                 ]
             },
             "reference_url": "",
@@ -277,7 +277,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "Young Chang Piano for Sale" 
+                    "Young Chang Piano for Sale"
                 ]
             },
             "reference_url": "",
@@ -326,7 +326,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "Dumfries" 
+                    "Dumfries"
                 ]
             },
             "reference_url": "",
@@ -374,7 +374,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "iphone 14 pro max" 
+                    "iphone 14 pro max"
                 ]
             },
             "reference_url": "",
@@ -422,7 +422,7 @@
         "intermediate_intent": "What was the name of the first farm animal listing in the video?",
         "video": "navigate_tutorial",
         "instantiation_dict": {
-            "description": "find the iPhone listing with an iPad in the image in the video then comment 'does this mean free ipad lol' on the item"
+            "description": "tell me the the email of the seller of the first farm animal listing in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -431,7 +431,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "Black angus bull" 
+                    "Black angus bull"
                 ]
             },
             "reference_url": "",
@@ -483,7 +483,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "2022 Tesla Model 3 Long Range ****We Finance! ****" 
+                    "2022 Tesla Model 3 Long Range ****We Finance! ****"
                 ]
             },
             "reference_url": "",
@@ -532,7 +532,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "Playstation 4 |OR| PS4 |OR| playstation 4" 
+                    "Playstation 4 |OR| PS4 |OR| playstation 4"
                 ]
             },
             "reference_url": "",
@@ -794,7 +794,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "Beauty + health" 
+                    "Beauty + health"
                 ]
             },
             "reference_url": "",
@@ -842,7 +842,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "Canon EF 100-400mm f/4.5-5.6L IS II USM with extender EF 1.4X III" 
+                    "Canon EF 100-400mm f/4.5-5.6L IS II USM with extender EF 1.4X III"
                 ]
             },
             "reference_url": "",
@@ -871,7 +871,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 18,
+        "task_id": 17,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -925,7 +925,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 19,
+        "task_id": 18,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -977,7 +977,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 20,
+        "task_id": 19,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -997,7 +997,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "pitbull" 
+                    "pitbull"
                 ]
             },
             "reference_url": "",
@@ -1026,7 +1026,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 21,
+        "task_id": 20,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -1047,7 +1047,7 @@
                 "must_include": [
                     "Rehoming 3.5 yr old pitbull/American bully",
                     "Ford 8670",
-                    "Compact Canister Vacuum Cleaner - Lightweight and Powerful"                
+                    "Compact Canister Vacuum Cleaner - Lightweight and Powerful"
                 ]
             },
             "reference_url": "",
@@ -1082,7 +1082,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 22,
+        "task_id": 21,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -1139,7 +1139,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 23,
+        "task_id": 22,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -1149,7 +1149,7 @@
         "intermediate_intent": "What was the name of the second item page the person in the video went to?",
         "video": "item_page",
         "instantiation_dict": {
-            "description": "comment 'I love red stuff' to the most expensive red item from the same city as where the first listing the person in the video opened was posted"
+            "description": "tell me the email of the second item page the person in the video went to"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1172,7 +1172,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "daiki.kovÃ¡cs375@example.com"
+                    "daiki.kov\u00c3\u00a1cs375@example.com"
                 ]
             },
             "reference_url": "",
@@ -1192,7 +1192,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 24,
+        "task_id": 23,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -1249,7 +1249,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 25,
+        "task_id": 24,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -1306,7 +1306,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 26,
+        "task_id": 25,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -1363,7 +1363,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 27,
+        "task_id": 26,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -1420,7 +1420,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 28,
+        "task_id": 27,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -1440,7 +1440,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "vespa" 
+                    "vespa"
                 ]
             },
             "reference_url": "",
@@ -1469,7 +1469,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 29,
+        "task_id": 28,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -1517,7 +1517,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 30,
+        "task_id": 29,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -1565,7 +1565,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 31,
+        "task_id": 30,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -1613,7 +1613,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 32,
+        "task_id": 31,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -1633,7 +1633,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "Guinness" 
+                    "Guinness"
                 ]
             },
             "reference_url": "",
@@ -1662,7 +1662,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 33,
+        "task_id": 32,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -1672,7 +1672,7 @@
         "intermediate_intent": "What was the name of the cheapest listing visible in the video?",
         "video": "spatial_tutorial",
         "instantiation_dict": {
-            "description": "comment 'I think I would buy if you lower the price' on the most cheapest listing visible in the video"
+            "description": "comment 'I think I would buy if you lower the price' on the cheapest listing visible in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1681,7 +1681,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "Audio Books" 
+                    "Audio Books"
                 ]
             },
             "reference_url": "",
@@ -1710,13 +1710,13 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 34,
+        "task_id": 33,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
         "intent_template": "Can you {description}?",
-        "intent": "Can you comment 'Spidey!!' on all the listings in the video with Spiderman in the image?",
+        "intent": "Can you comment 'Spidey!!' on all the listings in the video with Spiderman in the image??",
         "intermediate_intent": "What are the name(s) of all the listings in the video with Spiderman in the image?",
         "video": "spatial_tutorial",
         "instantiation_dict": {
@@ -1729,7 +1729,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "Storytime Collection Books" 
+                    "Storytime Collection Books"
                 ]
             },
             "reference_url": "",
@@ -1767,7 +1767,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 35,
+        "task_id": 34,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -1818,7 +1818,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 36,
+        "task_id": 35,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -1871,7 +1871,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 37,
+        "task_id": 36,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -1915,7 +1915,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 38,
+        "task_id": 37,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -1959,13 +1959,13 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 39,
+        "task_id": 38,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
         "intent_template": "Can you {description}?",
-        "intent": "Can you find the most expensive listing in the video below $10000",
+        "intent": "Can you find the most expensive listing in the video below $10000?",
         "intermediate_intent": "What was the most expensive listing in the video below $10000?",
         "video": "edit_listings",
         "instantiation_dict": {
@@ -2003,7 +2003,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 40,
+        "task_id": 39,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2023,7 +2023,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "listings" 
+                    "listings"
                 ]
             },
             "reference_url": "",
@@ -2052,7 +2052,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 41,
+        "task_id": 40,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2072,7 +2072,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "folding bike" 
+                    "folding bike"
                 ]
             },
             "reference_url": "",
@@ -2101,7 +2101,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 42,
+        "task_id": 41,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2145,7 +2145,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 43,
+        "task_id": 42,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2189,7 +2189,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 44,
+        "task_id": 43,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2242,7 +2242,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 45,
+        "task_id": 44,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2295,7 +2295,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 46,
+        "task_id": 45,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2315,7 +2315,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "harry potter" 
+                    "harry potter"
                 ]
             },
             "reference_url": "",
@@ -2344,7 +2344,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 47,
+        "task_id": 46,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2355,7 +2355,7 @@
         "video": "recent_range_links",
         "instantiation_dict": {
             "description": "says they have been reading a certain book series recently",
-            "description2": "Can you search for the series name and take me to the first item that comes up"
+            "description2": "search for the series name and take me to the first item that comes up"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2364,7 +2364,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "harry potter" 
+                    "harry potter"
                 ]
             },
             "reference_url": "",
@@ -2393,7 +2393,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 48,
+        "task_id": 47,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2446,7 +2446,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 49,
+        "task_id": 48,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2491,7 +2491,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 50,
+        "task_id": 49,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2535,7 +2535,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 51,
+        "task_id": 50,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2623,7 +2623,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 53,
+        "task_id": 52,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2668,7 +2668,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 54,
+        "task_id": 53,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2721,7 +2721,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 55,
+        "task_id": 54,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2774,7 +2774,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 56,
+        "task_id": 55,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2827,13 +2827,13 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 57,
+        "task_id": 56,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
         "intent_template": "The person in the video {description}. Can you {description2}?",
-        "intent": "The person in the video mentions they are getting a new laptop. Can you get the cheapest listing in Computers that is from the same company as the new laptop they say they are getting",
+        "intent": "The person in the video mentions they are getting a new laptop. Can you get the cheapest listing in Computers that is from the same company as the new laptop they say they are getting?",
         "intermediate_intent": "What was company of the new laptop the person in the video mentions they are getting?",
         "video": "post_tutorial",
         "instantiation_dict": {
@@ -2872,7 +2872,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 58,
+        "task_id": 57,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2901,7 +2901,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "ananya_schneider275@example.com" 
+                    "ananya_schneider275@example.com"
                 ]
             },
             "reference_url": "",
@@ -2921,7 +2921,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 59,
+        "task_id": 58,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -2950,7 +2950,7 @@
             ],
             "reference_answers": {
                 "must_include": [
-                    "Emma Williams" 
+                    "Emma Williams"
                 ]
             },
             "reference_url": "",
@@ -2970,7 +2970,7 @@
         "sites": [
             "classifieds"
         ],
-        "task_id": 60,
+        "task_id": 59,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",

@@ -27,4 +27,5 @@ def check_errors(file_name):
     with open(file_name, 'w') as f:
         json.dump(tasks, f, indent=4)
 
-check_errors('test_shopping.raw.json')
+check_errors('test_maps.raw.json')
+
