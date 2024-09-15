@@ -4784,5 +4784,165 @@
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 84,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you comment 'Nice post!' under {description}?",
+        "intent": "Can you comment 'Nice post!' under the first post that was edited in the video?",
+        "intermediate_intent": "What was the name of the first post that was edited in the video?",
+        "video": "edit_post",
+        "instantiation_dict": {
+            "description": "the first post that was edited in the video"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "'The Last of Us' Moves Production to Vancouver for Season 2"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__REDDIT__/f/television/135207/the-last-of-us-moves-production-to-vancouver-for-season-2",
+                    "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+                    "required_contents": {
+                        "exact_match": "Nice post!"
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 85,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "Can you comment 'Nice post!' under {description}?",
+        "intent": "Can you comment 'Nice post!' under the post with the most amount of upvotes?",
+        "intermediate_intent": "What was the name of the post with the most amount of upvotes?",
+        "video": "search",
+        "instantiation_dict": {
+            "description": "the post with the most amount of upvotes"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Cristiano Ronaldo is hit with a £50,000 fine and a two-match ban after he smashed a fan's phone following Man United's defeat against Everton in April... just a day after leaving the Red Devils"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "__REDDIT__/f/television/135207/the-last-of-us-moves-production-to-vancouver-for-season-2",
+                    "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+                    "required_contents": {
+                        "exact_match": "Nice post!"
+                    }
+                }
+            ]
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "reddit"
+        ],
+        "task_id": 86,
+        "require_login": true,
+        "storage_state": "./.auth/reddit_state.json",
+        "start_url": "__REDDIT__",
+        "geolocation": null,
+        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent": "The person in the video clicks on a forum. Can you take me to the forum right above it?",
+        "intermediate_intent": "What was the forum of the post that the person clicked on?",
+        "video": "edit_post",
+        "instantiation_dict": {
+            "description": "clicks on a forum",
+            "description2": "take me to the forum right above it"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Washington"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__REDDIT__/f/wallstreetbets",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "easy",
+        "spatial_reasoning": true,
+        "audio_reasoning": true,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
+        "comments": "",
+        "intent_template_id": 0
     }
+
 ]
