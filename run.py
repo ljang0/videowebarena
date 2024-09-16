@@ -333,7 +333,7 @@ def test(
     )
 
     for config_file in config_file_list:
-        try:
+        # try:
             render_helper = RenderHelper(
                 config_file, args.result_dir, args.action_set_tag
             )
@@ -479,21 +479,21 @@ def test(
                 env.save_trace(
                     Path(args.result_dir) / "traces" / f"{task_id}.zip"
                 )
-        except openai.OpenAIError as e:
-            logger.info(f"[OpenAI Error] {repr(e)}")
-            with open(Path(args.result_dir) / "error.txt", "a") as f:
-                f.write(f"[Config file]: {config_file}\n")
-                f.write(f"[Unhandled Error] {repr(e)}\n")
-                f.write(traceback.format_exc())  # write stack trace to file
-        except Exception as e:
-            logger.info(f"[Unhandled Error] {repr(e)}]")
+        # except openai.OpenAIError as e:
+        #     logger.info(f"[OpenAI Error] {repr(e)}")
+        #     with open(Path(args.result_dir) / "error.txt", "a") as f:
+        #         f.write(f"[Config file]: {config_file}\n")
+        #         f.write(f"[Unhandled Error] {repr(e)}\n")
+        #         f.write(traceback.format_exc())  # write stack trace to file
+        # except Exception as e:
+        #     logger.info(f"[Unhandled Error] {repr(e)}]")
 
-            with open(Path(args.result_dir) / "error.txt", "a") as f:
-                f.write(f"[Config file]: {config_file}\n")
-                f.write(f"[Unhandled Error] {repr(e)}\n")
-                f.write(traceback.format_exc())  # write stack trace to file
+        #     with open(Path(args.result_dir) / "error.txt", "a") as f:
+        #         f.write(f"[Config file]: {config_file}\n")
+        #         f.write(f"[Unhandled Error] {repr(e)}\n")
+        #         f.write(traceback.format_exc())  # write stack trace to file
 
-        render_helper.close()
+            render_helper.close()
 
     env.close()
     if len(scores):

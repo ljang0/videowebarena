@@ -151,6 +151,12 @@ config_files/videowa/test_classifieds.json
 config_files/videowa/test_reddit.json
 config_files/videowa/test_shopping.json
 config_files/videowa/test_shopping_admin.json
+config_files/videowa/test_gitlab.json
+config_files/videowa/test_gitlab/*
+config_files/videowa/test_map.json
+config_files/videowa/test_map/*
+config_files/videowa/test_shopping_admin/*
+
 cache/*
 config_files/vwa/presentation*
 agents/prompts/jsons/*
@@ -162,7 +168,7 @@ media/videowebarena*
 results/*
 log_files/*
 
-scripts/test_run.sh
+scripts/set_configs.sh
 video_understanding/dev.ipynb
 result*
 
