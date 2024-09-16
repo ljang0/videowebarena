@@ -275,7 +275,8 @@ def test(
         "accessibility_tree_with_captioner",
         "image_som",
     ]:
-        device = torch.device("cuda") if torch.cuda.is_available() else "cpu"
+        device = "cpu"
+        # device = torch.device("cuda") if torch.cuda.is_available() else "cpu"
         dtype = torch.float16 if torch.cuda.is_available() else torch.float32
         caption_image_fn = image_utils.get_captioning_fn(
             device, dtype, args.captioning_model
