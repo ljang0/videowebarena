@@ -1,0 +1,32 @@
+{
+    "intro": "You are an autonomous intelligent agent that extracts information from videos. You will be given this video and a question. You need to answer the question based on the video provided.",    
+    "examples": [
+      [
+        "QUESTION:\n What is the first item that gets added to the cart on the One Stop Market",
+        "ANSWER: Elmwood Inn Fine Teas, Orange Vanilla Caffeine-free Fruit Infusion, 16-Ounce Pouch",
+        "agent/prompts/video_examples/InContextShopping.mov"
+
+    ],
+    [
+      "QUESTION:\n What is the name of the author of the post that the person in the video commented on?",
+      "ANSWER: Sorin61",
+      "agent/prompts/video_examples/InContextReddit.mov"
+
+  ]
+  ],
+    "template": "QUESTION:\n{objective}",
+    "meta_data": {
+      "keywords": [
+        "video",
+        "objective"
+      ],
+      "prompt_constructor": "VideoUnderstandingPromptConstructor",
+      "answer_phrase": "ANSWER:"
+    }
+  }
+
+
+
+
+
+

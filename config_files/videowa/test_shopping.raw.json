@@ -2147,7 +2147,11 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Change my {information}",
+<<<<<<< HEAD
         "intent": "Change my default shipping address to the original address in the video before it was ever changed",
+=======
+        "intent": "Change my default shipping address to the original address in the video before it was ever changed.",
+>>>>>>> origin
         "intermediate_intent": "What was  the original address in the video before it was ever changed?",
         "video": "change_contact",
         "instantiation_dict": {
@@ -2208,7 +2212,11 @@
         "start_url": "__SHOPPING__/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html",
         "geolocation": null,
         "intent_template": "Leave a review on {description}.",
+<<<<<<< HEAD
         "intent": "Leave a review on this page with 5 stars including all the full names that were seen in the account info in the video.",
+=======
+        "intent": "Leave a review on this page with 3 stars including all the full names that were seen in the account info in the video",
+>>>>>>> origin
         "intermediate_intent": "What were all the different names seen in the video?",
         "video": "change_contact",
         "instantiation_dict": {
@@ -2453,7 +2461,11 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
+<<<<<<< HEAD
         "intent": "Add the items that were present in the comparison page in the video to my cart.",
+=======
+        "intent": "Add the items that were present in the comparison page in the video to my cart?",
+>>>>>>> origin
         "intermediate_intent": "What were the names of the items in the comparison page in the video?",
         "video": "add_to_comparison_page",
         "instantiation_dict": {
@@ -2513,7 +2525,11 @@
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
+<<<<<<< HEAD
         "intent_template": "Can you return the image link of {description}?",
+=======
+        "intent_template": "Can you return the image link of {description}",
+>>>>>>> origin
         "intent": "Can you return the image link of the first item the person in the video added to the comparison page?",
         "intermediate_intent": "What was the name of the first item the person in the video added to the comparison page?",
         "video": "add_to_comparison_page",
@@ -3390,8 +3406,13 @@
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
+<<<<<<< HEAD
         "intent_template": "Can you return the image link of {description}?",
         "intent": "Can you return the image link of the breakfast food in the video that showed food outside the package in its image?",
+=======
+        "intent_template": "Can you return the image link of {description}",
+        "intent": "Can you return the image link of the breakfast food in the video that showed food outside the package in its image.",
+>>>>>>> origin
         "intermediate_intent": "What was the breakfast food item in the video whose image showed food outside the package in its image?",
         "video": "images_and_description",
         "instantiation_dict": {
@@ -6895,4 +6916,8 @@
         "comments": "",
         "intent_template_id": 0
     }
+<<<<<<< HEAD
 ]
+=======
+]
+>>>>>>> origin

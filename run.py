@@ -13,15 +13,17 @@ import tempfile
 import time
 from pathlib import Path
 from typing import List
-
+import copy
 import openai
 import requests
 import torch
 from PIL import Image
+import traceback
 
 from agent import (
     PromptAgent,
     construct_agent,
+    construct_intermediate_intent_agent
 )
 from agent.prompts import *
 from browser_env import (
@@ -151,7 +153,7 @@ def config() -> argparse.Namespace:
     # lm config
     parser.add_argument("--provider", type=str, default="openai")
     parser.add_argument("--model", type=str, default="gpt-3.5-turbo-0613")
-    parser.add_argument("--mode", type=str, default="chat")
+    parser.add_argument("--mode", type=str, default="chat", choices=["chat", "completion"])
     parser.add_argument("--temperature", type=float, default=1.0)
     parser.add_argument("--top_p", type=float, default=0.9)
     parser.add_argument("--context_length", type=int, default=0)
@@ -179,6 +181,7 @@ def config() -> argparse.Namespace:
     parser.add_argument("--video_dir", type=str, default=None)
     parser.add_argument("--video_summary_instruction_path", type=str, default=None)
     parser.add_argument("--max_frame_num", type=int, default=5)
+    parser.add_argument("--intermediate_intent_instruction_path", type=str, default=None, help="if path is provided, intermidate intent eval will be conducted")
     args = parser.parse_args()
 
     # check the whether the action space is compatible with the observation space
@@ -259,6 +262,8 @@ def test(
     config_file_list: list[str]
 ) -> None:
     scores = []
+    intermediate_scores = []
+
     max_steps = args.max_steps
 
     early_stop_thresholds = {
@@ -307,6 +312,10 @@ def test(
         else None,
     )  # NOTE: captioning_fn here is used for captioning input images.
 
+    if args.intermediate_intent_instruction_path:
+        intermediate_intent_agent = construct_intermediate_intent_agent(args)
+    else:
+        intermediate_intent_agent = None
     env = ScriptBrowserEnv(
         headless=not args.render,
         slow_mo=args.slow_mo,
@@ -335,6 +344,7 @@ def test(
                 intent = _c["intent"]
                 task_id = _c["task_id"]
                 image_paths = _c.get("image", None)
+                intermediate_intent = _c.get("intermediate_intent", None)
                 images = []
 
                 # automatically login
@@ -441,7 +451,24 @@ def test(
                 page=env.page
             )
 
-            scores.append(score)
+
+            if intermediate_intent_agent:
+                detected_intermediate_intent = intermediate_intent_agent.get_intermidiate_intent(args, config_file)
+                logger.info(f"[Intermidiate Intent]: {intermediate_intent}")
+                logger.info(f"[Detected Intermidiate Intent]: {detected_intermediate_intent}")
+                intermediate_evaluator = evaluator_router(
+                    config_file, captioning_fn=eval_caption_image_fn, eval_key="intermediate_eval"
+                )
+                intermediate_score = intermediate_evaluator(
+                trajectory=detected_intermediate_intent,
+                config_file=config_file,
+                page=env.page,
+                )
+                intermediate_scores.append(intermediate_score)
+                if intermediate_score == 1:
+                    logger.info(f"[Intermediate Result] (PASS) {config_file}")
+                else:
+                    logger.info(f"[Intermediate Result] (FAIL) {config_file}")
 
             if score == 1:
                 logger.info(f"[Result] (PASS) {config_file}")
@@ -454,11 +481,13 @@ def test(
                 )
         except openai.OpenAIError as e:
             logger.info(f"[OpenAI Error] {repr(e)}")
+            with open(Path(args.result_dir) / "error.txt", "a") as f:
+                f.write(f"[Config file]: {config_file}\n")
+                f.write(f"[Unhandled Error] {repr(e)}\n")
+                f.write(traceback.format_exc())  # write stack trace to file
         except Exception as e:
             logger.info(f"[Unhandled Error] {repr(e)}]")
-            import traceback
 
-            # write to error file
             with open(Path(args.result_dir) / "error.txt", "a") as f:
                 f.write(f"[Config file]: {config_file}\n")
                 f.write(f"[Unhandled Error] {repr(e)}\n")
@@ -469,6 +498,8 @@ def test(
     env.close()
     if len(scores):
         logger.info(f"Average score: {sum(scores) / len(scores)}")
+    if len(intermediate_scores):
+        logger.info(f"Average intermediate score: {sum(intermediate_scores) / len(intermediate_scores)}")
 
 
 def prepare(args: argparse.Namespace) -> None:

@@ -9,7 +9,7 @@ from browser_env.env_config import URL_MAPPINGS
 from browser_env.utils import StateInfo, pil_to_b64, pil_to_vertex
 from llms import lm_config
 from llms.tokenizers import Tokenizer
-from llms.utils import APIInput
+from llms.utils import APIInput, load_and_encode_video
 from video_understanding.video_processor import VideoProcessor
 
 
@@ -281,8 +281,7 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
         tokenizer: Tokenizer,
     ):
         super().__init__(instruction_path, lm_config, tokenizer)
-        self.answer_phrase = self.instruction["meta_data"]["answer_phrase"]
-
+        self.gpt_system_example_role = "user" if lm_config.provider == "openai" else "system"
     def construct(
         self,
         trajectory: Trajectory,
@@ -347,7 +346,7 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
                     example_img = Image.open(z)
                     message.append(
                         {
-                            "role": "system",
+                            "role": self.gpt_system_example_role,
                             "name": "example_user",
                             "content": [
                                 {"type": "text", "text": x},
@@ -364,7 +363,7 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
                     )
                     message.append(
                         {
-                            "role": "system",
+                            "role": self.gpt_system_example_role,
                             "name": "example_assistant",
                             "content": [{"type": "text", "text": y}],
                         }
@@ -447,7 +446,7 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
             )
 
 
-class VideoFramePromptConstructor(PromptConstructor):
+class VideoFrameUnderstandingPromptConstructor(PromptConstructor):
 
     def __init__(
         self,
@@ -457,9 +456,9 @@ class VideoFramePromptConstructor(PromptConstructor):
         max_frame_num: int,
     ):
         super().__init__(instruction_path, lm_config, tokenizer)
-        self.answer_phrase = self.instruction["meta_data"]["answer_phrase"]
         self.video_processor = VideoProcessor()
         self.max_frame_num = max_frame_num
+        self.gpt_system_example_role = "user" if lm_config.provider == "openai" else "system"
 
     def construct(
         self,
@@ -494,7 +493,7 @@ class VideoFramePromptConstructor(PromptConstructor):
         """Return the require format for an API"""
         message: list[dict[str, str]] | str | list[str | Image.Image]
 
-        if "azopenai" in self.lm_config.provider:
+        if "openai" in self.lm_config.provider:
             if self.lm_config.mode == "chat":
                 message = [
                     {
@@ -504,7 +503,7 @@ class VideoFramePromptConstructor(PromptConstructor):
                 ]
                 for x, y, z in examples:
                     example_user_message = {
-                        "role": "system",
+                        "role": self.gpt_system_example_role,
                         "name": "example_user",
                         "content": [                       
                             {"type": "text", "text": x}                            
@@ -528,7 +527,7 @@ class VideoFramePromptConstructor(PromptConstructor):
                             }
                         )
                     example_assistant_message = {
-                        "role": "system",
+                        "role": self.gpt_system_example_role,
                         "name": "example_assistant",
                         "content": y,
                     }
@@ -558,7 +557,7 @@ class VideoFramePromptConstructor(PromptConstructor):
             )
 
 
-class MultimodalVideoCoTPromptConstructor(MultimodalCoTPromptConstructor):
+class VideoFramePromptConstructor(MultimodalCoTPromptConstructor):
 
     def __init__(
         self,
@@ -632,7 +631,7 @@ class MultimodalVideoCoTPromptConstructor(MultimodalCoTPromptConstructor):
         images: list[Image.Image],
         video_frames: list[Image.Image],
     ) -> APIInput:
-        if "azopenai" in self.lm_config.provider:
+        if "openai" in self.lm_config.provider:
             if self.lm_config.mode == "chat":
                 message = [
                     {
@@ -643,7 +642,7 @@ class MultimodalVideoCoTPromptConstructor(MultimodalCoTPromptConstructor):
                 for x, y, z, l in examples:
                     example_img = Image.open(z)
                     example_user_message = {
-                        "role": "system",
+                        "role": self.gpt_system_example_role,
                         "name": "example_user",
                         "content": [
                             {"type": "text", "text": x},
@@ -679,7 +678,7 @@ class MultimodalVideoCoTPromptConstructor(MultimodalCoTPromptConstructor):
                     message.append(example_user_message)
                     message.append(
                         {
-                            "role": "system",
+                            "role": self.gpt_system_example_role,
                             "name": "example_assistant",
                             "content": [{"type": "text", "text": y}],
                         }
@@ -736,7 +735,7 @@ class MultimodalVideoCoTPromptConstructor(MultimodalCoTPromptConstructor):
             )
 
 
-class MultimodalVideoSummaryCoTPromptConstructor(MultimodalCoTPromptConstructor):
+class VideoSummaryPromptConstructor(MultimodalCoTPromptConstructor):
     def construct(
         self,
         trajectory: Trajectory,
@@ -781,3 +780,168 @@ class MultimodalVideoSummaryCoTPromptConstructor(MultimodalCoTPromptConstructor)
             intro, examples, current, page_screenshot_img, images
         )           
         return prompt
+
+
+class VideoPromptConstructor(MultimodalCoTPromptConstructor):
+    def __init__(
+        self,
+        instruction_path: str | Path,
+        lm_config: lm_config.LMConfig,
+        tokenizer: Tokenizer,
+    ):
+        super().__init__(instruction_path, lm_config, tokenizer)
+        self.current_video_path = None
+        self.video = None
+
+    def construct(
+        self,
+        trajectory: Trajectory,
+        intent: str,
+        page_screenshot_img: Image.Image,
+        images: list[Image.Image],
+        video_path: str,
+        meta_data: dict[str, Any] = {},
+    ) -> APIInput:
+        intro = self.instruction["intro"]
+        examples = self.instruction["examples"]
+        template = self.instruction["template"]
+        keywords = self.instruction["meta_data"]["keywords"]
+        state_info: StateInfo = trajectory[-1]  # type: ignore[assignment]
+
+        if video_path != self.current_video_path: # if there is a new video
+            self.current_video_path = video_path
+            self.video = load_and_encode_video(video_path, self.lm_config.provider)
+            
+
+        obs = state_info["observation"][self.obs_modality]
+        max_obs_length = self.lm_config.gen_config["max_obs_length"]
+        if max_obs_length:
+            if self.lm_config.provider == "google":
+                print("NOTE: This is a Gemini model, so we use characters instead of tokens for max_obs_length.")
+                obs = obs[:max_obs_length]
+            else:
+                obs = self.tokenizer.decode(self.tokenizer.encode(obs)[:max_obs_length])  # type: ignore[arg-type]
+
+        page = state_info["info"]["page"]
+        url = page.url
+        previous_action_str = meta_data["action_history"][-1]
+        current = template.format(
+            objective=intent,
+            url=self.map_url_to_real(url),
+            observation=obs,
+            previous_action=previous_action_str,
+        )
+
+        assert all([f"{{k}}" not in current for k in keywords])
+
+        prompt = self.get_lm_api_input(
+            intro, examples, current, page_screenshot_img, images, 
+        )
+        return prompt
+    
+
+    def get_lm_api_input(
+            self,
+            intro: str,
+            examples: list[tuple[str, str, str]],
+            current: str,
+            page_screenshot_img: Image.Image,
+            images: list[Image.Image],
+        ) -> APIInput:
+
+        if "google" in self.lm_config.provider:
+            if self.lm_config.mode == "completion":
+                message = [
+                    intro,
+                    "Here are a few examples:",
+                ]
+                for x, y, z, v in examples:
+                    example_video = load_and_encode_video(v, self.lm_config.provider)
+                    example_img = Image.open(z)
+                    message.append("VIDEO:")
+                    message.append(example_video)
+                    message.append(f"OBSERVATION\n:{x}\n")
+                    message.extend(
+                        [
+                            "IMAGES:",
+                            "(1) current page screenshot:",
+                            pil_to_vertex(example_img),
+                        ]
+                    )
+                    message.append(f"Action: {y}")
+                message.append("Now make prediction given the video and observation")
+                message.append("VIDEO:")
+                message.append(self.video)
+                message.append(current)
+                message.extend(
+                    [
+                        "IMAGES:",
+                        "(1) current page screenshot:",
+                        pil_to_vertex(page_screenshot_img),
+                    ]
+                )
+                for image_i, image in enumerate(images):
+                    message.extend(
+                        [
+                            f"({image_i+2}) input image {image_i+1}",
+                            pil_to_vertex(image),
+                        ]
+                    )
+                message.append("Action:")
+                return message
+            else:
+                raise ValueError(
+                    f"Gemini models do not support mode {self.lm_config.mode}"
+                )
+        else:
+            raise NotImplementedError(
+                f"Provider {self.lm_config.provider} not implemented"
+            )
+        
+
+class VideoUnderstandingPromptConstructor(PromptConstructor):
+    def construct(
+        self,
+        video_path: str,
+        intent: str,
+    ) -> APIInput:
+        intro = self.instruction["intro"]
+        examples = self.instruction["examples"]
+        video = load_and_encode_video(video_path, self.lm_config.provider)
+        current = self.instruction["template"].format(
+            objective=intent)
+        prompt = self.get_lm_api_input(intro, examples, current, video)
+        return prompt
+
+    def get_lm_api_input(
+        self,
+        intro: str,
+        examples: list[tuple[str, str, list[str]]],
+        current: str,
+        video
+    ) -> APIInput:
+        """Return the require format for an API"""
+        message: list[dict[str, str]] | str | list[str | Image.Image]
+
+        if "google" in self.lm_config.provider:
+            message = [
+                intro,
+                "Here are a few examples:",
+            ]
+            for x, y, v in examples:
+                example_video = load_and_encode_video(v, self.lm_config.provider)
+                message.append("VIDEO:")
+                message.append(example_video)
+                message.append(f"OBJECTIVE\n:{x}\n")
+                message.append(f"Summary: {y}")
+            message.append("Now summaries the useful information from the video that would help you achieve the objective")
+            message.append("VIDEO:")
+            message.append(video)
+            message.append(current)
+                
+            return message
+        else:
+            raise NotImplementedError(
+                f"Provider {self.lm_config.provider} not implemented"
+            )
+

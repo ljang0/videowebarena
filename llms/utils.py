@@ -1,6 +1,10 @@
 import argparse
 from typing import Any
 
+import os
+import base64
+from vertexai.generative_models import GenerativeModel, Part
+
 try:
     from vertexai.preview.generative_models import Image
     from llms import generate_from_gemini_completion
@@ -14,6 +18,13 @@ from llms import (
     generate_from_azopenai_chat_completion,
     lm_config,
 )
+
+try:
+    import anthropic
+    from llms import generate_from_anthropic_chat_completion
+except:
+    print('Anthropic not set up, skipping import of providers.anthropic_utils.generate_from_anthropic_chat_completion')
+
 
 APIInput = str | list[Any] | dict[str, Any]
 
@@ -49,6 +60,17 @@ def call_llm(
             raise ValueError(
                 f"OpenAI models do not support mode {lm_config.mode}"
             )
+    elif lm_config.provider == "anthropic":
+        assert isinstance(prompt, list)
+        response = generate_from_anthropic_chat_completion(
+            messages=prompt,
+            model=lm_config.model,
+            temperature=lm_config.gen_config["temperature"],
+            top_p=lm_config.gen_config["top_p"],
+            context_length=lm_config.gen_config["context_length"],
+            max_tokens=lm_config.gen_config["max_tokens"],
+            stop_token=None,
+        )
     elif lm_config.provider == "huggingface":
         assert isinstance(prompt, str)
         response = generate_from_huggingface_completion(
@@ -61,9 +83,6 @@ def call_llm(
         )
     elif lm_config.provider == "google":
         assert isinstance(prompt, list)
-        assert all(
-            [isinstance(p, str) or isinstance(p, Image) for p in prompt]
-        )
         response = generate_from_gemini_completion(
             prompt=prompt,
             engine=lm_config.model,
@@ -92,3 +111,20 @@ def call_llm(
             f"Provider {lm_config.provider} not implemented, please choose from 'openai', 'huggingface', 'google', or 'azopenai'"
         )
     return response
+
+
+
+def load_and_encode_video(video_path: str, provider: str):
+    if provider == "google":
+        with open(video_path, 'rb') as video_file:  
+            video_data = video_file.read()  
+            base64_video = base64.b64encode(video_data)  
+        ext = os.path.splitext(video_path)[1][1:].lower()
+        video_part = Part.from_data(
+            mime_type=f"video/{ext}",
+            data=base64.b64decode(base64_video))
+        return video_part
+    else:
+        raise NotImplementedError(
+            f"Provider {provider} not implemented"
+        )

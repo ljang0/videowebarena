@@ -29,7 +29,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 0,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
@@ -62,7 +63,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 1
+        "intent_template_id": 1,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
@@ -95,7 +97,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 1
+        "intent_template_id": 1,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
@@ -128,7 +131,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 1
+        "intent_template_id": 1,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
@@ -188,7 +192,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 2
+        "intent_template_id": 2,
+        "video": "edit_listing"
     },
     {
         "sites": [
@@ -229,7 +234,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 2
+        "intent_template_id": 2,
+        "video": "edit_listing"
     },
     {
         "sites": [
@@ -267,7 +273,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 3
+        "intent_template_id": 3,
+        "video": "price range then get listing links"
     },
     {
         "sites": [
@@ -304,7 +311,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 3
+        "intent_template_id": 3,
+        "video": "price range then get listing links"
     },
     {
         "sites": [
@@ -351,7 +359,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "Closest item: __CLASSIFIEDS__/index.php?page=item&id=81838 or __CLASSIFIEDS__/index.php?page=item&id=32109",
-        "intent_template_id": 4
+        "intent_template_id": 4,
+        "video": "post tutorial"
     },
     {
         "sites": [
@@ -398,7 +407,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "Closest item: __CLASSIFIEDS__/index.php?page=item&id=42906",
-        "intent_template_id": 4
+        "intent_template_id": 4,
+        "video": "post tutorial"
     },
     {
         "sites": [
@@ -435,7 +445,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 5
+        "intent_template_id": 5,
+        "video": "go to item page"
     },
     {
         "sites": [
@@ -472,7 +483,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 5
+        "intent_template_id": 5,
+        "video": "go to item page"
     },
     {
         "sites": [
@@ -509,7 +521,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 5
+        "intent_template_id": 5,
+        "video": "go to item page"
     },
     {
         "sites": [
@@ -546,7 +559,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 5
+        "intent_template_id": 5,
+        "video": "go to item page"
     },
     {
         "sites": [
@@ -584,7 +598,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 6
+        "intent_template_id": 6,
+        "video": "comment_seller"
     },
     {
         "sites": [
@@ -622,7 +637,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=67527",
-        "intent_template_id": 7
+        "intent_template_id": 7,
+        "video": "comment_seller"
     },
     {
         "sites": [
@@ -660,7 +676,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=15810",
-        "intent_template_id": 7
+        "intent_template_id": 7,
+        "video": "comment_seller"
     },
     {
         "sites": [
@@ -694,7 +711,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 8
+        "intent_template_id": 8,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
@@ -728,7 +746,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 8
+        "intent_template_id": 8,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
@@ -762,7 +781,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 8
+        "intent_template_id": 8,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
@@ -796,7 +816,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 8
+        "intent_template_id": 8,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
@@ -830,7 +851,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 8
+        "intent_template_id": 8,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
@@ -869,7 +891,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 9
+        "intent_template_id": 9,
+        "video": "spatial_tutorial"
     },
     {
         "sites": [
@@ -908,7 +931,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 9
+        "intent_template_id": 9,
+        "video": "spatial_tutorial"
     },
     {
         "sites": [
@@ -945,7 +969,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=83979 does not list miles",
-        "intent_template_id": 9
+        "intent_template_id": 9,
+        "video": "spatial_tutorial"
     },
     {
         "sites": [
@@ -981,7 +1006,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=49894",
-        "intent_template_id": 10
+        "intent_template_id": 10,
+        "video": "sort_by_recent"
     },
     {
         "sites": [
@@ -1017,7 +1043,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=74997 and __CLASSIFIEDS__/index.php?page=item&id=58261",
-        "intent_template_id": 10
+        "intent_template_id": 10,
+        "video": "sort_by_recent"
     },
     {
         "sites": [
@@ -1053,7 +1080,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=32934 and __CLASSIFIEDS__/index.php?page=item&id=74707 and __CLASSIFIEDS__/index.php?page=item&id=32672",
-        "intent_template_id": 10
+        "intent_template_id": 10,
+        "video": "sort_by_recent"
     },
     {
         "sites": [
@@ -1104,7 +1132,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=12085",
-        "intent_template_id": 11
+        "intent_template_id": 11,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
@@ -1155,7 +1184,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=66091",
-        "intent_template_id": 11
+        "intent_template_id": 11,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
@@ -1206,7 +1236,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=44542",
-        "intent_template_id": 11
+        "intent_template_id": 11,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
@@ -1246,7 +1277,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=47273",
-        "intent_template_id": 12
+        "intent_template_id": 12,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
@@ -1286,7 +1318,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=9689",
-        "intent_template_id": 12
+        "intent_template_id": 12,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
@@ -1326,7 +1359,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=62633",
-        "intent_template_id": 12
+        "intent_template_id": 12,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
@@ -1365,7 +1399,8 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 13
+        "intent_template_id": 13,
+        "video": "search_sort"
     },
     {
         "sites": [
@@ -1404,7 +1439,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 13
+        "intent_template_id": 13,
+        "video": "search_sort"
     },
     {
         "sites": [
@@ -1440,7 +1476,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 14
+        "intent_template_id": 14,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
@@ -1477,7 +1514,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 14
+        "intent_template_id": 14,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
@@ -1516,7 +1554,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=60945 and __CLASSIFIEDS__/index.php?page=item&id=52305 and __CLASSIFIEDS__/index.php?page=item&id=50777",
-        "intent_template_id": 15
+        "intent_template_id": 15,
+        "video": "sort_by_recent"
     },
     {
         "sites": [
@@ -1555,7 +1594,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=70291 and __CLASSIFIEDS__/index.php?page=item&id=76502 and __CLASSIFIEDS__/index.php?page=item&id=66548",
-        "intent_template_id": 15
+        "intent_template_id": 15,
+        "video": "sort_by_recent"
     },
     {
         "sites": [
@@ -1591,7 +1631,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=18607",
-        "intent_template_id": 16
+        "intent_template_id": 16,
+        "video": "search_sort"
     },
     {
         "sites": [
@@ -1630,7 +1671,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 17
+        "intent_template_id": 17,
+        "video": "spatial_tutorial"
     },
     {
         "sites": [
@@ -1669,7 +1711,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 17
+        "intent_template_id": 17,
+        "video": "spatial_tutorial"
     },
     {
         "sites": [
@@ -1705,7 +1748,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 17
+        "intent_template_id": 17,
+        "video": "spatial_tutorial"
     },
     {
         "sites": [
@@ -1734,7 +1778,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 18
+        "intent_template_id": 18,
+        "video": "sort_by_recent"
     },
     {
         "sites": [
@@ -1763,7 +1808,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 18
+        "intent_template_id": 18,
+        "video": "sort_by_recent"
     },
     {
         "sites": [
@@ -1792,7 +1838,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 18
+        "intent_template_id": 18,
+        "video": "sort_by_recent"
     },
     {
         "sites": [
@@ -1823,7 +1870,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 19
+        "intent_template_id": 19,
+        "video": "sort_by_recent"
     },
     {
         "sites": [
@@ -1854,7 +1902,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 19
+        "intent_template_id": 19,
+        "video": "sort_by_recent"
     },
     {
         "sites": [
@@ -1890,7 +1939,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=60306",
-        "intent_template_id": 9
+        "intent_template_id": 9,
+        "video": "spatial_tutorial"
     },
     {
         "sites": [
@@ -1925,7 +1975,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=65673",
-        "intent_template_id": 6
+        "intent_template_id": 6,
+        "video": "comment_seller"
     },
     {
         "sites": [
@@ -1958,7 +2009,8 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "6th page of the Arts + crafts section",
-        "intent_template_id": 20
+        "intent_template_id": 20,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
@@ -1991,7 +2043,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
         "comments": "2nd page of the Arts + crafts section",
-        "intent_template_id": 20
+        "intent_template_id": 20,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
@@ -2023,7 +2076,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 21
+        "intent_template_id": 21,
+        "video": "search_sort"
     },
     {
         "sites": [
@@ -2055,7 +2109,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 22
+        "intent_template_id": 22,
+        "video": "sort_by_recent"
     },
     {
         "sites": [
@@ -2087,7 +2142,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "Inventors are the Wright brothers",
-        "intent_template_id": 22
+        "intent_template_id": 22,
+        "video": "sort_by_recent"
     },
     {
         "sites": [
@@ -2119,7 +2175,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 23
+        "intent_template_id": 23,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
@@ -2188,7 +2245,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=66613 and __CLASSIFIEDS__/index.php?page=item&id=71313",
-        "intent_template_id": 11
+        "intent_template_id": 11,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
@@ -2221,7 +2279,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 24
+        "intent_template_id": 24,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
@@ -2254,7 +2313,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 25
+        "intent_template_id": 25,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -2286,7 +2346,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 26
+        "intent_template_id": 26,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -2318,7 +2379,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 26
+        "intent_template_id": 26,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -2351,7 +2413,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 25
+        "intent_template_id": 25,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -2384,7 +2447,8 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 25
+        "intent_template_id": 25,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -2416,7 +2480,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 26
+        "intent_template_id": 26,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -2448,7 +2513,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 26
+        "intent_template_id": 26,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -2480,7 +2546,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 26
+        "intent_template_id": 26,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -2512,7 +2579,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 26
+        "intent_template_id": 26,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -2544,7 +2612,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 26
+        "intent_template_id": 26,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -2576,7 +2645,8 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 27
+        "intent_template_id": 27,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -2609,7 +2679,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 28
+        "intent_template_id": 28,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -2641,7 +2712,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 27
+        "intent_template_id": 27,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -2673,7 +2745,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 29
+        "intent_template_id": 29,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
@@ -2705,7 +2778,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 30
+        "intent_template_id": 30,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
@@ -2738,7 +2812,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 28
+        "intent_template_id": 28,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -2797,7 +2872,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 2
+        "intent_template_id": 2,
+        "video": "edit_listing"
     },
     {
         "sites": [
@@ -2856,7 +2932,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 2
+        "intent_template_id": 2,
+        "video": "edit_listing"
     },
     {
         "sites": [
@@ -2915,7 +2992,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 2
+        "intent_template_id": 2,
+        "video": "edit_listing"
     },
     {
         "sites": [
@@ -2947,7 +3025,8 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
-        "comments": ""
+        "comments": "",
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
@@ -2979,7 +3058,8 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
-        "comments": ""
+        "comments": "",
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
@@ -3017,7 +3097,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 31
+        "intent_template_id": 31,
+        "video": "comment_seller"
     },
     {
         "sites": [
@@ -3049,7 +3130,8 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 32
+        "intent_template_id": 32,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -3085,7 +3167,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 33
+        "intent_template_id": 33,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -3122,7 +3205,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 31
+        "intent_template_id": 31,
+        "video": "comment_seller"
     },
     {
         "sites": [
@@ -3158,7 +3242,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 33
+        "intent_template_id": 33,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -3194,7 +3279,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 33
+        "intent_template_id": 33,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -3226,7 +3312,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 32
+        "intent_template_id": 32,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -3258,7 +3345,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 34
+        "intent_template_id": 34,
+        "video": "go to item page"
     },
     {
         "sites": [
@@ -3291,7 +3379,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 28
+        "intent_template_id": 28,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -3324,7 +3413,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 28
+        "intent_template_id": 28,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -3356,7 +3446,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 34
+        "intent_template_id": 34,
+        "video": "go to item page"
     },
     {
         "sites": [
@@ -3388,7 +3479,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 32
+        "intent_template_id": 32,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -3421,7 +3513,8 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 28
+        "intent_template_id": 28,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -3453,7 +3546,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 27
+        "intent_template_id": 27,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -3485,7 +3579,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 34
+        "intent_template_id": 34,
+        "video": "go to item page"
     },
     {
         "sites": [
@@ -3539,7 +3634,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 35
+        "intent_template_id": 35,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
@@ -3575,7 +3671,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 33
+        "intent_template_id": 33,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -3607,7 +3704,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 36
+        "intent_template_id": 36,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
@@ -3643,7 +3741,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 37
+        "intent_template_id": 37,
+        "video": "go to item page"
     },
     {
         "sites": [
@@ -3679,7 +3778,8 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 33
+        "intent_template_id": 33,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -3715,7 +3815,8 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 38
+        "intent_template_id": 38,
+        "video": "go to item page"
     },
     {
         "sites": [
@@ -3747,7 +3848,8 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 39
+        "intent_template_id": 39,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
@@ -3782,7 +3884,8 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 40
+        "intent_template_id": 40,
+        "video": "go to item page"
     },
     {
         "sites": [
@@ -3814,7 +3917,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 39
+        "intent_template_id": 39,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
@@ -3868,7 +3972,8 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 35
+        "intent_template_id": 35,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
@@ -3900,7 +4005,8 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 32
+        "intent_template_id": 32,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -3935,7 +4041,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 6
+        "intent_template_id": 6,
+        "video": "comment_seller"
     },
     {
         "sites": [
@@ -3971,7 +4078,8 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=52440",
-        "intent_template_id": 40
+        "intent_template_id": 40,
+        "video": "go to item page"
     },
     {
         "sites": [
@@ -4006,7 +4114,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=7438",
-        "intent_template_id": 40
+        "intent_template_id": 40,
+        "video": "go to item page"
     },
     {
         "sites": [
@@ -4042,7 +4151,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=48555",
-        "intent_template_id": 9
+        "intent_template_id": 9,
+        "video": "spatial_tutorial"
     },
     {
         "sites": [
@@ -4078,7 +4188,8 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=34406",
-        "intent_template_id": 16
+        "intent_template_id": 16,
+        "video": "search_sort"
     },
     {
         "sites": [
@@ -4114,7 +4225,8 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=79079",
-        "intent_template_id": 16
+        "intent_template_id": 16,
+        "video": "search_sort"
     },
     {
         "sites": [
@@ -4147,7 +4259,8 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 41
+        "intent_template_id": 41,
+        "video": "search_sort"
     },
     {
         "sites": [
@@ -4179,7 +4292,8 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 42
+        "intent_template_id": 42,
+        "video": "search_sort"
     },
     {
         "sites": [
@@ -4212,7 +4326,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 43
+        "intent_template_id": 43,
+        "video": "sort_by_recent"
     },
     {
         "sites": [
@@ -4244,7 +4359,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 44
+        "intent_template_id": 44,
+        "video": "search_sort"
     },
     {
         "sites": [
@@ -4276,7 +4392,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 44
+        "intent_template_id": 44,
+        "video": "search_sort"
     },
     {
         "sites": [
@@ -4308,7 +4425,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 32
+        "intent_template_id": 32,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -4347,7 +4465,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=69495",
-        "intent_template_id": 38
+        "intent_template_id": 38,
+        "video": "go to item page"
     },
     {
         "sites": [
@@ -4386,7 +4505,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "_CLASSIFIEDS__/index.php?page=item&id=75385",
-        "intent_template_id": 5
+        "intent_template_id": 5,
+        "video": "go to item page"
     },
     {
         "sites": [
@@ -4425,45 +4545,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=38276",
-        "intent_template_id": 38
+        "intent_template_id": 38,
+        "video": "go to item page"
     },
     {
         "sites": [
             "classifieds"
         ],
         "task_id": 121,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=11&sOrder=i_price&iOrderType=asc&sShowAs=gallery",
-        "geolocation": null,
-        "intent_template": "Navigate to the {{item}} on this page {{condition}}.",
-        "intent": "Navigate to the item on this page whose image consists solely of text.",
-        "image": null,
-        "instantiation_dict": {
-            "item": "item",
-            "condition": "whose image consists solely of text"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "url_match"
-            ],
-            "reference_answers": null,
-            "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=15619",
-            "program_html": [],
-            "url_note": "EXACT"
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "medium",
-        "overall_difficulty": "medium",
-        "comments": "",
-        "intent_template_id": 45
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 122,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -4493,107 +4582,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 33
+        "intent_template_id": 33,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 123,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sPattern=clothes&sOrder=i_price&iOrderType=desc&sShowAs=gallery",
-        "geolocation": null,
-        "intent_template": "Navigate to the {{item}} on this page {{condition}}.",
-        "intent": "Navigate to the item on this page which matches the color of the object being used by the person in the given image.",
-        "image": "https://images.pexels.com/photos/13991925/pexels-photo-13991925.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        "instantiation_dict": {
-            "item": "item",
-            "condition": "which matches the color of the object being used by the person in the given image"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "url_match"
-            ],
-            "reference_answers": null,
-            "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=48074",
-            "program_html": [],
-            "url_note": "EXACT"
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "medium",
-        "overall_difficulty": "medium",
-        "comments": "",
-        "intent_template_id": 45
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 124,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=17&sShowAs=gallery",
-        "geolocation": null,
-        "intent_template": "Navigate to the item on this page whose image {{condition}}.",
-        "intent": "Navigate to the item on this page whose image is set on grass.",
-        "image": null,
-        "instantiation_dict": {
-            "condition": "is set on grass"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "url_match"
-            ],
-            "reference_answers": null,
-            "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=10702",
-            "program_html": [],
-            "url_note": "EXACT"
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "easy",
-        "overall_difficulty": "easy",
-        "comments": "",
-        "intent_template_id": 46
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 125,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=17&sShowAs=gallery",
-        "geolocation": null,
-        "intent_template": "Navigate to the item on this page whose image {{condition}}.",
-        "intent": "Navigate to the item on this page whose image is a desktop screenshot.",
-        "image": null,
-        "instantiation_dict": {
-            "condition": "is a desktop screenshot"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "url_match"
-            ],
-            "reference_answers": null,
-            "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=32204",
-            "program_html": [],
-            "url_note": "EXACT"
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "easy",
-        "overall_difficulty": "easy",
-        "comments": "",
-        "intent_template_id": 46
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 126,
+        "task_id": 122,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -4619,13 +4615,14 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
-        "comments": ""
+        "comments": "",
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 127,
+        "task_id": 123,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -4651,13 +4648,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 42
+        "intent_template_id": 42,
+        "video": "search_sort"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 128,
+        "task_id": 124,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__/index.php?page=item&id=74603",
@@ -4689,13 +4687,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 40
+        "intent_template_id": 40,
+        "video": "go to item page"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 129,
+        "task_id": 125,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__/index.php?page=search&sOrder=dt_pub_date&iOrderType=desc&sPattern=soccer+cleats&sShowAs=gallery",
@@ -4724,44 +4723,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 40
+        "intent_template_id": 40,
+        "video": "go to item page"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 130,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sOrder=dt_pub_date&iOrderType=desc&sPattern=banana+boat&sShowAs=gallery",
-        "geolocation": null,
-        "intent_template": "Navigate to the item on this page whose image {{condition}}.",
-        "intent": "Navigate to the item on this page whose image is taken during a sunset.",
-        "image": null,
-        "instantiation_dict": {
-            "condition": "is taken during a sunset"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "url_match"
-            ],
-            "reference_answers": null,
-            "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=19604",
-            "program_html": [],
-            "url_note": "EXACT"
-        },
-        "reasoning_difficulty": "medium",
-        "visual_difficulty": "medium",
-        "overall_difficulty": "medium",
-        "comments": "",
-        "intent_template_id": 46
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 131,
+        "task_id": 126,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -4787,44 +4756,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 42
+        "intent_template_id": 42,
+        "video": "search_sort"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 132,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sOrder=dt_pub_date&iOrderType=desc&sPattern=dogs&sShowAs=gallery&iPage=3",
-        "geolocation": null,
-        "intent_template": "Navigate to the item on this page whose image {{condition}}.",
-        "intent": "Navigate to the item on this page whose image has 3 black animals.",
-        "image": null,
-        "instantiation_dict": {
-            "condition": "has 3 black animals"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "url_match"
-            ],
-            "reference_answers": null,
-            "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=69201",
-            "program_html": [],
-            "url_note": "EXACT"
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "hard",
-        "overall_difficulty": "medium",
-        "comments": "",
-        "intent_template_id": 46
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 133,
+        "task_id": 127,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -4872,13 +4811,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 35
+        "intent_template_id": 35,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 134,
+        "task_id": 128,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__/index.php?page=search&sOrder=dt_pub_date&iOrderType=desc&sPattern=+Xbox+One+games&sCategory=24&iPage=5&sShowAs=gallery",
@@ -4904,48 +4844,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 47
+        "intent_template_id": 47,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 135,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sOrder=dt_pub_date&iOrderType=desc&sPattern=hood&sShowAs=gallery",
-        "geolocation": null,
-        "intent_template": "Navigate to the {{product}} on this page {{condition}}.",
-        "intent": "Navigate to the listing on this page with an item of the exact same color as the one in this image.",
-        "image": "https://images.pexels.com/photos/18756727/pexels-photo-18756727/free-photo-of-mistry-of-the-hot-pink-mclaren.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        "instantiation_dict": {
-            "product": "listing",
-            "condition": "with an item of the exact same color as the one in this image"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "fuzzy_match": "N/A"
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": "There are no pink items on the page.",
-            "reference_answer_raw_annotation": "N/A"
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "medium",
-        "overall_difficulty": "medium",
-        "comments": "",
-        "intent_template_id": 48
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 136,
+        "task_id": 129,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -4974,13 +4880,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 49
+        "intent_template_id": 49,
+        "video": "comment_seller"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 137,
+        "task_id": 130,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -5009,13 +4916,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 50
+        "intent_template_id": 50,
+        "video": "comment_seller"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 138,
+        "task_id": 131,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -5044,13 +4952,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 50
+        "intent_template_id": 50,
+        "video": "comment_seller"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 139,
+        "task_id": 132,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -5075,13 +4984,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 19
+        "intent_template_id": 19,
+        "video": "sort_by_recent"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 140,
+        "task_id": 133,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -5110,13 +5020,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=3984",
-        "intent_template_id": 50
+        "intent_template_id": 50,
+        "video": "comment_seller"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 141,
+        "task_id": 134,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -5141,13 +5052,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 19
+        "intent_template_id": 19,
+        "video": "sort_by_recent"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 142,
+        "task_id": 135,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -5174,13 +5086,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=22310",
-        "intent_template_id": 51
+        "intent_template_id": 51,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 143,
+        "task_id": 136,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -5225,13 +5138,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=25810",
-        "intent_template_id": 52
+        "intent_template_id": 52,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 144,
+        "task_id": 137,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -5276,13 +5190,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=41127",
-        "intent_template_id": 52
+        "intent_template_id": 52,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 145,
+        "task_id": 138,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -5327,77 +5242,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=43992",
-        "intent_template_id": 52
+        "intent_template_id": 52,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 146,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=9&sOrder=i_price&iOrderType=asc&iPage=124&sShowAs=gallery",
-        "geolocation": null,
-        "intent_template": "Navigate to the {{product}} on this page {{condition}}.",
-        "intent": "Navigate to the item on this page whose image has exactly 4 books.",
-        "image": null,
-        "instantiation_dict": {
-            "product": "item",
-            "condition": "whose image has exactly 4 books"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "url_match"
-            ],
-            "reference_answers": null,
-            "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=66304",
-            "program_html": [],
-            "url_note": "EXACT"
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "hard",
-        "overall_difficulty": "medium",
-        "comments": "",
-        "intent_template_id": 48
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 147,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=24&sOrder=i_price&iOrderType=desc&iPage=14&sShowAs=gallery",
-        "geolocation": null,
-        "intent_template": "Navigate to the {{product}} on this page {{condition}}.",
-        "intent": "Navigate to the item on this page whose image has multiple game consoles from different brands.",
-        "image": null,
-        "instantiation_dict": {
-            "product": "item",
-            "condition": "whose image has multiple game consoles from different brands"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "url_match"
-            ],
-            "reference_answers": null,
-            "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=35394",
-            "program_html": [],
-            "url_note": "EXACT"
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "hard",
-        "overall_difficulty": "hard",
-        "comments": "",
-        "intent_template_id": 48
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 148,
+        "task_id": 139,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=24&sOrder=i_price&iOrderType=desc&iPage=17&sShowAs=gallery",
@@ -5427,13 +5279,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=33746",
-        "intent_template_id": 53
+        "intent_template_id": 53,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 149,
+        "task_id": 140,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=24&sOrder=i_price&iOrderType=desc&iPage=22&sShowAs=gallery",
@@ -5463,13 +5316,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=53116",
-        "intent_template_id": 53
+        "intent_template_id": 53,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 150,
+        "task_id": 141,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=16&sOrder=i_price&iOrderType=asc&iPage=331&sShowAs=gallery",
@@ -5499,107 +5353,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=9246",
-        "intent_template_id": 53
+        "intent_template_id": 53,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 151,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=9&iPage=2&sShowAs=gallery",
-        "geolocation": null,
-        "intent_template": "Navigate to the item on this page whose image {{condition}}.",
-        "intent": "Navigate to the item on this page whose image has pink sticky notes.",
-        "image": null,
-        "instantiation_dict": {
-            "condition": "has pink sticky notes"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "url_match"
-            ],
-            "reference_answers": null,
-            "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=22560",
-            "program_html": [],
-            "url_note": "EXACT"
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "easy",
-        "overall_difficulty": "easy",
-        "comments": "",
-        "intent_template_id": 46
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 152,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=22&sShowAs=gallery&iPage=11",
-        "geolocation": null,
-        "intent_template": "Navigate to the item on this page whose image {{condition}}.",
-        "intent": "Navigate to the item on this page whose image includes a human hand.",
-        "image": null,
-        "instantiation_dict": {
-            "condition": "includes a human hand"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "url_match"
-            ],
-            "reference_answers": null,
-            "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=81346",
-            "program_html": [],
-            "url_note": "EXACT"
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "medium",
-        "overall_difficulty": "medium",
-        "comments": "",
-        "intent_template_id": 46
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 153,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/php?page=search&sCategory=4&sShowAs=gallery",
-        "geolocation": null,
-        "intent_template": "Navigate to the {{item}} on this page {{condition}}.",
-        "intent": "Navigate to the item on this page that most similarly depicts the setting in the image.",
-        "image": "https://images.pexels.com/photos/9344514/pexels-photo-9344514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        "instantiation_dict": {
-            "item": "item",
-            "condition": "that most similarly depicts the setting in the image"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "url_match"
-            ],
-            "reference_answers": null,
-            "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=14761",
-            "program_html": [],
-            "url_note": "EXACT"
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "hard",
-        "overall_difficulty": "medium",
-        "comments": "",
-        "intent_template_id": 45
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 154,
+        "task_id": 142,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -5625,13 +5386,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 36
+        "intent_template_id": 36,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 155,
+        "task_id": 143,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -5657,13 +5419,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 36
+        "intent_template_id": 36,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 156,
+        "task_id": 144,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -5689,13 +5452,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 36
+        "intent_template_id": 36,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 157,
+        "task_id": 145,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -5721,13 +5485,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 36
+        "intent_template_id": 36,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 158,
+        "task_id": 146,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -5753,13 +5518,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 36
+        "intent_template_id": 36,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 159,
+        "task_id": 147,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -5794,13 +5560,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 2
+        "intent_template_id": 2,
+        "video": "edit_listing"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 160,
+        "task_id": 148,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=5&sShowAs=gallery",
@@ -5845,13 +5612,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=13412",
-        "intent_template_id": 11
+        "intent_template_id": 11,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 161,
+        "task_id": 149,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__/",
@@ -5881,13 +5649,14 @@
         "visual_difficulty": "mediun",
         "overall_difficulty": "hard",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=22441",
-        "intent_template_id": 16
+        "intent_template_id": 16,
+        "video": "search_sort"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 162,
+        "task_id": 150,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__/",
@@ -5913,184 +5682,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 36
+        "intent_template_id": 36,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 163,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=18",
-        "geolocation": null,
-        "intent_template": "For the {{item}} on this page {{attribute}}, tell me the {{detail}}.",
-        "intent": "For the item on this page with the Amazon webpage in its image, tell me the price in dollars displayed on the Amazon site.",
-        "image": null,
-        "instantiation_dict": {
-            "item": "item",
-            "attribute": "with the Amazon webpage in its image",
-            "detail": "price in dollars displayed on the Amazon site"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "must_include": [
-                    "40.92"
-                ]
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": ""
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "hard",
-        "overall_difficulty": "medium",
-        "comments": "__CLASSIFIEDS__/index.php?page=item&id=52143",
-        "intent_template_id": 54
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 164,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=10&iPage=4y",
-        "geolocation": null,
-        "intent_template": "Navigate to the {{item}} on this page whose image {{condition}} as the item in the image provided.",
-        "intent": "Navigate to the listing on this page whose image includes a car the same color as the item in the image provided.",
-        "image": "https://images.pexels.com/photos/2872755/pexels-photo-2872755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        "instantiation_dict": {
-            "item": "listing",
-            "condition": "includes a car the same color"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "fuzzy_match": "N/A"
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": "There are no yellow items on the page.",
-            "reference_answer_raw_annotation": "N/A"
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "easy",
-        "overall_difficulty": "easy",
-        "comments": "",
-        "intent_template_id": 55
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 165,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=10&iPage=8",
-        "geolocation": null,
-        "intent_template": "Navigate to the {{item}} on this page whose image {{condition}} as the item in the image provided.",
-        "intent": "Navigate to the listing on this page whose image includes a car the same color as the item in the image provided.",
-        "image": "https://images.pexels.com/photos/6944172/pexels-photo-6944172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        "instantiation_dict": {
-            "item": "listing",
-            "condition": "includes a car the same color"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "url_match"
-            ],
-            "reference_answers": null,
-            "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=34939",
-            "program_html": [],
-            "url_note": "EXACT"
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "easy",
-        "overall_difficulty": "easy",
-        "comments": "",
-        "intent_template_id": 55
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 166,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=21&iPage=11",
-        "geolocation": null,
-        "intent_template": "Navigate to the {{item}} on this page whose image {{condition}} as the item in the image provided.",
-        "intent": "Navigate to the listing on this page whose image includes an instrument the same color as the item in the image provided.",
-        "image": "https://images.pexels.com/photos/1153655/pexels-photo-1153655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        "instantiation_dict": {
-            "item": "listing",
-            "condition": "includes an instrument the same color"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "url_match"
-            ],
-            "reference_answers": null,
-            "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=40109",
-            "program_html": [],
-            "url_note": "EXACT"
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "easy",
-        "overall_difficulty": "easy",
-        "comments": "",
-        "intent_template_id": 55
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 167,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=21&iPage=8",
-        "geolocation": null,
-        "intent_template": "Navigate to the {{item}} on this page whose image {{condition}} as the item in the image provided.",
-        "intent": "Navigate to the listing on this page whose image includes an instrument the same color as the item in the image provided.",
-        "image": "https://images.pexels.com/photos/693794/pexels-photo-693794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        "instantiation_dict": {
-            "item": "listing",
-            "condition": "includes an instrument the same color"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "fuzzy_match": "N/A"
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": "There are no green instruments on the page.",
-            "reference_answer_raw_annotation": "N/A"
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "easy",
-        "overall_difficulty": "easy",
-        "comments": "",
-        "intent_template_id": 55
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 168,
+        "task_id": 151,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -6116,13 +5715,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 32
+        "intent_template_id": 32,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 169,
+        "task_id": 152,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -6148,13 +5748,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 56
+        "intent_template_id": 56,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 170,
+        "task_id": 153,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -6180,13 +5781,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 47
+        "intent_template_id": 47,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 171,
+        "task_id": 154,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -6211,13 +5813,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 57
+        "intent_template_id": 57,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 172,
+        "task_id": 155,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -6242,88 +5845,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 57
+        "intent_template_id": 57,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 173,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=17&sOrder=i_price&iOrderType=desc&sShowAs=gallery",
-        "geolocation": null,
-        "intent_template": "For the {{item}} on this page {{attribute}}, tell me the {{detail}}.",
-        "intent": "For the item on this page with a website address in the image, tell me the address.",
-        "image": null,
-        "instantiation_dict": {
-            "item": "item",
-            "attribute": "with a website address in the image",
-            "detail": "address"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "must_include": [
-                    "kaiyo.com"
-                ]
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": ""
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "medium",
-        "overall_difficulty": "easy",
-        "comments": "",
-        "intent_template_id": 54
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 174,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=17&sOrder=i_price&iOrderType=desc&sShowAs=gallery",
-        "geolocation": null,
-        "intent_template": "For the {{item}} on this page {{attribute}}, tell me the {{detail}}.",
-        "intent": "For the item on this page which includes a Black Friday logo in the image, tell me the most specific location given of the posting.",
-        "image": null,
-        "instantiation_dict": {
-            "item": "item",
-            "attribute": "which includes a Black Friday logo in the image",
-            "detail": "most specific location given of the posting"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "must_include": [
-                    "Shaw",
-                    "Washington, D.C."
-                ]
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": ""
-        },
-        "reasoning_difficulty": "medium",
-        "visual_difficulty": "hard",
-        "overall_difficulty": "medium",
-        "comments": "",
-        "intent_template_id": 54
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 175,
+        "task_id": 156,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -6350,13 +5879,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 58
+        "intent_template_id": 58,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 176,
+        "task_id": 157,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -6383,13 +5913,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 58
+        "intent_template_id": 58,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 177,
+        "task_id": 158,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -6416,13 +5947,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 58
+        "intent_template_id": 58,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 178,
+        "task_id": 159,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -6452,13 +5984,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 53
+        "intent_template_id": 53,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 179,
+        "task_id": 160,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -6485,13 +6018,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 25
+        "intent_template_id": 25,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 180,
+        "task_id": 161,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -6539,13 +6073,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 35
+        "intent_template_id": 35,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 181,
+        "task_id": 162,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -6571,13 +6106,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 59
+        "intent_template_id": 59,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 182,
+        "task_id": 163,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -6602,13 +6138,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 57
+        "intent_template_id": 57,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 183,
+        "task_id": 164,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -6634,13 +6171,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 59
+        "intent_template_id": 59,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 184,
+        "task_id": 165,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -6666,13 +6204,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 59
+        "intent_template_id": 59,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 185,
+        "task_id": 166,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -6698,13 +6237,14 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
-        "comments": ""
+        "comments": "",
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 186,
+        "task_id": 167,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -6734,112 +6274,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=9146",
-        "intent_template_id": 53
+        "intent_template_id": 53,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 187,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=9&iPage=6&sShowAs=gallery",
-        "geolocation": null,
-        "intent_template": "Navigate to the {{product}} where {{detail}}.",
-        "intent": "Navigate to the item on the page where Lightning McQueen is in the image.",
-        "image": null,
-        "instantiation_dict": {
-            "product": "item on the page",
-            "detail": "Lightning McQueen is in the image"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "url_match"
-            ],
-            "reference_answers": null,
-            "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=79133",
-            "program_html": [],
-            "url_note": "EXACT"
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "hard",
-        "overall_difficulty": "medium",
-        "comments": "",
-        "intent_template_id": 60
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 188,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=9&iPage=14&sShowAs=gallery",
-        "geolocation": null,
-        "intent_template": "Navigate to the {{product}} where {{detail}}.",
-        "intent": "Navigate to the book listing on the page where the cover includes a baby.",
-        "image": null,
-        "instantiation_dict": {
-            "product": "book listing on the page",
-            "detail": "the cover includes a baby"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "url_match"
-            ],
-            "reference_answers": null,
-            "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=55076",
-            "program_html": [],
-            "url_note": "EXACT"
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "medium",
-        "overall_difficulty": "easy",
-        "comments": "",
-        "intent_template_id": 60
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 189,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=24&sShowAs=gallery&iPage=5",
-        "geolocation": null,
-        "intent_template": "Navigate to the {{product}} where {{detail}}.",
-        "intent": "Navigate to the item on the page where Mario is in the image.",
-        "image": null,
-        "instantiation_dict": {
-            "product": "item on the page",
-            "detail": "Mario is in the image"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "fuzzy_match": "N/A"
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": "There are no items with Mario on the page.",
-            "reference_answer_raw_annotation": "N/A"
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "hard",
-        "overall_difficulty": "medium",
-        "comments": "",
-        "intent_template_id": 60
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 190,
+        "task_id": 168,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=24&sShowAs=gallery&iPage=5",
@@ -6866,153 +6308,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 61
+        "intent_template_id": 61,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 191,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=16&sOrder=dt_pub_date&iOrderType=desc&iPage=3&sShowAs=gallery",
-        "geolocation": null,
-        "intent_template": "Navigate to the {{product}} on this page {{condition}}.",
-        "intent": "Navigate to the item on this page with a blonde horse.",
-        "image": null,
-        "instantiation_dict": {
-            "product": "item",
-            "condition": "with a blonde horse"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "fuzzy_match": "N/A"
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": "There are no items with a blonde horse on the page.",
-            "reference_answer_raw_annotation": "N/A"
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "medium",
-        "overall_difficulty": "medium",
-        "comments": "",
-        "intent_template_id": 48
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 192,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=9&sShowAs=gallery&sOrder=i_price&iOrderType=asc&iPage=119",
-        "geolocation": null,
-        "intent_template": "For the {{item}} on this page {{attribute}}, tell me the {{detail}}.",
-        "intent": "For the listing on this page with books of cars, tell me the primary color of the cars.",
-        "image": null,
-        "instantiation_dict": {
-            "item": "listing",
-            "attribute": "with books of cars",
-            "detail": "primary color of the cars"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "must_include": [
-                    "red",
-                    "white"
-                ]
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": ""
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "hard",
-        "overall_difficulty": "hard",
-        "comments": "__CLASSIFIEDS__/index.php?page=item&id=57831",
-        "intent_template_id": 54
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 193,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=9&sShowAs=gallery&sOrder=dt_pub_date&iOrderType=desc&iPage=106",
-        "geolocation": null,
-        "intent_template": "Navigate to the {{product}} on this page {{condition}}.",
-        "intent": "Navigate to the item on this page with CDs in the image.",
-        "image": null,
-        "instantiation_dict": {
-            "product": "item",
-            "condition": "with CDs in the image"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "url_match"
-            ],
-            "reference_answers": null,
-            "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=2753",
-            "program_html": [],
-            "url_note": "EXACT"
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "medium",
-        "overall_difficulty": "easy",
-        "comments": "",
-        "intent_template_id": 48
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 194,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=9&sShowAs=gallery&sOrder=dt_pub_date&iOrderType=desc&iPage=90",
-        "geolocation": null,
-        "intent_template": "Navigate to the {{product}} where {{detail}}.",
-        "intent": "Navigate to the item on the page where Mickey Mouse is in the image.",
-        "image": null,
-        "instantiation_dict": {
-            "product": "item on the page",
-            "detail": "Mickey Mouse is in the image"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "fuzzy_match": "N/A"
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": "There are no items with Mickey Mouse on the page.",
-            "reference_answer_raw_annotation": "N/A"
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "hard",
-        "overall_difficulty": "medium",
-        "comments": "",
-        "intent_template_id": 60
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 195,
+        "task_id": 169,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -7041,13 +6344,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 56
+        "intent_template_id": 56,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 196,
+        "task_id": 170,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -7077,13 +6381,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 58
+        "intent_template_id": 58,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 197,
+        "task_id": 171,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -7110,13 +6415,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 58
+        "intent_template_id": 58,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 198,
+        "task_id": 172,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -7142,13 +6448,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 56
+        "intent_template_id": 56,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 199,
+        "task_id": 173,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__/index.php?page=item&id=43887",
@@ -7177,13 +6484,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 40
+        "intent_template_id": 40,
+        "video": "go to item page"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 200,
+        "task_id": 174,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__SHOPPING__/24-pcs-lot-wild-animal-cupcake-wrappers-birthday-cake-party-decoration-supplies-lion-monkey-zebra-elephant.html |AND| __CLASSIFIEDS__",
@@ -7210,13 +6518,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 62
+        "intent_template_id": 62,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 201,
+        "task_id": 175,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -7243,13 +6552,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 63
+        "intent_template_id": 63,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 202,
+        "task_id": 176,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -7276,13 +6586,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 63
+        "intent_template_id": 63,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 203,
+        "task_id": 177,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__/index.php?page=item&id=41938",
@@ -7323,13 +6634,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 64
+        "intent_template_id": 64,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 204,
+        "task_id": 178,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -7355,13 +6667,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 23
+        "intent_template_id": 23,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 205,
+        "task_id": 179,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__/index.php?page=item&id=65673 |AND| __CLASSIFIEDS__/index.php?page=item&id=43183",
@@ -7402,13 +6715,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 65
+        "intent_template_id": 65,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 206,
+        "task_id": 180,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -7434,13 +6748,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 23
+        "intent_template_id": 23,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 207,
+        "task_id": 181,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__SHOPPING__/nintendo-switch-oled-model-w-neon-red-neon-blue-joy-con.html |AND| __CLASSIFIEDS__",
@@ -7467,13 +6782,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 62
+        "intent_template_id": 62,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 208,
+        "task_id": 182,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__/index.php?page=item&id=16826",
@@ -7514,13 +6830,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 66
+        "intent_template_id": 66,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 209,
+        "task_id": 183,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__/index.php?page=item&id=27156",
@@ -7550,13 +6867,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "Buying in batches 15 is cheaper, a fact which is only spelled out in the image and not the description",
-        "intent_template_id": 67
+        "intent_template_id": 67,
+        "video": "go to item page"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 210,
+        "task_id": 184,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -7582,13 +6900,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 0,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 211,
+        "task_id": 185,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -7614,13 +6933,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 0,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 212,
+        "task_id": 186,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -7648,13 +6968,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "The other watch/ring listings on the website are fake listings that state their actual price in the description. Super hard task.",
-        "intent_template_id": 68
+        "intent_template_id": 68,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 213,
+        "task_id": 187,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__/index.php?page=item&id=79640",
@@ -7696,13 +7017,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "The phone number is spelled wrongly in the item's description. Expectation is that it should be corrected by the agent performing the task.",
-        "intent_template_id": 69
+        "intent_template_id": 69,
+        "video": "comment_seller"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 214,
+        "task_id": 188,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -7729,13 +7051,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 63
+        "intent_template_id": 63,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 215,
+        "task_id": 189,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -7762,13 +7085,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 63
+        "intent_template_id": 63,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 216,
+        "task_id": 190,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -7795,13 +7119,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 63
+        "intent_template_id": 63,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 217,
+        "task_id": 191,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -7847,13 +7172,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 68
+        "intent_template_id": 68,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 218,
+        "task_id": 192,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -7880,13 +7206,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "It only says it is a USA coin in the image itself.",
-        "intent_template_id": 63
+        "intent_template_id": 63,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 219,
+        "task_id": 193,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -7913,13 +7240,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 63
+        "intent_template_id": 63,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 220,
+        "task_id": 194,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__",
@@ -7947,13 +7275,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "The red microwave in question is __CLASSIFIEDS__/index.php?page=item&id=47242",
-        "intent_template_id": 23
+        "intent_template_id": 23,
+        "video": "navigate_tutorial"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 221,
+        "task_id": 195,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__/index.php?page=item&id=48575",
@@ -7983,46 +7312,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 37
+        "intent_template_id": 37,
+        "video": "go to item page"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 222,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=item&id=34501",
-        "geolocation": null,
-        "intent_template": "Based on the measuring tape in the image, is the stated diameter of this item correct?",
-        "intent": "Based on the measuring tape in the image, is the stated diameter of this item correct?",
-        "image": null,
-        "instantiation_dict": {},
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "must_include": [
-                    "yes"
-                ]
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": ""
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "hard",
-        "overall_difficulty": "hard",
-        "comments": "",
-        "intent_template_id": 70
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 223,
+        "task_id": 196,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__/index.php?page=item&id=13215",
@@ -8063,13 +7360,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 71
+        "intent_template_id": 71,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 224,
+        "task_id": 197,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__ |AND| __SHOPPING__/dawn-ultra-dishwashing-liquid-dish-soap-4x19-4-fl-oz-non-scratch-sponge-2-count-original-scent.html",
@@ -8096,13 +7394,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 62
+        "intent_template_id": 62,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 225,
+        "task_id": 198,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__SHOPPING__/womens-hoodies-clearance-tie-die-printed-hoodies-sweatshirt-long-sleeve-drawstring-pullover-tops-hooded-shirts.html |AND| __CLASSIFIEDS__",
@@ -8129,13 +7428,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 62
+        "intent_template_id": 62,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 226,
+        "task_id": 199,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__ |AND| __SHOPPING__/5pcs-30ml-cute-mini-portable-gel-silicone-hand-bottle-cartoon-empty-spray-bottle-cosmetic-container-refillable-bottle-hand-soap-bottle.html",
@@ -8162,13 +7462,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 62
+        "intent_template_id": 62,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 227,
+        "task_id": 200,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__ |AND| __SHOPPING__/storage-basket-cube-forest-animal-fox-deer-flower-large-collapsible-toys-storage-box-bin-laundry-organizer-for-closet-shelf-nursery-kids-bedroom-15x11x9-5-in-1-pack.html",
@@ -8195,13 +7496,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 62
+        "intent_template_id": 62,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 228,
+        "task_id": 201,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__ |AND| __SHOPPING__/posterazzi-pdxjp6549small-live-photo-print-12-x-24-multi.html",
@@ -8247,13 +7549,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 68
+        "intent_template_id": 68,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 229,
+        "task_id": 202,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__CLASSIFIEDS__/index.php?page=item&id=47824 |AND| __CLASSIFIEDS__/index.php?page=item&id=23338 |AND| __CLASSIFIEDS__/index.php?page=item&id=42770",
@@ -8314,13 +7617,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 72
+        "intent_template_id": 72,
+        "video": "leave comments on multiple tabs"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 230,
+        "task_id": 203,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__SHOPPING__/sudugo-smart-watch-2021-ver-watches-for-women-1-69-touch-screen-fitness-tracker-with-heart-rate-and-sleep-monitor-ip67-waterproof-smartwatch-calorie-pedometer-activity-tracker-for-android-ios-pink.html |AND| __CLASSIFIEDS__",
@@ -8348,13 +7652,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 68
+        "intent_template_id": 68,
+        "video": "search_sort_comment"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 231,
+        "task_id": 204,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__REDDIT__/f/Maine/99914/new-tourist-trap |AND| __CLASSIFIEDS__",
@@ -8381,13 +7686,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 73
+        "intent_template_id": 73,
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
             "classifieds"
         ],
-        "task_id": 232,
+        "task_id": 205,
         "require_login": true,
         "storage_state": "./.auth/classifieds_state.json",
         "start_url": "__REDDIT__/f/consoles/124577/name-a-better-console-you-can-t |AND| __CLASSIFIEDS__",
@@ -8415,39 +7721,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 68
-    },
-    {
-        "sites": [
-            "classifieds"
-        ],
-        "task_id": 233,
-        "require_login": true,
-        "storage_state": "./.auth/classifieds_state.json",
-        "start_url": "__CLASSIFIEDS__/index.php?page=item&id=28914 |AND| __REDDIT__/f/springfieldMO/48540/never",
-        "geolocation": null,
-        "intent_template": "Are the characters in the image on Reddit shown in the listing on the classifieds site? If they are, name me the movie that they appear in.",
-        "intent": "Are the characters in the image on Reddit shown in the listing on the classifieds site? If they are, name me the movie that they appear in.",
-        "image": null,
-        "instantiation_dict": {},
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "must_include": [
-                    "lion king"
-                ]
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": ""
-        },
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "easy",
-        "overall_difficulty": "easy",
-        "comments": "",
-        "intent_template_id": 74
+        "intent_template_id": 68,
+        "video": "search_sort_comment"
     }
 ]

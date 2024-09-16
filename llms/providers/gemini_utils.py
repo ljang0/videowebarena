@@ -1,9 +1,10 @@
 """Tools to generate from Gemini prompts."""
-
+import os
 import random
 import time
 from typing import Any
 
+import vertexai
 from google.api_core.exceptions import InvalidArgument
 from vertexai.preview.generative_models import (
     GenerativeModel,
@@ -12,8 +13,10 @@ from vertexai.preview.generative_models import (
     Image,
 )
 
-model = GenerativeModel("gemini-pro-vision")
-
+# model = GenerativeModel("gemini-pro-vision")
+project = os.environ.get("VERTEXAI_PROJECT")
+location = os.environ.get("VERTEXAI_LOCATION")
+vertexai.init(project=project, location=location)
 
 def retry_with_exponential_backoff(  # type: ignore
     func,
@@ -67,8 +70,9 @@ def generate_from_gemini_completion(
     temperature: float,
     max_tokens: int,
     top_p: float,
+    stream: bool = False,
 ) -> str:
-    del engine
+    model = GenerativeModel(engine)
     safety_config = {
         HarmCategory.HARM_CATEGORY_UNSPECIFIED: HarmBlockThreshold.BLOCK_ONLY_HIGH,
         HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_ONLY_HIGH,
@@ -85,8 +89,15 @@ def generate_from_gemini_completion(
             temperature=temperature,
         ),
         safety_settings=safety_config,
+        stream=stream
     )
-    answer = response.text
+    if stream:
+        answer = ""
+        for content in response:
+            print(content.text)
+            answer += content.text
+    else:
+        answer = response.text
     return answer
 
 

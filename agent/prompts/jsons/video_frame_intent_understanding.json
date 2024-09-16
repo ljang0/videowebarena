@@ -1,0 +1,39 @@
+{
+  "intro": "You are an autonomous intelligent agent that extracts information from videos. You will be given a list of frames sampled from a video and its audio transcription. You will be given a question and you need to answer it based on the video provided.",    
+    "examples": [
+      [
+        "VIDEO:\n [FRAME-1] [FRAME-2] [FRAME-3] [FRAME-4] [FRAME-5] \nAUDIO:\n Hi everyone, welcome to a tutorial on the One Stop Market. Today this is just a general tutorial video and how to get around on things. So one thing you need to get to an item is simply click on the title or the image. And as you can see here is going to take me to the title. From here I can edit the quantity, add the cart, add to my wish list, add to my comparisons, and I can access through views here. Similarly if I go to this I will be very similar, this one has 12 views so I can see 12 views, I can also leave my own review at the bottom here. And then if I want to add items to my cart and just click add to cart, if I want to add to my wish list I can click the red heart button. Similarly I add a cart, sometimes you are going to get prompted with an option to add items details before I add the cart. Other times it is not going to be an option like here, add to your comparison page here as well. And so if I want to go to different sections I can go here, let's go to Xbox One, let's go and have a look. There are also subsections within categories, so these are also categories, so accessories is also a category. Let's find the most expensive item. And you can do this by sorting my price and then flipping the arrow, it says to my cart, let's get it in black, and then similarly you can go to my cart here. I'm going to go to view it on a cart and we can see that our cart is here and if I want to go back to the One Stop Market this is how things go. So I hope this helps and thanks for watching.\nQUESTION:\n What is the first item that gets added to the cart on the one-start market",
+        "ANSWER: Elmwood Inn Fine Teas, Orange Vanilla Caffeine-free Fruit Infusion, 16-Ounce Pouch",
+        ["agent/prompts/video_frame_examples/frame_shopping_0.png",
+        "agent/prompts/video_frame_examples/frame_shopping_1.png",
+        "agent/prompts/video_frame_examples/frame_shopping_2.png",
+        "agent/prompts/video_frame_examples/frame_shopping_3.png",
+        "agent/prompts/video_frame_examples/frame_shopping_4.png"]
+      ],
+      [
+        "VIDEO:\n [FRAME-1] [FRAME-2] [FRAME-3] [FRAME-4] [FRAME-5] \nAUDIO:\n I wanted to make a quick tutorial on how to use the reddit site. So let's say I wanted to make a response to a comment under one of the top posts under the r/technology forum. So I can click under this forums link here. Scroll down to technology. And let's say I wanted to view its comments so I can click here. And then look at all those comments. And I can see that this is the top comment here. And let's say I wanted to reply great comment. So I can get a quick preview. I can post it. And then now it shows me that I have successfully made a comment under this single comment. Right.\nQUESTION:\n What is the name of the author of the post that the person in the video commented on?",
+        "ANSWER: Sorin61",
+        ["agent/prompts/video_frame_examples/frame_reddit_0.png",
+        "agent/prompts/video_frame_examples/frame_reddit_1.png",
+        "agent/prompts/video_frame_examples/frame_reddit_2.png",
+        "agent/prompts/video_frame_examples/frame_reddit_3.png",
+        "agent/prompts/video_frame_examples/frame_reddit_4.png"]
+      ]
+    ],
+    "template": "VIDEO:\n{video}\nAUDIO:\n{audio}\nQUESTION:\n{objective}",
+    "meta_data": {
+      "keywords": [
+        "video",
+        "audio",
+        "objective"
+      ],
+      "prompt_constructor": "VideoFrameUnderstandingPromptConstructor",
+      "answer_phrase": "ANSWER:"
+    }
+  }
+
+
+
+
+
+

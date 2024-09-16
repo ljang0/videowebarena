@@ -27,6 +27,7 @@
 - [01/25/2024]: GitHub repo released with tasks and scripts for setting up the VWA environments.
 
 ## Install
+
 ```bash
 # Python 3.10 (or 3.11, but not 3.12 cause 3.12 deprecated distutils needed here)
 python -m venv venv
@@ -35,7 +36,7 @@ pip install -r requirements.txt
 playwright install
 pip install -e .
 ```
-
+Follow https://github.com/openai/whisper to install openai whisper.
 You can also run the unit tests to ensure that VisualWebArena is installed correctly:
 ```
 pytest -x
@@ -91,6 +92,8 @@ If using Gemini, first install the [gcloud CLI](https://cloud.google.com/sdk/doc
 ```
 gcloud auth login
 gcloud config set project <your_project_name>
+export VERTEXAI_LOCATION=your_location
+export VERTEXAI_PROJECT=your_project_name
 ```
 
 6. Launch the evaluation. For example, to reproduce our GPT-3.5 captioning baseline:

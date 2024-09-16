@@ -26,7 +26,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
         "comments": "post is near the top, can be done without exact image understanding",
-        "intent_template_id": 0
+        "intent_template_id": 0,
+        "video": "go_to_comments"
     },
     {
         "sites": [
@@ -55,7 +56,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "need to navigate to the second page to find this",
-        "intent_template_id": 0
+        "intent_template_id": 0,
+        "video": "go_to_comments"
     },
     {
         "sites": [
@@ -84,7 +86,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "medium: need to navigate to the bottom to find this. /f/movies is not all images, but a mix of posts and images",
-        "intent_template_id": 0
+        "intent_template_id": 0,
+        "video": "go_to_comments"
     },
     {
         "sites": [
@@ -120,7 +123,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "product image provided, and need to find the post and count all comments",
-        "intent_template_id": 1
+        "intent_template_id": 1,
+        "video": "go_to_comments"
     },
     {
         "sites": [
@@ -156,7 +160,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "product image provided, need to navigate to the correct post in /f/OldSchoolCool and count all comments",
-        "intent_template_id": 1
+        "intent_template_id": 1,
+        "video": "go_to_comments"
     },
     {
         "sites": [
@@ -190,7 +195,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "hard (even harder for humans): product image provided, and need to identify that the post is in /f/MechanicalKeyboards, and find the correct one",
-        "intent_template_id": 2
+        "intent_template_id": 2,
+        "video": "go_to_comments"
     },
     {
         "sites": [
@@ -224,7 +230,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "hard (even harder for humans): product image provided, and need to identify that the post is in /f/food, and find the correct one. It's several pages in.",
-        "intent_template_id": 2
+        "intent_template_id": 2,
+        "video": "go_to_comments"
     },
     {
         "sites": [
@@ -256,7 +263,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
         "comments": "product image provided, and need to find the post and check if a recipe is provided (it is not)",
-        "intent_template_id": 3
+        "intent_template_id": 3,
+        "video": "go_to_comments"
     },
     {
         "sites": [
@@ -285,7 +293,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
         "comments": "product image provided, and need to find the post and check if a recipe is provided (it is)",
-        "intent_template_id": 3
+        "intent_template_id": 3,
+        "video": "go_to_comments"
     },
     {
         "sites": [
@@ -314,7 +323,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "product image provided, and need to find the post (starting from /f/food) and check if a recipe is provided",
-        "intent_template_id": 3
+        "intent_template_id": 3,
+        "video": "go_to_comments"
     },
     {
         "sites": [
@@ -343,7 +353,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
         "comments": "product image provided, and need to find the post (need to paginate starting from /f/food) and check if a recipe is provided (it is not)",
-        "intent_template_id": 3
+        "intent_template_id": 3,
+        "video": "go_to_comments"
     },
     {
         "sites": [
@@ -372,7 +383,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "hard: product image provided, need to identify that it's of Pittsburgh, navigate to that subreddit, and click on the post",
-        "intent_template_id": 4
+        "intent_template_id": 4,
+        "video": "go_to_comments"
     },
     {
         "sites": [
@@ -401,7 +413,8 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "hard: product image provided, need OCR to identify that it's of Pittsburgh, navigate to that subreddit, and click on the post",
-        "intent_template_id": 4
+        "intent_template_id": 4,
+        "video": "go_to_comments"
     },
     {
         "sites": [
@@ -430,7 +443,8 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "hard: product image provided, need to identify that it's of Newark, navigate to that subreddit, and click on the post",
-        "intent_template_id": 4
+        "intent_template_id": 4,
+        "video": "go_to_comments"
     },
     {
         "sites": [
@@ -475,7 +489,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "medium: product image provided, need to find something similar out of all subreddits",
-        "intent_template_id": 5
+        "intent_template_id": 5,
+        "video": "go_to_comments"
     },
     {
         "sites": [
@@ -516,7 +531,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "medium: coco image provided, need to find something similar out of all subreddits",
-        "intent_template_id": 5
+        "intent_template_id": 5,
+        "video": "go_to_comments"
     },
     {
         "sites": [
@@ -553,7 +569,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
         "comments": "hard: product image provided, and need to find the post and identify the date",
-        "intent_template_id": 6
+        "intent_template_id": 6,
+        "video": "time_and_comment"
     },
     {
         "sites": [
@@ -582,7 +599,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "medium: product image provided, and need to find the meme subreddit",
-        "intent_template_id": 7
+        "intent_template_id": 7,
+        "video": "go_to_subreddit_page"
     },
     {
         "sites": [
@@ -611,7 +629,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "medium: product image provided, and need to find the mechanical keyboards subreddit",
-        "intent_template_id": 7
+        "intent_template_id": 7,
+        "video": "go_to_subreddit_page"
     },
     {
         "sites": [
@@ -651,7 +670,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "hard: product image provided, need to find the correct post and upvote it",
-        "intent_template_id": 8
+        "intent_template_id": 8,
+        "video": "vote_tutorial"
     },
     {
         "sites": [
@@ -691,7 +711,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "hard: product image provided, need to find the correct post (second page in /f/space) and upvote it",
-        "intent_template_id": 8
+        "intent_template_id": 8,
+        "video": "vote_tutorial"
     },
     {
         "sites": [
@@ -731,7 +752,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "hard: product image provided, need to find the correct post (third page in /f/OldSchoolCool) and upvote it",
-        "intent_template_id": 8
+        "intent_template_id": 8,
+        "video": "vote_tutorial"
     },
     {
         "sites": [
@@ -765,7 +787,8 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
-        "comments": "hard: dark product image provided, need to find the correct post and identify the top comment. __REDDIT__/f/consoles/103611/-/comment/1742498"
+        "comments": "hard: dark product image provided, need to find the correct post and identify the top comment. __REDDIT__/f/consoles/103611/-/comment/1742498",
+        "video": "go_to_comments"
     },
     {
         "sites": [
@@ -799,7 +822,8 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
-        "comments": "hard: image provided, need to find the correct post and identify the top comment."
+        "comments": "hard: image provided, need to find the correct post and identify the top comment.",
+        "video": "go_to_comments"
     },
     {
         "sites": [
@@ -834,7 +858,8 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
-        "comments": "hard: image provided, need to find the correct post and identify the top comment."
+        "comments": "hard: image provided, need to find the correct post and identify the top comment.",
+        "video": "go_to_comments"
     },
     {
         "sites": [
@@ -868,7 +893,8 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
-        "comments": "hard: image provided, need to find the correct post and identify the top comment. "
+        "comments": "hard: image provided, need to find the correct post and identify the top comment. ",
+        "video": "go_to_comments"
     },
     {
         "sites": [
@@ -900,7 +926,8 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
-        "comments": "hard: image provided, need to identify that there is no such post"
+        "comments": "hard: image provided, need to identify that there is no such post",
+        "video": "go_to_comments"
     },
     {
         "sites": [
@@ -938,7 +965,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
         "comments": "hard: existing models probably cannot handle this task because of screen browsing/navigation capabilities",
-        "intent_template_id": 10
+        "intent_template_id": 10,
+        "video": "make_post"
     },
     {
         "sites": [
@@ -1002,7 +1030,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 11
+        "intent_template_id": 11,
+        "video": "make_post"
     },
     {
         "sites": [
@@ -1066,7 +1095,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 11
+        "intent_template_id": 11,
+        "video": "make_post"
     },
     {
         "sites": [
@@ -1095,7 +1125,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "hard: need to navigate to the appropriate subreddit (based off gaming content), identify the correct user, and navigate to their other posts. Original URL: __REDDIT__/f/gaming/126114/oc-loot",
-        "intent_template_id": 12
+        "intent_template_id": 12,
+        "video": "poster_info"
     },
     {
         "sites": [
@@ -1127,7 +1158,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "hard: need to navigate to the appropriate subreddit, identify the correct user, and find out that they don't have other posts (__REDDIT__/f/pics/89308/the-tropical-rainbow-lobster-panulirus-ornatus)",
-        "intent_template_id": 12
+        "intent_template_id": 12,
+        "video": "poster_info"
     },
     {
         "sites": [
@@ -1156,7 +1188,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "hard: need to navigate to the appropriate subreddit (based off DC Wharf), identify the correct user, and navigate to their other posts",
-        "intent_template_id": 12
+        "intent_template_id": 12,
+        "video": "poster_info"
     },
     {
         "sites": [
@@ -1185,7 +1218,8 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "hard: need to navigate to the appropriate subreddit (based off gaming content), identify the correct user, and navigate to their other posts (__REDDIT__/f/gaming/126063/last-of-us-on-pc)",
-        "intent_template_id": 12
+        "intent_template_id": 12,
+        "video": "poster_info"
     },
     {
         "sites": [
@@ -1218,7 +1252,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "medium: need to navigate to the correct subreddit and identify the first post that contains a picture of the city",
-        "intent_template_id": 13
+        "intent_template_id": 13,
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
@@ -1251,7 +1286,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "need to navigate to the correct subreddit and identify the first post that contains a picture of trees (second page)",
-        "intent_template_id": 13
+        "intent_template_id": 13,
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
@@ -1284,7 +1320,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "need to navigate to the correct subreddit and identify the top post that contains a picture of animals (there is a lanternfly costume which is a distractor)",
-        "intent_template_id": 13
+        "intent_template_id": 13,
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
@@ -1317,7 +1354,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "need to navigate to the correct subreddit and identify the first post that contains a picture of animals (not described in text)",
-        "intent_template_id": 13
+        "intent_template_id": 13,
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
@@ -1346,7 +1384,8 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "hard: need to identify that the picture is of Jersey City, and navigate there",
-        "intent_template_id": 14
+        "intent_template_id": 14,
+        "video": "go_to_subreddit_page"
     },
     {
         "sites": [
@@ -1378,7 +1417,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "Need to identify that the picture is of San Francisco (easy), and figure out that it doesn't have a subreddit",
-        "intent_template_id": 14
+        "intent_template_id": 14,
+        "video": "go_to_subreddit_page"
     },
     {
         "sites": [
@@ -1407,7 +1447,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "Need to identify that the picture is of Pittsburgh (easy/medium), and navigate there",
-        "intent_template_id": 14
+        "intent_template_id": 14,
+        "video": "go_to_subreddit_page"
     },
     {
         "sites": [
@@ -1439,7 +1480,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 15
+        "intent_template_id": 15,
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
@@ -1471,7 +1513,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 15
+        "intent_template_id": 15,
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
@@ -1522,7 +1565,8 @@
         "comments": "__SHOPPING__/ruiqimao-mini-projector-portable-1080p-home-cinema-projector-theater-video-100-display-lcd-hifi-audio-for-tv-box-xbox-tf-card-u-disk-p2l1.html",
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
-        "overall_difficulty": "hard"
+        "overall_difficulty": "hard",
+        "video": "post_from_shopping"
     },
     {
         "sites": [
@@ -1574,7 +1618,8 @@
         "comments": "__SHOPPING__/fine-art-canvas-frozen-shores-canvas-print-artwork-by-marion-griese-45-w-x-60-h-vertical-gallery-wrapped-large-wall-decor.html",
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
-        "overall_difficulty": "hard"
+        "overall_difficulty": "hard",
+        "video": "post_from_shopping"
     },
     {
         "sites": [
@@ -1608,7 +1653,8 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
-        "comments": "Texas (268,596) + Alabama (52,419) + Florida (65,758) + California (163,696) + Hawaii (10,931) = 561400 square miles"
+        "comments": "Texas (268,596) + Alabama (52,419) + Florida (65,758) + California (163,696) + Hawaii (10,931) = 561400 square miles",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
@@ -1642,7 +1688,8 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Asia: 39 trillion"
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Asia: 39 trillion",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
@@ -1676,7 +1723,8 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/India: 3,287,263 km^2"
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/India: 3,287,263 km^2",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
@@ -1709,7 +1757,8 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Nvidia: 9.75B, __REDDIT__/f/dataisbeautiful/124787/oc-nvidia-s-fy22-income-statement: 4.4B"
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Nvidia: 9.75B, __REDDIT__/f/dataisbeautiful/124787/oc-nvidia-s-fy22-income-statement: 4.4B",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
@@ -1743,7 +1792,8 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Rowing_(sport): ...The introduction of women's rowing at the 1976 Summer Olympics in Montreal increased..."
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Rowing_(sport): ...The introduction of women's rowing at the 1976 Summer Olympics in Montreal increased...",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
@@ -1777,7 +1827,8 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Washington_(state): ... Seattle-Tacoma International Airport (Sea-Tac) is the major commercial airport of greater Seattle..."
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Washington_(state): ... Seattle-Tacoma International Airport (Sea-Tac) is the major commercial airport of greater Seattle...",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
@@ -1809,7 +1860,8 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Apple_Inc."
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Apple_Inc.",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
@@ -1841,7 +1893,8 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Niger"
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Niger",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
@@ -1875,7 +1928,8 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/State_Grid_Corporation_of_China, US$ 585.278 billion (2017)"
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/State_Grid_Corporation_of_China, US$ 585.278 billion (2017)",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
@@ -1907,7 +1961,8 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/R_(programming_language)"
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/R_(programming_language)",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
@@ -1939,7 +1994,8 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/George_Soros"
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/George_Soros",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
@@ -1976,7 +2032,8 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Illinois, Section Divisions"
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Illinois, Section Divisions",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
@@ -2010,7 +2067,8 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Belgium: 30689, __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Germany: 357022"
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Belgium: 30689, __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Germany: 357022",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
@@ -2018,38 +2076,6 @@
             "reddit"
         ],
         "task_id": 58,
-        "require_login": false,
-        "storage_state": "./.auth/reddit_state.json",
-        "start_url": "__REDDIT__/f/dataisbeautiful/38990 |AND| __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/User:The_other_Kiwix_guy/Landing",
-        "geolocation": null,
-        "intent_template": "Who {{question}} {{modifier}}?",
-        "intent": "Who is the author of the most popular novel adapted anime in year 2012?",
-        "image": [],
-        "instantiation_dict": {
-            "question": "is the author",
-            "modifier": "of the most popular novel adapted anime in year 2012"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "exact_match": "Reki Kawahara"
-            }
-        },
-        "intent_template_id": 23,
-        "reasoning_difficulty": "medium",
-        "visual_difficulty": "medium",
-        "overall_difficulty": "medium",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Sword_Art_Online"
-    },
-    {
-        "sites": [
-            "wikipedia",
-            "reddit"
-        ],
-        "task_id": 59,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/dataisbeautiful/39014 |AND| __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/User:The_other_Kiwix_guy/Landing",
@@ -2076,14 +2102,15 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Deloitte: 345374, __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/PricewaterhouseCoopers: 295000, __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/KPMG: 236000"
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Deloitte: 345374, __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/PricewaterhouseCoopers: 295000, __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/KPMG: 236000",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
             "wikipedia",
             "reddit"
         ],
-        "task_id": 60,
+        "task_id": 59,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/dataisbeautiful/82296 |AND| __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/User:The_other_Kiwix_guy/Landing",
@@ -2108,14 +2135,15 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Outlander_(novel)"
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Outlander_(novel)",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
             "wikipedia",
             "reddit"
         ],
-        "task_id": 61,
+        "task_id": 60,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/dataisbeautiful/103828 |AND| __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/User:The_other_Kiwix_guy/Landing",
@@ -2140,14 +2168,15 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Skyfall"
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Skyfall",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
             "wikipedia",
             "reddit"
         ],
-        "task_id": 62,
+        "task_id": 61,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/dataisbeautiful/82234 |AND| __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/User:The_other_Kiwix_guy/Landing",
@@ -2172,14 +2201,15 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Phoebe_Buffay"
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Phoebe_Buffay",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
             "wikipedia",
             "reddit"
         ],
-        "task_id": 63,
+        "task_id": 62,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/dataisbeautiful/82193 |AND| __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/User:The_other_Kiwix_guy/Landing",
@@ -2206,13 +2236,14 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Philadelphia_Eagles"
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Philadelphia_Eagles",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 64,
+        "task_id": 63,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/dataisbeautiful/60133",
@@ -2241,14 +2272,15 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Italy"
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Italy",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
             "wikipedia",
             "reddit"
         ],
-        "task_id": 65,
+        "task_id": 64,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/dataisbeautiful/82170 |AND| __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/User:The_other_Kiwix_guy/Landing",
@@ -2275,14 +2307,15 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Porto (231962), __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Lisbon (544851)"
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Porto (231962), __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Lisbon (544851)",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
             "wikipedia",
             "reddit"
         ],
-        "task_id": 66,
+        "task_id": 65,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/dataisbeautiful/124984 |AND| __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/User:The_other_Kiwix_guy/Landing",
@@ -2307,46 +2340,15 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/California"
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/California",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
             "wikipedia",
             "reddit"
         ],
-        "task_id": 67,
-        "require_login": false,
-        "storage_state": "./.auth/reddit_state.json",
-        "start_url": "__REDDIT__/f/dataisbeautiful/60120 |AND| __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/User:The_other_Kiwix_guy/Landing",
-        "geolocation": null,
-        "intent_template": "Who {{question}} that {{modifier}}?",
-        "intent": "Who is the founder of the brand that has zero stores in Washington state (before 2021) according to the chart in the first tab?",
-        "image": [],
-        "instantiation_dict": {
-            "question": "is the founder of the brand",
-            "modifier": "has zero stores in Washington state (before 2021) according to the chart in the first tab"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "exact_match": "Bill Rosenberg"
-            }
-        },
-        "intent_template_id": 26,
-        "reasoning_difficulty": "medium",
-        "visual_difficulty": "medium",
-        "overall_difficulty": "medium",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Dunkin'_Donuts"
-    },
-    {
-        "sites": [
-            "wikipedia",
-            "reddit"
-        ],
-        "task_id": 68,
+        "task_id": 66,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/dataisbeautiful/124889 |AND| __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/User:The_other_Kiwix_guy/Landing",
@@ -2374,13 +2376,14 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/The_Vanguard_Group"
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/The_Vanguard_Group",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 69,
+        "task_id": 67,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/newhampshire/129011",
@@ -2412,13 +2415,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
-        "comments": ""
+        "comments": "",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 70,
+        "task_id": 68,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/pics/new",
@@ -2445,13 +2449,14 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
-        "comments": "__REDDIT__/f/pics/45604. Counting is hard."
+        "comments": "__REDDIT__/f/pics/45604. Counting is hard.",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 71,
+        "task_id": 69,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/memes/new",
@@ -2485,13 +2490,14 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
-        "comments": "__REDDIT__/f/memes/127908, fourth page under chronological order: __REDDIT__/f/memes/new?next%5Bid%5D=127916"
+        "comments": "__REDDIT__/f/memes/127908, fourth page under chronological order: __REDDIT__/f/memes/new?next%5Bid%5D=127916",
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 72,
+        "task_id": 70,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/memes/127531",
@@ -2523,13 +2529,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
-        "comments": ""
+        "comments": "",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 73,
+        "task_id": 71,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -2575,13 +2582,14 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
-        "comments": "__REDDIT__/f/MechanicalKeyboards/14329"
+        "comments": "__REDDIT__/f/MechanicalKeyboards/14329",
+        "video": "repost"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 74,
+        "task_id": 72,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -2619,14 +2627,15 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
-        "comments": "__REDDIT__/f/MechanicalKeyboards/56378 -- there's a very tiny part of a key between the gap in the upper left, so accepting both 38 and 39."
+        "comments": "__REDDIT__/f/MechanicalKeyboards/56378 -- there's a very tiny part of a key between the gap in the upper left, so accepting both 38 and 39.",
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit",
             "shopping"
         ],
-        "task_id": 75,
+        "task_id": 73,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__SHOPPING__ |AND| __REDDIT__",
@@ -2662,13 +2671,14 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
-        "comments": "__REDDIT__/f/MechanicalKeyboards/120949, "
+        "comments": "__REDDIT__/f/MechanicalKeyboards/120949, ",
+        "video": "reddit_shopping_buy"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 76,
+        "task_id": 74,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/funny/125907",
@@ -2713,13 +2723,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
-        "comments": "__REDDIT__/f/funny/125907"
+        "comments": "__REDDIT__/f/funny/125907",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 77,
+        "task_id": 75,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -2755,13 +2766,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "__REDDIT__/f/pics/45680"
+        "comments": "__REDDIT__/f/pics/45680",
+        "video": "search"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 78,
+        "task_id": 76,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -2801,13 +2813,14 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
-        "comments": "__REDDIT__/f/pics/25213"
+        "comments": "__REDDIT__/f/pics/25213",
+        "video": "search"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 79,
+        "task_id": 77,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -2843,13 +2856,14 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
-        "comments": "__REDDIT__/f/mildlyinteresting/42152"
+        "comments": "__REDDIT__/f/mildlyinteresting/42152",
+        "video": "search"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 80,
+        "task_id": 78,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/mildlyinteresting",
@@ -2930,13 +2944,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
-        "comments": "Note: Does not check every single post on the page. Picture 2 (42188), 4 (63435), 8 (128010), 24 (128086) has food."
+        "comments": "Note: Does not check every single post on the page. Picture 2 (42188), 4 (63435), 8 (128010), 24 (128086) has food.",
+        "video": "downvote_and_upvote_tutorial"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 81,
+        "task_id": 79,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/photoshopbattles",
@@ -3017,13 +3032,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
-        "comments": "Note: Does not check every single post on the page. Picture 10 (45482), 16 (24822), 18 (131315), 19 (89211) has cat."
+        "comments": "Note: Does not check every single post on the page. Picture 10 (45482), 16 (24822), 18 (131315), 19 (89211) has cat.",
+        "video": "downvote_and_upvote_tutorial"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 82,
+        "task_id": 80,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/gaming?next%5Branking%5D=2111&next%5Bid%5D=61422",
@@ -3104,13 +3120,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
-        "comments": "Note: Does not check every single post on the page. Picture 6 (40345), 8 (19625), 23 (126151), 25 (126047) has Mario."
+        "comments": "Note: Does not check every single post on the page. Picture 6 (40345), 8 (19625), 23 (126151), 25 (126047) has Mario.",
+        "video": "downvote_and_upvote_tutorial"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 83,
+        "task_id": 81,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/Art/active",
@@ -3247,13 +3264,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
-        "comments": "Note: Does not check every single post on the page. Picture 1 (116512), 2 (116619), 3 (116536), 4, 6 (116517), 9 (116504), 11 (116469), 15 (116444), 16 (116617), 17 (116583), 19 (116508), 21 (116439), 24 (116461) has human face."
+        "comments": "Note: Does not check every single post on the page. Picture 1 (116512), 2 (116619), 3 (116536), 4, 6 (116517), 9 (116504), 11 (116469), 15 (116444), 16 (116617), 17 (116583), 19 (116508), 21 (116439), 24 (116461) has human face.",
+        "video": "downvote_and_upvote_tutorial"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 84,
+        "task_id": 82,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/consoles",
@@ -3357,14 +3375,15 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
-        "comments": "Note: Does not check every single post on the page. Upvote: 2 (124522), 4 (124584), 6, 8, 10 (124590), 12, 16, 18 (81946), 20, 22 (81967), 24; Downvote: 1 (124523), 3, 5 (81949), 7, 9, 11 (124520), 13, 15, 17 (124545), 19, 21 (103639), 23, 25. Skip 14 (124571)."
+        "comments": "Note: Does not check every single post on the page. Upvote: 2 (124522), 4 (124584), 6, 8, 10 (124590), 12, 16, 18 (81946), 20, 22 (81967), 24; Downvote: 1 (124523), 3, 5 (81949), 7, 9, 11 (124520), 13, 15, 17 (124545), 19, 21 (103639), 23, 25. Skip 14 (124571).",
+        "video": "vote_tutorial"
     },
     {
         "sites": [
             "reddit",
             "wikipedia"
         ],
-        "task_id": 85,
+        "task_id": 83,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/EarthPorn?next%5Branking%5D=18106&next%5Bid%5D=98160 |AND| __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/User:The_other_Kiwix_guy/Landing",
@@ -3475,13 +3494,14 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
-        "comments": "Note: Does not check every single post on the page. north: 1 (98160), 2, 6 (119215), 7, 8, 10, 11 (119100), 12 (76382), 13, 15, 18 (76394), 19, 20, 23; south: 4 (54431), 17 (119220), 21 (119108)"
+        "comments": "Note: Does not check every single post on the page. north: 1 (98160), 2, 6 (119215), 7, 8, 10, 11 (119100), 12 (76382), 13, 15, 18 (76394), 19, 20, 23; south: 4 (54431), 17 (119220), 21 (119108)",
+        "video": "vote_tutorial"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 86,
+        "task_id": 84,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/space",
@@ -3509,13 +3529,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
-        "comments": "test scrolling. __REDDIT__/f/space/27421"
+        "comments": "test scrolling. __REDDIT__/f/space/27421",
+        "video": "poster_info"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 87,
+        "task_id": 85,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/aww",
@@ -3543,13 +3564,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
-        "comments": "test scrolling"
+        "comments": "test scrolling",
+        "video": "poster_info"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 88,
+        "task_id": 86,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/headphones?next%5Branking%5D=514&next%5Bid%5D=126662",
@@ -3616,13 +3638,14 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
-        "comments": "Note: Does not check every single post on the page. Upvote: 2, 3, 4 (105770), 8 (20186), 14, 18 (126736), 19 (20035), 22, 24 (105847). Ignores __REDDIT__/f/headphones/126736, __REDDIT__/f/headphones/20035, __REDDIT__/f/headphones/105847 for ambiguity (headphones vs. earphones). Test negative selection"
+        "comments": "Note: Does not check every single post on the page. Upvote: 2, 3, 4 (105770), 8 (20186), 14, 18 (126736), 19 (20035), 22, 24 (105847). Ignores __REDDIT__/f/headphones/126736, __REDDIT__/f/headphones/20035, __REDDIT__/f/headphones/105847 for ambiguity (headphones vs. earphones). Test negative selection",
+        "video": "downvote_and_upvote_tutorial"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 89,
+        "task_id": 87,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/space/112972",
@@ -3655,13 +3678,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "some basic tasks"
+        "comments": "some basic tasks",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 90,
+        "task_id": 88,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/mildlyinteresting/21720",
@@ -3694,13 +3718,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "some basic tasks"
+        "comments": "some basic tasks",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 91,
+        "task_id": 89,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/mildlyinteresting/42168",
@@ -3733,13 +3758,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "some basic tasks"
+        "comments": "some basic tasks",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 92,
+        "task_id": 90,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -3767,13 +3793,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "some basic tasks"
+        "comments": "some basic tasks",
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 93,
+        "task_id": 91,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -3801,13 +3828,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "some basic tasks. __REDDIT__/f/food/controversial?t=all"
+        "comments": "some basic tasks. __REDDIT__/f/food/controversial?t=all",
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 94,
+        "task_id": 92,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -3835,13 +3863,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "some basic tasks"
+        "comments": "some basic tasks",
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 95,
+        "task_id": 93,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -3869,13 +3898,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "__REDDIT__/f/newhaven/64803/first-snowfall-of-the-season-on-the-green"
+        "comments": "__REDDIT__/f/newhaven/64803/first-snowfall-of-the-season-on-the-green",
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 96,
+        "task_id": 94,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -3903,13 +3933,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "some basic tasks"
+        "comments": "some basic tasks",
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 97,
+        "task_id": 95,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -3937,13 +3968,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "some basic tasks"
+        "comments": "some basic tasks",
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 98,
+        "task_id": 96,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -3976,13 +4008,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "just search \"dog picture\""
+        "comments": "just search \"dog picture\"",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 99,
+        "task_id": 97,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -4019,13 +4052,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "just search \"dog cat picture\""
+        "comments": "just search \"dog cat picture\"",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 100,
+        "task_id": 98,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -4058,13 +4092,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "just search \"cake\""
+        "comments": "just search \"cake\"",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 101,
+        "task_id": 99,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -4097,13 +4132,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "just search \"keyboard\""
+        "comments": "just search \"keyboard\"",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 102,
+        "task_id": 100,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/MechanicalKeyboards/56362",
@@ -4144,13 +4180,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
-        "comments": ""
+        "comments": "",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 103,
+        "task_id": 101,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/memes/41674",
@@ -4191,13 +4228,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": ""
+        "comments": "",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 104,
+        "task_id": 102,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/memes/21059",
@@ -4238,13 +4276,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": ""
+        "comments": "",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 105,
+        "task_id": 103,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -4279,13 +4318,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "__REDDIT__/126091"
+        "comments": "__REDDIT__/126091",
+        "video": "subscribe"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 106,
+        "task_id": 104,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -4317,13 +4357,14 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "__REDDIT__/39053"
+        "comments": "__REDDIT__/39053",
+        "video": "subscribe"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 107,
+        "task_id": 105,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -4357,13 +4398,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "__REDDIT__/41010"
+        "comments": "__REDDIT__/41010",
+        "video": "subscribe"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 108,
+        "task_id": 106,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -4395,13 +4437,14 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "__REDDIT__/27284"
+        "comments": "__REDDIT__/27284",
+        "video": "poster_info"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 109,
+        "task_id": 107,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -4433,13 +4476,14 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "__REDDIT__/107539"
+        "comments": "__REDDIT__/107539",
+        "video": "poster_info"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 110,
+        "task_id": 108,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -4471,13 +4515,14 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "__REDDIT__/38612"
+        "comments": "__REDDIT__/38612",
+        "video": "poster_info"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 111,
+        "task_id": 109,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -4514,13 +4559,14 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
-        "comments": "/f/Washington, /f/boston"
+        "comments": "/f/Washington, /f/boston",
+        "video": "make_post"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 112,
+        "task_id": 110,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -4557,13 +4603,14 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
-        "comments": "/f/space, /f/headphones"
+        "comments": "/f/space, /f/headphones",
+        "video": "make_post"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 113,
+        "task_id": 111,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -4607,13 +4654,14 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
-        "comments": "/f/EarthPorn, /f/nyc, /f/dataisbeautiful"
+        "comments": "/f/EarthPorn, /f/nyc, /f/dataisbeautiful",
+        "video": "make_post"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 114,
+        "task_id": 112,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -4644,13 +4692,14 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
-        "comments": "sol1: __REDDIT__/f/washingtondc+vermont+nyc/active?t=all; sol2: subscribe/unsubscribe to related forum and the result will show in homepage"
+        "comments": "sol1: __REDDIT__/f/washingtondc+vermont+nyc/active?t=all; sol2: subscribe/unsubscribe to related forum and the result will show in homepage",
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 115,
+        "task_id": 113,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -4681,13 +4730,14 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
-        "comments": "sol1: __REDDIT__/f/monitor+Paterson+WaterburyCT/controversial?t=all; sol2: subscribe/unsubscribe to related forum and the result will show in homepage"
+        "comments": "sol1: __REDDIT__/f/monitor+Paterson+WaterburyCT/controversial?t=all; sol2: subscribe/unsubscribe to related forum and the result will show in homepage",
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 116,
+        "task_id": 114,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -4718,14 +4768,15 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
-        "comments": "sol1: __REDDIT__/f/aww+dataisbeautiful/most_commented?t=all; sol2: subscribe/unsubscribe to related forum and the result will show in homepage"
+        "comments": "sol1: __REDDIT__/f/aww+dataisbeautiful/most_commented?t=all; sol2: subscribe/unsubscribe to related forum and the result will show in homepage",
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "wikipedia",
             "reddit"
         ],
-        "task_id": 117,
+        "task_id": 115,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/memes/85200 |AND| __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/User:The_other_Kiwix_guy/Landing",
@@ -4751,14 +4802,15 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Doge_(meme)"
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Doge_(meme)",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
             "wikipedia",
             "reddit"
         ],
-        "task_id": 118,
+        "task_id": 116,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/memes/106760 |AND| __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/User:The_other_Kiwix_guy/Landing",
@@ -4784,14 +4836,15 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Drake_(musician)"
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Drake_(musician)",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
             "wikipedia",
             "reddit"
         ],
-        "task_id": 119,
+        "task_id": 117,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/memes/62937 |AND| __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/User:The_other_Kiwix_guy/Landing",
@@ -4817,45 +4870,14 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Leonardo_DiCaprio"
+        "comments": "__WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Leonardo_DiCaprio",
+        "video": "reddit_wikipedia_info"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 120,
-        "require_login": false,
-        "storage_state": "./.auth/reddit_state.json",
-        "start_url": "__REDDIT__/submission_images/361ec602ee63f8d052217fe6577e7163471ae1b86280acd498aa626a28239da2.jpg",
-        "geolocation": null,
-        "intent_template": "According to the image, {{question}}?",
-        "intent": "According to the image, which country in this picture has the worst rail system?",
-        "image": [],
-        "instantiation_dict": {
-            "question": "which country in this picture has the worst rail system"
-        },
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "must_include": [
-                    "U.S. |OR| United States |OR| US"
-                ]
-            }
-        },
-        "intent_template_id": 47,
-        "reasoning_difficulty": "easy",
-        "visual_difficulty": "easy",
-        "overall_difficulty": "easy",
-        "comments": "__REDDIT__/f/memes/106690"
-    },
-    {
-        "sites": [
-            "reddit"
-        ],
-        "task_id": 121,
+        "task_id": 118,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -4878,13 +4900,14 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
-        "comments": "__REDDIT__/f/food/125525/homemade-margherita-pizza"
+        "comments": "__REDDIT__/f/food/125525/homemade-margherita-pizza",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 122,
+        "task_id": 119,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -4907,13 +4930,14 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
-        "comments": "__REDDIT__/f/food/18967/homemade-korean-fried-chicken"
+        "comments": "__REDDIT__/f/food/18967/homemade-korean-fried-chicken",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 123,
+        "task_id": 120,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -4944,13 +4968,14 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
-        "comments": "__REDDIT__/f/wallstreetbets/29340"
+        "comments": "__REDDIT__/f/wallstreetbets/29340",
+        "video": "search"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 124,
+        "task_id": 121,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -4980,13 +5005,14 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
-        "comments": "__REDDIT__/f/dataisbeautiful/18389"
+        "comments": "__REDDIT__/f/dataisbeautiful/18389",
+        "video": "search"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 125,
+        "task_id": 122,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -5017,13 +5043,14 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
-        "comments": "__REDDIT__/f/dataisbeautiful/124787"
+        "comments": "__REDDIT__/f/dataisbeautiful/124787",
+        "video": "search"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 126,
+        "task_id": 123,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -5048,13 +5075,14 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
-        "comments": "__REDDIT__/f/memes/85103"
+        "comments": "__REDDIT__/f/memes/85103",
+        "video": "poster_info"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 127,
+        "task_id": 124,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -5079,13 +5107,14 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
-        "comments": "__REDDIT__/f/memes/41719/where-my-6-4-gb"
+        "comments": "__REDDIT__/f/memes/41719/where-my-6-4-gb",
+        "video": "poster_info"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 128,
+        "task_id": 125,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -5110,13 +5139,14 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
-        "comments": "__REDDIT__/f/pics/45579"
+        "comments": "__REDDIT__/f/pics/45579",
+        "video": "poster_info"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 129,
+        "task_id": 126,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -5146,13 +5176,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": ""
+        "comments": "",
+        "video": "subscribe"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 130,
+        "task_id": 127,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -5182,13 +5213,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": ""
+        "comments": "",
+        "video": "subscribe"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 131,
+        "task_id": 128,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -5218,13 +5250,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": ""
+        "comments": "",
+        "video": "subscribe"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 132,
+        "task_id": 129,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -5250,13 +5283,14 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
-        "comments": "__REDDIT__/f/nyc/88264"
+        "comments": "__REDDIT__/f/nyc/88264",
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 133,
+        "task_id": 130,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -5282,13 +5316,14 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
-        "comments": "__REDDIT__/f/ColumbiaMD/75767"
+        "comments": "__REDDIT__/f/ColumbiaMD/75767",
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 134,
+        "task_id": 131,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -5314,13 +5349,14 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
-        "comments": "__REDDIT__/f/Maine/120773"
+        "comments": "__REDDIT__/f/Maine/120773",
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 135,
+        "task_id": 132,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -5347,13 +5383,14 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
-        "comments": "__REDDIT__/f/memes/63334"
+        "comments": "__REDDIT__/f/memes/63334",
+        "video": "search"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 136,
+        "task_id": 133,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -5380,13 +5417,14 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
-        "comments": "__REDDIT__/f/wallstreetbets/136131"
+        "comments": "__REDDIT__/f/wallstreetbets/136131",
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 137,
+        "task_id": 134,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -5413,13 +5451,14 @@
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
-        "comments": "__REDDIT__/f/wallstreetbets/50264"
+        "comments": "__REDDIT__/f/wallstreetbets/50264",
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 138,
+        "task_id": 135,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -5449,13 +5488,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
-        "comments": ""
+        "comments": "",
+        "video": "change_account_info"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 139,
+        "task_id": 136,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -5488,13 +5528,14 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
-        "comments": "__REDDIT__/f/memes/41741"
+        "comments": "__REDDIT__/f/memes/41741",
+        "video": "poster_info"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 140,
+        "task_id": 137,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -5528,13 +5569,14 @@
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
-        "comments": "__REDDIT__/f/pics/25046"
+        "comments": "__REDDIT__/f/pics/25046",
+        "video": "poster_info"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 141,
+        "task_id": 138,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/movies/63905",
@@ -5564,13 +5606,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "__REDDIT__/f/movies/63905"
+        "comments": "__REDDIT__/f/movies/63905",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 142,
+        "task_id": 139,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/movies/86107",
@@ -5600,13 +5643,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "__REDDIT__/f/movies/86107"
+        "comments": "__REDDIT__/f/movies/86107",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 143,
+        "task_id": 140,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/movies/128615",
@@ -5636,13 +5680,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "__REDDIT__/f/movies/128615"
+        "comments": "__REDDIT__/f/movies/128615",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 144,
+        "task_id": 141,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/wallstreetbets/72041",
@@ -5672,13 +5717,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
-        "comments": "__REDDIT__/f/wallstreetbets/72041"
+        "comments": "__REDDIT__/f/wallstreetbets/72041",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 145,
+        "task_id": 142,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/wallstreetbets/136297",
@@ -5708,13 +5754,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
-        "comments": "__REDDIT__/f/wallstreetbets/136297"
+        "comments": "__REDDIT__/f/wallstreetbets/136297",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 146,
+        "task_id": 143,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/wallstreetbets/50335",
@@ -5744,13 +5791,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
-        "comments": "__REDDIT__/f/wallstreetbets/50335"
+        "comments": "__REDDIT__/f/wallstreetbets/50335",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 147,
+        "task_id": 144,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/food/18831",
@@ -5782,13 +5830,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "__REDDIT__/f/food/18831"
+        "comments": "__REDDIT__/f/food/18831",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 148,
+        "task_id": 145,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/food/60745",
@@ -5820,13 +5869,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "__REDDIT__/f/food/60745"
+        "comments": "__REDDIT__/f/food/60745",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 149,
+        "task_id": 146,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/food/60641",
@@ -5858,13 +5908,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "__REDDIT__/f/food/60641"
+        "comments": "__REDDIT__/f/food/60641",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 150,
+        "task_id": 147,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/OldSchoolCool/35826",
@@ -5896,13 +5947,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "__REDDIT__/f/OldSchoolCool/35826"
+        "comments": "__REDDIT__/f/OldSchoolCool/35826",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 151,
+        "task_id": 148,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/OldSchoolCool/78885",
@@ -5934,13 +5986,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "__REDDIT__/f/OldSchoolCool/78885"
+        "comments": "__REDDIT__/f/OldSchoolCool/78885",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 152,
+        "task_id": 149,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/OldSchoolCool/15059",
@@ -5972,13 +6025,14 @@
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
-        "comments": "__REDDIT__/f/OldSchoolCool/15059"
+        "comments": "__REDDIT__/f/OldSchoolCool/15059",
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 153,
+        "task_id": 150,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -6001,13 +6055,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 61
+        "intent_template_id": 61,
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 154,
+        "task_id": 151,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -6040,13 +6095,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "__REDDIT__/f/dataisbeautiful/103920/oc-the-cost-of-training-ai-on-imagenet-has-decreased-from",
-        "intent_template_id": 62
+        "intent_template_id": 62,
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 155,
+        "task_id": 152,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/pics",
@@ -6072,13 +6128,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 63
+        "intent_template_id": 63,
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 156,
+        "task_id": 153,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -6109,13 +6166,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 62
+        "intent_template_id": 62,
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 157,
+        "task_id": 154,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/Music",
@@ -6141,13 +6199,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "Text is very hard to read, even for a human.",
-        "intent_template_id": 64
+        "intent_template_id": 64,
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 158,
+        "task_id": 155,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -6188,13 +6247,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 65
+        "intent_template_id": 65,
+        "video": "subscribe"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 159,
+        "task_id": 156,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -6237,13 +6297,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 65
+        "intent_template_id": 65,
+        "video": "subscribe"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 160,
+        "task_id": 157,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -6279,13 +6340,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 65
+        "intent_template_id": 65,
+        "video": "subscribe"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 161,
+        "task_id": 158,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/Jokes",
@@ -6308,13 +6370,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "The post mispells 'deserted' as 'desert' which makes it hard to find.",
-        "intent_template_id": 66
+        "intent_template_id": 66,
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 162,
+        "task_id": 159,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -6341,14 +6404,15 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 67
+        "intent_template_id": 67,
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit",
             "wikipedia"
         ],
-        "task_id": 163,
+        "task_id": 160,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__ |AND| __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Up_(2009_film)",
@@ -6377,14 +6441,15 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "Post is __REDDIT__/f/photoshopbattles/45340/psbattle-halloween-costume",
-        "intent_template_id": 68
+        "intent_template_id": 68,
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit",
             "wikipedia"
         ],
-        "task_id": 164,
+        "task_id": 161,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__ |AND| __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Digging",
@@ -6413,13 +6478,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "Post is __REDDIT__/f/gifs/19936/ok-time-for-you-to-go-to-bed hard visual because the agent needs to understand a moving gif",
-        "intent_template_id": 68
+        "intent_template_id": 68,
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 165,
+        "task_id": 162,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -6455,13 +6521,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "__REDDIT__/f/pittsburgh/89846/fallingwater-by-lisa-frank-lloyd-wright",
-        "intent_template_id": 69
+        "intent_template_id": 69,
+        "video": "poster_info"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 166,
+        "task_id": 163,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -6496,13 +6563,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "__REDDIT__/f/space/27376/a-view-i-captured-of-the-sun-between-iss-solar-panels-more |OR| __REDDIT__/f/space/92045/ireland-seen-from-the-international-space-station",
-        "intent_template_id": 69
+        "intent_template_id": 69,
+        "video": "poster_info"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 167,
+        "task_id": 164,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -6542,13 +6610,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "An example is at __REDDIT__/f/aww/81028/cute-buddies",
-        "intent_template_id": 63
+        "intent_template_id": 63,
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 168,
+        "task_id": 165,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/pics?next%5Branking%5D=1773&next%5Bid%5D=67091",
@@ -6591,13 +6660,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 70
+        "intent_template_id": 70,
+        "video": "repost"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 169,
+        "task_id": 166,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/pics/top?t=all&next%5BnetScore%5D=589&next%5Bid%5D=67196",
@@ -6640,13 +6710,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 70
+        "intent_template_id": 70,
+        "video": "repost"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 170,
+        "task_id": 167,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -6680,13 +6751,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 71
+        "intent_template_id": 71,
+        "video": "subscribe"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 171,
+        "task_id": 168,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -6720,13 +6792,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 71
+        "intent_template_id": 71,
+        "video": "subscribe"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 172,
+        "task_id": 169,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/jerseycity",
@@ -6761,13 +6834,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "Occulded text is hard to read.",
-        "intent_template_id": 72
+        "intent_template_id": 72,
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 173,
+        "task_id": 170,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/memes/top?t=all",
@@ -6802,13 +6876,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 72
+        "intent_template_id": 72,
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 174,
+        "task_id": 171,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/gifs",
@@ -6843,51 +6918,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "Needs to see animated gif to complete task.",
-        "intent_template_id": 72
+        "intent_template_id": 72,
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 175,
-        "require_login": false,
-        "storage_state": "./.auth/reddit_state.json",
-        "start_url": "__REDDIT__",
-        "geolocation": null,
-        "intent_template": "How much money was user {{user}}'s {{security}} worth {{timeframe}} in their screenshot (in {{currency}})?",
-        "instantiation_dict": {
-            "user": "cezapiza",
-            "security": "SPY puts",
-            "timeframe": "the day before",
-            "currency": "USD"
-        },
-        "intent": "How much money was user cezapiza's SPY puts worth the day before in their screenshot (in USD)?",
-        "require_reset": false,
-        "eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "must_include": [
-                    "360"
-                ]
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": "",
-            "reference_answer_raw_annotation": "$360"
-        },
-        "reasoning_difficulty": "hard",
-        "visual_difficulty": "medium",
-        "overall_difficulty": "medium",
-        "comments": "Post is __REDDIT__/f/wallstreetbets/115267/up-60-on-my-spy-puts-today",
-        "intent_template_id": 73
-    },
-    {
-        "sites": [
-            "reddit"
-        ],
-        "task_id": 176,
+        "task_id": 172,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/food",
@@ -6923,13 +6961,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 74
+        "intent_template_id": 74,
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 177,
+        "task_id": 173,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/food?next%5Branking%5D=1727&next%5Bid%5D=82778",
@@ -6965,13 +7004,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 74
+        "intent_template_id": 74,
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 178,
+        "task_id": 174,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -7005,13 +7045,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "The image is of the 'Vessel' in New York City.",
-        "intent_template_id": 71
+        "intent_template_id": 71,
+        "video": "subscribe"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 179,
+        "task_id": 175,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -7037,13 +7078,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 75
+        "intent_template_id": 75,
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 180,
+        "task_id": 176,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -7069,13 +7111,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 75
+        "intent_template_id": 75,
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 181,
+        "task_id": 177,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -7111,13 +7154,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "The text in the image looks like 'Vale' but the agent needs to know it's Yale.",
-        "intent_template_id": 76
+        "intent_template_id": 76,
+        "video": "make_post"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 182,
+        "task_id": 178,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -7143,14 +7187,15 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "Hard to read text off the football field and has to recognize that StamfordCT is not where Stanford is located. Also there is no forum for Palo Alto.",
-        "intent_template_id": 76
+        "intent_template_id": 76,
+        "video": "make_post"
     },
     {
         "sites": [
             "reddit",
             "shopping"
         ],
-        "task_id": 183,
+        "task_id": 179,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__ |AND| __SHOPPING__/grocery-gourmet-food/fresh-meal-kits.html?p=5&product_list_order=name",
@@ -7194,14 +7239,15 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 77
+        "intent_template_id": 77,
+        "video": "post_from_shopping"
     },
     {
         "sites": [
             "reddit",
             "shopping"
         ],
-        "task_id": 184,
+        "task_id": 180,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__ |AND| __SHOPPING__/grocery-gourmet-food/dairy-cheese-eggs/cheese.html?p=4&product_list_order=name",
@@ -7245,7 +7291,8 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 77
+        "intent_template_id": 77,
+        "video": "post_from_shopping"
     },
     {
         "sites": [
@@ -7253,7 +7300,7 @@
             "shopping",
             "wikipedia"
         ],
-        "task_id": 185,
+        "task_id": 181,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__ |AND| __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Pok\u00e9mon |AND| __SHOPPING__/video-games/legacy-systems/playstation-systems.html?p=3",
@@ -7297,7 +7344,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 78
+        "intent_template_id": 78,
+        "video": "post_from_shopping"
     },
     {
         "sites": [
@@ -7305,7 +7353,7 @@
             "shopping",
             "wikipedia"
         ],
-        "task_id": 186,
+        "task_id": 182,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__ |AND| __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Rudolph_the_Red-Nosed_Reindeer%3A_The_Movie |AND| __SHOPPING__/sports-outdoors/sports.html?p=5",
@@ -7349,7 +7397,8 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 78
+        "intent_template_id": 78,
+        "video": "post_from_shopping"
     },
     {
         "sites": [
@@ -7357,7 +7406,7 @@
             "shopping",
             "wikipedia"
         ],
-        "task_id": 187,
+        "task_id": 183,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__ |AND| __WIKIPEDIA__/wikipedia_en_all_maxi_2022-05/A/Yoda |AND| __SHOPPING__/home-kitchen/bedding/kids-bedding.html?product_list_order=name&product_list_dir=desc",
@@ -7401,13 +7450,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 78
+        "intent_template_id": 78,
+        "video": "post_from_shopping"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 188,
+        "task_id": 184,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -7439,13 +7489,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 79
+        "intent_template_id": 79,
+        "video": "subscribe"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 189,
+        "task_id": 185,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -7477,13 +7528,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 79
+        "intent_template_id": 79,
+        "video": "subscribe"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 190,
+        "task_id": 186,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -7515,13 +7567,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 79
+        "intent_template_id": 79,
+        "video": "subscribe"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 191,
+        "task_id": 187,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/iphone/top?t=all",
@@ -7550,13 +7603,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "1) __REDDIT__/f/iphone/106148/apple-really-should-bring-back-the-rose-gold-color-option-it 2) __REDDIT__/f/iphone/41010/strong-magnets 3) __REDDIT__/f/iphone/62333/this-mesh-thing-fell-out-of-my-iphone-13-pro-is-it-a-big",
-        "intent_template_id": 80
+        "intent_template_id": 80,
+        "video": "vote_tutorial"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 192,
+        "task_id": 188,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/aww/most_commented?t=all",
@@ -7585,13 +7639,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "1) __REDDIT__/f/aww/80942/oc-what-do-you-suspect-they-want 2) __REDDIT__/f/aww/102762/they-think-the-couch-is-theirs-oc",
-        "intent_template_id": 80
+        "intent_template_id": 80,
+        "video": "vote_tutorial"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 193,
+        "task_id": 189,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/EarthPorn/top?t=all",
@@ -7624,13 +7679,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 81
+        "intent_template_id": 81,
+        "video": "time_and_comment"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 194,
+        "task_id": 190,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/MechanicalKeyboards/most_commented?t=all",
@@ -7663,13 +7719,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "Has to look at a lot of images, and some have unexpected layouts.",
-        "intent_template_id": 81
+        "intent_template_id": 81,
+        "video": "time_and_comment"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 195,
+        "task_id": 191,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/MechanicalKeyboards/top?t=all&next%5BnetScore%5D=2415&next%5Bid%5D=78388",
@@ -7702,13 +7759,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 81
+        "intent_template_id": 81,
+        "video": "time_and_comment"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 196,
+        "task_id": 192,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -7733,13 +7791,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 64
+        "intent_template_id": 64,
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 197,
+        "task_id": 193,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -7764,13 +7823,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 64
+        "intent_template_id": 64,
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 198,
+        "task_id": 194,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -7803,13 +7863,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 82
+        "intent_template_id": 82,
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 199,
+        "task_id": 195,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
@@ -7842,13 +7903,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 82
+        "intent_template_id": 82,
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 200,
+        "task_id": 196,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/explainlikeimfive",
@@ -7871,13 +7933,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 83
+        "intent_template_id": 83,
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 201,
+        "task_id": 197,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/explainlikeimfive",
@@ -7900,13 +7963,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 83
+        "intent_template_id": 83,
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 202,
+        "task_id": 198,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/Art?next%5Branking%5D=10246&next%5Bid%5D=51658",
@@ -7951,13 +8015,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "Needs to message lots of different people and some of the animals are quite hard to spot.",
-        "intent_template_id": 84
+        "intent_template_id": 84,
+        "video": "poster_info"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 203,
+        "task_id": 199,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/gaming?next%5Branking%5D=712&next%5Bid%5D=83741",
@@ -7998,13 +8063,14 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "Did not check for three ambiguous posts __REDDIT__/f/gaming/61510/i-was-cleaning-my-basement-and-found-some-games-i-saved-from and __REDDIT__/f/gaming/105197/updated-game-room and __REDDIT__/f/gaming/126167/welp",
-        "intent_template_id": 84
+        "intent_template_id": 84,
+        "video": "poster_info"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 204,
+        "task_id": 200,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/space",
@@ -8029,13 +8095,14 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 64
+        "intent_template_id": 64,
+        "video": "sort_and_go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 205,
+        "task_id": 201,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/space?next%5Branking%5D=1321&next%5Bid%5D=27417",
@@ -8065,13 +8132,14 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
         "comments": "Guy in the picture is Elon Musk and he founded SpaceX.",
-        "intent_template_id": 85
+        "intent_template_id": 85,
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit"
         ],
-        "task_id": 206,
+        "task_id": 202,
         "require_login": false,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__/f/EarthPorn/most_commented?t=all&next%5BcommentCount%5D=89&next%5Bid%5D=76289",
@@ -8101,14 +8169,15 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 85
+        "intent_template_id": 85,
+        "video": "go_to_comments"
     },
     {
         "sites": [
             "reddit",
             "shopping"
         ],
-        "task_id": 207,
+        "task_id": 203,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__ |AND| __SHOPPING__/sony-wh-1000xm4-wireless-noise-canceling-over-ear-headphones-black-with-sony-wla-ns7-wireless-tv-adapter-bundle-2-items.html |AND| __SHOPPING__/bang-olufsen-beoplay-hx-comfortable-wireless-anc-over-ear-headphones-timber.html",
@@ -8166,14 +8235,15 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 86
+        "intent_template_id": 86,
+        "video": "make_post"
     },
     {
         "sites": [
             "reddit",
             "shopping"
         ],
-        "task_id": 208,
+        "task_id": 204,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__ |AND| __SHOPPING__/rca-43-4k-ultra-hd-2160p-hdr-roku-smart-led-tv-rtru4327-us.html |AND| __SHOPPING__/pioneer-43-inch-class-led-4k-uhd-smart-fire-tv-pn43951-22u-2021-model.html",
@@ -8231,14 +8301,15 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 86
+        "intent_template_id": 86,
+        "video": "make_post"
     },
     {
         "sites": [
             "reddit",
             "shopping"
         ],
-        "task_id": 209,
+        "task_id": 205,
         "require_login": true,
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__ |AND| __SHOPPING__/ultra-game-nfl-men-s-full-zip-soft-fleece-hoodie-letterman-varsity-jacket.html |AND| __SHOPPING__/ultra-game-nfl-men-s-active-long-sleeve-tee-shirt.html",
@@ -8296,6 +8367,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 86
+        "intent_template_id": 86,
+        "video": "make_post"
     }
 ]
