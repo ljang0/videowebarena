@@ -4850,8 +4850,8 @@
         "start_url": "__REDDIT__",
         "geolocation": null,
         "intent_template": "Can you comment 'Nice post!' under {description}?",
-        "intent": "Can you comment 'Nice post!' under the post with the most amount of upvotes?",
-        "intermediate_intent": "What was the name of the post with the most amount of upvotes?",
+        "intent": "Can you comment 'Nice post!' under the post with the most amount of upvotes in the video?",
+        "intermediate_intent": "What was the name of the post with the most amount of upvotes in the video?",
         "video": "search",
         "instantiation_dict": {
             "description": "the post with the most amount of upvotes"
