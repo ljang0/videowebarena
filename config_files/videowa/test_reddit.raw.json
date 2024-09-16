@@ -8,12 +8,12 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent_template": "The person in the video {description}. Can you {description2}?",
         "intent": "The person in the video mentions they are working at a certain company. Can you search for the company and take me to the comments section of the first post that comes up?",
         "intermediate_intent": "What company did the person in the video say they are working for?",
         "video": "go_to_comments",
         "instantiation_dict": {
-            "description": " mentions they are working at a certain company",
+            "description": "mentions they are working at a certain company",
             "description2": "search for the company and take me to the comments section of the first post that comes up"
         },
         "require_reset": false,
@@ -57,12 +57,12 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "Can you leave a comment {description}.",
+        "intent_template": "Can you leave a comment {description}?",
         "intent": "Can you leave a comment stating 'I want to visit!' replying to all the comments in the video that had 4 upvotes?",
         "intermediate_intent": "What are the username(s) of the author(s) who wrote the comment(s) in the video that had 4 upvotes?",
         "video": "go_to_comments",
         "instantiation_dict": {
-            "description": "replying to all the comments in the video that had 4 upvotes"
+            "description": "stating 'I want to visit!' replying to all the comments in the video that had 4 upvotes"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -120,7 +120,7 @@
         "start_url": "__REDDIT__",
         "geolocation": null,
         "intent_template": "Can you upvote all the posts {description}?.",
-        "intent": "Can you upvote all the posts in the video with sunsets in their image?",
+        "intent": "Can you upvote all the posts in the video with sunsets in their image?.",
         "intermediate_intent": "What are the names of the posts in the video with sunsets in their image?",
         "video": "go_to_comments",
         "instantiation_dict": {
@@ -197,7 +197,7 @@
         "start_url": "__REDDIT__",
         "geolocation": null,
         "intent_template": "Take me to {description}.",
-        "intent": "Take me to the page for the first comment the person in the video made?",
+        "intent": "Take me to the page for the first comment the person in the video made.",
         "intermediate_intent": "What was the content of the first comment the person in the video made?",
         "video": "go_to_comments",
         "instantiation_dict": {
@@ -245,12 +245,12 @@
         "start_url": "__REDDIT__",
         "geolocation": null,
         "intent_template": "The person in the video {description}. Can you {description2}.",
-        "intent": "The person in the video mentions they are visiting a certain landmark in the next month. Can you take me to the comments for a post on the website showing the landmark rainbow colored?",
+        "intent": "The person in the video mentions they are visiting a certain landmark in the next month. Can you take me to the comments for a post on the website showing the landmark rainbow colored.",
         "intermediate_intent": "What landmark did the person say they are visiting in the next month?",
         "video": "sort_and_go_to_comments",
         "instantiation_dict": {
-            "description": " mentions they are working at a certain company",
-            "description2": "search for the company and take me to the comments section of the first post that comes up"
+            "description": "mentions they are visiting a certain landmark in the next month",
+            "description2": "take me to the comments for a post on the website showing the landmark rainbow colored"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -397,7 +397,7 @@
         "start_url": "__REDDIT__",
         "geolocation": null,
         "intent_template": "I recall {description}. Can you {description2}?",
-        "intent": "I recall seeing a post with an ambulance as a picture in the video. Can you take me to the comments section of this post?",
+        "intent": "I recall seeing a post with an ambulance as a picture in the video. Can you take me to the comments section of this post??",
         "intermediate_intent": "What was the name of the post with an ambulance as a picture in the video?",
         "video": "sort_and_go_to_comments",
         "instantiation_dict": {
@@ -446,7 +446,7 @@
         "start_url": "__REDDIT__",
         "geolocation": null,
         "intent_template": "I recall {description}. Can you {description2}?",
-        "intent": "I recall seeing a post with a frog in the picture in the video. Can you take me to the comments section of this post?",
+        "intent": "I recall seeing a post with a frog in the picture in the video. Can you take me to the comments section of this post??",
         "intermediate_intent": "What was the name of the post with a frog in the picture in the video?",
         "video": "time_and_comment",
         "instantiation_dict": {
@@ -575,7 +575,7 @@
         "start_url": "__REDDIT__",
         "geolocation": null,
         "intent_template": "Take me to {description}.",
-        "intent": "Take me to the exact page when the person in the video says they sorted the comments by time.",
+        "intent": "Take me to the exact page when the person in the video says they sorted the comments by time..",
         "intermediate_intent": "What was the name of the post the person in the video is on when they said they sorted the comments by time.",
         "video": "time_and_comment",
         "instantiation_dict": {
@@ -892,7 +892,7 @@
         "intermediate_intent": "What are the names of the posts in the video with with yellow sweaters?",
         "video": "make_post",
         "instantiation_dict": {
-            "description": "on all the posts in the video with black and white images, saying 'this is so old-school'"
+            "description": "on all the posts in the video with yellow sweaters, saying 'I need a yellow sweater too!'"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -947,7 +947,7 @@
         "intermediate_intent": "What is the title and forum of the second post in the video?",
         "video": "make_post",
         "instantiation_dict": {
-            "description": "on all the posts in the video with black and white images, saying 'this is so old-school'"
+            "description": "the same as the second post in the video, but without the image and content"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1003,7 +1003,7 @@
         "start_url": "__REDDIT__",
         "geolocation": null,
         "intent_template": "The person in the video {description}. Can you {description2}?",
-        "intent": "The person in the video asks for comments and feedback about their video. Can you subscribe to the forum which has the post whose page the person in the video is on when they ask for comments and feedback?",
+        "intent": "The person in the video asks for comments and feedback about their video. Can you subscribe to the forum which has the post whose page the person in the video is on when they ask for comments and feedback??",
         "intermediate_intent": "What is the forum which has the post whose page the person in the video is on when they ask for comments and feedback?",
         "video": "make_post",
         "instantiation_dict": {
@@ -1288,7 +1288,7 @@
         "intermediate_intent": "What is the name of the post whose image page the person in the video went to?",
         "video": "search",
         "instantiation_dict": {
-            "description": "'awesome poster' the user whose post with a person in a red shirt is the second appearance of its type in the video"
+            "description": "the image page the person in the video went to"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1331,7 +1331,7 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent_template": "The person in the video {description}. Can you {description2}?",
         "intent": "The person in the video mentions they are from a certain city. Can you search for the city and take me to the comments section of the second post that comes up?",
         "intermediate_intent": "What is the name of the city the person in the video says they are from?",
         "video": "repost",
@@ -1380,7 +1380,7 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent_template": "The person in the video {description}. Can you {description2}?",
         "intent": "The person in the video mentions they are from a certain city. Can you subscribe to the most well matched forum for that city?",
         "intermediate_intent": "What is the name of the city the person in the video says they are from?",
         "video": "repost",
@@ -1436,7 +1436,7 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "For the {description}, can you {description2}",
+        "intent_template": "For the {description}, can you {description2}?",
         "intent": "For the person on the left in the first image that was reposted, can you search their full name and return the fourth post that comes up?",
         "intermediate_intent": "What is the full name of the person on the left in the first image that was reposted?",
         "video": "repost",
@@ -1485,7 +1485,7 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "Can you subscribe {description}",
+        "intent_template": "Can you subscribe {description}?",
         "intent": "Can you subscribe to all the forums that the user in the video reposted to?",
         "intermediate_intent": "What are the names of all the forums that the user in the video reposted to?",
         "video": "repost",
@@ -1593,7 +1593,7 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent_template": "The person in the video {description}. Can you {description2}?",
         "intent": "The person in the video states a certain movie series has the best trailers. Can you search for the mentioned series and comment 'they were right' on the post that comes up with a gif?",
         "intermediate_intent": "What movie series has the best trailers according to the person in the video?",
         "video": "subscribe",
@@ -1706,7 +1706,7 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "Can you message {description}.",
+        "intent_template": "Can you message {description}?",
         "intent": "Can you message 'lucky post you got there' to the author of the top post in the first forum the user in the video subscribed to?",
         "intermediate_intent": "What is the name of the first forum that the user subscribed to in the video?",
         "video": "subscribe",
@@ -1764,12 +1764,12 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "Can you upvote all the posts {description}?.",
+        "intent_template": "Can you upvote all the posts {description}?",
         "intent": "Can you upvote all the posts on Postmill that show the home menu screen of the previous generation version of the gaming console the person in the video said they use?",
         "intermediate_intent": "What is the previous generation version of the gaming console the person in the video said they use?",
         "video": "post_from_shopping",
         "instantiation_dict": {
-            "description": "on Postmill that show the menu screen of the previous generation version of the gaming console the person in the video said they use"
+            "description": "on Postmill that show the home menu screen of the previous generation version of the gaming console the person in the video said they use"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1821,7 +1821,7 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent_template": "The person in the video {description}. Can you {description2}?",
         "intent": "The person in the video mentions they are a fan of another NFL team. Can you search for the team (just the mascot) and find the top post from the search?",
         "intermediate_intent": "What is the NFL team (just the mascot) the person in the video says they are a fan of?",
         "video": "post_from_shopping",
@@ -1870,7 +1870,7 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "Can you subscribe {description}",
+        "intent_template": "Can you subscribe {description}?",
         "intent": "Can you subscribe to all the forums the person in the video posted to?",
         "intermediate_intent": "What are the names of all the forums the person in the video posted to?",
         "video": "post_from_shopping",
@@ -1927,7 +1927,7 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "Can you downvote {description}",
+        "intent_template": "Can you downvote {description}?",
         "intent": "Can you downvote the top 3 posts in the second forum the user in the video posted to?",
         "intermediate_intent": "What was the name of the second forum the user in the video posted to?",
         "video": "post_from_shopping",
@@ -2002,7 +2002,7 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "Can you block {description}",
+        "intent_template": "Can you block {description}?",
         "intent": "Can you block the authors of the posts with images broken down into panels in the video?",
         "intermediate_intent": "What are the name of the authors who made posts with the images broken down into panels in the video?",
         "video": "post_from_shopping",
@@ -2059,7 +2059,7 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "Can you change {description}",
+        "intent_template": "Can you change {description}?",
         "intent": "Can you change my username to the username the person in the video made the first change with?",
         "intermediate_intent": "What was the username the person in the video made the first change with?",
         "video": "account_info",
@@ -2224,7 +2224,7 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent_template": "The person in the video {description}. Can you {description2}?",
         "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they say this?",
         "intermediate_intent": "What was the title of the page the person in the video was on when they said thanks?",
         "video": "account_info",
@@ -2273,7 +2273,7 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent_template": "The person in the video {description}. Can you {description2}?",
         "intent": "The person in the video mentions they are reading a certain book series currently. Can you return the image link of a flowchart about the book series on this website?",
         "intermediate_intent": "What was the book series the person in the video says they are reading currently?",
         "video": "vote_tutorial",
@@ -2328,7 +2328,7 @@
         "start_url": "__REDDIT__",
         "geolocation": null,
         "intent_template": "Can you leave a comment {description}?",
-        "intent": "Can you leave a comment saying 'first downvote' on the first post in the video that gets a downvote?",
+        "intent": "Can you leave a comment saying 'first downvote' on the first post in the video that gets a downvote??",
         "intermediate_intent": "What was the name of the first post in the video that gets a downvote?",
         "video": "vote_tutorial",
         "instantiation_dict": {
@@ -2533,7 +2533,7 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "Can you message {description}.",
+        "intent_template": "Can you message {description}?",
         "intent": "Can you message 'I loved this post' to the poster of the second most commented post in the second forum the person in the video visited, that they upvoted?",
         "intermediate_intent": "What was the name of the poster of the second most commented post in the second forum the person in the video visited, that they upvoted?",
         "video": "vote_tutorial",
@@ -2592,7 +2592,7 @@
         "start_url": "__REDDIT__",
         "geolocation": null,
         "intent_template": "The person in the video {description}. Can you {description2}.",
-        "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they say this?",
+        "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they say this?.",
         "intermediate_intent": "What was the title of the page the person in the video was on when they said thanks?",
         "video": "subreddit",
         "instantiation_dict": {
@@ -2640,7 +2640,7 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "Can you subscribe {description}",
+        "intent_template": "Can you subscribe {description}?",
         "intent": "Can you subscribe to all the forums visited in the video?",
         "intermediate_intent": "What are the names of all the forums the person in the video visited?",
         "video": "subreddit",
@@ -2699,8 +2699,8 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "Can you make a post {description}",
-        "intent": "Can you make a post in the second forum the person visited in the video",
+        "intent_template": "Can you make a post {description}?",
+        "intent": "Can you make a post in the second forum the person visited in the video?",
         "intermediate_intent": "What is the name of the second forum the person in the video visited?",
         "video": "subreddit",
         "instantiation_dict": {
@@ -2757,8 +2757,8 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "Can you repost {description}",
-        "intent": "Can you repost the top post in the first forum to the second forum the user visited video?",
+        "intent_template": "Can you repost {description}?",
+        "intent": "Can you repost the top post in the first forum to the second forum the user visited in the video??",
         "intermediate_intent": "What are the names of the first and second forum the person in the video visited?",
         "video": "subreddit",
         "instantiation_dict": {
@@ -3004,7 +3004,7 @@
         "start_url": "__REDDIT__",
         "geolocation": null,
         "intent_template": "Can you leave a comment {description}.",
-        "intent": "Can you leave a comment 'I just bought one too' on the first post that came up after the person in the video used the search bar in Postmill?",
+        "intent": "Can you leave a comment 'I just bought one too' on the first post that came up after the person in the video used the search bar in Postmill?.",
         "intermediate_intent": "What was the name of the first post that came up after the person in the video used the search bar in Postmill",
         "video": "reddit_shopping_buy",
         "instantiation_dict": {
@@ -3059,7 +3059,7 @@
         "start_url": "__REDDIT__",
         "geolocation": null,
         "intent_template": "Can you leave a comment {description}.",
-        "intent": "Can you leave a comment 'this seems controversial' on the post with the most comments that came up after the person in the video used the search bar in Postmill?",
+        "intent": "Can you leave a comment 'this seems controversial' on the post with the most comments that came up after the person in the video used the search bar in Postmill?.",
         "intermediate_intent": "What was the name of the post with the most comments that came up after the person in the video used the search bar in Postmill?",
         "video": "reddit_shopping_buy",
         "instantiation_dict": {
@@ -3113,7 +3113,7 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent_template": "The person in the video {description}. Can you {description2}?",
         "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they say this?",
         "intermediate_intent": "What was the page the person in the video was on when they said thanks?",
         "video": "reddit_shopping_buy",
@@ -3163,7 +3163,7 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent_template": "The person in the video {description}. Can you {description2}?",
         "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they say this?",
         "intermediate_intent": "What was the title of the page the person in the video was on when they said thanks?",
         "video": "reddit_wikipedia_info",
@@ -3569,7 +3569,7 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent_template": "The person in the video {description}. Can you {description2}?",
         "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they say this?",
         "intermediate_intent": "What was the title of the page the person in the video was on when they said thanks?",
         "video": "new_forum",
@@ -3675,7 +3675,7 @@
         "intermediate_intent": "What was the second forum in the video?",
         "video": "new_forum",
         "instantiation_dict": {
-            "description": "the first forum in the video"
+            "description": "the second forum in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -3725,7 +3725,7 @@
         "intermediate_intent": "What was the first forum in the video?",
         "video": "new_forum",
         "instantiation_dict": {
-            "description": "the first forum in the video"
+            "description": "in the forum that was visited first in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -3775,7 +3775,7 @@
         "intermediate_intent": "What was the second forum in the video?",
         "video": "new_forum",
         "instantiation_dict": {
-            "description": "the first forum in the video"
+            "description": "in the forum that was visited second in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -3905,13 +3905,13 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent_template": "The person in the video {description}. Can you {description2}?",
         "intent": "The person in the video mentions their major. Can you go to the comments of the first post that comes up when searching for their major?",
         "intermediate_intent": "What was the person in the video's major?",
         "video": "vote_all_poster",
         "instantiation_dict": {
             "description": "mentions their major",
-            "description2": "go to the search page when searching for their major"
+            "description2": "go to the comments of the first post that comes up when searching for their major"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -3955,7 +3955,7 @@
         "start_url": "__REDDIT__",
         "geolocation": null,
         "intent_template": "Can you leave a comment {description}?",
-        "intent": "Can you leave a comment saying 'first downvote' on the first post in the video that gets a downvote?",
+        "intent": "Can you leave a comment saying 'first downvote' on the first post in the video that gets a downvote??",
         "intermediate_intent": "What was the name of the first post in the video that gets a downvote?",
         "video": "vote_all_poster",
         "instantiation_dict": {
@@ -4010,7 +4010,7 @@
         "start_url": "__REDDIT__",
         "geolocation": null,
         "intent_template": "Can you leave a comment {description}?",
-        "intent": "Can you leave a comment saying 'second downvote' on the second post in the video that gets a downvote?",
+        "intent": "Can you leave a comment saying 'second downvote' on the second post in the video that gets a downvote??",
         "intermediate_intent": "What was the name of the second post in the video that gets a downvote?",
         "video": "vote_all_poster",
         "instantiation_dict": {
@@ -4229,13 +4229,13 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "For the {description}, can you {description2}",
+        "intent_template": "For {description}, can you {description2}?",
         "intent": "For all the posts voted in the video, can you downvote all the upvoted posts and upvote all the downvoted posts?",
         "intermediate_intent": "What are the names of all the voted posts in the video?",
         "video": "vote_all_poster",
         "instantiation_dict": {
             "description": "all the posts voted in the video",
-            "description2": "downvote all the upvoted posts and upvote all the downvoted posts?"
+            "description2": "downvote all the upvoted posts and upvote all the downvoted posts"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -4327,13 +4327,13 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "For the {description}, can you {description2}",
+        "intent_template": "For {description}, can you {description2}?",
         "intent": "For all the posts voted in the video, can you downvote all the downvoted posts and upvote all the upvoted posts?",
         "intermediate_intent": "What are the names of all the voted posts in the video?",
         "video": "vote_all_poster",
         "instantiation_dict": {
             "description": "all the posts voted in the video",
-            "description2": "downvote all the downvoted posts and upvote all the upvoted posts?"
+            "description2": "downvote all the downvoted posts and upvote all the upvoted posts"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -4473,7 +4473,7 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent_template": "The person in the video {description}. Can you {description2}?",
         "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they say this?",
         "intermediate_intent": "What was the title of the page the person in the video was on when they said thanks?",
         "video": "vote_all_poster",
@@ -4523,7 +4523,7 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "The person in the video {description}. Can you {description2}.",
+        "intent_template": "The person in the video {description}. Can you {description2}?",
         "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the forum of the post they were on when they say this?",
         "intermediate_intent": "What was the forum of the post they were on when they say 'thanks'?",
         "video": "edit_post",
@@ -4739,12 +4739,12 @@
         "storage_state": "./.auth/reddit_state.json",
         "start_url": "__REDDIT__",
         "geolocation": null,
-        "intent_template": "Can you edit the post {description}",
+        "intent_template": "Can you edit the post {description}?",
         "intent": "Can you edit the post with the most upvotes in the video to include 'found it!' in the body?",
         "intermediate_intent": "What was the name of the post with the most upvotes in the video?",
         "video": "edit_post",
         "instantiation_dict": {
-            "description": "the post with the most upvotes in the video to include 'found it!' in the body"
+            "description": "with the most upvotes in the video to include 'found it!' in the body"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -4944,5 +4944,4 @@
         "comments": "",
         "intent_template_id": 0
     }
-
 ]
