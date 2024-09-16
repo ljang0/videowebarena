@@ -9,7 +9,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
-        "intent": "Add the two items that were added to the wishlist in the video to my cart.",
+        "intent": "Add the two items that were added to the wishlist in the video to my cart",
         "intermediate_intent": "What were the names of the two items that were added to the wishlist in the video?",
         "video": "add_to_wishlist",
         "instantiation_dict": {
@@ -68,7 +68,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
-        "intent": "Add the item that was to the left of the second item that was added to the wishlist to my cart.",
+        "intent": "Add the item that was to the left of the second item that was added to the wishlist to my cart",
         "intermediate_intent": "What was the item that was to the left of the second item that was added to my wishlist",
         "video": "add_to_wishlist",
         "instantiation_dict": {
@@ -124,8 +124,8 @@
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
-        "intent_template": "Click on the {description}.",
-        "intent": "Click on the first button that was used in the video.",
+        "intent_template": "Click on the {}",
+        "intent": "Click on the first button that was used in the video",
         "intermediate_intent": "What was the first button that was used in the video",
         "video": "add_to_wishlist",
         "instantiation_dict": {
@@ -221,7 +221,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my wishlist.",
-        "intent": "Add the items that were added to the cart in the video to my wishlist.",
+        "intent": "Add the items that were added to the cart in the video to my wishlist",
         "intermediate_intent": "What were the names of the items that were added to the cart in the video?",
         "video": "add_to_cart",
         "instantiation_dict": {
@@ -282,7 +282,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
-        "intent": "Add the items that were added to the cart in the video to my cart.",
+        "intent": "Add the items that were added to the cart in the video to my cart",
         "intermediate_intent": "What were the names of the items that were added to the cart in the video?",
         "video": "add_to_cart",
         "instantiation_dict": {
@@ -343,7 +343,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
-        "intent": "Add the cheapest item that was in the same category as the red item in the cart in the video to my cart.",
+        "intent": "Add the cheapest item that was in the same category as the red item in the cart in the video to my cart",
         "intermediate_intent": "What was the red item in the cart in the video?",
         "video": "add_to_cart",
         "instantiation_dict": {
@@ -400,7 +400,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my wishlist.",
-        "intent": "Add the cheapest item that was in the same category as the red item in the cart in the video to my wishlist.",
+        "intent": "Add the cheapest item that was in the same category as the red item in the cart in the video to my wishlist",
         "intermediate_intent": "What was the red item in the cart in the video?",
         "video": "add_to_cart",
         "instantiation_dict": {
@@ -461,7 +461,7 @@
         "intermediate_intent": "What was the last item that was added to the cart?",
         "video": "add_to_cart",
         "instantiation_dict": {
-            "description": "the item that was added last to the cart in the video, with 4 stars and state 'Different colors would be nice."
+            "description": "the item that was added last to the cart in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -760,7 +760,7 @@
         "intermediate_intent": "What was the other phone type besides Android the person in the video mentions?",
         "video": "checkout_and_check_total",
         "instantiation_dict": {
-            "description": "mentions another phone type besides Android",
+            "description": "the cheapest case on this page that is the same color as the phone ordered in the video",
             "description2": "the cheapest phone from that brand"
         },
         "require_reset": false,
@@ -879,7 +879,7 @@
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
-        "intent_template": "Take me to the {description}.",
+        "intent_template": "Take me to the {description}?",
         "intent": "Take me to the item page for the first result when combining the first and second search terms in the video as the search term.",
         "intermediate_intent": "What is the search term when comining the the first and second search terms in the video?",
         "video": "search_and_scroll",
@@ -1098,8 +1098,8 @@
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
-        "intent_template": "{condition}. Add {description} to my cart.",
-        "intent": "When searching for cheese, the person in the video mentions they are looking for a certain type of cheese first. Add the type of cheese they mentioned first to my cart.",
+        "intent_template": "{condition}. Add {description} to cart.",
+        "intent": "When searching for cheese, the person in the video mentions they are looking for a certain type of cheese first. Add the type of cheese they mentioned first to my cart",
         "intermediate_intent": "When searching for cheese, the person in the video mentions they are looking for a certain type of cheese first, which is it?",
         "video": "add_ingredients_to_cart",
         "instantiation_dict": {
@@ -1157,7 +1157,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add {description} to my cart.",
-        "intent": "Add all the items that were added to cart in the video to my cart.",
+        "intent": "Add all the items that were added to cart in the video to my cart",
         "intermediate_intent": "What are the product names of all the items added to cart in the video?",
         "video": "add_ingredients_to_cart",
         "instantiation_dict": {
@@ -1224,7 +1224,7 @@
         "intermediate_intent": "What was the last item added to the cart in the video and what was the flavor option the person didn't choose?",
         "video": "add_ingredients_to_cart",
         "instantiation_dict": {
-            "description": "2 of the last item added to cart in the video, but with the other flavor option"
+            "description": "2 of the last item added to cart in the video, but with the other flavor option,"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1287,7 +1287,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my wishlist.",
-        "intent": "Add the ketchup item in the video with 3 bottles to my wishlist.",
+        "intent": "Add the ketchup item in the video with 3 bottles to my wishlist",
         "intermediate_intent": "What was the name of the ketchup item in the video with 3 bottles?",
         "video": "add_ingredients_to_cart",
         "instantiation_dict": {
@@ -1403,7 +1403,7 @@
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
-        "intent_template": "The person in the video {description}. Can you take me to the search page for {request}?",
+        "intent_template": "The person in the video {description}. Can you take me to the search page for {request}",
         "intent": "The person in the video states they want protein powder because they play a certain sport. Can you take me to the search page for shoes for that sport, using the search term '{sport mentioned} shoes'?",
         "intermediate_intent": "What was the sport mentioned by the person in the video?",
         "video": "add_using_spatial_reasoning",
@@ -1568,7 +1568,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Can you return the preview image urls of {description}.",
-        "intent": "Can you return the preview image urls of all the items the person in the video added to their cart.",
+        "intent": "Can you return the preview image urls of all the items the person in the video added to their cart",
         "intermediate_intent": "What were the names of the items the person in the video added to their cart?",
         "video": "sort_by_price",
         "instantiation_dict": {
@@ -1627,11 +1627,11 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Buy {description}.",
-        "intent": "Buy the first item the person in the video added to the cart in the video, but with the other option.",
+        "intent": "Buy the first item the person in the video added to the cart in the video, but with the other option",
         "intermediate_intent": "What was the first item the person in the video added to the cart in the video?",
         "video": "sort_by_price",
         "instantiation_dict": {
-            "description": "the first item the person in the video added to the cart in the video, but with the other option"
+            "description": "first item the person in the video added to the cart in the video, but with the other option"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1684,7 +1684,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my wishlist.",
-        "intent": "Add the item in the video with a killer whale in its image to my wishlist.",
+        "intent": "Add the item in the video with a killer whale in its image to my wishlist",
         "intermediate_intent": "What was the item that had a killer whale in its image?",
         "video": "sort_by_price",
         "instantiation_dict": {
@@ -1803,8 +1803,8 @@
         "intermediate_intent": "The person in the video mentions a type of food they want. What was it?",
         "video": "add_by_category",
         "instantiation_dict": {
-            "description": "mentions a type of food they want",
-            "description2": "the cheapest item of the food mentioned"
+            "description": "mentions a type of food they want'",
+            "description2": "the cheapest item of the food mentioned "
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1923,7 +1923,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my comparison page.",
-        "intent": "Add the items the user added to their wishlist/cart to my comparison page.",
+        "intent": "Add the items the user added to their wishlist/cart to my comparison page?",
         "intermediate_intent": "What were the items the user added to their wishlist/cart?",
         "video": "add_by_category",
         "instantiation_dict": {
@@ -2147,11 +2147,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Change my {information}",
-<<<<<<< HEAD
-        "intent": "Change my default shipping address to the original address in the video before it was ever changed",
-=======
         "intent": "Change my default shipping address to the original address in the video before it was ever changed.",
->>>>>>> origin
         "intermediate_intent": "What was  the original address in the video before it was ever changed?",
         "video": "change_contact",
         "instantiation_dict": {
@@ -2212,15 +2208,11 @@
         "start_url": "__SHOPPING__/q-mixers-premium-ginger-ale-real-ingredients-less-sweet-6-7-fl-oz-24-bottles.html",
         "geolocation": null,
         "intent_template": "Leave a review on {description}.",
-<<<<<<< HEAD
-        "intent": "Leave a review on this page with 5 stars including all the full names that were seen in the account info in the video.",
-=======
         "intent": "Leave a review on this page with 3 stars including all the full names that were seen in the account info in the video",
->>>>>>> origin
         "intermediate_intent": "What were all the different names seen in the video?",
         "video": "change_contact",
         "instantiation_dict": {
-            "description": "this page with 5 stars including all the full names that were seen in the account info in the video"
+            "information": "this page with 5 stars including all the full names that were seen in the account info in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2290,7 +2282,7 @@
         "intermediate_intent": "What was the hairmask item in the video that had a blank OneStopMarket logo as their image?",
         "video": "change_contact",
         "instantiation_dict": {
-            "description": "hairmask item in the video that had a blank OneStopMarket logo as their image"
+            "information": "hairmask item in the video that had a blank OneStopMarket logo as their image"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2461,11 +2453,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
-<<<<<<< HEAD
-        "intent": "Add the items that were present in the comparison page in the video to my cart.",
-=======
         "intent": "Add the items that were present in the comparison page in the video to my cart?",
->>>>>>> origin
         "intermediate_intent": "What were the names of the items in the comparison page in the video?",
         "video": "add_to_comparison_page",
         "instantiation_dict": {
@@ -2525,16 +2513,12 @@
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
-<<<<<<< HEAD
-        "intent_template": "Can you return the image link of {description}?",
-=======
         "intent_template": "Can you return the image link of {description}",
->>>>>>> origin
         "intent": "Can you return the image link of the first item the person in the video added to the comparison page?",
         "intermediate_intent": "What was the name of the first item the person in the video added to the comparison page?",
         "video": "add_to_comparison_page",
         "instantiation_dict": {
-            "description": "the image link of the first item the person in the video added to the comparison page"
+            "description": "items that were present in the comparison page in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2583,7 +2567,7 @@
         "intermediate_intent": "What was the item in the video with Mario on the design?",
         "video": "add_to_comparison_page",
         "instantiation_dict": {
-            "description": "the item in the video with Mario on the design and send it a shipping address with 'Mario' as the first name and 'Luigi' as the last name"
+            "description": "items that were present in the comparison page in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2650,8 +2634,7 @@
         "intermediate_intent": "What was game the person in the video mentions they play using the headphones?",
         "video": "review_tutorial",
         "instantiation_dict": {
-            "description": "mentions that they use headphones to play a certain game",
-            "description2": "the most expensive item with the theme of that game"
+            "description": "items that were present in the comparison page in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2936,7 +2919,7 @@
         "intermediate_intent": "What were the names of all the items the user on the video either wrote a review for or added to cart?",
         "video": "review_tutorial",
         "instantiation_dict": {
-            "description": "links of all the items the user on the video either wrote a review for or added to cart"
+            "description": "links of all the items the user on the video either write a review for or added to cart"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -3227,7 +3210,7 @@
         "start_url": "__SHOPPING__/tmp-pop-tarts-breakfast-toaster-pastries-frosted-banana-creme-pie-bakery-inspired-snack-food-16-count-2-pack.html",
         "geolocation": null,
         "intent_template": "Leave a review on {description}.",
-        "intent": "Leave a review on this item, stating 'I need breakfast because it is (time)' where (time) is the time the person in the video mentioned it was at the moment of recording..",
+        "intent": "Leave a review on this item, stating 'I need breakfast because it is (time)' where (time) is the time the person in the video mentioned it was at the moment of recording.",
         "intermediate_intent": "What time was it for the person recording the video?",
         "video": "images_and_description",
         "instantiation_dict": {
@@ -3289,7 +3272,7 @@
         "intermediate_intent": "What are the names of the items where the user visited the item page in the video?",
         "video": "images_and_description",
         "instantiation_dict": {
-            "description": "items where the user visited the item page in the video"
+            "description": "items the user clicked on in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -3406,13 +3389,8 @@
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
-<<<<<<< HEAD
-        "intent_template": "Can you return the image link of {description}?",
-        "intent": "Can you return the image link of the breakfast food in the video that showed food outside the package in its image?",
-=======
         "intent_template": "Can you return the image link of {description}",
         "intent": "Can you return the image link of the breakfast food in the video that showed food outside the package in its image.",
->>>>>>> origin
         "intermediate_intent": "What was the breakfast food item in the video whose image showed food outside the package in its image?",
         "video": "images_and_description",
         "instantiation_dict": {
@@ -3640,11 +3618,11 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Buy {description}.",
-        "intent": "Buy the cheapest skin for the second item removed from the cart in the video which is not the same color.",
+        "intent": "Buy the cheapest skin for the second item removed from the cart in the video which is not the same color",
         "intermediate_intent": "What was the second item removed from the cart and what color was it?",
         "video": "remove_from_cart",
         "instantiation_dict": {
-            "description": "the cheapest skin for the second item removed from the cart in the video which is not the same color"
+            "description": "cheapest skin for the second item removed from the cart in the video which is not the same color"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -3797,7 +3775,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
-        "intent": "Add the items that were added to the wishlist in the video to my cart.",
+        "intent": "Add the items that were added to the wishlist in the video to my cart",
         "intermediate_intent": "What are the names of the items added to the wishlist in the video?",
         "video": "brand",
         "instantiation_dict": {
@@ -3860,7 +3838,7 @@
         "intermediate_intent": "What was the most expensive item in the second column of the first search page?",
         "video": "brand",
         "instantiation_dict": {
-            "description": "the most expensive item in the second column of the first search page, giving 3 stars and stating 'too expensive'"
+            "description": "items that were added to the wishlist in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -3926,7 +3904,7 @@
         "intermediate_intent": "What was the first category the person in the video visits?",
         "video": "cost_range",
         "instantiation_dict": {
-            "description": "the most expensive item in the second column of the first search page, giving 5 stars and stating 'this is my dream purchase'"
+            "description": "items that were added to the wishlist in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -3992,7 +3970,7 @@
         "intermediate_intent": "What was the new budget the person in the video said they needed to buy the item they added to their wishlist? Additionally, what is the name of the TV with the boat on the screen in the video?",
         "video": "cost_range",
         "instantiation_dict": {
-            "description": "states that they need a new budget to buy the item they added to their wishlist",
+            "description": "items that were added to the wishlist in the video",
             "description2": "enough quantity of the TV with the boat on the screen in the video to my cart so it exceeds the mentioned budget"
         },
         "require_reset": false,
@@ -4293,7 +4271,7 @@
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
-        "intent_template": "For {description}, can you {description2}?",
+        "intent_template": "For {description}, can you {description2}",
         "intent": "For the first category page the person in the video visits, can you add the cheapest item from the second row to my wishlist?",
         "intermediate_intent": "What was the cheapest item from the second row in the first category page the person in the video visits?",
         "video": "ordermultiple_orderpage_review",
@@ -4351,7 +4329,7 @@
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
-        "intent_template": "Take me to the {description}.",
+        "intent_template": "Take me to the {description}?",
         "intent": "Take me to the page when the person in the video first mentions 'weekday'.",
         "intermediate_intent": "What is the name of the item page showing when th person in the video first mentions weekday?",
         "video": "ordermultiple_orderpage_review",
@@ -4400,7 +4378,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "The person in the video {description}. Can you buy {description2}?",
-        "intent": "The person in the video mentions moving to a new city. Can you buy a pair of small shorts that has a skyline of the mentioned city shown in this image?",
+        "intent": "The person in the video mentions moving to a new city. Can you buy a pair of small shorts that has a skyline of the mentioned city shown in this image.",
         "intermediate_intent": "What is the city the person in the video mentions moving to?",
         "video": "search_sort_buy",
         "instantiation_dict": {
@@ -4572,7 +4550,7 @@
         "storage_state": "./.auth/shopping_state.json",
         "start_url": "__SHOPPING__",
         "geolocation": null,
-        "intent_template": "Take me to the {description}.",
+        "intent_template": "Take me to the {description}?",
         "intent": "Take me to the item page for the item that had the highest reviews visible in the last page of the video.",
         "intermediate_intent": "What was the name of the item that had the highest reviews visible in the last page of the video?",
         "video": "search_sort_buy",
@@ -4621,7 +4599,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
-        "intent": "Add the items that had average review ratings of 1 in the video to my cart.",
+        "intent": "Add the items that had average review ratings of 1 in the video to my cart",
         "intermediate_intent": "What were the names of the items that had average review ratings of 1 in the video?",
         "video": "search_sort_buy",
         "instantiation_dict": {
@@ -4680,7 +4658,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my wishlist.",
-        "intent": "Add the items that had average review ratings of 1 in the video to my wishlist.",
+        "intent": "Add the items that had average review ratings of 1 in the video to my wishlist",
         "intermediate_intent": "What were the names of the items that had average review ratings of 1 in the video?",
         "video": "search_sort_buy",
         "instantiation_dict": {
@@ -4739,11 +4717,11 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my comparison page.",
-        "intent": "Add the items that had average review ratings of 1 in the video to my comparison page.",
+        "intent": "Add the items that had average review ratings of 1 in the video to my comparison page",
         "intermediate_intent": "What were the names of the items that had average review ratings of 1 in the video?",
         "video": "search_sort_buy",
         "instantiation_dict": {
-            "description": "items that had average review ratings of 1 in the video"
+            "description": " items that had average review ratings of 1 in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -4798,7 +4776,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my comparison page.",
-        "intent": "Add the item that was bought in the video to my comparison page.",
+        "intent": "Add the item that was bought in the video to my comparison page",
         "intermediate_intent": "What was the name of the item that was bought in the video?",
         "video": "order_history",
         "instantiation_dict": {
@@ -4855,7 +4833,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
-        "intent": "Add the item that was bought in the video to my cart.",
+        "intent": "Add the item that was bought in the video to my cart",
         "intermediate_intent": "What was the name of the item that was bought in the video?",
         "video": "order_history",
         "instantiation_dict": {
@@ -4912,7 +4890,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my wishlist.",
-        "intent": "Add the item that was bought in the video to my wishlist.",
+        "intent": "Add the item that was bought in the video to my wishlist",
         "intermediate_intent": "What was the name of the item that was bought in the video?",
         "video": "order_history",
         "instantiation_dict": {
@@ -4969,11 +4947,11 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Take me to the {description}?",
-        "intent": "Take me to the listing of the item that was bought in the video?",
+        "intent": "Take me to the listing of the item that was bought in the video",
         "intermediate_intent": "What was the name of the item that was bought in the video?",
         "video": "order_history",
         "instantiation_dict": {
-            "description": "listing of the item that was bought in the video"
+            "description": "the listing of the item that was bought in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -5017,7 +4995,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my comparison page.",
-        "intent": "Add the most expensive visible item in the video to my comparison page.",
+        "intent": "Add the most expensive visible item in the video to my comparison page",
         "intermediate_intent": "What was the name of the most expensive visible item in the video?",
         "video": "order_history",
         "instantiation_dict": {
@@ -5074,7 +5052,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
-        "intent": "Add the most expensive visible item in the video to my cart.",
+        "intent": "Add the most expensive visible item in the video to my cart",
         "intermediate_intent": "What was the name of the most espensive item in the video?",
         "video": "order_history",
         "instantiation_dict": {
@@ -5131,7 +5109,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my wishlist.",
-        "intent": "Add the most expensive visible item in the video to my wishlist.",
+        "intent": "Add the most expensive visible item in the video to my wishlist",
         "intermediate_intent": "What was the name of the most expensive visible item in the video?",
         "video": "order_history",
         "instantiation_dict": {
@@ -5188,11 +5166,11 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Take me to the {description}?",
-        "intent": "Take me to the listing of the most expensive item in the video?",
+        "intent": "Take me to the listing of the most expensive item in the video",
         "intermediate_intent": "What was the name of the  most expensive item in the video?",
         "video": "order_history",
         "instantiation_dict": {
-            "description": "listing of the most expensive item in the video"
+            "description": "the listing of the most expensive item in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -5236,7 +5214,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my comparison page.",
-        "intent": "Add the cheapest visible item in the video to my comparison page.",
+        "intent": "Add the cheapest visible item in the video to my comparison page",
         "intermediate_intent": "What was the name of the cheapest visible item in the video?",
         "video": "order_history",
         "instantiation_dict": {
@@ -5293,7 +5271,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
-        "intent": "Add the cheapest visible item in the video to my cart.",
+        "intent": "Add the cheapest visible item in the video to my cart",
         "intermediate_intent": "What was the name of the cheapest item in the video?",
         "video": "order_history",
         "instantiation_dict": {
@@ -5350,7 +5328,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my wishlist.",
-        "intent": "Add the cheapest visible item in the video to my wishlist.",
+        "intent": "Add the cheapest visible item in the video to my wishlist",
         "intermediate_intent": "What was the name of the cheapest visible item in the video?",
         "video": "order_history",
         "instantiation_dict": {
@@ -5407,11 +5385,11 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Take me to the {description}?",
-        "intent": "Take me to the listing of the cheapest item in the video?",
+        "intent": "Take me to the listing of the cheapest item in the video",
         "intermediate_intent": "What was the name of the cheapest item in the video?",
         "video": "order_history",
         "instantiation_dict": {
-            "description": "listing of the cheapest item in the video"
+            "description": "the listing of the cheapest item in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -5455,7 +5433,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "The person in the video {description}. Can you {description2}?",
-        "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they said this??",
+        "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they said this?",
         "intermediate_intent": "What was the page the person in the video was on when they said 'thanks'?",
         "video": "order_history",
         "instantiation_dict": {
@@ -5504,7 +5482,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "The person in the video {description}. Can you {description2}?",
-        "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they said this??",
+        "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they said this?",
         "intermediate_intent": "What was the page the person in the video was on when they said 'thanks'?",
         "video": "contact_refund_subscribe",
         "instantiation_dict": {
@@ -5553,7 +5531,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "The person in the video {description}. Can you {description2}?",
-        "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they said this??",
+        "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they said this?",
         "intermediate_intent": "What was the page the person in the video was on when they said 'thanks'?",
         "video": "contact_refund_subscribe",
         "instantiation_dict": {
@@ -5602,7 +5580,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my comparison page.",
-        "intent": "Add the cheapest item asked for return in the video to my comparison page.",
+        "intent": "Add the cheapest item asked for return in the video to my comparison page",
         "intermediate_intent": "What was the name of cheapest item asked for return in the video?",
         "video": "order_history",
         "instantiation_dict": {
@@ -5659,7 +5637,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
-        "intent": "Add the cheapest item asked for return in the video to my cart.",
+        "intent": "Add the cheapest item asked for return in the video to my cart",
         "intermediate_intent": "What was the name of the cheapest item asked for return in the video?",
         "video": "order_history",
         "instantiation_dict": {
@@ -5716,7 +5694,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my wishlist.",
-        "intent": "Add the cheapest item asked for return in the video to my wishlist.",
+        "intent": "Add the cheapest item asked for return in the video to my wishlist",
         "intermediate_intent": "What was the name of the cheapest item asked for return in the video?",
         "video": "order_history",
         "instantiation_dict": {
@@ -5773,7 +5751,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Take me to the {description}?",
-        "intent": "Take me to the listing of the cheapest item asked for return in the video?",
+        "intent": "Take me to the listing of the cheapest item asked for return in the video",
         "intermediate_intent": "What was the name of the cheapest item asked for return in the video?",
         "video": "order_history",
         "instantiation_dict": {
@@ -5821,7 +5799,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my comparison page.",
-        "intent": "Add the most expensive item asked for return in the video to my comparison page.",
+        "intent": "Add the most expensive item asked for return in the video to my comparison page",
         "intermediate_intent": "What was the name of most expensive item asked for return in the video?",
         "video": "order_history",
         "instantiation_dict": {
@@ -5878,7 +5856,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
-        "intent": "Add the most expensive item asked for return in the video to my cart.",
+        "intent": "Add the most expensive item asked for return in the video to my cart",
         "intermediate_intent": "What was the name of the most expensive item asked for return in the video?",
         "video": "order_history",
         "instantiation_dict": {
@@ -5935,7 +5913,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my wishlist.",
-        "intent": "Add the most expensive item asked for return in the video to my wishlist.",
+        "intent": "Add the most expensive item asked for return in the video to my wishlist",
         "intermediate_intent": "What was the name of the most expensive item asked for return in the video?",
         "video": "order_history",
         "instantiation_dict": {
@@ -5992,7 +5970,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Take me to the {description}?",
-        "intent": "Take me to the listing of the most expensive item asked for return in the video?",
+        "intent": "Take me to the listing of the most expensive item asked for return in the video",
         "intermediate_intent": "What was the name of the most expensive item asked for return in the video?",
         "video": "order_history",
         "instantiation_dict": {
@@ -6040,11 +6018,11 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my comparison page.",
-        "intent": "Add the cheapest item visible in the first category in the video to my comparison page.",
+        "intent": "Add the cheapest item visible in the first category in the video to my comparison page",
         "intermediate_intent": "What was the name of the cheapest item visible in the first category in the video?",
         "video": "price_range_url",
         "instantiation_dict": {
-            "description": "cheapest item visible in the first category in the video"
+            "description": "cheapest item in the first category in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -6097,11 +6075,11 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
-        "intent": "Add the cheapest visible item in the first category in the video to my cart.",
+        "intent": "Add the cheapest visible item in the first category in the video to my cart",
         "intermediate_intent": "What was the name of the cheapest visible item in the first category in the video?",
         "video": "price_range_url",
         "instantiation_dict": {
-            "description": "cheapest visible item in the first category in the video"
+            "description": "the cheapest visible item in the first category in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -6154,7 +6132,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my wishlist.",
-        "intent": "Add the cheapest visible item in the first category in the video to my wishlist.",
+        "intent": "Add the cheapest visible item in the first category in the video to my wishlist",
         "intermediate_intent": "What was the name of the cheapest visible item in the first category in the video?",
         "video": "price_range_url",
         "instantiation_dict": {
@@ -6211,7 +6189,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Take me to the {description}?",
-        "intent": "Take me to the listing of the cheapest visible item in the first category in the video?",
+        "intent": "Take me to the listing of the cheapest visible item in the first category in the video",
         "intermediate_intent": "What was the name of the cheapest visible item in the first category in the video?",
         "video": "price_range_url",
         "instantiation_dict": {
@@ -6259,7 +6237,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "The person in the video {description}. Can you {description2}?",
-        "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they said this??",
+        "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page they were on when they said this?",
         "intermediate_intent": "What was the page the person in the video was on when they said 'thanks'?",
         "video": "price_range_url",
         "instantiation_dict": {
@@ -6312,7 +6290,7 @@
         "intermediate_intent": "What was the name of the cheapest item visible in the second category in the video?",
         "video": "price_range_url",
         "instantiation_dict": {
-            "description": "cheapest item visible in the second category in the video"
+            "description": "cheapest item in the second category in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -6365,11 +6343,11 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my cart.",
-        "intent": "Add the cheapest visible item in the second category in the video to my cart.",
+        "intent": "Add the cheapest visible item in the second category in the video to my cart",
         "intermediate_intent": "What was the name of the cheapest visible item in the second category in the video?",
         "video": "price_range_url",
         "instantiation_dict": {
-            "description": "cheapest visible item in the second category in the video"
+            "description": "the cheapest visible item in the second category in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -6422,7 +6400,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my wishlist.",
-        "intent": "Add the cheapest visible item in the second category in the video to my wishlist.",
+        "intent": "Add the cheapest visible item in the second category in the video to my wishlist",
         "intermediate_intent": "What was the name of the cheapest visible item in the second category in the video?",
         "video": "price_range_url",
         "instantiation_dict": {
@@ -6479,7 +6457,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Take me to the {description}?",
-        "intent": "Take me to the listing of the cheapest visible item in the second category in the video?",
+        "intent": "Take me to the listing of the cheapest visible item in the second category in the video",
         "intermediate_intent": "What was the name of the cheapest visible item in the second category in the video?",
         "video": "price_range_url",
         "instantiation_dict": {
@@ -6527,11 +6505,11 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my comparison page.",
-        "intent": "Add the cheapest item visible in the third category in the video to my comparison page.",
+        "intent": "Add the cheapest item visible in the third category in the video to my comparison page",
         "intermediate_intent": "What was the name of the cheapest item visible in the third category in the video?",
         "video": "price_range_url",
         "instantiation_dict": {
-            "description": "cheapest item visible in the third category in the video"
+            "description": "cheapest item in the third category in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -6588,7 +6566,7 @@
         "intermediate_intent": "What was the name of the cheapest visible item in the third category in the video?",
         "video": "price_range_url",
         "instantiation_dict": {
-            "description": "cheapest visible item in the third category in the video"
+            "description": "the cheapest visible item in the third category in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -6641,7 +6619,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Add the {description} to my wishlist.",
-        "intent": "Add the cheapest visible item in the third category in the video to my cart",
+        "intent": "Add the cheapest visible item in the third category in the video to my wishlist",
         "intermediate_intent": "What was the name of the cheapest visible item in the third category in the video?",
         "video": "price_range_url",
         "instantiation_dict": {
@@ -6698,7 +6676,7 @@
         "start_url": "__SHOPPING__",
         "geolocation": null,
         "intent_template": "Take me to the {description}?",
-        "intent": "Take me to the listing of the cheapest visible item in the third category in the video?",
+        "intent": "Take me to the listing of the cheapest visible item in the third category in the video",
         "intermediate_intent": "What was the name of the cheapest visible item in the third category in the video?",
         "video": "price_range_url",
         "instantiation_dict": {
@@ -6735,189 +6713,5 @@
         "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 0
-    },
-    {
-        "sites": [
-            "shopping"
-        ],
-        "task_id": 118,
-        "require_login": true,
-        "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
-        "geolocation": null,
-        "intent_template": "Add the {description} to my wishlist.",
-        "intent": "Add the item that was to the left of the second item that was added to the wishlist to my wishlist",
-        "intermediate_intent": "What was the item that was to the left of the second item that was added to my wishlist",
-        "video": "add_to_wishlist",
-        "instantiation_dict": {
-            "description": "item that was to the left of the second item that was added to the wishlist"
-        },
-        "require_reset": false,
-        "intermediate_eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "must_include": [
-                    "Bushnell 743333 Boresighter with Case & ARbors,Black"
-                ]
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": "",
-            "reference_answer_raw_annotation": "spatial reasoning"
-        },
-        "eval": {
-            "eval_types": [
-                "program_html"
-            ],
-            "reference_answers": null,
-            "reference_url": "",
-            "program_html": [
-                {
-                    "url": "__SHOPPING__/checkout/wishlist",
-                    "locator": "",
-                    "required_contents": {
-                        "must_include": [
-                            "Bushnell 743333 Boresighter with Case & ARbors,Black"
-                        ]
-                    }
-                }
-            ]
-        },
-        "overall_difficulty": "medium",
-        "visual_reasoning": true,
-        "audio_reasoning": false,
-        "multihop_reasoning": false,
-        "temporal_reasoning": false,
-        "comments": "",
-        "intent_template_id": 0
-    },
-    {
-        "sites": [
-            "shopping"
-        ],
-        "task_id": 119,
-        "require_login": true,
-        "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
-        "geolocation": null,
-        "intent_template": "Leave a review on {description}.",
-        "intent": "Leave a review on the most expensive item in the second column of the first search page, giving 1 star and stating 'broken down'.",
-        "intermediate_intent": "What was the most expensive item in the second column of the first search page?",
-        "video": "brand",
-        "instantiation_dict": {
-            "description": "the most expensive item in the second column of the first search page, giving 1 star and stating 'broken down'"
-        },
-        "require_reset": false,
-        "intermediate_eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "must_include": [
-                    "Gucci No 3 by Gucci for Women 30ml (1oz) Eau de Toilette EDT Spray Number Three No:3 #3 Rare Gucci Perfume"
-                ]
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": "",
-            "reference_answer_raw_annotation": ""
-        },
-        "eval": {
-            "eval_types": [
-                "program_html"
-            ],
-            "reference_answers": null,
-            "reference_url": "",
-            "program_html": [
-                {
-                    "url": "__SHOPPING__",
-                    "locator": "func:shopping_get_sku_latest_review_rating(\"B000RGW9MO\")",
-                    "required_contents": {
-                        "must_include": [
-                            "20"
-                        ]
-                    }
-                },
-                {
-                    "url": "__SHOPPING__",
-                    "locator": "func:shopping_get_sku_latest_review_text(\"B09MTYTV4H\")",
-                    "required_contents": {
-                        "must_include": [
-                            "broken down"
-                        ]
-                    }
-                }
-            ]
-        },
-        "overall_difficulty": "hard",
-        "visual_reasoning": true,
-        "audio_reasoning": false,
-        "multihop_reasoning": false,
-        "temporal_reasoning": true,
-        "comments": "",
-        "intent_template_id": 0
-    },
-    {
-        "sites": [
-            "shopping"
-        ],
-        "task_id": 120,
-        "require_login": true,
-        "storage_state": "./.auth/shopping_state.json",
-        "start_url": "__SHOPPING__",
-        "geolocation": null,
-        "intent_template": "Can you add {description} to my cart?",
-        "intent": "Can you add the item that was to the left of the first item the person in the video added to their cart to my cart?",
-        "intermediate_intent": "What was the item that was to the left of the first item the person in the video added to their cart to my cart?",
-        "video": "cost_range",
-        "instantiation_dict": {
-            "description": "the item that was to the left of the first item the person in the video added to their cart"
-        },
-        "require_reset": false,
-        "intermediate_eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "must_include": [
-                    "SAMSUNG 65-Inch Class Terrace Full Sun Outdoor QLED 4K Smart TV with Alexa Built-in QN65LST9TAFXZA, 2021 Model with SAMSUNG 2020 65\" & 75\" The Terrace Wall Mount"
-                ]
-            },
-            "reference_url": "",
-            "program_html": [],
-            "string_note": "",
-            "reference_answer_raw_annotation": ""
-        },
-        "eval": {
-            "eval_types": [
-                "program_html"
-            ],
-            "reference_answers": null,
-            "reference_url": "",
-            "program_html": [
-                {
-                    "url": "__SHOPPING__/checkout/cart",
-                    "locator": "",
-                    "required_contents": {
-                        "must_include": [
-                            "SAMSUNG 65-Inch Class Terrace Full Sun Outdoor QLED 4K Smart TV with Alexa Built-in QN65LST9TAFXZA, 2021 Model with SAMSUNG 2020 65\" & 75\" The Terrace Wall Mount"
-                        ]
-                    }
-                }
-            ]
-        },
-        "overall_difficulty": "hard",
-        "visual_reasoning": true,
-        "audio_reasoning": false,
-        "multihop_reasoning": false,
-        "temporal_reasoning": true,
-        "comments": "",
-        "intent_template_id": 0
     }
-<<<<<<< HEAD
 ]
-=======
-]
->>>>>>> origin

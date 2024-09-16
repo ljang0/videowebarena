@@ -2355,7 +2355,7 @@
         "video": "recent_range_links",
         "instantiation_dict": {
             "description": "says they have been reading a certain book series recently",
-            "description2": "Can you search for the series name and take me to the first item that comes up"
+            "description2": "search for the series name and take me to the first item that comes up"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2833,7 +2833,7 @@
         "start_url": "__CLASSIFIEDS__",
         "geolocation": null,
         "intent_template": "The person in the video {description}. Can you {description2}?",
-        "intent": "The person in the video mentions they are getting a new laptop. Can you get the cheapest listing in Computers that is from the same company as the new laptop they say they are getting",
+        "intent": "The person in the video mentions they are getting a new laptop. Can you get the cheapest listing in Computers that is from the same company as the new laptop they say they are getting?",
         "intermediate_intent": "What was company of the new laptop the person in the video mentions they are getting?",
         "video": "post_tutorial",
         "instantiation_dict": {
