@@ -263,7 +263,7 @@ def test(
 ) -> None:
     scores = []
     intermediate_scores = []
-
+    score_dict = {}
     max_steps = args.max_steps
 
     early_stop_thresholds = {
@@ -339,6 +339,8 @@ def test(
             )
 
             # Load task.
+            raw_config_file_name = config_file
+            score_dict[raw_config_file_name] = {"score": -1, "intermediate_score": -1}
             with open(config_file) as f:
                 _c = json.load(f)
                 intent = _c["intent"]
@@ -413,7 +415,7 @@ def test(
                     except ValueError as e:
                         # get the error message
                         action = create_stop_action(f"ERROR: {str(e)}")
-
+                logger.info(f"[Action]: {action}")
                 trajectory.append(action)
 
                 action_str = get_action_description(
@@ -451,7 +453,7 @@ def test(
                 page=env.page
             )
 
-
+            score_dict[raw_config_file_name]["score"] = score
             if intermediate_intent_agent:
                 detected_intermediate_intent = intermediate_intent_agent.get_intermidiate_intent(args, config_file)
                 logger.info(f"[Intermidiate Intent]: {intermediate_intent}")
@@ -469,12 +471,13 @@ def test(
                     logger.info(f"[Intermediate Result] (PASS) {config_file}")
                 else:
                     logger.info(f"[Intermediate Result] (FAIL) {config_file}")
+                score_dict[raw_config_file_name]["intermediate_score"] = intermediate_score
 
             if score == 1:
                 logger.info(f"[Result] (PASS) {config_file}")
             else:
                 logger.info(f"[Result] (FAIL) {config_file}")
-
+            scores.append(score)
             if args.save_trace_enabled:
                 env.save_trace(
                     Path(args.result_dir) / "traces" / f"{task_id}.zip"
@@ -494,13 +497,15 @@ def test(
                 f.write(traceback.format_exc())  # write stack trace to file
 
         render_helper.close()
+        with open(os.path.join(args.result_dir, "score.json"), "w") as f:
+            json.dump(score_dict, f, indent=4)
 
     env.close()
     if len(scores):
         logger.info(f"Average score: {sum(scores) / len(scores)}")
     if len(intermediate_scores):
         logger.info(f"Average intermediate score: {sum(intermediate_scores) / len(intermediate_scores)}")
-
+    
 
 def prepare(args: argparse.Namespace) -> None:
     # convert prompt python files to json
@@ -522,6 +527,7 @@ def prepare(args: argparse.Namespace) -> None:
     if not (Path(result_dir) / "traces").exists():
         (Path(result_dir) / "traces").mkdir(parents=True)
 
+        
     # log the log file
     with open(os.path.join(result_dir, "log_files.txt"), "a+") as f:
         f.write(f"{LOG_FILE_NAME}\n")
