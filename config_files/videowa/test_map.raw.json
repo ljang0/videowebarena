@@ -1,7 +1,7 @@
 [
     {
         "sites": [
-          "map"
+            "map"
         ],
         "task_id": 0,
         "require_login": false,
@@ -10,9 +10,9 @@
         "geolocation": null,
         "intent_template": "There was a stadium mentioned in the video. Can you return the distance to {location1} driving",
         "intermediate_intent": "What is the stadium mentioned in the video?",
-        "video":"get_times",
+        "video": "get_times",
         "instantiation_dict": {
-          "location1": "Carnegie Mellon University"
+            "location1": "Carnegie Mellon University"
         },
         "intent": "There was a stadium mentioned in the video. Can you return the distance to Carnegie Mellon University driving",
         "require_reset": false,
@@ -50,20 +50,20 @@
     },
     {
         "sites": [
-          "map"
+            "map"
         ],
         "task_id": 1,
         "require_login": false,
         "storage_state": "./.auth/map_state.json",
         "start_url": "__MAP__",
         "geolocation": null,
-        "intent_template": "In the video, there were 3 states that bordered a state mentioned in the video, which state's capital city is closest to {LocationA}?",
+        "intent_template": "In the video, there were 3 states that were mentioned to be bordering the focused state, which state's capital city is closest to {LocationA}?",
         "intermediate_intent": "What are the 3 states mentioned in the video?",
         "video": "get_border",
         "instantiation_dict": {
-          "locationA": "Pittsburgh"
+            "locationA": "Pittsburgh"
         },
-        "intent": "In the video, there were 4 states that were mentioned to be bordering Conneticut, which state's capital city is closest to Pittsburgh?",
+        "intent": "In the video, there were 3 states that were mentioned to be bordering the focused state, which state's capital city is closest to Pittsburgh?",
         "require_reset": false,
         "intermediate_eval": {
             "eval_types": [
@@ -105,21 +105,21 @@
     },
     {
         "sites": [
-          "map"
+            "map"
         ],
         "task_id": 2,
         "require_login": false,
         "storage_state": "./.auth/map_state.json",
         "start_url": "__MAP__",
         "geolocation": null,
-        "intent_template": "To find the optimal route there were 3 locations mentioned in the video. Compare the distance walking/driving from each location pairwise, which ones are the closest?",
+        "intent_template": "To find the optimal route there were 3 locations mentioned in the video. Compare the distance walking/driving from each location pairwise, which ones are the closest by distance driving?",
         "instantiation_dict": {
-          "locationA": "University of Pittsburgh",
-          "locationB": "Carnegie Mellon University"
+            "locationA": "University of Pittsburgh",
+            "locationB": "Carnegie Mellon University"
         },
         "intent": "To find the optimal route there were 3 locations mentioned in the video. Compare the distance walking/driving from each location pairwise, which ones are the closest by distance driving?",
         "intermediate_intent": "What were the 3 locations mentioned in the video?",
-        "video":"multistop_total_time",
+        "video": "multistop_total_time",
         "require_reset": false,
         "intermediate_eval": {
             "eval_types": [
@@ -138,16 +138,18 @@
             "reference_answer_raw_annotation": ""
         },
         "eval": {
-            "eval_types": ["string_match"],
+            "eval_types": [
+                "string_match"
+            ],
             "reference_answers": {
                 "must_include": [
                     "Carnegie Mellon University",
                     "University of Pittsburgh"
                 ]
             },
-            "reference_url": "", 
-            "program_html": [], 
-            "string_note": "", 
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "medium",
@@ -160,7 +162,7 @@
     },
     {
         "sites": [
-          "map"
+            "map"
         ],
         "task_id": 3,
         "require_login": false,
@@ -192,15 +194,17 @@
             "reference_answer_raw_annotation": ""
         },
         "eval": {
-            "eval_types": ["string_match"],
+            "eval_types": [
+                "string_match"
+            ],
             "reference_answers": {
                 "must_include": [
                     "University of Pittsburgh"
                 ]
             },
-            "reference_url": "", 
-            "program_html": [], 
-            "string_note": "", 
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "medium",
@@ -213,7 +217,7 @@
     },
     {
         "sites": [
-          "map"
+            "map"
         ],
         "task_id": 4,
         "require_login": false,
@@ -221,8 +225,7 @@
         "start_url": "__MAP__",
         "geolocation": null,
         "intent_template": "How long does it take to get from the first destination in the video to the second destination?",
-        "instantiation_dict": {
-        },
+        "instantiation_dict": {},
         "intent": "How long does it take to get from the first destination in the video to the second destination?",
         "intermediate_intent": "What were the first and second destinations in the video?",
         "video": "get_times",
@@ -243,11 +246,13 @@
             "reference_answer_raw_annotation": ""
         },
         "eval": {
-            "eval_types": ["url_match"],
+            "eval_types": [
+                "url_match"
+            ],
             "reference_answers": null,
-            "reference_url": "__MAP__/directions?engine=fossgis_osrm_car&route=42.355%2C-71.061%3B40.713%2C-74.006#map=8/41.540/-72.532", 
-            "program_html": [], 
-            "string_note": "", 
+            "reference_url": "__MAP__/directions?engine=fossgis_osrm_car&route=42.355%2C-71.061%3B40.713%2C-74.006#map=8/41.540/-72.532",
+            "program_html": [],
+            "string_note": "",
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "medium",
@@ -260,7 +265,7 @@
     },
     {
         "sites": [
-          "map"
+            "map"
         ],
         "task_id": 5,
         "require_login": false,
@@ -269,10 +274,9 @@
         "geolocation": null,
         "intent_template": "Is going from the {location1} mentioned in the video to {location2} faster or to {location3} faster?",
         "instantiation_dict": {
-            "location1":"park",
-            "location2":"Frick Park",
-            "location3":"Point State Park"
-
+            "location1": "park",
+            "location2": "Frick Park",
+            "location3": "Point State Park"
         },
         "intent": "Is going from the park mentioned in the video to Frick Park faster or to Point State Park faster?",
         "intermediate_intent": "What was the park mentioned in the video?",
@@ -293,15 +297,17 @@
             "reference_answer_raw_annotation": ""
         },
         "eval": {
-            "eval_types": ["string_match"],
+            "eval_types": [
+                "string_match"
+            ],
             "reference_answers": {
-                "must_include":[
+                "must_include": [
                     "Frick Park"
                 ]
             },
-            "reference_url": "", 
-            "program_html": [], 
-            "string_note": "", 
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "medium",
@@ -314,7 +320,7 @@
     },
     {
         "sites": [
-          "map"
+            "map"
         ],
         "task_id": 6,
         "require_login": false,
@@ -323,11 +329,10 @@
         "geolocation": null,
         "intent_template": "The video mentioned a starting point to figure out the optimal route between 3 locations. What is the optimal route if we instead start from {location}?",
         "instantiation_dict": {
-            "location":"Point State Park"
-
+            "location": "Point State Park"
         },
         "intent": "The video mentioned a starting point to figure out the optimal route between 3 locations. What is the optimal route if we instead start from Point State Park?",
-        "intermediate_intent":"What were the 3 locations mentioned in the video?",
+        "intermediate_intent": "What were the 3 locations mentioned in the video?",
         "video": "multistop_total_time",
         "require_reset": false,
         "intermediate_eval": {
@@ -345,15 +350,17 @@
             "reference_answer_raw_annotation": ""
         },
         "eval": {
-            "eval_types": ["string_match"],
+            "eval_types": [
+                "string_match"
+            ],
             "reference_answers": {
                 "fuzzy_match": [
                     "The order is Point State Park, Carnegie Mellon University, Schenley Park"
-                  ]
+                ]
             },
-            "reference_url": "", 
-            "program_html": [], 
-            "string_note": "", 
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "medium",
@@ -366,7 +373,7 @@
     },
     {
         "sites": [
-          "map"
+            "map"
         ],
         "task_id": 7,
         "require_login": false,
@@ -375,11 +382,10 @@
         "geolocation": null,
         "intent_template": "The video mentioned a starting point to figure out the optimal route between 3 locations. What is the optimal route if we instead start from {location}?",
         "instantiation_dict": {
-            "location":"Carnegie Mellon University"
-
+            "location": "Carnegie Mellon University"
         },
-        "intent": "The video mentioned a starting point to figure out the optimal route between 3 locations. What is the optimal route if we instead start from Carnegie Mellon University",
-        "intermediate_intent":"What was the starting point mentioned in the video?",
+        "intent": "The video mentioned a starting point to figure out the optimal route between 3 locations. What is the optimal route if we instead start from Carnegie Mellon University?",
+        "intermediate_intent": "What was the starting point mentioned in the video?",
         "video": "multistop_total_time",
         "require_reset": false,
         "intermediate_eval": {
@@ -397,15 +403,17 @@
             "reference_answer_raw_annotation": ""
         },
         "eval": {
-            "eval_types": ["string_match"],
+            "eval_types": [
+                "string_match"
+            ],
             "reference_answers": {
                 "fuzzy_match": [
                     "The order is Carnegie Mellon University, Schenley Park, Point State Park"
-                  ]
+                ]
             },
-            "reference_url": "", 
-            "program_html": [], 
-            "string_note": "", 
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "medium",
@@ -418,19 +426,18 @@
     },
     {
         "sites": [
-          "map"
+            "map"
         ],
         "task_id": 8,
         "require_login": false,
         "storage_state": "./.auth/map_state.json",
         "start_url": "__MAP__",
         "geolocation": null,
-        "intent_template": "Recall the states that border the state mentioned in the video. Can you list them in counterclockwise order starting from the east?",
-        "instantiation_dict": {
-        },
-        "intent": "Recall in the video the states that border Conneticut. Can you list them in counterclockwise order starting from the east?",
-        "intermediate_intent":"What are the 3 states mentioned in the video?",
-        "video":"get_border",
+        "intent_template": "Recall in the video the states that border the state mentioned in the video. Can you list them in counterclockwise order starting from the east?",
+        "instantiation_dict": {},
+        "intent": "Recall in the video the states that border the state mentioned in the video. Can you list them in counterclockwise order starting from the east?",
+        "intermediate_intent": "What are the 3 states mentioned in the video?",
+        "video": "get_border",
         "require_reset": false,
         "intermediate_eval": {
             "eval_types": [
@@ -449,15 +456,17 @@
             "reference_answer_raw_annotation": ""
         },
         "eval": {
-            "eval_types": ["string_match"],
+            "eval_types": [
+                "string_match"
+            ],
             "reference_answers": {
                 "fuzzy_match": [
                     "The order is Rhode Island, Massachusetts, New York"
-                  ]
+                ]
             },
-            "reference_url": "", 
-            "program_html": [], 
-            "string_note": "", 
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "medium",
@@ -470,7 +479,7 @@
     },
     {
         "sites": [
-          "map"
+            "map"
         ],
         "task_id": 9,
         "require_login": false,
@@ -478,12 +487,10 @@
         "start_url": "__MAP__",
         "geolocation": null,
         "intent_template": "Recall the states that border the state mentioned in the video. Which state's capital is the closest to the capital of Conneticut?",
-        "instantiation_dict": {
-
-        },
+        "instantiation_dict": {},
         "intent": "Recall the states that border the state mentioned in the video. Which state's capital is the closest to the capital of Conneticut?",
-        "intermediate_intent":"What are the 4 states mentioned in the video?",
-        "video":"get_border",
+        "intermediate_intent": "What are the 4 states mentioned in the video?",
+        "video": "get_border",
         "require_reset": false,
         "intermediate_eval": {
             "eval_types": [
@@ -502,15 +509,17 @@
             "reference_answer_raw_annotation": ""
         },
         "eval": {
-            "eval_types": ["string_match"],
+            "eval_types": [
+                "string_match"
+            ],
             "reference_answers": {
                 "must_include": [
                     "Providence"
-                  ]
+                ]
             },
-            "reference_url": "", 
-            "program_html": [], 
-            "string_note": "", 
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "medium",
@@ -523,7 +532,7 @@
     },
     {
         "sites": [
-          "map"
+            "map"
         ],
         "task_id": 10,
         "require_login": false,
@@ -531,11 +540,9 @@
         "start_url": "__MAP__",
         "geolocation": null,
         "intent_template": "Recall the second destination in the video. Return its zipcode.",
-        "instantiation_dict": {
-
-        },
+        "instantiation_dict": {},
         "intent": "Recall the second destination in the video. Return its zipcode.",
-        "intermediate_intent":"What was the second destination in the video?",
+        "intermediate_intent": "What was the second destination in the video?",
         "video": "get_times",
         "require_reset": false,
         "intermediate_eval": {
@@ -553,15 +560,17 @@
             "reference_answer_raw_annotation": ""
         },
         "eval": {
-            "eval_types": ["string_match"],
+            "eval_types": [
+                "string_match"
+            ],
             "reference_answers": {
                 "must_include": [
                     "10118"
-                  ]
+                ]
             },
-            "reference_url": "", 
-            "program_html": [], 
-            "string_note": "", 
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "easy",
@@ -574,7 +583,7 @@
     },
     {
         "sites": [
-          "map"
+            "map"
         ],
         "task_id": 11,
         "require_login": false,
@@ -582,11 +591,9 @@
         "start_url": "__MAP__",
         "geolocation": null,
         "intent_template": "Recall the national park in the video. Return the distance from the New York to the park.",
-        "instantiation_dict": {
-
-        },
+        "instantiation_dict": {},
         "intent": "Recall the national park in the video. Return the distance from the New York to the park.",
-        "intermediate_intent":"What was the national park mentioned in the video?",
+        "intermediate_intent": "What was the national park mentioned in the video?",
         "video": "get_times",
         "require_reset": false,
         "intermediate_eval": {
@@ -604,11 +611,13 @@
             "reference_answer_raw_annotation": ""
         },
         "eval": {
-            "eval_types": ["url_match"],
+            "eval_types": [
+                "url_match"
+            ],
             "reference_answers": null,
-            "reference_url": "__MAP__/directions?engine=fossgis_osrm_car&route=40.71273%2C-74.00602%3B44.35618%2C-68.23810#map=7/42.814/-71.118", 
-            "program_html": [], 
-            "string_note": "", 
+            "reference_url": "__MAP__/directions?engine=fossgis_osrm_car&route=40.71273%2C-74.00602%3B44.35618%2C-68.23810#map=7/42.814/-71.118",
+            "program_html": [],
+            "string_note": "",
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "easy",
@@ -621,7 +630,7 @@
     },
     {
         "sites": [
-          "map"
+            "map"
         ],
         "task_id": 12,
         "require_login": false,
@@ -630,11 +639,11 @@
         "geolocation": null,
         "intent_template": "Recall the 3 locations used to determine the optimal route. Which location is closest to the {location1}",
         "instantiation_dict": {
-            "location1":"Strip District"
+            "location1": "Strip District"
         },
         "intent": "Recall the 3 locations used to determine the optimal route. Which location is closest to the Strip District",
         "intermediate_intent": "What were the 3 locations mentioned in the video?",
-        "video":"multistop_total_time",
+        "video": "multistop_total_time",
         "require_reset": false,
         "intermediate_eval": {
             "eval_types": [
@@ -653,15 +662,17 @@
             "reference_answer_raw_annotation": ""
         },
         "eval": {
-            "eval_types": ["string_match"],
+            "eval_types": [
+                "string_match"
+            ],
             "reference_answers": {
                 "must_include": [
                     "Point State Park"
-                  ]
+                ]
             },
-            "reference_url": "", 
-            "program_html": [], 
-            "string_note": "", 
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "easy",
@@ -674,7 +685,7 @@
     },
     {
         "sites": [
-          "map"
+            "map"
         ],
         "task_id": 13,
         "require_login": false,
@@ -682,8 +693,7 @@
         "start_url": "__MAP__",
         "geolocation": null,
         "intent_template": "Recall the state to the west of the first state mentioned in the video. What is the distance between its capital and New York City?",
-        "instantiation_dict": {
-        },
+        "instantiation_dict": {},
         "intent": "Recall the state to the west of the first state mentioned in the video. What is the distance between its capital and New York City?",
         "intermediate_intent": "What was the first state mentioned in the video?",
         "video": "get_border",
@@ -704,11 +714,13 @@
             "reference_answer_raw_annotation": ""
         },
         "eval": {
-            "eval_types": ["url_match"],
+            "eval_types": [
+                "url_match"
+            ],
             "reference_answers": null,
-            "reference_url": "__MAP__/directions?engine=fossgis_osrm_car&route=42.651%2C-73.755%3B40.713%2C-74.006#map=8/41.689/-73.971", 
-            "program_html": [], 
-            "string_note": "", 
+            "reference_url": "__MAP__/directions?engine=fossgis_osrm_car&route=42.651%2C-73.755%3B40.713%2C-74.006#map=8/41.689/-73.971",
+            "program_html": [],
+            "string_note": "",
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "medium",
@@ -721,7 +733,7 @@
     },
     {
         "sites": [
-          "map"
+            "map"
         ],
         "task_id": 14,
         "require_login": false,
@@ -729,8 +741,7 @@
         "start_url": "__MAP__",
         "geolocation": null,
         "intent_template": "Recall the state to the north of the first state mentioned in the video. What is the distance between its capital and Philadelphia?",
-        "instantiation_dict": {
-        },
+        "instantiation_dict": {},
         "intent": "Recall the state to the north of the first state mentioned in the video. What is the distance between its capital and Philadelphia?",
         "intermediate_intent": "What was the capital of the state to the north of the first state mentioned in the video?",
         "video": "get_border",
@@ -751,11 +762,13 @@
             "reference_answer_raw_annotation": ""
         },
         "eval": {
-            "eval_types": ["url_match"],
+            "eval_types": [
+                "url_match"
+            ],
             "reference_answers": null,
-            "reference_url": "__MAP__/directions?engine=fossgis_osrm_car&route=42.3554%2C-71.0605%3B39.9527%2C-75.1635#map=8/41.158/-73.109", 
-            "program_html": [], 
-            "string_note": "", 
+            "reference_url": "__MAP__/directions?engine=fossgis_osrm_car&route=42.3554%2C-71.0605%3B39.9527%2C-75.1635#map=8/41.158/-73.109",
+            "program_html": [],
+            "string_note": "",
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "medium",

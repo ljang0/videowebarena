@@ -119,7 +119,7 @@
         "intermediate_intent": "What are the names of all the users whose user page the person in the video visited?",
         "video": "explore_star_tutorial",
         "instantiation_dict": {
-            "description": "all the repos the person in the video visited"
+            "description": "all the users whose user page the person in the video visited"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -431,7 +431,7 @@
         "start_url": "__GITLAB__",
         "geolocation": null,
         "intent_template": "Can you take me to {description}?",
-        "intent": "Can you take me the user page of the author of the repo in the video that had the most issues?",
+        "intent": "Can you take me to the user page of the author of the repo in the video that had the most issues?",
         "intermediate_intent": "What was the name of author of the repo in the video that had the most issues?",
         "video": "explore_star_tutorial",
         "instantiation_dict": {
@@ -585,7 +585,7 @@
         "intermediate_intent": "What was the name of the repo page for the repo whose issue, not assigned to the person in the video,  had the most comments in the video?",
         "video": "issue_tutorial",
         "instantiation_dict": {
-            "description": "the repo page for the repo whose issue, not assigned to the person in the video,  had the most comments in the video"
+            "description": "the repo page for the repo whose issue, not assigned to the person in the video, had the most comments in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -629,7 +629,7 @@
         "intermediate_intent": "What was the name of the author of the repo whose issue, not assigned to the person in the video,  had the most comments in the video?",
         "video": "issue_tutorial",
         "instantiation_dict": {
-            "description": "the author page for the author of the repo whose issue, not assigned to the person in the video,  had the most comments in the video"
+            "description": "the author page for the author of the repo whose issue, not assigned to the person in the video, had the most comments in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -953,7 +953,7 @@
         "start_url": "__GITLAB__",
         "geolocation": null,
         "intent_template": "Can you assign the issue {description}?",
-        "intent": "Can you assign issue that is the oldest with the enhancement label in the video to @yjlou?",
+        "intent": "Can you assign the issue that is the oldest with the enhancement label in the video to @yjlou?",
         "intermediate_intent": "What was the name of the oldest issue with the enhancement label in the video?",
         "video": "issue_repo_tutorial",
         "instantiation_dict": {
@@ -1006,11 +1006,11 @@
         "start_url": "__GITLAB__",
         "geolocation": null,
         "intent_template": "Can you assign the issue {description}?",
-        "intent": "Can you assign the issue with the most comments in the video to @yjlou?",
+        "intent": "Can you assign the issue with the most comments in the video to @yjlou??",
         "intermediate_intent": "What was the name of the issue that had the most comments in the video?",
         "video": "issue_repo_tutorial",
         "instantiation_dict": {
-            "description": "with the most comments in the video to @earlev4"
+            "description": "with the most comments in the video to @yjlou?"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1058,7 +1058,7 @@
         "storage_state": "./.auth/gitlab_state.json",
         "start_url": "__GITLAB__",
         "geolocation": null,
-        "intent_template": "Open an issue with the title {title} in {{repo}}.",
+        "intent_template": "Open an issue with the title {title} in {repo}.",
         "instantiation_dict": {
             "repo": "the last repository visited in the video",
             "title": "'had issues with cloning'"
@@ -1114,7 +1114,7 @@
         "storage_state": "./.auth/gitlab_state.json",
         "start_url": "__GITLAB__",
         "geolocation": null,
-        "intent_template": "Open an issue with the title {title} in {{repo}}.",
+        "intent_template": "Open an issue with the title {title} in {repo}.",
         "instantiation_dict": {
             "repo": "the first repository visited in the video",
             "title": "'had issues with merging'"
@@ -1170,7 +1170,7 @@
         "storage_state": "./.auth/gitlab_state.json",
         "start_url": "__GITLAB__",
         "geolocation": null,
-        "intent_template": "Create a milestone with the title {title} and dates {dates} in {{repo}}.",
+        "intent_template": "Create a milestone with the title {title} and dates {dates} in {repo}.",
         "instantiation_dict": {
             "repo": "the repository with the most merge requests in the video",
             "title": "'want to submit to conference'",
@@ -1295,7 +1295,7 @@
         "intermediate_intent": "What was the name of the user who had the most commits in the first repo?",
         "video": "repo_attribute",
         "instantiation_dict": {
-            "description": "the user page of the author of the repo in the video that had the most issues"
+            "description": "the user page of the user who had the most commits in the first repo"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1339,7 +1339,7 @@
         "intermediate_intent": "What was the name of the user who had the most commits across all repos in the video?",
         "video": "repo_attribute",
         "instantiation_dict": {
-            "description": "the user page of the author of the repo in the video that had the most issues"
+            "description": "the user page of the user who had the most commits across all repos in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1601,7 +1601,7 @@
         "intermediate_intent": "What was the name of the merge request that was below the first one the person in the video clicked?",
         "video": "merge_request",
         "instantiation_dict": {
-            "description": "that was above the first one the person in the video clicked to Dave Greene"
+            "description": "that was below the first one the person in the video clicked to Dave Greene"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1789,7 +1789,7 @@
         "intermediate_intent": "What was the name of the merge request that had 9 comments in the video?",
         "video": "merge_request",
         "instantiation_dict": {
-            "description": "the merge request that had 9 comments in the video"
+            "description": "'can we refactor this' on the merge request that had 9 comments in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2225,7 +2225,7 @@
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
         "geolocation": null,
-        "intent_template": "Can you create a group {description}",
+        "intent_template": "Can you create a group {description}?",
         "intent": "Can you create a group called 'videowebarena' and add all the users that were added in the video?",
         "intermediate_intent": "What were the @s of all the users added to the group in the video?",
         "video": "create_group",
@@ -2288,7 +2288,7 @@
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
         "geolocation": null,
-        "intent_template": "Can you create a group {description}",
+        "intent_template": "Can you create a group {description}?",
         "intent": "Can you create a group called 'videowebarena' and add the first group of users that were added in the video?",
         "intermediate_intent": "What were the @s of the first group of users added to the group in the video?",
         "video": "create_group",
@@ -2345,7 +2345,7 @@
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
         "geolocation": null,
-        "intent_template": "Can you create a group {description}",
+        "intent_template": "Can you create a group {description}?",
         "intent": "Can you create a group called 'videowebarena' and add the second group of users that were added in the video?",
         "intermediate_intent": "What were the @s of the second group of users added to the group in the video?",
         "video": "create_group",
@@ -2844,8 +2844,8 @@
         "geolocation": null,
         "intent_template": "Open an issue with the title {title} in {repo}, and assign it to {person}.",
         "instantiation_dict": {
-            "repo": "the last repository visited in the video",
-            "title": "'had issues with cloning'"
+            "repo": "the repository visited in the video",
+            "title": "'need some literature'"
         },
         "video:": "issue_repo_tutorial",
         "intent": "Open an issue with the title 'need some literature' in the repository visited in the video, and assign it to the first person added to the repo in the video.",
@@ -3415,7 +3415,7 @@
             "description": "that is empty but with the same name as the one made in the video and an MIT license"
         },
         "video:": "project_wikipediareddit_tutorial",
-        "intent": "Create a project that is empty but with the same name as the one made in the video and an MIT License.",
+        "intent": "Create a project that is empty but with the same name as the one made in the video and an MIT License",
         "intermediate_intent": "What was the name of the repo made in the video?",
         "require_reset": false,
         "intermediate_eval": {

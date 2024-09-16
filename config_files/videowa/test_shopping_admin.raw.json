@@ -358,7 +358,7 @@
         "intermediate_intent": "What was the nickname of the customer for the third review from the top when the person in the video first goes to All Reviews from the Marketing tab?",
         "video": "find_best_selling",
         "instantiation_dict": {
-            "description": "search using the nickname of the third review from the top when the person in the video first goes to All Reviews from the Marketing tab"
+            "description": "traverse to the review details of the third review from the top when the person in the video first goes to All Reviews from the Marketing tab"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -450,11 +450,11 @@
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
         "intent_template": "The person in the video {description}. Can you take me to {description2}?",
-        "intent": "The person in the video searches for reviews with the word \"good\" in it under the Review tab of All Reviews? Can you take me to the review details of the review at the top?",
+        "intent": "The person in the video searches for reviews with the word \"good\" in it under the Review tab of All Reviews?. Can you take me to the review details of the review at the top?",
         "intermediate_intent": "The person in the video searches for reviews with the word good in it under the Review tab of All Reviews? What is the ID of the review at the top?",
         "video": "see_reviews_tutorial",
         "instantiation_dict": {
-            "description": "searches for reviews with the word good in it under the Review tab of All Reviews",
+            "description": "searches for reviews with the word \"good\" in it under the Review tab of All Reviews?",
             "description2": "the review details of the review at the top"
         },
         "require_reset": false,
@@ -594,8 +594,8 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "Take me to {description}?",
-        "intent": "Take me to the detailed page of the second order when filtered using the same status first filtered for in the video.",
+        "intent_template": "Take me to {description}.",
+        "intent": "Take me to the detailed page of the second most recent processing order when filtered using the same status first filtered for in the video.",
         "intermediate_intent": "What is the ID of the second most recent processing order when filtered using the same status first filtered for in the video?",
         "video": "sales_tutorial",
         "instantiation_dict": {
@@ -642,8 +642,8 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "Take me to {description}?",
-        "intent": "Take me to the page where I can change the shipping address for the invoice that had detials showed in the video.",
+        "intent_template": "Take me to {description}.",
+        "intent": "Take me to the page where I can change the shipping address for the invoice that had details showed in the video.",
         "intermediate_intent": "What is the name of the customer for the invoice that had details showed in the video?",
         "video": "sales_tutorial",
         "instantiation_dict": {
@@ -695,7 +695,7 @@
         "intermediate_intent": "Take me to the detailed order page where I can send a message to [blank] for her most recent processing order. [blank] refers to the second customer from the top after the last filter made in the video",
         "video": "sales_tutorial",
         "instantiation_dict": {
-            "description": "the detailed page of the second most recent processing order"
+            "description": "[blank] for her most recent processing order: \"Sorry we are out of stock, please reorder\". [blank] refers to the second customer from the top after the last filter made in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -897,7 +897,7 @@
         "intermediate_intent": "What is the zip code of the third customer from the top when filtered by phone number in the video?",
         "video": "customer_tutorial",
         "instantiation_dict": {
-            "description": "the customer information on customers with zip code 90210 from the top when filtered by phone number in the video"
+            "description": "the customer information on customers with the same zip code as the third customer from the top when filtered by phone number in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -948,7 +948,7 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "Take me to {description}?",
+        "intent_template": "Take me to {description}.",
         "intent": "Take me to the customer information on customers with the same phone number as the one the person in the video filtered with (no spaces or dashes).",
         "intermediate_intent": "What was the phone number the person in the video filtered with (no spaces or dashes)?",
         "video": "customer_tutorial",
@@ -1006,7 +1006,7 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "Take me to {description}?",
+        "intent_template": "Take me to {description}.",
         "intent": "Take me to the customer information page of the first customer who the person in the video viewed detailed information of.",
         "intermediate_intent": "What was the full name of the first customer who the person in the video viewed detailed information of?",
         "video": "customer_tutorial",
@@ -1053,7 +1053,7 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "Take me to {description}?",
+        "intent_template": "Take me to {description}.",
         "intent": "Take me to the customer information page of the most recent customer from the same state as the customer's when filtered by phone number in the video.",
         "intermediate_intent": "What is the full name of the most recent customer from the same state as the customer's when filtered by phone number in the video?",
         "video": "customer_tutorial",
@@ -1101,13 +1101,13 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}?",
+        "intent_template": "{action} the {description}.",
         "intent": "Update the quantity number by 5 more units of the product that appeared when the person in the video first demonstrated how to filter the table.",
         "intermediate_intent": "What is the name of the product that appeared when the person in the video first demonstrated how to filter the table?",
         "video": "catalog_tutorial",
         "instantiation_dict": {
             "action": "Update",
-            "description": "quantity number of the product that appeared when the person in the video first demonstrated how to filter the table"
+            "description": "quantity number by 5 more units of the product that appeared when the person in the video first demonstrated how to filter the table"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1158,13 +1158,13 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}?",
+        "intent_template": "{action} the {description}.",
         "intent": "Add the blue-colored version of the product (same size and other attributes) that appeared when the person in the video first demonstrated how to filter the table.",
         "intermediate_intent": "What is the name blue-colored version of the product that appeared when the person in the video first demonstrated how to filter the table be called?",
         "video": "catalog_tutorial",
         "instantiation_dict": {
             "action": "Add",
-            "description": "blue-colored version of the product that appeared when the person in the video first demonstrated how to filter the table"
+            "description": "blue-colored version of the product (same size and other attributes) that appeared when the person in the video first demonstrated how to filter the table"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1217,7 +1217,7 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}?",
+        "intent_template": "{action} the {description}.",
         "intent": "Disable the product that appeared when the person in the video first demonstrated how to filter the table.",
         "intermediate_intent": "What is the product that appeared when the person in the video first demonstrated how to filter the table be called?",
         "video": "catalog_tutorial",
@@ -1274,13 +1274,13 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}?",
+        "intent_template": "{action} the {description}.",
         "intent": "Decrease the price of the product (that appeared when the person in the video first demonstrated how to filter the table) by 5.",
         "intermediate_intent": "What is the product that appeared when the person in the video first demonstrated how to filter the table be called?",
         "video": "catalog_tutorial",
         "instantiation_dict": {
             "action": "Decrease",
-            "description": "the price of the product (that appeared when the person in the video first demonstrated how to filter the table) by 5"
+            "description": "price of the product (that appeared when the person in the video first demonstrated how to filter the table) by 5"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1331,7 +1331,7 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}?",
+        "intent_template": "{action} the {description}.",
         "intent": "Increase the price of the product (that appeared when the person in the video first demonstrated how to filter the table) by 5.",
         "intermediate_intent": "What is the product that appeared when the person in the video first demonstrated how to filter the table be called?",
         "video": "catalog_tutorial",
@@ -1388,12 +1388,12 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "Take me to the {description}?",
+        "intent_template": "Take me to the {description}.",
         "intent": "Take me to the customer page that the person in the video first filtered for.",
         "intermediate_intent": "What is the name of the customer that the person in the video first filtered for?",
         "video": "info_search_customer_tutorial",
         "instantiation_dict": {
-            "description": "the customer page that the person in the video first filtered for"
+            "description": "customer page that the person in the video first filtered for"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1436,12 +1436,12 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "Take me to the {description}?",
+        "intent_template": "Take me to the {description}.",
         "intent": "Take me to the customer page of the customer sharing the same name as the customer who the person in the video first filtered for.",
         "intermediate_intent": "What is the name of the customer that the person in the video first filtered for?",
         "video": "info_search_customer_tutorial",
         "instantiation_dict": {
-            "description": "the customer page of the customer sharing the same name as the customer who the person in the video first filtered for"
+            "description": "customer page of the customer sharing the same name as the customer who the person in the video first filtered for"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1484,12 +1484,12 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "Take me to the {description}?",
+        "intent_template": "Take me to the {description}.",
         "intent": "Take me to the potential customer page of the most recent customer who left a review of the same status as the one first filtered for in the video (choose the customer with the alphabetically first last name if multiple).",
         "intermediate_intent": "What is the name of the most recent customer who left a review of the same status as the one first filtered for in the video (choose the customer with the alphabetically first last name if multiple)?",
         "video": "info_search_customer_tutorial",
         "instantiation_dict": {
-            "description": "the customer page of the most recent customer who left a review of the same status as the one first filtered for in the video (choose the customer with the alphabetically first last name if multiple)"
+            "description": "potential customer page of the most recent customer who left a review of the same status as the one first filtered for in the video (choose the customer with the alphabetically first last name if multiple)"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1532,12 +1532,12 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "Take me to the {description}?",
-        "intent": "Take me to the customer page of the customer who shares a name with the most recent customer who left a review of the same status as the one first filtered for in the video (choose the customer with the alphabetically first last name if multiple).",
+        "intent_template": "Take me to the {description}.?",
+        "intent": "Take me to the customer page of the customer who shares a name with the most recent customer who left a review of the same status as the one first filtered for in the video (choose the customer with the alphabetically first last name if multiple).?",
         "intermediate_intent": "What is the name of the customer who shares a name with the most recent customer who left a review (choose the customer with the alphabetically first last name if multiple)?",
         "video": "info_search_customer_tutorial",
         "instantiation_dict": {
-            "description": "the customer page of the customer who shares a name with the most recent customer who left a review of the same status as the one first filtered for in the video (choose the customer with the alphabetically first last name if multiple)"
+            "description": "customer page of the customer who shares a name with the most recent customer who left a review of the same status as the one first filtered for in the video (choose the customer with the alphabetically first last name if multiple)"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1580,7 +1580,7 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "Take me to the {description}?",
+        "intent_template": "Take me to the {description}.",
         "intent": "Take me to the customer page of the customer who shares a name with the first customer to have a review (with status that is neither \"Not Approved\" nor the same as the status of the one displayed in the video after filtering) with the term \"bad\" in it (choose the customer with the alphabetically last last name if multiple).",
         "intermediate_intent": "What is the name of the customer who shares a name with the first customer to have a review (with status that is neither \"Not Approved\" nor the same as the status of the one displayed in the video after filtering) with the term \"bad\" in it (choose the customer with the alphabetically last last name if multiple)",
         "video": "info_search_customer_tutorial",
@@ -1732,7 +1732,7 @@
         "video": "content_tutorial",
         "instantiation_dict": {
             "action": "Change",
-            "description": "page title of the fifth page from the top in my page table in the video"
+            "description": "page title of the fifth page from the top in my page table in the video to have two exclamation marks at the end"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1846,7 +1846,7 @@
         "video": "content_tutorial",
         "instantiation_dict": {
             "action": "Change",
-            "description": "id of the fourth page from the top in my page table in the video"
+            "description": "page title of the fourth page from the top in my page table in the video to be \"Don't Hack Policy\""
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1903,7 +1903,7 @@
         "video": "marketing_tutorial",
         "instantiation_dict": {
             "action": "Apply",
-            "description": "first price rule that the person in the video applied"
+            "description": "first price rule that the person in the video applied with no time bounds"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2483,12 +2483,12 @@
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
         "intent_template": "{action} the {description}.",
-        "intent": "Generate the a tax report with the same time interval as order report in the video with period as months.",
+        "intent": "Generate the tax report with the same time interval as order report in the video with period as months.",
         "intermediate_intent": "What is the start and end date of the order report in the video (in MM/DD/YY)?",
         "video": "report_tutorial",
         "instantiation_dict": {
             "action": "Generate",
-            "description": "same order report as the first one in the video with period as months."
+            "description": "tax report with the same time interval as order report in the video with period as months"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2557,12 +2557,12 @@
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
         "intent_template": "{action} the {description}.",
-        "intent": "Generate the a invoiced report with from 8/30/2022 to 7/31/2023 with period same as the period first filtered in the video.",
+        "intent": "Generate the invoiced report with from 8/30/2022 to 7/31/2023 with period same as the period first filtered in the video.",
         "intermediate_intent": "What is the period first filtered for in the video?.",
         "video": "report_tutorial",
         "instantiation_dict": {
             "action": "Generate",
-            "description": "same order report as the first one in the video with period same as the period first filtered in the video."
+            "description": "invoiced report with from 8/30/2022 to 7/31/2023 with period same as the period first filtered in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
