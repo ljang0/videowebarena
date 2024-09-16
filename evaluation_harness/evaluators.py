@@ -202,18 +202,27 @@ class StringEvaluator(Evaluator):
 
     def __call__(
         self,
-        trajectory: Trajectory,
+        trajectory: Trajectory | str,
         config_file: Path | str,
-        page: Page | PseudoPage | None = None
+        page: Page | PseudoPage | None = None,
+        eval_key: str = "eval"
     ) -> float:
+        if eval_key == "eval":
+            intent_key = "intent"
+            last_action = self.get_last_action(trajectory)
+            pred = self.clean_answer(last_action["answer"])
+        elif eval_key == "intermediate_eval":
+            intent_key = "intermediate_intent"
+            pred = self.clean_answer(trajectory)
+        else:
+            raise ValueError(f"Unknown eval_key: {eval_key}")
         with open(config_file, "r") as f:
             configs = json.load(f)
+        
 
-        last_action = self.get_last_action(trajectory)
-        pred = self.clean_answer(last_action["answer"])
 
         score = 1.0
-        for approach, value in configs["eval"]["reference_answers"].items():
+        for approach, value in configs[eval_key]["reference_answers"].items():
             match approach:
                 case "exact_match":
                     score *= self.exact_match(ref=value, pred=pred)
@@ -264,8 +273,8 @@ class StringEvaluator(Evaluator):
                         # this should be the default as it will prevent false positive N/A`
                         if score != 1:
                             score = 1.0 * self.ua_match(
-                                intent=configs["intent"],
-                                ref=configs["eval"]["string_note"],
+                                intent=configs[intent_key],
+                                ref=configs[eval_key]["string_note"],
                                 pred=pred,
                             )
                     else:
@@ -605,45 +614,55 @@ class PageImageEvaluator(Evaluator):
 
 
 class EvaluatorComb:
-    def __init__(self, evaluators: list[Evaluator]) -> None:
+    def __init__(self, evaluators: list[Evaluator], eval_key: str = "eval") -> None:
         self.evaluators = evaluators
-
+        self.eval_key = eval_key
     def __call__(
         self,
         trajectory: Trajectory,
         config_file: Path | str,
         page: Page | PseudoPage
     ) -> float:
-
-        score = 1.0
-        for evaluator in self.evaluators:
-            cur_score = evaluator(trajectory, config_file, page)
-            score *= cur_score
+        if self.eval_key == "eval":
+            score = 1.0
+            for evaluator in self.evaluators:
+                cur_score = evaluator(trajectory, config_file, page)
+                score *= cur_score
+        elif self.eval_key == "intermediate_eval":
+            score = 1.0
+            for evaluator in self.evaluators:
+                cur_score = evaluator(trajectory, config_file, page, eval_key=self.eval_key)
+                score *= cur_score
 
         return score
 
 
 @beartype
 def evaluator_router(
-    config_file: Path | str, captioning_fn=None
+    config_file: Path | str, captioning_fn=None, eval_key: str = "eval"
 ) -> EvaluatorComb:
     """Router to get the evaluator class"""
+    evaluators: list[Evaluator | EvaluatorPartial] = []
+
     with open(config_file, "r") as f:
         configs = json.load(f)
+    
+    if eval_key == "intermediate_eval":
+        evaluators.append(StringEvaluator())
+        return EvaluatorComb(evaluators, eval_key=eval_key)
+    else:
+        eval_types = configs["eval"]["eval_types"]
+        for eval_type in eval_types:
+            match eval_type:
+                case "string_match":
+                    evaluators.append(StringEvaluator())
+                case "url_match":
+                    evaluators.append(URLExactEvaluator())
+                case "program_html":
+                    evaluators.append(HTMLContentExactEvaluator())
+                case "page_image_query":
+                    evaluators.append(PageImageEvaluator(captioning_fn))
+                case _:
+                    raise ValueError(f"eval_type {eval_type} is not supported")
 
-    eval_types = configs["eval"]["eval_types"]
-    evaluators: list[Evaluator | EvaluatorPartial] = []
-    for eval_type in eval_types:
-        match eval_type:
-            case "string_match":
-                evaluators.append(StringEvaluator())
-            case "url_match":
-                evaluators.append(URLExactEvaluator())
-            case "program_html":
-                evaluators.append(HTMLContentExactEvaluator())
-            case "page_image_query":
-                evaluators.append(PageImageEvaluator(captioning_fn))
-            case _:
-                raise ValueError(f"eval_type {eval_type} is not supported")
-
-    return EvaluatorComb(evaluators)
+        return EvaluatorComb(evaluators)

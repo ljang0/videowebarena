@@ -1,6 +1,6 @@
 import argparse
 import json
-from typing import Any, Optional
+from typing import Any, Optional, Union
 import os
 
 import tiktoken
@@ -204,7 +204,7 @@ class VideoUnderstanding:
     def __init__(
         self,
         lm_config: lm_config.LMConfig,
-        prompt_constructor: VideoFramePromptConstructor,
+        prompt_constructor: Union[VideoFrameUnderstandingPromptConstructor, VideoFramePromptConstructor]
     ):
         self.prompt_constructor = prompt_constructor
         self.lm_config = lm_config
@@ -214,6 +214,19 @@ class VideoUnderstanding:
         response = call_llm(self.lm_config, prompt)
         print(f"Video Path: {video_path}\nVideo Summary: {response}", flush=True)
         return response
+    
+    def get_video_path(self, args: argparse.Namespace, config_file: str):
+        config = json.load(open(config_file))
+        video_name = config["video"]
+        video_path = os.path.join(args.video_dir, video_name + ".mov")
+        return video_path
+
+    def get_intermidiate_intent(self, args: argparse.Namespace, config_file: str):
+        config = json.load(open(config_file))
+        intent = config["intermediate_intent"]
+        video_path = self.get_video_path(args, config_file)
+        response = self.get_video_summary(video_path, intent)
+        return response
 
 
 class VideoPromptAgent(PromptAgent):
@@ -221,15 +234,14 @@ class VideoPromptAgent(PromptAgent):
         self,
         action_set_tag: str,
         lm_config: lm_config.LMConfig,
-        prompt_constructor: PromptConstructor,
+        prompt_constructor: Union[VideoFramePromptConstructor, VideoPromptConstructor],
         video_dir: str,
     ):
         super().__init__(action_set_tag, lm_config, prompt_constructor)
         self.video_dir = video_dir
         assert (
-            "gpt-4o" in lm_config.model
-            and type(prompt_constructor) == MultimodalVideoCoTPromptConstructor
-        ), "VideoPromptAgent only supports gpt-4o model and MultimodalVideoCoTPromptConstructor"
+            "gpt-4o" in lm_config.model or "gemini" in lm_config.model
+        ), "VideoPromptAgent only supports gpt-4o model and gemini model"
 
     @beartype
     def next_action(
@@ -310,9 +322,9 @@ class VideoSummaryPromptAgent(PromptAgent):
         self,
         action_set_tag: str,
         lm_config: lm_config.LMConfig,
-        prompt_constructor: PromptConstructor,
+        prompt_constructor: VideoSummaryPromptConstructor,
         video_dir: str,
-        video_prompt_constructor: VideoFramePromptConstructor,
+        video_prompt_constructor: Union[VideoFrameUnderstandingPromptConstructor, VideoUnderstandingPromptConstructor],
     ):
         super().__init__(action_set_tag, lm_config, prompt_constructor)
         self.video_dir = video_dir
@@ -320,10 +332,8 @@ class VideoSummaryPromptAgent(PromptAgent):
             lm_config, video_prompt_constructor
         )
         assert (
-            "gpt-4o" in lm_config.model
-            and type(prompt_constructor) == MultimodalVideoSummaryCoTPromptConstructor
-            and type(video_prompt_constructor) == VideoFramePromptConstructor
-        ), "VideoSummaryPromptAgent only supports gpt-4o model and MultimodalVideoCoTPromptConstructor"
+            ("gpt-4o" in lm_config.model or "gemini" in lm_config.model)
+        ), "VideoSummaryPromptAgent only supports gpt-4o model and gemini model"
 
     def reset(self, test_config_file: str) -> None:
         config = json.load(open(test_config_file))
@@ -426,12 +436,21 @@ def construct_agent(args: argparse.Namespace, captioning_fn=None) -> Agent:
         with open(args.instruction_path) as f:
             constructor_type = json.load(f)["meta_data"]["prompt_constructor"]
         tokenizer = Tokenizer(args.provider, args.model)
-        prompt_constructor = eval(constructor_type)(
-            args.instruction_path,
-            lm_config=llm_config,
-            tokenizer=tokenizer,
-            max_frame_num=args.max_frame_num,
+        if constructor_type == "VideoFramePromptConstructor":
+            prompt_constructor = eval(constructor_type)(
+                args.instruction_path,
+                lm_config=llm_config,
+                tokenizer=tokenizer,
+                max_frame_num=args.max_frame_num,
+            )
+        elif constructor_type == "VideoPromptConstructor":
+            prompt_constructor = eval(constructor_type)(
+                args.instruction_path,
+                lm_config=llm_config,
+                tokenizer=tokenizer,
         )
+        else:
+            raise ValueError(f"Unsupported video prompt constructor type {constructor_type}")
         agent = VideoPromptAgent(
             action_set_tag=args.action_set_tag,
             lm_config=llm_config,
@@ -441,18 +460,30 @@ def construct_agent(args: argparse.Namespace, captioning_fn=None) -> Agent:
     elif args.agent_type == "video_summary_prompt":
         with open(args.instruction_path) as f:
             constructor_type = json.load(f)["meta_data"]["prompt_constructor"]
+        with open(args.video_summary_instruction_path) as f:
+            video_constructor_type = json.load(f)["meta_data"]["prompt_constructor"]
         tokenizer = Tokenizer(args.provider, args.model)
         prompt_constructor = eval(constructor_type)(
             instruction_path=args.instruction_path,
             lm_config=llm_config,
             tokenizer=tokenizer,
         )
-        video_prompt_constructor = VideoFramePromptConstructor(
-            instruction_path=args.video_summary_instruction_path,
-            lm_config=llm_config,
-            tokenizer=tokenizer,
-            max_frame_num=args.max_frame_num,
-        )
+        
+        if video_constructor_type == "VideoFrameUnderstandingPromptConstructor":
+            video_prompt_constructor = VideoFrameUnderstandingPromptConstructor(
+                instruction_path=args.video_summary_instruction_path,
+                lm_config=llm_config,
+                tokenizer=tokenizer,
+                max_frame_num=args.max_frame_num,
+            )
+        elif video_constructor_type == "VideoUnderstandingPromptConstructor":
+            video_prompt_constructor = VideoUnderstandingPromptConstructor(
+                instruction_path=args.video_summary_instruction_path,
+                lm_config=llm_config,
+                tokenizer=tokenizer,
+            )
+        else:
+            raise ValueError(f"Unsupported video summary prompt constructor type {video_constructor_type}")
         agent = VideoSummaryPromptAgent(
             action_set_tag=args.action_set_tag,
             lm_config=llm_config,
@@ -462,4 +493,36 @@ def construct_agent(args: argparse.Namespace, captioning_fn=None) -> Agent:
         )
     else:
         raise NotImplementedError(f"agent type {args.agent_type} not implemented")
+    return agent
+
+
+def construct_intermediate_intent_agent(args: argparse.Namespace) -> Agent:
+    llm_config = lm_config.construct_llm_config(args)
+    agent: Agent
+    if args.intermediate_intent_instruction_path:
+        with open(args.intermediate_intent_instruction_path) as f:
+            constructor_type = json.load(f)["meta_data"]["prompt_constructor"]
+        tokenizer = Tokenizer(args.provider, args.model)
+        if constructor_type == "VideoFrameUnderstandingPromptConstructor":
+            prompt_constructor = eval(constructor_type)(
+                instruction_path=args.intermediate_intent_instruction_path,
+                lm_config=llm_config,
+                tokenizer=tokenizer,
+                max_frame_num=args.max_frame_num,
+            )
+        elif constructor_type == "VideoUnderstandingPromptConstructor":
+            prompt_constructor = eval(constructor_type)(
+                instruction_path=args.intermediate_intent_instruction_path,
+                lm_config=llm_config,
+                tokenizer=tokenizer,
+            )
+        else:
+            raise ValueError(f"Unsupported video prompt constructor type {constructor_type}")
+        agent = VideoUnderstanding(
+                lm_config=llm_config,
+                prompt_constructor=prompt_constructor,
+            )
+
+    else:
+        raise ValueError("Intermediate intent instruction path is not provided")
     return agent

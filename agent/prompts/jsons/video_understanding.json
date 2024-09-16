@@ -1,0 +1,32 @@
+{
+    "intro": "You are an autonomous intelligent agent tasked with learning from a video to accomplish a task. You will be given a video. You will be given a task to complete. You will need to extract useful information to accomplish the task.",    
+    "examples": [
+      [
+        "OBJECTIVE:\n Add an item to the cart on the One Stop Market",
+        "Let's think step-by-step. To add an item to your cart on the One Stop Market, first navigate to the website and browse or search for the desired item. You can add an item directly by clicking the blue 'Add to Cart' button next to it, which updates the cart icon to reflect the addition. Alternatively, click on the item listing to access its detailed page, where you can select options like size or color and adjust the quantity before adding it to the cart. For example, you can select the size and add eight flannel shirts for your family. View and edit your cart by clicking the cart emblem/icon, which provides access to all added items and options to proceed to checkout.",
+        "agent/prompts/video_examples/InContextShopping.mov"
+
+    ],
+    [
+      "OBJECTIVE:\n Leave a comment on a Postmill post",
+      "Let's think step-by-step. To leave a comment on a Reddit post, start by logging into your account. Navigate to the subreddit of your choice, such as r/technology, either by searching or selecting it from your subscribed subreddits. Once there, select a post you want to comment on, and scroll down to view existing comments. If you wish to comment on the post itself, scroll to the bottom where you'll find an Add a comment box. To reply to a specific comment, click the Reply button under that comment. After typing your comment, you can preview it by clicking the Preview button if you'd like to see how it will look. When you're ready, click Post to submit the comment. Your comment should appear immediately beneath the post or the specific comment you replied to.",
+      "agent/prompts/video_examples/InContextReddit.mov"
+
+  ]  
+  ],
+    "template": "OBJECTIVE:\n{objective}",
+    "meta_data": {
+      "keywords": [
+        "video",
+        "objective"
+      ],
+      "prompt_constructor": "VideoUnderstandingPromptConstructor",
+      "answer_phrase": "Let's think step-by-step."
+    }
+  }
+
+
+
+
+
+
