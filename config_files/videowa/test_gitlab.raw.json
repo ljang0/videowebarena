@@ -119,7 +119,7 @@
         "intermediate_intent": "What are the names of all the users whose user page the person in the video visited?",
         "video": "explore_star_tutorial",
         "instantiation_dict": {
-            "description": "all the repos the person in the video visited"
+            "description": "all the users whose user page the person in the video visited"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -431,7 +431,7 @@
         "start_url": "__GITLAB__",
         "geolocation": null,
         "intent_template": "Can you take me to {description}?",
-        "intent": "Can you take me the user page of the author of the repo in the video that had the most issues?",
+        "intent": "Can you take me to the user page of the author of the repo in the video that had the most issues?",
         "intermediate_intent": "What was the name of author of the repo in the video that had the most issues?",
         "video": "explore_star_tutorial",
         "instantiation_dict": {
@@ -585,7 +585,7 @@
         "intermediate_intent": "What was the name of the repo page for the repo whose issue, not assigned to the person in the video,  had the most comments in the video?",
         "video": "issue_tutorial",
         "instantiation_dict": {
-            "description": "the repo page for the repo whose issue, not assigned to the person in the video,  had the most comments in the video"
+            "description": "the repo page for the repo whose issue, not assigned to the person in the video, had the most comments in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -629,7 +629,7 @@
         "intermediate_intent": "What was the name of the author of the repo whose issue, not assigned to the person in the video,  had the most comments in the video?",
         "video": "issue_tutorial",
         "instantiation_dict": {
-            "description": "the author page for the author of the repo whose issue, not assigned to the person in the video,  had the most comments in the video"
+            "description": "the author page for the author of the repo whose issue, not assigned to the person in the video, had the most comments in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -953,7 +953,7 @@
         "start_url": "__GITLAB__",
         "geolocation": null,
         "intent_template": "Can you assign the issue {description}?",
-        "intent": "Can you assign issue that is the oldest with the enhancement label in the video to @yjlou?",
+        "intent": "Can you assign the issue that is the oldest with the enhancement label in the video to @yjlou?",
         "intermediate_intent": "What was the name of the oldest issue with the enhancement label in the video?",
         "video": "issue_repo_tutorial",
         "instantiation_dict": {
@@ -1006,11 +1006,11 @@
         "start_url": "__GITLAB__",
         "geolocation": null,
         "intent_template": "Can you assign the issue {description}?",
-        "intent": "Can you assign the issue with the most comments in the video to @yjlou?",
+        "intent": "Can you assign the issue with the most comments in the video to @yjlou??",
         "intermediate_intent": "What was the name of the issue that had the most comments in the video?",
         "video": "issue_repo_tutorial",
         "instantiation_dict": {
-            "description": "with the most comments in the video to @earlev4"
+            "description": "with the most comments in the video to @yjlou?"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1058,7 +1058,7 @@
         "storage_state": "./.auth/gitlab_state.json",
         "start_url": "__GITLAB__",
         "geolocation": null,
-        "intent_template": "Open an issue with the title {title} in {{repo}}.",
+        "intent_template": "Open an issue with the title {title} in {repo}.",
         "instantiation_dict": {
             "repo": "the last repository visited in the video",
             "title": "'had issues with cloning'"
@@ -1114,7 +1114,7 @@
         "storage_state": "./.auth/gitlab_state.json",
         "start_url": "__GITLAB__",
         "geolocation": null,
-        "intent_template": "Open an issue with the title {title} in {{repo}}.",
+        "intent_template": "Open an issue with the title {title} in {repo}.",
         "instantiation_dict": {
             "repo": "the first repository visited in the video",
             "title": "'had issues with merging'"
@@ -1165,12 +1165,12 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 24,
+        "task_id": 23,
         "require_login": true,
         "storage_state": "./.auth/gitlab_state.json",
         "start_url": "__GITLAB__",
         "geolocation": null,
-        "intent_template": "Create a milestone with the title {title} and dates {dates} in {{repo}}.",
+        "intent_template": "Create a milestone with the title {title} and dates {dates} in {repo}.",
         "instantiation_dict": {
             "repo": "the repository with the most merge requests in the video",
             "title": "'want to submit to conference'",
@@ -1240,7 +1240,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 25,
+        "task_id": 24,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -1285,7 +1285,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 26,
+        "task_id": 25,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -1295,7 +1295,51 @@
         "intermediate_intent": "What was the name of the user who had the most commits in the first repo?",
         "video": "repo_attribute",
         "instantiation_dict": {
-            "description": "the user page of the author of the repo in the video that had the most issues"
+            "description": "the user page of the user who had the most commits in the first repo"
+        },
+        "require_reset": false,
+        "intermediate_eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "William Cheng"
+                ]
+            }
+        },
+        "eval": {
+            "eval_types": [
+                "url_match"
+            ],
+            "reference_answers": null,
+            "reference_url": "__GITLAB__/wing328",
+            "program_html": [],
+            "url_note": "EXACT"
+        },
+        "overall_difficulty": "hard",
+        "spatial_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": true,
+        "comments": "",
+        "intent_template_id": 0
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 26,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab.json",
+        "start_url": "__GITLAB__",
+        "geolocation": null,
+        "intent_template": "Can you take me to {description}?",
+        "intent": "Can you take me to the user page of the user who had the most commits across all repos in the video?",
+        "intermediate_intent": "What was the name of the user who had the most commits across all repos in the video?",
+        "video": "repo_attribute",
+        "instantiation_dict": {
+            "description": "the user page of the user who had the most commits across all repos in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1330,50 +1374,6 @@
             "gitlab"
         ],
         "task_id": 27,
-        "require_login": true,
-        "storage_state": "./.auth/gitlab.json",
-        "start_url": "__GITLAB__",
-        "geolocation": null,
-        "intent_template": "Can you take me to {description}?",
-        "intent": "Can you take me to the user page of the user who had the most commits across all repos in the video?",
-        "intermediate_intent": "What was the name of the user who had the most commits across all repos in the video?",
-        "video": "repo_attribute",
-        "instantiation_dict": {
-            "description": "the user page of the author of the repo in the video that had the most issues"
-        },
-        "require_reset": false,
-        "intermediate_eval": {
-            "eval_types": [
-                "string_match"
-            ],
-            "reference_answers": {
-                "must_include": [
-                    "William Cheng"
-                ]
-            }
-        },
-        "eval": {
-            "eval_types": [
-                "url_match"
-            ],
-            "reference_answers": null,
-            "reference_url": "__GITLAB__/wing328",
-            "program_html": [],
-            "url_note": "EXACT"
-        },
-        "overall_difficulty": "hard",
-        "spatial_reasoning": true,
-        "audio_reasoning": false,
-        "multihop_reasoning": false,
-        "temporal_reasoning": true,
-        "comments": "",
-        "intent_template_id": 0
-    },
-    {
-        "sites": [
-            "gitlab"
-        ],
-        "task_id": 28,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -1426,7 +1426,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 29,
+        "task_id": 28,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -1483,7 +1483,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 30,
+        "task_id": 29,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -1536,7 +1536,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 31,
+        "task_id": 30,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -1591,7 +1591,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 32,
+        "task_id": 31,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -1601,7 +1601,7 @@
         "intermediate_intent": "What was the name of the merge request that was below the first one the person in the video clicked?",
         "video": "merge_request",
         "instantiation_dict": {
-            "description": "that was above the first one the person in the video clicked to Dave Greene"
+            "description": "that was below the first one the person in the video clicked to Dave Greene"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1646,7 +1646,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 33,
+        "task_id": 32,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -1691,7 +1691,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 34,
+        "task_id": 33,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -1735,7 +1735,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 35,
+        "task_id": 34,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -1779,7 +1779,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 36,
+        "task_id": 35,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -1789,7 +1789,7 @@
         "intermediate_intent": "What was the name of the merge request that had 9 comments in the video?",
         "video": "merge_request",
         "instantiation_dict": {
-            "description": "the merge request that had 9 comments in the video"
+            "description": "'can we refactor this' on the merge request that had 9 comments in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -1830,7 +1830,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 37,
+        "task_id": 36,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -1875,7 +1875,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 38,
+        "task_id": 37,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -1920,7 +1920,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 39,
+        "task_id": 38,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -1971,7 +1971,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 40,
+        "task_id": 39,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -2022,7 +2022,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 41,
+        "task_id": 40,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -2073,7 +2073,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 42,
+        "task_id": 41,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -2124,7 +2124,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 43,
+        "task_id": 42,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -2175,7 +2175,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 44,
+        "task_id": 43,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -2220,12 +2220,12 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 45,
+        "task_id": 44,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
         "geolocation": null,
-        "intent_template": "Can you create a group {description}",
+        "intent_template": "Can you create a group {description}?",
         "intent": "Can you create a group called 'videowebarena' and add all the users that were added in the video?",
         "intermediate_intent": "What were the @s of all the users added to the group in the video?",
         "video": "create_group",
@@ -2283,12 +2283,12 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 46,
+        "task_id": 45,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
         "geolocation": null,
-        "intent_template": "Can you create a group {description}",
+        "intent_template": "Can you create a group {description}?",
         "intent": "Can you create a group called 'videowebarena' and add the first group of users that were added in the video?",
         "intermediate_intent": "What were the @s of the first group of users added to the group in the video?",
         "video": "create_group",
@@ -2340,12 +2340,12 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 47,
+        "task_id": 46,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
         "geolocation": null,
-        "intent_template": "Can you create a group {description}",
+        "intent_template": "Can you create a group {description}?",
         "intent": "Can you create a group called 'videowebarena' and add the second group of users that were added in the video?",
         "intermediate_intent": "What were the @s of the second group of users added to the group in the video?",
         "video": "create_group",
@@ -2397,7 +2397,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 48,
+        "task_id": 47,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -2441,7 +2441,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 49,
+        "task_id": 48,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -2485,7 +2485,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 50,
+        "task_id": 49,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -2529,7 +2529,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 51,
+        "task_id": 50,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -2573,7 +2573,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 52,
+        "task_id": 51,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -2617,7 +2617,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 53,
+        "task_id": 52,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -2661,7 +2661,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 54,
+        "task_id": 53,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -2705,7 +2705,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 55,
+        "task_id": 54,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -2749,7 +2749,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 56,
+        "task_id": 55,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -2793,7 +2793,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 57,
+        "task_id": 56,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -2837,15 +2837,15 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 58,
+        "task_id": 57,
         "require_login": true,
         "storage_state": "./.auth/gitlab_state.json",
         "start_url": "__GITLAB__",
         "geolocation": null,
         "intent_template": "Open an issue with the title {title} in {repo}, and assign it to {person}.",
         "instantiation_dict": {
-            "repo": "the last repository visited in the video",
-            "title": "'had issues with cloning'"
+            "repo": "the repository visited in the video",
+            "title": "'need some literature'"
         },
         "video:": "issue_repo_tutorial",
         "intent": "Open an issue with the title 'need some literature' in the repository visited in the video, and assign it to the first person added to the repo in the video.",
@@ -2902,7 +2902,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 59,
+        "task_id": 58,
         "require_login": true,
         "storage_state": "./.auth/gitlab_state.json",
         "start_url": "__GITLAB__",
@@ -2955,7 +2955,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 60,
+        "task_id": 59,
         "require_login": true,
         "storage_state": "./.auth/gitlab_state.json",
         "start_url": "__GITLAB__",
@@ -3008,7 +3008,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 61,
+        "task_id": 60,
         "require_login": true,
         "storage_state": "./.auth/gitlab.json",
         "start_url": "__GITLAB__",
@@ -3053,7 +3053,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 62,
+        "task_id": 61,
         "require_login": true,
         "storage_state": "./.auth/gitlab_state.json",
         "start_url": "__GITLAB__",
@@ -3126,7 +3126,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 63,
+        "task_id": 62,
         "require_login": true,
         "storage_state": "./.auth/gitlab_state.json",
         "start_url": "__GITLAB__",
@@ -3197,7 +3197,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 64,
+        "task_id": 63,
         "require_login": true,
         "storage_state": "./.auth/gitlab_state.json",
         "start_url": "__GITLAB__",
@@ -3280,7 +3280,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 65,
+        "task_id": 64,
         "require_login": true,
         "storage_state": "./.auth/gitlab_state.json",
         "start_url": "__GITLAB__",
@@ -3352,7 +3352,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 66,
+        "task_id": 65,
         "require_login": true,
         "storage_state": "./.auth/gitlab_state.json",
         "start_url": "__GITLAB__",
@@ -3405,7 +3405,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 67,
+        "task_id": 66,
         "require_login": true,
         "storage_state": "./.auth/gitlab_state.json",
         "start_url": "__GITLAB__",
@@ -3415,7 +3415,7 @@
             "description": "that is empty but with the same name as the one made in the video and an MIT license"
         },
         "video:": "project_wikipediareddit_tutorial",
-        "intent": "Create a project that is empty but with the same name as the one made in the video and an MIT License.",
+        "intent": "Create a project that is empty but with the same name as the one made in the video and an MIT License",
         "intermediate_intent": "What was the name of the repo made in the video?",
         "require_reset": false,
         "intermediate_eval": {
@@ -3468,7 +3468,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 68,
+        "task_id": 67,
         "require_login": true,
         "storage_state": "./.auth/gitlab_state.json",
         "start_url": "__GITLAB__",
@@ -3541,7 +3541,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 69,
+        "task_id": 68,
         "require_login": true,
         "storage_state": "./.auth/gitlab_state.json",
         "start_url": "__GITLAB__",
@@ -3614,7 +3614,7 @@
         "sites": [
             "gitlab"
         ],
-        "task_id": 70,
+        "task_id": 69,
         "require_login": true,
         "storage_state": "./.auth/gitlab_state.json",
         "start_url": "__GITLAB__",
