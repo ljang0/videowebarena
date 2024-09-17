@@ -204,12 +204,12 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you search {description}?",
         "intent": "Can you search using the search term at the top of the search query column when the person in the video first goes to the search terms report?",
         "intermediate_intent": "What search term was at the top of the search query column when the person in the video first goes to the search terms report?",
         "video": "find_best_selling",
         "instantiation_dict": {
-            "description": "search using the search term at the top of the search query column when the person in the video first goes to the search terms report"
+            "description": "using the search term at the top of the search query column when the person in the video first goes to the search terms report"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -252,12 +252,12 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you tell me {description}?",
         "intent": "Can you tell me how many total orders were made by Grace Nguyen in March 2023?",
         "intermediate_intent": "What section of reports would the information be under?",
         "video": "find_best_selling",
         "instantiation_dict": {
-            "description": "tell me how many total orders were made by Grace Nguyen in March 2023"
+            "description": "how many total orders were made by Grace Nguyen in March 2023"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -305,12 +305,12 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you search {description}?",
         "intent": "Can you search using the third search term from the top of the search query column when the person in the video first goes to the search terms report?",
         "intermediate_intent": "What was the third search term from the top of the search query column when the person in the video first goes to the search terms report?",
         "video": "find_best_selling",
         "instantiation_dict": {
-            "description": "search using the third search term from the top of the search query column when the person in the video first goes to the search terms report"
+            "description": "using the third search term from the top of the search query column when the person in the video first goes to the search terms report"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -353,12 +353,12 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you traverse {description}?",
         "intent": "Can you traverse to the review details of the third review from the top when the person in the video first goes to All Reviews from the Marketing tab?",
         "intermediate_intent": "What was the nickname of the customer for the third review from the top when the person in the video first goes to All Reviews from the Marketing tab?",
         "video": "find_best_selling",
         "instantiation_dict": {
-            "description": "traverse to the review details of the third review from the top when the person in the video first goes to All Reviews from the Marketing tab"
+            "description": "to the review details of the third review from the top when the person in the video first goes to All Reviews from the Marketing tab"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -401,7 +401,7 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "Can you {description}?",
+        "intent_template": "Can you traverse {description}?",
         "intent": "Can you traverse to the review details of the second review from the top for all reviews made before or on April 20, 2023?",
         "intermediate_intent": "What was the nickname of the customer for the second review from the top for all reviews made before or on April 20, 2023?",
         "video": "see_reviews_tutorial",
@@ -1101,12 +1101,11 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}.",
+        "intent_template": "Update the {description}.",
         "intent": "Update the quantity number by 5 more units of the product that appeared when the person in the video first demonstrated how to filter the table.",
         "intermediate_intent": "What is the name of the product that appeared when the person in the video first demonstrated how to filter the table?",
         "video": "catalog_tutorial",
         "instantiation_dict": {
-            "action": "Update",
             "description": "quantity number by 5 more units of the product that appeared when the person in the video first demonstrated how to filter the table"
         },
         "require_reset": false,
@@ -1158,12 +1157,11 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}.",
+        "intent_template": "Add the {description}.",
         "intent": "Add the blue-colored version of the product (same size and other attributes) that appeared when the person in the video first demonstrated how to filter the table.",
         "intermediate_intent": "What is the name blue-colored version of the product that appeared when the person in the video first demonstrated how to filter the table be called?",
         "video": "catalog_tutorial",
         "instantiation_dict": {
-            "action": "Add",
             "description": "blue-colored version of the product (same size and other attributes) that appeared when the person in the video first demonstrated how to filter the table"
         },
         "require_reset": false,
@@ -1217,12 +1215,11 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}.",
+        "intent_template": "Disable the {description}.",
         "intent": "Disable the product that appeared when the person in the video first demonstrated how to filter the table.",
         "intermediate_intent": "What is the product that appeared when the person in the video first demonstrated how to filter the table be called?",
         "video": "catalog_tutorial",
         "instantiation_dict": {
-            "action": "Disable",
             "description": "product that appeared when the person in the video first demonstrated how to filter the table"
         },
         "require_reset": false,
@@ -1274,12 +1271,11 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}.",
+        "intent_template": "Decrease the {description}.",
         "intent": "Decrease the price of the product (that appeared when the person in the video first demonstrated how to filter the table) by 5.",
         "intermediate_intent": "What is the product that appeared when the person in the video first demonstrated how to filter the table be called?",
         "video": "catalog_tutorial",
         "instantiation_dict": {
-            "action": "Decrease",
             "description": "price of the product (that appeared when the person in the video first demonstrated how to filter the table) by 5"
         },
         "require_reset": false,
@@ -1331,12 +1327,11 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}.",
+        "intent_template": "Increase the {description}.",
         "intent": "Increase the price of the product (that appeared when the person in the video first demonstrated how to filter the table) by 5.",
         "intermediate_intent": "What is the product that appeared when the person in the video first demonstrated how to filter the table be called?",
         "video": "catalog_tutorial",
         "instantiation_dict": {
-            "action": "Increase",
             "description": "price of the product (that appeared when the person in the video first demonstrated how to filter the table) by 5"
         },
         "require_reset": false,
@@ -1628,12 +1623,11 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}.",
+        "intent_template": "Preview the {description}.",
         "intent": "Preview the second theme that the person in the video previews.",
         "intermediate_intent": "What is the name of the second theme that the person in the video previews",
         "video": "content_tutorial",
         "instantiation_dict": {
-            "action": "Preview",
             "description": "second theme that the person in the video previews"
         },
         "require_reset": false,
@@ -1677,7 +1671,7 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}.",
+        "intent_template": "Preview the {description}.",
         "intent": "Preview the first theme that the person in the video previews.",
         "intermediate_intent": "What is the name of the first theme that the person in the video previews",
         "video": "content_tutorial",
@@ -1726,12 +1720,11 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}.",
+        "intent_template": "Change the {description}.",
         "intent": "Change the page title of the fifth page from the top in my page table in the video to have two exclamation marks at the end.",
         "intermediate_intent": "What is the id of the fifth page from the top in my page table in the video?",
         "video": "content_tutorial",
         "instantiation_dict": {
-            "action": "Change",
             "description": "page title of the fifth page from the top in my page table in the video to have two exclamation marks at the end"
         },
         "require_reset": false,
@@ -1783,12 +1776,11 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}.",
+        "intent_template": "Change the {description}.",
         "intent": "Change the page title of the last page from the top in my page table in the video to be \"Customer Servicing\".",
         "intermediate_intent": "What is the id of the last page from the top in my page table in the video?",
         "video": "content_tutorial",
         "instantiation_dict": {
-            "action": "Change",
             "description": "page title of the last page from the top in my page table in the video to be \"Customer Servicing\""
         },
         "require_reset": false,
@@ -1840,12 +1832,11 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}.",
+        "intent_template": "Change the {description}.",
         "intent": "Change the page title of the fourth page from the top in my page table in the video to be \"Don't Hack Policy\".",
         "intermediate_intent": "What is the id of the fourth page from the top in my page table in the video?",
         "video": "content_tutorial",
         "instantiation_dict": {
-            "action": "Change",
             "description": "page title of the fourth page from the top in my page table in the video to be \"Don't Hack Policy\""
         },
         "require_reset": false,
@@ -1897,12 +1888,11 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}.",
+        "intent_template": "Apply the {description}.",
         "intent": "Apply the first price rule that the person in the video applied with no time bounds.",
         "intermediate_intent": "What is the name of the price rule that the person in the video creates?",
         "video": "marketing_tutorial",
         "instantiation_dict": {
-            "action": "Apply",
             "description": "first price rule that the person in the video applied with no time bounds"
         },
         "require_reset": false,
@@ -1992,12 +1982,11 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}.",
+        "intent_template": "Apply the {description}.",
         "intent": "Apply the first price rule that the person in the video applied with no time bounds but name it \"Valentine's Day Sale\".",
         "intermediate_intent": "What is the name of the price rule that the person in the video creates?",
         "video": "marketing_tutorial",
         "instantiation_dict": {
-            "action": "Apply",
             "description": "first price rule that the person in the video applied with no time bounds but name it \"Valentine's Day Sale\""
         },
         "require_reset": false,
@@ -2087,12 +2076,11 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}.",
+        "intent_template": "Change the {description}.",
         "intent": "Change the review with title \"OKish\" displayed in the closing section of the video to be Approved.",
         "intermediate_intent": "What is the ID of review with title \"OKish\" displayed in the closing section of the video?",
         "video": "marketing_tutorial",
         "instantiation_dict": {
-            "action": "Change",
             "description": "review with title \"OKish\" displayed in the closing section of the video to be Approved"
         },
         "require_reset": false,
@@ -2144,12 +2132,11 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}.",
+        "intent_template": "Change the {description}.",
         "intent": "Change the review with title \"Quite good\" displayed in the closing section of the video to be Approved.",
         "intermediate_intent": "What is the ID of review with title \"Quite good\" displayed in the closing section of the video?",
         "video": "marketing_tutorial",
         "instantiation_dict": {
-            "action": "Change",
             "description": "review with title \"Quite good\" displayed in the closing section of the video to be Approved"
         },
         "require_reset": false,
@@ -2201,12 +2188,11 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}.",
+        "intent_template": "Delete the {description}.",
         "intent": "Delete the review (with the same status as the one filtered for in the video) with title \"won't recommend\" on the Olivia Jacket.",
         "intermediate_intent": "What is the ID of the review (with the same status as the one filtered for in the video) with title \"won't recommend\" on the Olivia Jacket?",
         "video": "marketing_tutorial",
         "instantiation_dict": {
-            "action": "Delete",
             "description": "review (with the same status as the one filtered for in the video) with title \"won't recommend\" on the Olivia Jacket"
         },
         "require_reset": false,
@@ -2260,12 +2246,11 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}?",
+        "intent_template": "Generate the {description}?",
         "intent": "Generate the same order report as the first one in the video.?",
         "intermediate_intent": "What is the start and end date of the first order report in the video (in MM/DD/YY)?",
         "video": "report_tutorial",
         "instantiation_dict": {
-            "action": "Generate",
             "description": "same order report as the first one in the video."
         },
         "require_reset": false,
@@ -2334,12 +2319,11 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}?",
+        "intent_template": "Generate the {description}?",
         "intent": "Generate the same order report as the first one in the video with period as days.?",
         "intermediate_intent": "What is the start and end date of the first order report in the video (in MM/DD/YY)?",
         "video": "report_tutorial",
         "instantiation_dict": {
-            "action": "Generate",
             "description": "same order report as the first one in the video with period as days."
         },
         "require_reset": false,
@@ -2408,12 +2392,11 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}?",
+        "intent_template": "Generate the {description}?",
         "intent": "Generate the same order report as the first one in the video with period as years.?",
         "intermediate_intent": "What is the start and end date of the first order report in the video (in MM/DD/YY)?",
         "video": "report_tutorial",
         "instantiation_dict": {
-            "action": "Generate",
             "description": "same order report as the first one in the video with period as years."
         },
         "require_reset": false,
@@ -2482,12 +2465,11 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}.",
+        "intent_template": "Generate the {description}.",
         "intent": "Generate the tax report with the same time interval as order report in the video with period as months.",
         "intermediate_intent": "What is the start and end date of the order report in the video (in MM/DD/YY)?",
         "video": "report_tutorial",
         "instantiation_dict": {
-            "action": "Generate",
             "description": "tax report with the same time interval as order report in the video with period as months"
         },
         "require_reset": false,
@@ -2556,12 +2538,11 @@
         "storage_state": "./.auth/shopping_admin_state.json",
         "start_url": "__SHOPPING_ADMIN__",
         "geolocation": null,
-        "intent_template": "{action} the {description}.",
+        "intent_template": "Generate the {description}.",
         "intent": "Generate the invoiced report with from 8/30/2022 to 7/31/2023 with period same as the period first filtered in the video.",
         "intermediate_intent": "What is the period first filtered for in the video?.",
         "video": "report_tutorial",
         "instantiation_dict": {
-            "action": "Generate",
             "description": "invoiced report with from 8/30/2022 to 7/31/2023 with period same as the period first filtered in the video"
         },
         "require_reset": false,
