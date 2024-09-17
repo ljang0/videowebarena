@@ -314,7 +314,12 @@ class VideoPromptAgent(PromptAgent):
     def reset(self, test_config_file: str) -> None:  # add video_path
         config = json.load(open(test_config_file))
         self.video_name = config["video"]
-        self.video_path = os.path.join(self.video_dir, self.video_name + ".mov")
+        if os.path.exists(os.path.join(self.video_dir, self.video_name + ".mov")):
+            self.video_path = os.path.join(self.video_dir, self.video_name + ".mov")
+        elif os.path.exists(os.path.join(self.video_dir, self.video_name + ".mp4")):
+            self.video_path = os.path.join(self.video_dir, self.video_name + ".mp4")
+        else:
+            raise ValueError(f"Video {self.video_name} .mov or .mp4 not found in {self.video_dir}")
 
 
 class VideoSummaryPromptAgent(PromptAgent):
@@ -338,7 +343,14 @@ class VideoSummaryPromptAgent(PromptAgent):
     def reset(self, test_config_file: str) -> None:
         config = json.load(open(test_config_file))
         self.video_name = config["video"]
-        self.video_path = os.path.join(self.video_dir, self.video_name + ".mov")
+
+        if os.path.exists(os.path.join(self.video_dir, self.video_name + ".mov")):
+            self.video_path = os.path.join(self.video_dir, self.video_name + ".mov")
+        elif os.path.exists(os.path.join(self.video_dir, self.video_name + ".mp4")):
+            self.video_path = os.path.join(self.video_dir, self.video_name + ".mp4")
+        else:
+            raise ValueError(f"Video {self.video_name} .mov or .mp4 not found in {self.video_dir}")
+
         self.video_summary = self.video_understanding.get_video_summary(
             self.video_path, config["intent"]
         )
