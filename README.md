@@ -1,4 +1,4 @@
-# VideoWebArena: Evaluating Long Context Multimodal Agents with Video Understanding Web Tasks}
+# VideoWebArena: Evaluating Long Context Multimodal Agents with Video Understanding Web Tasks
 <!-- <p align="center">
 <a href="https://www.python.org/downloads/release/python-3109/"><img src="https://img.shields.io/badge/python-3.10-blue.svg" alt="Python 3.10"></a>
 <a href="https://pre-commit.com/"><img src="https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white" alt="pre-commit"></a>
