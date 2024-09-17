@@ -343,7 +343,7 @@ def test(
 
             # Load task.
             raw_config_file_name = config_file
-            score_dict[raw_config_file_name] = {"score": -1, "intermediate_score": -1}
+            score_dict[raw_config_file_name] = {"score": -1, "intermediate_score": -1, "steps": -1}
             with open(config_file) as f:
                 _c = json.load(f)
                 intent = _c["intent"]
@@ -398,6 +398,7 @@ def test(
             trajectory.append(state_info)
 
             meta_data = {"action_history": ["None"]}
+            step_count = 0
             while True:
                 # ipdb.set_trace()
                 early_stop_flag, stop_info = early_stop(
@@ -433,7 +434,7 @@ def test(
                     action, state_info, meta_data, args.render_screenshot
                 )
                 meta_data["action_history"].append(action_str)
-
+                step_count += 1
                 if action["action_type"] == ActionTypes.STOP:
                     break
 
@@ -445,7 +446,7 @@ def test(
                     # add a action place holder
                     trajectory.append(create_stop_action(""))
                     break
-
+            score_dict[raw_config_file_name]["steps"] = step_count
             # NOTE: eval_caption_image_fn is used for running eval_vqa functions.
             evaluator = evaluator_router(
                 config_file, captioning_fn=eval_caption_image_fn
