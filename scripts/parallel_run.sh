@@ -2,7 +2,7 @@
 #   input_texts=("test_classifieds" "test_gitlab" "test_map" "test_reddit" "test_shopping" "test_shopping_admin")  
 
 # List of input texts  
-input_texts=("test_map")  
+input_texts=("test_classifieds" "test_gitlab" "test_map" "test_shopping" "test_shopping_admin")  
   
 # Iterate over each input text  
 for input_text in "${input_texts[@]}"; do  

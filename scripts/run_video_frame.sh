@@ -6,7 +6,6 @@ export video_domain=${domain:5}
 
 
 source scripts/set_configs.sh
-# python scripts/generate_test_data.py
 
 
 # video frame prompt with intermediate eval

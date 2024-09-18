@@ -7,7 +7,7 @@ from PIL import Image
 
 class VideoProcessor:  
     def __init__(self):  
-        self.temp_audio_path = "temp/temp.wav"
+        self.temp_audio_path_dir = "temp/"
         self.temp_image_path = "temp/video_frames"
         os.makedirs("temp", exist_ok=True)
 
@@ -50,17 +50,26 @@ class VideoProcessor:
         if len(audio_array.shape) > 1:
             audio_array = np.mean(audio_array, axis=1) 
         return audio_array, sampling_rate
-
+    
     def get_transcript(self, video_path):  
         video = mp.VideoFileClip(video_path)  
         audio = video.audio  
-        audio.write_audiofile(self.temp_audio_path)
+        base_video_path = os.path.basename(video_path).split(".")[0]
+        temp_audio_path = os.path.join(self.temp_audio_path_dir, base_video_path + ".wav")
+        audio.write_audiofile(temp_audio_path)
         model = whisper.load_model("base")
-        result = model.transcribe(self.temp_audio_path)
-        os.remove(self.temp_audio_path)
+        result = model.transcribe(temp_audio_path)
+        os.remove(temp_audio_path)
         return result["text"] 
+    
     def clean_up(self):
         try:
             os.remove("temp")
         except:
             print("Error removing temp directory")
+
+if __name__ == "__main__":
+    video_path = "../media/edit_listings.mov"
+    video_processor = VideoProcessor()
+    transcript = video_processor.get_transcript(video_path)
+    print(transcript)
