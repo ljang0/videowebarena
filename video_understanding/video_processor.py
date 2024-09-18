@@ -68,8 +68,8 @@ class VideoProcessor:
         except:
             print("Error removing temp directory")
 
-if __name__ == "__main__":  
-    video_path = "../media/videowebarena_videos/classifieds/edit_listings.mov"
+if __name__ == "__main__":
+    video_path = "../media/edit_listings.mov"
     video_processor = VideoProcessor()
     transcript = video_processor.get_transcript(video_path)
     print(transcript)
