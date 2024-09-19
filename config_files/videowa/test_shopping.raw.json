@@ -2148,7 +2148,7 @@
         "geolocation": null,
         "intent_template": "Change my {information}",
         "intent": "Change my default shipping address to the original address in the video before it was ever changed",
-        "intermediate_intent": "What was the original address in the video before it was ever changed?",
+        "intermediate_intent": "What was  the original address in the video before it was ever changed?",
         "video": "change_contact",
         "instantiation_dict": {
             "information": "default shipping address to the original address in the video before it was ever changed"
