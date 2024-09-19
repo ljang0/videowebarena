@@ -1063,7 +1063,7 @@
             "repo": "the last repository visited in the video",
             "title": "'had issues with cloning'"
         },
-        "video:": "issue_repo_tutorial",
+        "video": "issue_repo_tutorial",
         "intent": "Open an issue with the title 'had issues with cloning' in the last repository visited in the video.",
         "intermediate_intent": "What was the name of the last repository visited in the video?",
         "require_reset": false,
@@ -1119,7 +1119,7 @@
             "repo": "the first repository visited in the video",
             "title": "'had issues with merging'"
         },
-        "video:": "issue_repo_tutorial",
+        "video": "issue_repo_tutorial",
         "intent": "Open an issue with the title 'had issues with merging' in the first repository visited in the video.",
         "intermediate_intent": "What was the name of the first repository visited in the video?",
         "require_reset": false,
@@ -1176,7 +1176,7 @@
             "title": "'want to submit to conference'",
             "dates": "starting on January 1st 2023 to September 1st 2024"
         },
-        "video:": "issue_repo_tutorial",
+        "video": "issue_repo_tutorial",
         "intent": "Create a milestone with the title 'want to submit to conference' and dates starting on January 1st 2023 to September 1st 2024 in the repository with the most merge requests in the video.",
         "intermediate_intent": "What was the name of the repository with the most merge requests in the video?",
         "require_reset": false,
@@ -2847,7 +2847,7 @@
             "repo": "the repository visited in the video",
             "title": "'need some literature'"
         },
-        "video:": "issue_repo_tutorial",
+        "video": "issue_repo_tutorial",
         "intent": "Open an issue with the title 'need some literature' in the repository visited in the video, and assign it to the first person added to the repo in the video.",
         "intermediate_intent": "What was the @ of the first person added to the repo in the video?",
         "require_reset": false,
@@ -2911,7 +2911,7 @@
         "instantiation_dict": {
             "description": "named 'repo_duplicate' using the same template as the person in the video"
         },
-        "video:": "project_tutorial",
+        "video": "project_tutorial",
         "intent": "Create a project named 'repo_duplicate' using the same template as the person in the video.",
         "intermediate_intent": "What template did the person in the video use?",
         "require_reset": false,
@@ -2964,7 +2964,7 @@
         "instantiation_dict": {
             "description": "of the first repo in the video to GNU General Public License v3.0"
         },
-        "video:": "project_tutorial",
+        "video": "project_tutorial",
         "intent": "Change the license of the first repo in the video to GNU General Public License v3.0.",
         "intermediate_intent": "What was the name of the first repo in the video?",
         "require_reset": false,
@@ -3062,7 +3062,7 @@
         "instantiation_dict": {
             "description": "named 'first_duplicate' which is the same in content as the first repository made in the video"
         },
-        "video:": "project_tutorial",
+        "video": "project_tutorial",
         "intent": "Create a project named 'first_duplicate' which is the same in content as the first repository made in the video.",
         "intermediate_intent": "What was the name of the first repo made in the video?",
         "require_reset": false,
@@ -3135,7 +3135,7 @@
         "instantiation_dict": {
             "description": "named 'second_duplicate' which is the same as the second repository made in the video"
         },
-        "video:": "project_tutorial",
+        "video": "project_tutorial",
         "intent": "Create a project named 'second_duplicate' which is the same as the second repository made in the video.",
         "intermediate_intent": "What was the name of the second repo made in the video?",
         "require_reset": false,
@@ -3206,7 +3206,7 @@
         "instantiation_dict": {
             "description": "named 'third_duplicate' which is the same in content as the first repository made in the video, but add an MIT License"
         },
-        "video:": "project_tutorial",
+        "video": "project_tutorial",
         "intent": "Create a project named 'third_duplicate' which is the same in content as the first repository made in the video, but add an MIT License.",
         "intermediate_intent": "What was the name of the first repo made in the video?",
         "require_reset": false,
@@ -3289,7 +3289,7 @@
         "instantiation_dict": {
             "description": "named 'fourth_duplicate' which is the same as the second repository made in the video, but with an MIT License"
         },
-        "video:": "project_tutorial",
+        "video": "project_tutorial",
         "intent": "Create a project named 'fourth_duplicate' which is the same as the second repository made in the video, but with an MIT License.",
         "intermediate_intent": "What was the name of the second repo made in the video?",
         "require_reset": false,
@@ -3361,7 +3361,7 @@
         "instantiation_dict": {
             "description": "that is empty but with the same name as the one made in the video"
         },
-        "video:": "project_wikipediareddit_tutorial",
+        "video": "project_wikipediareddit_tutorial",
         "intent": "Create a project that is empty but with the same name as the one made in the video.",
         "intermediate_intent": "What was the name of the repo made in the video?",
         "require_reset": false,
@@ -3414,7 +3414,7 @@
         "instantiation_dict": {
             "description": "that is empty but with the same name as the one made in the video and an MIT license"
         },
-        "video:": "project_wikipediareddit_tutorial",
+        "video": "project_wikipediareddit_tutorial",
         "intent": "Create a project that is empty but with the same name as the one made in the video and an MIT License",
         "intermediate_intent": "What was the name of the repo made in the video?",
         "require_reset": false,
@@ -3477,7 +3477,7 @@
         "instantiation_dict": {
             "description": "that includes the person searched on Wikipedia in README file, and with the same name as the one made in the video and an MIT License"
         },
-        "video:": "project_wikipediareddit_tutorial",
+        "video": "project_wikipediareddit_tutorial",
         "intent": "Create a project that includes the person searched on Wikipedia in README file, and with the same name as the one made in the video and an MIT License.",
         "intermediate_intent": "What was the name of the repo made in the video and the person searched on Wikipedia?",
         "require_reset": false,
@@ -3550,7 +3550,7 @@
         "instantiation_dict": {
             "description": "that includes the city searched on Wikipedia in README file, and with the same name as the one made in the video and an MIT License"
         },
-        "video:": "project_wikipediareddit_tutorial",
+        "video": "project_wikipediareddit_tutorial",
         "intent": "Create a project that includes the city searched on Wikipedia in README file, and with the same name as the one made in the video and an MIT License.",
         "intermediate_intent": "What was the name of the repo made in the video and the city searched on Wikipedia?",
         "require_reset": false,
@@ -3623,7 +3623,7 @@
         "instantiation_dict": {
             "description": "that includes the reddit post link copied in the video in README file, and with the same name as the one made in the video and an MIT License"
         },
-        "video:": "project_wikipediareddit_tutorial",
+        "video": "project_wikipediareddit_tutorial",
         "intent": "Create a project that includes the reddit post link copied in the video in README file, and with the same name as the one made in the video and an MIT License.",
         "intermediate_intent": "What was the name of the repo made in the video and the reddit post that was copied?",
         "require_reset": false,

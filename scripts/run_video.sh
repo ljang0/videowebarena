@@ -21,7 +21,7 @@ source scripts/set_configs.sh
 #   --observation_type image_som\
 #   --result_dir results/$domain/video_frame_prompt\
 #   --agent_type video_prompt\
-#   --video_dir media/videowebarena_videos/$video_domain\
+#   --video_dir media\
 #   --max_frame_num=$max_frame_num\
 #   --max_tokens 4096\
 #   --intermediate_intent_instruction_path agent/prompts/jsons/video_frame_intent_understanding.json
@@ -40,7 +40,7 @@ source scripts/set_configs.sh
 #   --observation_type image_som\
 #   --result_dir results/$domain/video_frame_summary_prompt\
 #   --agent_type video_summary_prompt\
-#   --video_dir media/videowebarena_videos/$video_domain\
+#   --video_dir media\
 #   --max_tokens 4096\
 #   --max_frame_num $max_frame_num
   # --intermediate_intent_instruction_path agent/prompts/jsons/video_frame_intent_understanding.json
@@ -59,7 +59,7 @@ python run.py \
   --observation_type image_som\
   --result_dir results/$domain/video_prompt\
   --agent_type video_prompt\
-  --video_dir media/videowebarena_videos/$video_domain\
+  --video_dir media\
   --mode completion\
   --max_tokens 8000\
   --intermediate_intent_instruction_path agent/prompts/jsons/video_intent_understanding.json
@@ -79,7 +79,7 @@ python run.py \
 #   --observation_type image_som\
 #   --result_dir results/$domain/video_summary_prompt\
 #   --agent_type video_summary_prompt\
-#   --video_dir media/videowebarena_videos/$video_domain\
+#   --video_dir media\
 #   --mode completion\
 #   --max_tokens 8000\
   # --intermediate_intent_instruction_path agent/prompts/jsons/video_intent_understanding.json
