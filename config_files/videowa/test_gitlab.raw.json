@@ -1928,7 +1928,7 @@
         "intent_template": "Can you change the status update {description}?",
         "intent": "Can you change the status update to reflect the first status update that was in the video?",
         "intermediate_intent": "What was the first status update made in the video?",
-        "video": "merge_request",
+        "video": "edit_personal",
         "instantiation_dict": {
             "description": "to reflect the first status update that was in the video"
         },
@@ -1979,7 +1979,7 @@
         "intent_template": "Can you change the status update {description}?",
         "intent": "Can you change the status update to reflect the second status update that was in the video?",
         "intermediate_intent": "What was the second status update made in the video?",
-        "video": "merge_request",
+        "video": "edit_personal",
         "instantiation_dict": {
             "description": "to reflect the second status update that was in the video"
         },
@@ -2030,7 +2030,7 @@
         "intent_template": "Can you change my profile website {description}?",
         "intent": "Can you change my profile website to the first website profile in the video?",
         "intermediate_intent": "What was the address of the first website profile in the video?",
-        "video": "merge_request",
+        "video": "edit_personal",
         "instantiation_dict": {
             "description": "to the first website profile in the video"
         },
@@ -2081,7 +2081,7 @@
         "intent_template": "Can you change my profile website {description}?",
         "intent": "Can you change my profile website to the second website profile in the video?",
         "intermediate_intent": "What was the address of the second website profile in the video?",
-        "video": "merge_request",
+        "video": "edit_personal",
         "instantiation_dict": {
             "description": "to the second website profile in the video"
         },
@@ -2132,7 +2132,7 @@
         "intent_template": "Can you change my profile website {description}?",
         "intent": "Can you change my profile website to the page the user in the video was on right before going to the RSS token?",
         "intermediate_intent": "What was the page the user in the video was on right before going to the RSS token?",
-        "video": "merge_request",
+        "video": "edit_personal",
         "instantiation_dict": {
             "description": "to the page the user in the video was on right before going to the RSS token"
         },
