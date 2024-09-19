@@ -2289,11 +2289,11 @@
         "start_url": "__GITLAB__",
         "geolocation": null,
         "intent_template": "Can you create a group {description}?",
-        "intent": "Can you create a group called 'videowebarena' and add the first group of users that were added in the video?",
-        "intermediate_intent": "What were the @s of the first group of users added to the group in the video?",
+        "intent": "Can you create a group called 'videowebarena' and add the second group of users that were added in the video?",
+        "intermediate_intent": "What were the @s of the second group of users added to the group in the video?",
         "video": "create_group",
         "instantiation_dict": {
-            "description1": "called 'videowebarena1' and add the first group of users that were added in the video"
+            "description1": "called 'videowebarena1' and add the second group of users that were added in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
@@ -2346,11 +2346,11 @@
         "start_url": "__GITLAB__",
         "geolocation": null,
         "intent_template": "Can you create a group {description}?",
-        "intent": "Can you create a group called 'videowebarena' and add the second group of users that were added in the video?",
-        "intermediate_intent": "What were the @s of the second group of users added to the group in the video?",
+        "intent": "Can you create a group called 'videowebarena' and add the first group of users that were added in the video?",
+        "intermediate_intent": "What were the @s of the first group of users added to the group in the video?",
         "video": "create_group",
         "instantiation_dict": {
-            "description1": "called 'videowebarena1' and add the second group of users that were added in the video"
+            "description1": "called 'videowebarena1' and add the first group of users that were added in the video"
         },
         "require_reset": false,
         "intermediate_eval": {
