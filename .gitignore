@@ -173,3 +173,4 @@ video_understanding/dev.ipynb
 result*
 
 archive
+scripts/run_prepare_data.sh

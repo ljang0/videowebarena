@@ -1,6 +1,6 @@
 export domain=$1
 export test_config_base_dir="config_files/videowa/$domain"
-export result_dir="results/$domain" 
+export result_dir="results_part/$domain/video_prompt_frame" 
 export video_domain=${domain:5}  
 
 
@@ -9,7 +9,7 @@ source scripts/set_configs.sh
 
 
 # video frame prompt with intermediate eval
-rm -rf results/$domain/video_frame_prompt
+rm -rf $result_dir
 python run.py \
   --instruction_path agent/prompts/jsons/p_som_cot_id_actree_3s_video_frame.json \
   --test_start_idx=$test_start_idx \
@@ -19,7 +19,7 @@ python run.py \
   --model=$videoframe_model\
   --action_set_tag som \
   --observation_type image_som\
-  --result_dir results/$domain/video_frame_prompt\
+  --result_dir $result_dir\
   --agent_type video_prompt\
   --video_dir media\
   --max_frame_num=$max_frame_num\
@@ -27,7 +27,7 @@ python run.py \
   --intermediate_intent_instruction_path agent/prompts/jsons/video_frame_intent_understanding.json
 
 ## video frame summary
-# rm -rf results/$domain/video_frame_summary_prompt
+# rm -rf $result_dir
 # python run.py \
 #   --instruction_path agent/prompts/jsons/p_som_cot_id_actree_3s_video_summary.json \
 #   --video_summary_instruction_path agent/prompts/jsons/video_frame_understanding.json \
@@ -38,7 +38,7 @@ python run.py \
 #   --model=$videoframe_model\
 #   --action_set_tag som \
 #   --observation_type image_som\
-#   --result_dir results/$domain/video_frame_summary_prompt\
+#   --result_dir $result_dir\
 #   --agent_type video_summary_prompt\
 #   --video_dir media\
 #   --max_tokens 4096\
@@ -47,7 +47,7 @@ python run.py \
 
 
 # video prompt with intermediate eval
-# rm -rf results/$domain/video_prompt
+# rm -rf $result_dir
 # python run.py \
 #   --instruction_path agent/prompts/jsons/p_som_cot_id_actree_3s_video.json \
 #   --test_start_idx=$test_start_idx \
@@ -57,7 +57,7 @@ python run.py \
 #   --model=$video_model\
 #   --action_set_tag som \
 #   --observation_type image_som\
-#   --result_dir results/$domain/video_prompt\
+#   --result_dir $result_dir\
 #   --agent_type video_prompt\
 #   --video_dir media\
 #   --mode completion\
@@ -66,7 +66,7 @@ python run.py \
 
 
 # video summary 
-# rm -rf results/$domain/video_summary_prompt
+# rm -rf $result_dir
 # python run.py \
 #   --instruction_path agent/prompts/jsons/p_som_cot_id_actree_3s_video_summary.json \
 #   --video_summary_instruction_path agent/prompts/jsons/video_understanding.json \
@@ -77,7 +77,7 @@ python run.py \
 #   --model=$video_model\
 #   --action_set_tag som \
 #   --observation_type image_som\
-#   --result_dir results/$domain/video_summary_prompt\
+#   --result_dir $result_dir\
 #   --agent_type video_summary_prompt\
 #   --video_dir media\
 #   --mode completion\

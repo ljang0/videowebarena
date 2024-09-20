@@ -1293,7 +1293,7 @@
         "intent_template": "Can you take me to {description}?",
         "intent": "Can you take me to the user page of the user who had the most commits in the first repo?",
         "intermediate_intent": "What was the name of the user who had the most commits in the first repo?",
-        "video": "repo_attribute",
+        "video": "repo_attributes",
         "instantiation_dict": {
             "description": "the user page of the user who had the most commits in the first repo"
         },
@@ -1337,7 +1337,7 @@
         "intent_template": "Can you take me to {description}?",
         "intent": "Can you take me to the user page of the user who had the most commits across all repos in the video?",
         "intermediate_intent": "What was the name of the user who had the most commits across all repos in the video?",
-        "video": "repo_attribute",
+        "video": "repo_attributes",
         "instantiation_dict": {
             "description": "the user page of the user who had the most commits across all repos in the video"
         },
@@ -1381,7 +1381,7 @@
         "intent_template": "Can you invite {description}?",
         "intent": "Can you invite the user who had the most commits across all repos in the video to a11y-syntax-highlighting?",
         "intermediate_intent": "What was the name of the user who had the most commits across all repos in the video?",
-        "video": "repo_attribute",
+        "video": "repo_attributes",
         "instantiation_dict": {
             "description": "the user who had the most commits across all repos in the video to a11y-syntax-highlighting"
         },
@@ -1434,7 +1434,7 @@
         "intent_template": "Can you invite {description}?",
         "intent": "Can you invite all the users as guest role who had at least 90 commits in the first repo in the video to a11y-syntax-highlighting?",
         "intermediate_intent": "What was the name of the users who had at least 90 commits in the first repo in the video?",
-        "video": "repo_attribute",
+        "video": "repo_attributes",
         "instantiation_dict": {
             "description": "all the users as guest role who had at least 90 commits in the first repo in the video to a11y-syntax-highlighting"
         },
