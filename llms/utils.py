@@ -3,9 +3,9 @@ from typing import Any
 
 import os
 import base64
-from vertexai.generative_models import GenerativeModel, Part
 
 try:
+    from vertexai.generative_models import GenerativeModel, Part
     from vertexai.preview.generative_models import Image
     from llms import generate_from_gemini_completion
 except:
