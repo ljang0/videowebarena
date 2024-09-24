@@ -600,7 +600,7 @@
         "overall_difficulty": "medium",
         "comments": "medium: product image provided, and need to find the meme subreddit",
         "intent_template_id": 7,
-        "video": "go_to_subreddit_page"
+        "video": "subreddit"
     },
     {
         "sites": [
@@ -630,7 +630,7 @@
         "overall_difficulty": "medium",
         "comments": "medium: product image provided, and need to find the mechanical keyboards subreddit",
         "intent_template_id": 7,
-        "video": "go_to_subreddit_page"
+        "video": "subreddit"
     },
     {
         "sites": [
@@ -1385,7 +1385,7 @@
         "overall_difficulty": "hard",
         "comments": "hard: need to identify that the picture is of Jersey City, and navigate there",
         "intent_template_id": 14,
-        "video": "go_to_subreddit_page"
+        "video": "subreddit"
     },
     {
         "sites": [
@@ -1418,7 +1418,7 @@
         "overall_difficulty": "medium",
         "comments": "Need to identify that the picture is of San Francisco (easy), and figure out that it doesn't have a subreddit",
         "intent_template_id": 14,
-        "video": "go_to_subreddit_page"
+        "video": "subreddit"
     },
     {
         "sites": [
@@ -1448,7 +1448,7 @@
         "overall_difficulty": "medium",
         "comments": "Need to identify that the picture is of Pittsburgh (easy/medium), and navigate there",
         "intent_template_id": 14,
-        "video": "go_to_subreddit_page"
+        "video": "subreddit"
     },
     {
         "sites": [
@@ -2945,7 +2945,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "Note: Does not check every single post on the page. Picture 2 (42188), 4 (63435), 8 (128010), 24 (128086) has food.",
-        "video": "downvote_and_upvote_tutorial"
+        "video": "vote_tutorial"
     },
     {
         "sites": [
@@ -3033,7 +3033,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "Note: Does not check every single post on the page. Picture 10 (45482), 16 (24822), 18 (131315), 19 (89211) has cat.",
-        "video": "downvote_and_upvote_tutorial"
+        "video": "vote_tutorial"
     },
     {
         "sites": [
@@ -3121,7 +3121,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "Note: Does not check every single post on the page. Picture 6 (40345), 8 (19625), 23 (126151), 25 (126047) has Mario.",
-        "video": "downvote_and_upvote_tutorial"
+        "video": "vote_tutorial"
     },
     {
         "sites": [
@@ -3265,7 +3265,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "Note: Does not check every single post on the page. Picture 1 (116512), 2 (116619), 3 (116536), 4, 6 (116517), 9 (116504), 11 (116469), 15 (116444), 16 (116617), 17 (116583), 19 (116508), 21 (116439), 24 (116461) has human face.",
-        "video": "downvote_and_upvote_tutorial"
+        "video": "vote_tutorial"
     },
     {
         "sites": [
@@ -3639,7 +3639,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "Note: Does not check every single post on the page. Upvote: 2, 3, 4 (105770), 8 (20186), 14, 18 (126736), 19 (20035), 22, 24 (105847). Ignores __REDDIT__/f/headphones/126736, __REDDIT__/f/headphones/20035, __REDDIT__/f/headphones/105847 for ambiguity (headphones vs. earphones). Test negative selection",
-        "video": "downvote_and_upvote_tutorial"
+        "video": "vote_tutorial"
     },
     {
         "sites": [
@@ -5489,7 +5489,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
         "comments": "",
-        "video": "change_account_info"
+        "video": "account_info"
     },
     {
         "sites": [
