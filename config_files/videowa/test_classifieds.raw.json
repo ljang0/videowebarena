@@ -985,7 +985,7 @@
         "intent_template": "The person in the video {description}. Can you {description2}?",
         "intent": "The person in the video says 'thanks' at a certain point. Can you take me to the page in the video when the person says this?",
         "intermediate_intent": "What was the page the person in the video was on when they said 'thanks'?",
-        "video": "item_page",
+        "video": "image_page",
         "instantiation_dict": {
             "description": "says 'thanks' at a certain point",
             "description2": "take me to the page in the video when the person says this"
@@ -1034,7 +1034,7 @@
         "intent_template": "Can you return {description}?",
         "intent": "Can you return the links of all the listing pages the person in the video went to?",
         "intermediate_intent": "What are the names of all the listing pages the person in the video went to?",
-        "video": "item_page",
+        "video": "image_page",
         "instantiation_dict": {
             "description": "the links of all the listing pages the person in the video went to"
         },
@@ -1090,7 +1090,7 @@
         "intent_template": "Can you comment {description}?",
         "intent": "Can you comment 'I love red stuff' to the most expensive red item from the same city as where the first listing the person in the video opened was posted?",
         "intermediate_intent": "What was the city where the first listing the person in the video opened was posted?",
-        "video": "item_page",
+        "video": "image_page",
         "instantiation_dict": {
             "description": "'I love red stuff' to the most expensive red item from the same city as where the first listing the person in the video opened was posted"
         },
@@ -1147,7 +1147,7 @@
         "intent_template": "Can you tell {description}?",
         "intent": "Can you tell me the email of the second item page the person in the video went to?",
         "intermediate_intent": "What was the name of the second item page the person in the video went to?",
-        "video": "item_page",
+        "video": "image_page",
         "instantiation_dict": {
             "description": "me the email of the second item page the person in the video went to"
         },
@@ -1200,7 +1200,7 @@
         "intent_template": "Can you comment {description}?",
         "intent": "Can you comment 'I'm interested' on the last listing the person in the video opened?",
         "intermediate_intent": "What was the name of the last listing the person in the video opened?",
-        "video": "item_page",
+        "video": "image_page",
         "instantiation_dict": {
             "description": "'I'm interested' on the last listing the person in the video opened"
         },
