@@ -1,10 +1,11 @@
+source scripts/set_configs.sh
+
 export domain=$1
-export test_config_base_dir="config_files/videowa/$domain"
-export result_dir="results_summary/$domain/video_prompt" 
+export test_config_base_dir="$test_config_dir/$domain"
+export result_dir="results/$DATASET/$domain/video_prompt_frame" 
 export video_domain=${domain:5}  
 
 
-source scripts/set_configs.sh
 # python scripts/generate_test_data.py
 
 
