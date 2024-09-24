@@ -141,7 +141,7 @@ config_files/vwa/test_shopping/*
 config_files/vwa/test_reddit/*
 config_files/vwa/test_classifieds.json
 config_files/vwa/test_reddit.json
-config_files/vwatest_shopping.json
+config_files/vwa/test_shopping.json
 config_files/wa/test_webarena.json
 config_files/wa/test_webarena/*
 config_files/videowa/test_classifieds/*
@@ -174,3 +174,6 @@ result*
 
 archive
 scripts/run_prepare_data.sh
+
+
+*.ipynb

@@ -19,6 +19,7 @@ import requests
 import torch
 from PIL import Image
 import traceback
+from io import BytesIO
 
 from agent import (
     PromptAgent,
@@ -382,7 +383,8 @@ def test(
                     for image_path in image_paths:
                         # Load image either from the web or from a local path.
                         if image_path.startswith("http"):
-                            input_image = Image.open(requests.get(image_path, stream=True).raw)
+                            image_response = requests.get(image_path, headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'})
+                            input_image = Image.open(BytesIO(image_response.content))
                         else:
                             input_image = Image.open(image_path)
 
@@ -458,7 +460,7 @@ def test(
             )
 
             score_dict[raw_config_file_name]["score"] = score
-            if intermediate_intent_agent:
+            if intermediate_intent_agent and intermediate_intent:
                 detected_intermediate_intent = intermediate_intent_agent.get_intermidiate_intent(args, config_file)
                 logger.info(f"[Intermidiate Intent]: {intermediate_intent}")
                 logger.info(f"[Detected Intermidiate Intent]: {detected_intermediate_intent}")
@@ -571,7 +573,11 @@ if __name__ == "__main__":
     st_idx = args.test_start_idx
     ed_idx = args.test_end_idx
     for i in range(st_idx, ed_idx):
-        test_file_list.append(os.path.join(test_config_base_dir, f"{i}.json"))
+        filepath = os.path.join(test_config_base_dir, f"{i}.json")
+        if os.path.exists(filepath):
+            test_file_list.append(filepath)
+        else:
+            logger.info(f"File {filepath} does not exist")
     #test_file_list = get_unfinished(test_file_list, args.result_dir)
     # import ipdb; ipdb.set_trace()
     print(f"Total {len(test_file_list)} tasks left")

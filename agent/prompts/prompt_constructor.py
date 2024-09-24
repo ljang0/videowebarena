@@ -281,7 +281,7 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
         tokenizer: Tokenizer,
     ):
         super().__init__(instruction_path, lm_config, tokenizer)
-        self.gpt_system_example_role = "user" if lm_config.provider == "openai" else "system"
+        self.gpt_system_example_role = "user" if "openai" in lm_config.provider else "system"
     def construct(
         self,
         trajectory: Trajectory,
@@ -458,7 +458,7 @@ class VideoFrameUnderstandingPromptConstructor(PromptConstructor):
         super().__init__(instruction_path, lm_config, tokenizer)
         self.video_processor = VideoProcessor()
         self.max_frame_num = max_frame_num
-        self.gpt_system_example_role = "user" if lm_config.provider == "openai" else "system"
+        self.gpt_system_example_role = "user" if "openai" in lm_config.provider else "system"
 
     def construct(
         self,
