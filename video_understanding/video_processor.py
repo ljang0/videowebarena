@@ -4,6 +4,7 @@ import numpy as np
 import moviepy.editor as mp  
 import whisper
 from PIL import Image
+import uuid
 
 class VideoProcessor:  
     def __init__(self):  
@@ -55,7 +56,7 @@ class VideoProcessor:
         video = mp.VideoFileClip(video_path)  
         audio = video.audio  
         base_video_path = os.path.basename(video_path).split(".")[0]
-        temp_audio_path = os.path.join(self.temp_audio_path_dir, base_video_path + ".wav")
+        temp_audio_path = os.path.join(self.temp_audio_path_dir, base_video_path+ "_" +str(uuid.uuid4()) + ".wav")
         audio.write_audiofile(temp_audio_path)
         model = whisper.load_model("base")
         result = model.transcribe(temp_audio_path)
