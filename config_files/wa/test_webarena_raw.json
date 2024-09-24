@@ -14601,7 +14601,7 @@
             ]
         },
         "intent_template_id": 172,
-        "video": "sort_by_price_rating"
+        "video": "search_sort_buy"
     },
     {
         "sites": [
@@ -14638,7 +14638,7 @@
             ]
         },
         "intent_template_id": 172,
-        "video": "sort_by_price_rating"
+        "video": "search_sort_buy"
     },
     {
         "sites": [
@@ -14675,7 +14675,7 @@
             ]
         },
         "intent_template_id": 172,
-        "video": "sort_by_price_rating"
+        "video": "search_sort_buy"
     },
     {
         "sites": [
@@ -14711,7 +14711,7 @@
             ]
         },
         "intent_template_id": 216,
-        "video": "sort_by_price_rating"
+        "video": "search_sort_buy"
     },
     {
         "sites": [
@@ -14747,7 +14747,7 @@
             ]
         },
         "intent_template_id": 216,
-        "video": "sort_by_price_rating"
+        "video": "search_sort_buy"
     },
     {
         "sites": [
@@ -27309,7 +27309,7 @@
             "reference_answer_raw_annotation": "N/A"
         },
         "intent_template_id": 172,
-        "video": "sort_by_price_rating"
+        "video": "search_sort_buy"
     },
     {
         "sites": [
@@ -27340,7 +27340,7 @@
             "reference_answer_raw_annotation": "N/A"
         },
         "intent_template_id": 172,
-        "video": "sort_by_price_rating"
+        "video": "search_sort_buy"
     },
     {
         "sites": [
