@@ -1,6 +1,6 @@
 export domain=$1
 export test_config_base_dir="config_files/videowa/$domain"
-export result_dir="results_part/$domain/video_prompt" 
+export result_dir="results_summary/$domain/video_prompt" 
 export video_domain=${domain:5}  
 
 

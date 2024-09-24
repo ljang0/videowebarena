@@ -174,3 +174,6 @@ result*
 
 archive
 scripts/run_prepare_data.sh
+
+
+*.ipynb
