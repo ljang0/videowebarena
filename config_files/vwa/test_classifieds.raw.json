@@ -193,7 +193,7 @@
         "overall_difficulty": "hard",
         "comments": "",
         "intent_template_id": 2,
-        "video": "edit_listing"
+        "video": "edit_listings"
     },
     {
         "sites": [
@@ -235,7 +235,7 @@
         "overall_difficulty": "medium",
         "comments": "",
         "intent_template_id": 2,
-        "video": "edit_listing"
+        "video": "edit_listings"
     },
     {
         "sites": [
@@ -274,7 +274,7 @@
         "overall_difficulty": "medium",
         "comments": "",
         "intent_template_id": 3,
-        "video": "price range then get listing links"
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -312,7 +312,7 @@
         "overall_difficulty": "medium",
         "comments": "",
         "intent_template_id": 3,
-        "video": "price range then get listing links"
+        "video": "sort_by_price_range"
     },
     {
         "sites": [
@@ -360,7 +360,7 @@
         "overall_difficulty": "hard",
         "comments": "Closest item: __CLASSIFIEDS__/index.php?page=item&id=81838 or __CLASSIFIEDS__/index.php?page=item&id=32109",
         "intent_template_id": 4,
-        "video": "post tutorial"
+        "video": "post_tutorial"
     },
     {
         "sites": [
@@ -408,7 +408,7 @@
         "overall_difficulty": "hard",
         "comments": "Closest item: __CLASSIFIEDS__/index.php?page=item&id=42906",
         "intent_template_id": 4,
-        "video": "post tutorial"
+        "video": "post_tutorial"
     },
     {
         "sites": [
@@ -446,7 +446,7 @@
         "overall_difficulty": "easy",
         "comments": "",
         "intent_template_id": 5,
-        "video": "go to item page"
+        "video": "image_page"
     },
     {
         "sites": [
@@ -484,7 +484,7 @@
         "overall_difficulty": "easy",
         "comments": "",
         "intent_template_id": 5,
-        "video": "go to item page"
+        "video": "image_page"
     },
     {
         "sites": [
@@ -522,7 +522,7 @@
         "overall_difficulty": "easy",
         "comments": "",
         "intent_template_id": 5,
-        "video": "go to item page"
+        "video": "image_page"
     },
     {
         "sites": [
@@ -560,7 +560,7 @@
         "overall_difficulty": "easy",
         "comments": "",
         "intent_template_id": 5,
-        "video": "go to item page"
+        "video": "image_page"
     },
     {
         "sites": [
@@ -599,7 +599,7 @@
         "overall_difficulty": "easy",
         "comments": "",
         "intent_template_id": 6,
-        "video": "comment_seller"
+        "video": "comments_seller"
     },
     {
         "sites": [
@@ -638,7 +638,7 @@
         "overall_difficulty": "easy",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=67527",
         "intent_template_id": 7,
-        "video": "comment_seller"
+        "video": "comments_seller"
     },
     {
         "sites": [
@@ -677,7 +677,7 @@
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=15810",
         "intent_template_id": 7,
-        "video": "comment_seller"
+        "video": "comments_seller"
     },
     {
         "sites": [
@@ -1976,7 +1976,7 @@
         "overall_difficulty": "easy",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=65673",
         "intent_template_id": 6,
-        "video": "comment_seller"
+        "video": "comments_seller"
     },
     {
         "sites": [
@@ -2873,7 +2873,7 @@
         "overall_difficulty": "hard",
         "comments": "",
         "intent_template_id": 2,
-        "video": "edit_listing"
+        "video": "edit_listings"
     },
     {
         "sites": [
@@ -2933,7 +2933,7 @@
         "overall_difficulty": "hard",
         "comments": "",
         "intent_template_id": 2,
-        "video": "edit_listing"
+        "video": "edit_listings"
     },
     {
         "sites": [
@@ -2993,7 +2993,7 @@
         "overall_difficulty": "hard",
         "comments": "",
         "intent_template_id": 2,
-        "video": "edit_listing"
+        "video": "edit_listings"
     },
     {
         "sites": [
@@ -3098,7 +3098,7 @@
         "overall_difficulty": "medium",
         "comments": "",
         "intent_template_id": 31,
-        "video": "comment_seller"
+        "video": "comments_seller"
     },
     {
         "sites": [
@@ -3206,7 +3206,7 @@
         "overall_difficulty": "medium",
         "comments": "",
         "intent_template_id": 31,
-        "video": "comment_seller"
+        "video": "comments_seller"
     },
     {
         "sites": [
@@ -3346,7 +3346,7 @@
         "overall_difficulty": "easy",
         "comments": "",
         "intent_template_id": 34,
-        "video": "go to item page"
+        "video": "image_page"
     },
     {
         "sites": [
@@ -3447,7 +3447,7 @@
         "overall_difficulty": "medium",
         "comments": "",
         "intent_template_id": 34,
-        "video": "go to item page"
+        "video": "image_page"
     },
     {
         "sites": [
@@ -3580,7 +3580,7 @@
         "overall_difficulty": "easy",
         "comments": "",
         "intent_template_id": 34,
-        "video": "go to item page"
+        "video": "image_page"
     },
     {
         "sites": [
@@ -3742,7 +3742,7 @@
         "overall_difficulty": "easy",
         "comments": "",
         "intent_template_id": 37,
-        "video": "go to item page"
+        "video": "image_page"
     },
     {
         "sites": [
@@ -3816,7 +3816,7 @@
         "overall_difficulty": "hard",
         "comments": "",
         "intent_template_id": 38,
-        "video": "go to item page"
+        "video": "image_page"
     },
     {
         "sites": [
@@ -3885,7 +3885,7 @@
         "overall_difficulty": "hard",
         "comments": "",
         "intent_template_id": 40,
-        "video": "go to item page"
+        "video": "image_page"
     },
     {
         "sites": [
@@ -4042,7 +4042,7 @@
         "overall_difficulty": "medium",
         "comments": "",
         "intent_template_id": 6,
-        "video": "comment_seller"
+        "video": "comments_seller"
     },
     {
         "sites": [
@@ -4079,7 +4079,7 @@
         "overall_difficulty": "hard",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=52440",
         "intent_template_id": 40,
-        "video": "go to item page"
+        "video": "image_page"
     },
     {
         "sites": [
@@ -4115,7 +4115,7 @@
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=7438",
         "intent_template_id": 40,
-        "video": "go to item page"
+        "video": "image_page"
     },
     {
         "sites": [
@@ -4466,7 +4466,7 @@
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=69495",
         "intent_template_id": 38,
-        "video": "go to item page"
+        "video": "image_page"
     },
     {
         "sites": [
@@ -4506,7 +4506,7 @@
         "overall_difficulty": "medium",
         "comments": "_CLASSIFIEDS__/index.php?page=item&id=75385",
         "intent_template_id": 5,
-        "video": "go to item page"
+        "video": "image_page"
     },
     {
         "sites": [
@@ -4546,7 +4546,7 @@
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=38276",
         "intent_template_id": 38,
-        "video": "go to item page"
+        "video": "image_page"
     },
     {
         "sites": [
@@ -4688,7 +4688,7 @@
         "overall_difficulty": "medium",
         "comments": "",
         "intent_template_id": 40,
-        "video": "go to item page"
+        "video": "image_page"
     },
     {
         "sites": [
@@ -4724,7 +4724,7 @@
         "overall_difficulty": "easy",
         "comments": "",
         "intent_template_id": 40,
-        "video": "go to item page"
+        "video": "image_page"
     },
     {
         "sites": [
@@ -4881,7 +4881,7 @@
         "overall_difficulty": "hard",
         "comments": "",
         "intent_template_id": 49,
-        "video": "comment_seller"
+        "video": "comments_seller"
     },
     {
         "sites": [
@@ -4917,7 +4917,7 @@
         "overall_difficulty": "hard",
         "comments": "",
         "intent_template_id": 50,
-        "video": "comment_seller"
+        "video": "comments_seller"
     },
     {
         "sites": [
@@ -4953,7 +4953,7 @@
         "overall_difficulty": "hard",
         "comments": "",
         "intent_template_id": 50,
-        "video": "comment_seller"
+        "video": "comments_seller"
     },
     {
         "sites": [
@@ -5021,7 +5021,7 @@
         "overall_difficulty": "hard",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=3984",
         "intent_template_id": 50,
-        "video": "comment_seller"
+        "video": "comments_seller"
     },
     {
         "sites": [
@@ -5561,7 +5561,7 @@
         "overall_difficulty": "hard",
         "comments": "",
         "intent_template_id": 2,
-        "video": "edit_listing"
+        "video": "edit_listings"
     },
     {
         "sites": [
@@ -6485,7 +6485,7 @@
         "overall_difficulty": "medium",
         "comments": "",
         "intent_template_id": 40,
-        "video": "go to item page"
+        "video": "image_page"
     },
     {
         "sites": [
@@ -6868,7 +6868,7 @@
         "overall_difficulty": "medium",
         "comments": "Buying in batches 15 is cheaper, a fact which is only spelled out in the image and not the description",
         "intent_template_id": 67,
-        "video": "go to item page"
+        "video": "image_page"
     },
     {
         "sites": [
@@ -7018,7 +7018,7 @@
         "overall_difficulty": "hard",
         "comments": "The phone number is spelled wrongly in the item's description. Expectation is that it should be corrected by the agent performing the task.",
         "intent_template_id": 69,
-        "video": "comment_seller"
+        "video": "comments_seller"
     },
     {
         "sites": [
@@ -7313,7 +7313,7 @@
         "overall_difficulty": "easy",
         "comments": "",
         "intent_template_id": 37,
-        "video": "go to item page"
+        "video": "image_page"
     },
     {
         "sites": [
@@ -7618,7 +7618,7 @@
         "overall_difficulty": "hard",
         "comments": "",
         "intent_template_id": 72,
-        "video": "leave comments on multiple tabs"
+        "video": "multiple_tabs"
     },
     {
         "sites": [
