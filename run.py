@@ -177,6 +177,9 @@ def config() -> argparse.Namespace:
     parser.add_argument("--test_start_idx", type=int, default=0)
     parser.add_argument("--test_end_idx", type=int, default=910)
 
+    parser.add_argument("--test_idx_ls", type=int, nargs='+',  
+                        help='a list of integer for the testing, it will overwrite the test_start_idx and test_end_idx', default=None)
+
     # logging related
     parser.add_argument("--result_dir", type=str, default="")
     parser.add_argument("--video_dir", type=str, default=None)
@@ -570,14 +573,23 @@ if __name__ == "__main__":
     test_config_base_dir = args.test_config_base_dir
 
     test_file_list = []
-    st_idx = args.test_start_idx
-    ed_idx = args.test_end_idx
-    for i in range(st_idx, ed_idx):
-        filepath = os.path.join(test_config_base_dir, f"{i}.json")
-        if os.path.exists(filepath):
-            test_file_list.append(filepath)
-        else:
-            logger.info(f"File {filepath} does not exist")
+    if args.test_idx_ls:
+        print("Using test_idx_ls instead of test_start_idx and test_end_idx")
+        for i in args.test_idx_ls:
+            filepath = os.path.join(test_config_base_dir, f"{i}.json")
+            if os.path.exists(filepath):
+                test_file_list.append(filepath)
+            else:
+                logger.info(f"File {filepath} does not exist")
+    else:
+        st_idx = args.test_start_idx
+        ed_idx = args.test_end_idx
+        for i in range(st_idx, ed_idx):
+            filepath = os.path.join(test_config_base_dir, f"{i}.json")
+            if os.path.exists(filepath):
+                test_file_list.append(filepath)
+            else:
+                logger.info(f"File {filepath} does not exist")
     #test_file_list = get_unfinished(test_file_list, args.result_dir)
     # import ipdb; ipdb.set_trace()
     print(f"Total {len(test_file_list)} tasks left")

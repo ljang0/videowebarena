@@ -6,8 +6,8 @@
 # input_text_ls=("test_reddit" "test_shopping")  
 # start_end_idx_ls=("100 206" "100 206")  
 
-input_text_ls=("test_webarena" "test_webarena" "test_webarena")
-start_end_idx_ls=("200 400" "400 600" "600 745")  
+input_text_ls=("test_webarena")
+start_end_idx_ls=("563 600")  
   
 for idx in "${!input_text_ls[@]}"; do  
     input_text=${input_text_ls[$idx]}  

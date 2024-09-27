@@ -178,3 +178,4 @@ scripts/run_prepare_data.sh
 
 *.ipynb
 temp
+error_run.sh
