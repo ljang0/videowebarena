@@ -4844,7 +4844,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 47,
+        "intent_template_id": 45,
         "video": "navigate_tutorial"
     },
     {
@@ -4880,7 +4880,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 49,
+        "intent_template_id": 46,
         "video": "comments_seller"
     },
     {
@@ -4916,7 +4916,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 50,
+        "intent_template_id": 47,
         "video": "comments_seller"
     },
     {
@@ -4952,7 +4952,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 50,
+        "intent_template_id": 47,
         "video": "comments_seller"
     },
     {
@@ -5020,7 +5020,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=3984",
-        "intent_template_id": 50,
+        "intent_template_id": 47,
         "video": "comments_seller"
     },
     {
@@ -5086,7 +5086,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=22310",
-        "intent_template_id": 51,
+        "intent_template_id": 48,
         "video": "sort_by_price_range"
     },
     {
@@ -5138,7 +5138,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=25810",
-        "intent_template_id": 52,
+        "intent_template_id": 49,
         "video": "search_sort_comment"
     },
     {
@@ -5190,7 +5190,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=41127",
-        "intent_template_id": 52,
+        "intent_template_id": 49,
         "video": "search_sort_comment"
     },
     {
@@ -5242,7 +5242,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=43992",
-        "intent_template_id": 52,
+        "intent_template_id": 49,
         "video": "search_sort_comment"
     },
     {
@@ -5279,7 +5279,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=33746",
-        "intent_template_id": 53,
+        "intent_template_id": 50,
         "video": "navigate_tutorial"
     },
     {
@@ -5316,7 +5316,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=53116",
-        "intent_template_id": 53,
+        "intent_template_id": 50,
         "video": "navigate_tutorial"
     },
     {
@@ -5353,7 +5353,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=9246",
-        "intent_template_id": 53,
+        "intent_template_id": 50,
         "video": "navigate_tutorial"
     },
     {
@@ -5748,7 +5748,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 56,
+        "intent_template_id": 51,
         "video": "sort_by_price_range"
     },
     {
@@ -5781,7 +5781,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 47,
+        "intent_template_id": 45,
         "video": "navigate_tutorial"
     },
     {
@@ -5813,7 +5813,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 57,
+        "intent_template_id": 52,
         "video": "navigate_tutorial"
     },
     {
@@ -5845,7 +5845,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 57,
+        "intent_template_id": 52,
         "video": "navigate_tutorial"
     },
     {
@@ -5879,7 +5879,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 58,
+        "intent_template_id": 53,
         "video": "sort_by_price_range"
     },
     {
@@ -5913,7 +5913,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 58,
+        "intent_template_id": 53,
         "video": "sort_by_price_range"
     },
     {
@@ -5947,7 +5947,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 58,
+        "intent_template_id": 53,
         "video": "sort_by_price_range"
     },
     {
@@ -5984,7 +5984,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 53,
+        "intent_template_id": 50,
         "video": "navigate_tutorial"
     },
     {
@@ -6106,7 +6106,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 59,
+        "intent_template_id": 54,
         "video": "navigate_tutorial"
     },
     {
@@ -6138,7 +6138,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 57,
+        "intent_template_id": 52,
         "video": "navigate_tutorial"
     },
     {
@@ -6171,7 +6171,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 59,
+        "intent_template_id": 54,
         "video": "navigate_tutorial"
     },
     {
@@ -6204,7 +6204,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 59,
+        "intent_template_id": 54,
         "video": "navigate_tutorial"
     },
     {
@@ -6274,7 +6274,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "__CLASSIFIEDS__/index.php?page=item&id=9146",
-        "intent_template_id": 53,
+        "intent_template_id": 50,
         "video": "navigate_tutorial"
     },
     {
@@ -6308,7 +6308,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 61,
+        "intent_template_id": 55,
         "video": "sort_by_price_range"
     },
     {
@@ -6344,7 +6344,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 56,
+        "intent_template_id": 51,
         "video": "sort_by_price_range"
     },
     {
@@ -6381,7 +6381,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 58,
+        "intent_template_id": 53,
         "video": "sort_by_price_range"
     },
     {
@@ -6415,7 +6415,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 58,
+        "intent_template_id": 53,
         "video": "sort_by_price_range"
     },
     {
@@ -6448,7 +6448,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 56,
+        "intent_template_id": 51,
         "video": "sort_by_price_range"
     },
     {
@@ -6518,7 +6518,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 62,
+        "intent_template_id": 56,
         "video": "search_sort_comment"
     },
     {
@@ -6552,7 +6552,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 63,
+        "intent_template_id": 57,
         "video": "navigate_tutorial"
     },
     {
@@ -6586,7 +6586,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 63,
+        "intent_template_id": 57,
         "video": "navigate_tutorial"
     },
     {
@@ -6634,7 +6634,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 64,
+        "intent_template_id": 58,
         "video": "search_sort_comment"
     },
     {
@@ -6715,7 +6715,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 65,
+        "intent_template_id": 59,
         "video": "search_sort_comment"
     },
     {
@@ -6782,7 +6782,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 62,
+        "intent_template_id": 56,
         "video": "search_sort_comment"
     },
     {
@@ -6830,7 +6830,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 66,
+        "intent_template_id": 60,
         "video": "search_sort_comment"
     },
     {
@@ -6867,7 +6867,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "Buying in batches 15 is cheaper, a fact which is only spelled out in the image and not the description",
-        "intent_template_id": 67,
+        "intent_template_id": 61,
         "video": "image_page"
     },
     {
@@ -6968,7 +6968,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "The other watch/ring listings on the website are fake listings that state their actual price in the description. Super hard task.",
-        "intent_template_id": 68,
+        "intent_template_id": 62,
         "video": "search_sort_comment"
     },
     {
@@ -7017,7 +7017,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "The phone number is spelled wrongly in the item's description. Expectation is that it should be corrected by the agent performing the task.",
-        "intent_template_id": 69,
+        "intent_template_id": 63,
         "video": "comments_seller"
     },
     {
@@ -7051,7 +7051,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 63,
+        "intent_template_id": 57,
         "video": "navigate_tutorial"
     },
     {
@@ -7085,7 +7085,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 63,
+        "intent_template_id": 57,
         "video": "navigate_tutorial"
     },
     {
@@ -7119,7 +7119,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 63,
+        "intent_template_id": 57,
         "video": "navigate_tutorial"
     },
     {
@@ -7172,7 +7172,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 68,
+        "intent_template_id": 62,
         "video": "search_sort_comment"
     },
     {
@@ -7206,7 +7206,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "It only says it is a USA coin in the image itself.",
-        "intent_template_id": 63,
+        "intent_template_id": 57,
         "video": "navigate_tutorial"
     },
     {
@@ -7240,7 +7240,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 63,
+        "intent_template_id": 57,
         "video": "navigate_tutorial"
     },
     {
@@ -7360,7 +7360,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 71,
+        "intent_template_id": 64,
         "video": "search_sort_comment"
     },
     {
@@ -7394,7 +7394,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 62,
+        "intent_template_id": 56,
         "video": "search_sort_comment"
     },
     {
@@ -7428,7 +7428,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 62,
+        "intent_template_id": 56,
         "video": "search_sort_comment"
     },
     {
@@ -7462,7 +7462,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 62,
+        "intent_template_id": 56,
         "video": "search_sort_comment"
     },
     {
@@ -7496,7 +7496,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 62,
+        "intent_template_id": 56,
         "video": "search_sort_comment"
     },
     {
@@ -7549,7 +7549,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 68,
+        "intent_template_id": 62,
         "video": "search_sort_comment"
     },
     {
@@ -7617,7 +7617,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 72,
+        "intent_template_id": 65,
         "video": "multiple_tabs"
     },
     {
@@ -7652,7 +7652,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 68,
+        "intent_template_id": 62,
         "video": "search_sort_comment"
     },
     {
@@ -7686,7 +7686,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 73,
+        "intent_template_id": 66,
         "video": "sort_by_price_range"
     },
     {
@@ -7721,7 +7721,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 68,
+        "intent_template_id": 62,
         "video": "search_sort_comment"
     }
 ]

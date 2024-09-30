@@ -27,7 +27,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Quest Lumaflex\u2122 Band"
         },
-        "intent_template_id": 279,
+        "intent_template_id": 0,
         "video": "find_best_selling"
     },
     {
@@ -58,7 +58,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Sprite"
         },
-        "intent_template_id": 279,
+        "intent_template_id": 1,
         "video": "find_best_selling"
     },
     {
@@ -89,7 +89,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Yoga ball"
         },
-        "intent_template_id": 279,
+        "intent_template_id": 2,
         "video": "find_best_selling"
     },
     {
@@ -123,7 +123,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Quest Lumaflex\u2122 Band, Sprite Stasis Ball 65 cm"
         },
-        "intent_template_id": 279,
+        "intent_template_id": 3,
         "video": "find_best_selling"
     },
     {
@@ -158,7 +158,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Impulse Duffle, Overnight Duffle, Hawkeye Yoga Short-32-Blue"
         },
-        "intent_template_id": 279,
+        "intent_template_id": 4,
         "video": "find_best_selling"
     },
     {
@@ -189,7 +189,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Duffle"
         },
-        "intent_template_id": 279,
+        "intent_template_id": 2,
         "video": "find_best_selling"
     },
     {
@@ -226,7 +226,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Sprite Yoga Strap 6 foot, Overnight Duffle, Ida Workout Parachute Pant-29-Purple, Hawkeye Yoga Short-32-Blue, Sprite Stasis Ball 65 cm"
         },
-        "intent_template_id": 279,
+        "intent_template_id": 3,
         "video": "find_best_selling"
     },
     {
@@ -258,7 +258,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "6"
         },
-        "intent_template_id": 288,
+        "intent_template_id": 5,
         "video": "see_reviews_tutorial"
     },
     {
@@ -290,7 +290,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "2"
         },
-        "intent_template_id": 288,
+        "intent_template_id": 5,
         "video": "see_reviews_tutorial"
     },
     {
@@ -322,7 +322,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "2"
         },
-        "intent_template_id": 288,
+        "intent_template_id": 5,
         "video": "see_reviews_tutorial"
     },
     {
@@ -354,7 +354,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "0"
         },
-        "intent_template_id": 288,
+        "intent_template_id": 5,
         "video": "see_reviews_tutorial"
     },
     {
@@ -386,7 +386,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "2"
         },
-        "intent_template_id": 288,
+        "intent_template_id": 5,
         "video": "see_reviews_tutorial"
     },
     {
@@ -420,7 +420,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Driving: 2min. Walking: 16min."
         },
-        "intent_template_id": 73,
+        "intent_template_id": 6,
         "video": "get_times"
     },
     {
@@ -454,7 +454,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "driving: 13min, walking: 1h 35min."
         },
-        "intent_template_id": 73,
+        "intent_template_id": 6,
         "video": "get_times"
     },
     {
@@ -488,7 +488,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "driving: 15min, walking: 1h 47min."
         },
-        "intent_template_id": 73,
+        "intent_template_id": 6,
         "video": "get_times"
     },
     {
@@ -522,7 +522,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "driving: 12min, walking: 1h 44min."
         },
-        "intent_template_id": 73,
+        "intent_template_id": 6,
         "video": "get_times"
     },
     {
@@ -556,7 +556,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "driving: 13min, walking: 1h 45min."
         },
-        "intent_template_id": 73,
+        "intent_template_id": 7,
         "video": "get_times"
     },
     {
@@ -592,7 +592,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Joseph Brzezinski, Catso, Dibbins, Anglebert Dinkherhump, Michelle Davis"
         },
-        "intent_template_id": 222,
+        "intent_template_id": 8,
         "video": "review_tutorial"
     },
     {
@@ -622,7 +622,7 @@
             "string_note": "There is no review about under water photo",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 222,
+        "intent_template_id": 8,
         "video": "review_tutorial"
     },
     {
@@ -655,7 +655,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Rachel, T. Gannon, "
         },
-        "intent_template_id": 222,
+        "intent_template_id": 8,
         "video": "review_tutorial"
     },
     {
@@ -685,7 +685,7 @@
             "string_note": "There is no reivew about price being unfair",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 222,
+        "intent_template_id": 8,
         "video": "review_tutorial"
     },
     {
@@ -718,7 +718,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "GoldfishGoldfish, Roxanne Brandon Coffey"
         },
-        "intent_template_id": 222,
+        "intent_template_id": 8,
         "video": "review_tutorial"
     },
     {
@@ -751,7 +751,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Bob in Vegas, RemyRRemyR"
         },
-        "intent_template_id": 222,
+        "intent_template_id": 8,
         "video": "review_tutorial"
     },
     {
@@ -783,7 +783,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "0"
         },
-        "intent_template_id": 33,
+        "intent_template_id": 9,
         "video": "poster_info"
     },
     {
@@ -815,7 +815,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "0"
         },
-        "intent_template_id": 33,
+        "intent_template_id": 9,
         "video": "poster_info"
     },
     {
@@ -847,7 +847,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "1"
         },
-        "intent_template_id": 33,
+        "intent_template_id": 9,
         "video": "poster_info"
     },
     {
@@ -879,7 +879,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "0"
         },
-        "intent_template_id": 33,
+        "intent_template_id": 9,
         "video": "poster_info"
     },
     {
@@ -911,7 +911,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "0"
         },
-        "intent_template_id": 33,
+        "intent_template_id": 9,
         "video": "poster_info"
     },
     {
@@ -944,7 +944,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Yes"
         },
-        "intent_template_id": 77,
+        "intent_template_id": 10,
         "video": "get_times"
     },
     {
@@ -977,7 +977,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Yes"
         },
-        "intent_template_id": 77,
+        "intent_template_id": 10,
         "video": "get_times"
     },
     {
@@ -1010,7 +1010,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Yes"
         },
-        "intent_template_id": 77,
+        "intent_template_id": 10,
         "video": "get_times"
     },
     {
@@ -1043,7 +1043,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Yes"
         },
-        "intent_template_id": 77,
+        "intent_template_id": 10,
         "video": "get_times"
     },
     {
@@ -1076,7 +1076,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Yes"
         },
-        "intent_template_id": 77,
+        "intent_template_id": 10,
         "video": "get_times"
     },
     {
@@ -1106,7 +1106,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "hollister"
         },
-        "intent_template_id": 285,
+        "intent_template_id": 11,
         "video": "find_best_selling"
     },
     {
@@ -1139,7 +1139,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "hollister, Joust Bag"
         },
-        "intent_template_id": 285,
+        "intent_template_id": 11,
         "video": "find_best_selling"
     },
     {
@@ -1173,7 +1173,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "hollister, Joust Bag, Antonia Race Tank"
         },
-        "intent_template_id": 285,
+        "intent_template_id": 11,
         "video": "find_best_selling"
     },
     {
@@ -1198,7 +1198,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 303,
+        "intent_template_id": 12,
         "video": "explore_star_tutorial"
     },
     {
@@ -1223,7 +1223,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 300,
+        "intent_template_id": 13,
         "video": "issue_repo_tutorial"
     },
     {
@@ -1248,7 +1248,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 300,
+        "intent_template_id": 13,
         "video": "issue_repo_tutorial"
     },
     {
@@ -1281,7 +1281,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "0 order, $0 total spend"
         },
-        "intent_template_id": 197,
+        "intent_template_id": 14,
         "video": "order_history"
     },
     {
@@ -1314,7 +1314,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "0 order, $0 total spend"
         },
-        "intent_template_id": 197,
+        "intent_template_id": 14,
         "video": "order_history"
     },
     {
@@ -1347,7 +1347,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "3 orders, $845.49 total spend"
         },
-        "intent_template_id": 197,
+        "intent_template_id": 14,
         "video": "order_history"
     },
     {
@@ -1380,7 +1380,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "24 orders, $6560.69 total spend"
         },
-        "intent_template_id": 197,
+        "intent_template_id": 14,
         "video": "order_history"
     },
     {
@@ -1413,7 +1413,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "12 orders, $1603.69 total spend"
         },
-        "intent_template_id": 197,
+        "intent_template_id": 14,
         "video": "order_history"
     },
     {
@@ -1446,7 +1446,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "7 min"
         },
-        "intent_template_id": 68,
+        "intent_template_id": 15,
         "video": "get_times"
     },
     {
@@ -1479,7 +1479,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "18 min"
         },
-        "intent_template_id": 68,
+        "intent_template_id": 15,
         "video": "get_times"
     },
     {
@@ -1512,7 +1512,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "25 min"
         },
-        "intent_template_id": 68,
+        "intent_template_id": 15,
         "video": "get_times"
     },
     {
@@ -1545,7 +1545,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "30 min"
         },
-        "intent_template_id": 68,
+        "intent_template_id": 15,
         "video": "get_times"
     },
     {
@@ -1578,7 +1578,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "11 min"
         },
-        "intent_template_id": 68,
+        "intent_template_id": 15,
         "video": "get_times"
     },
     {
@@ -1610,7 +1610,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Jane Smith"
         },
-        "intent_template_id": 276,
+        "intent_template_id": 16,
         "video": "find_best_selling"
     },
     {
@@ -1644,7 +1644,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Adam Garcia, Michael Nguyen, Sarah Miller"
         },
-        "intent_template_id": 276,
+        "intent_template_id": 17,
         "video": "find_best_selling"
     },
     {
@@ -1680,7 +1680,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Lisa Kim, Lisa Green, Julia Williams, Brian Smith, Alexander Thomas"
         },
-        "intent_template_id": 276,
+        "intent_template_id": 18,
         "video": "find_best_selling"
     },
     {
@@ -1712,7 +1712,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Jane Doe"
         },
-        "intent_template_id": 276,
+        "intent_template_id": 16,
         "video": "find_best_selling"
     },
     {
@@ -1747,7 +1747,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "__REDDIT__/f/books/59396/apple-books-has-a-free-audiobook-of-a-christmas-carol, __REDDIT__/f/books/17445/i-just-finished-reading-the-hobbit-to-my-6-year-old-daughter"
         },
-        "intent_template_id": 17,
+        "intent_template_id": 19,
         "video": "sort_and_go_to_comments"
     },
     {
@@ -1782,7 +1782,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "A Christmas Carol, The Hobbit"
         },
-        "intent_template_id": 17,
+        "intent_template_id": 19,
         "video": "sort_and_go_to_comments"
     },
     {
@@ -1819,7 +1819,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "A Christmas Carol by Levar Burton: , The Hobbit by J. R. R. Tolkien"
         },
-        "intent_template_id": 17,
+        "intent_template_id": 19,
         "video": "sort_and_go_to_comments"
     },
     {
@@ -1853,7 +1853,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "bookshop.org"
         },
-        "intent_template_id": 17,
+        "intent_template_id": 19,
         "video": "sort_and_go_to_comments"
     },
     {
@@ -1883,7 +1883,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "15213"
         },
-        "intent_template_id": 70,
+        "intent_template_id": 20,
         "video": "get_times"
     },
     {
@@ -1913,7 +1913,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "15232"
         },
-        "intent_template_id": 70,
+        "intent_template_id": 20,
         "video": "get_times"
     },
     {
@@ -1943,7 +1943,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "06516"
         },
-        "intent_template_id": 70,
+        "intent_template_id": 20,
         "video": "get_times"
     },
     {
@@ -1973,7 +1973,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "10027"
         },
-        "intent_template_id": 70,
+        "intent_template_id": 20,
         "video": "get_times"
     },
     {
@@ -2009,7 +2009,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Carnegie Mellon University, starbucks on forbes ave, apple store shadyside"
         },
-        "intent_template_id": 65,
+        "intent_template_id": 21,
         "video": "multistop_total_time"
     },
     {
@@ -2045,7 +2045,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Massachusetts Institute of Technology, Harvard University, Boston Logan International Airport"
         },
-        "intent_template_id": 65,
+        "intent_template_id": 21,
         "video": "multistop_total_time"
     },
     {
@@ -2081,7 +2081,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Princeton University, Yale University, Harvard University"
         },
-        "intent_template_id": 65,
+        "intent_template_id": 21,
         "video": "multistop_total_time"
     },
     {
@@ -2113,7 +2113,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "5"
         },
-        "intent_template_id": 277,
+        "intent_template_id": 22,
         "video": "see_reviews_tutorial"
     },
     {
@@ -2145,7 +2145,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "346"
         },
-        "intent_template_id": 277,
+        "intent_template_id": 22,
         "video": "see_reviews_tutorial"
     },
     {
@@ -2177,7 +2177,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "0"
         },
-        "intent_template_id": 277,
+        "intent_template_id": 22,
         "video": "see_reviews_tutorial"
     },
     {
@@ -2211,7 +2211,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "38 min"
         },
-        "intent_template_id": 72,
+        "intent_template_id": 23,
         "video": "get_times"
     },
     {
@@ -2245,7 +2245,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "49 min"
         },
-        "intent_template_id": 72,
+        "intent_template_id": 23,
         "video": "get_times"
     },
     {
@@ -2279,7 +2279,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "63 min"
         },
-        "intent_template_id": 72,
+        "intent_template_id": 23,
         "video": "get_times"
     },
     {
@@ -2313,7 +2313,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "22 min"
         },
-        "intent_template_id": 72,
+        "intent_template_id": 23,
         "video": "get_times"
     },
     {
@@ -2346,7 +2346,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "14 minutes"
         },
-        "intent_template_id": 64,
+        "intent_template_id": 24,
         "video": "get_times"
     },
     {
@@ -2379,7 +2379,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "30 minutes"
         },
-        "intent_template_id": 64,
+        "intent_template_id": 24,
         "video": "get_times"
     },
     {
@@ -2412,7 +2412,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "29 minutes"
         },
-        "intent_template_id": 64,
+        "intent_template_id": 24,
         "video": "get_times"
     },
     {
@@ -2445,7 +2445,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "20 minutes"
         },
-        "intent_template_id": 64,
+        "intent_template_id": 24,
         "video": "get_times"
     },
     {
@@ -2478,7 +2478,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "34 minutes"
         },
-        "intent_template_id": 64,
+        "intent_template_id": 24,
         "video": "get_times"
     },
     {
@@ -2512,7 +2512,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Rhode Island, Massachusetts, New York"
         },
-        "intent_template_id": 67,
+        "intent_template_id": 25,
         "video": "get_border"
     },
     {
@@ -2549,7 +2549,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Ohio, Maryland, New York, New Jersey, Delaware, West Virginia"
         },
-        "intent_template_id": 67,
+        "intent_template_id": 25,
         "video": "get_border"
     },
     {
@@ -2585,7 +2585,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Rhode Island, Connecticut, New York, New Hampshire, Vermont"
         },
-        "intent_template_id": 67,
+        "intent_template_id": 25,
         "video": "get_border"
     },
     {
@@ -2619,7 +2619,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "New York, New Hampshire, Massachusetts"
         },
-        "intent_template_id": 67,
+        "intent_template_id": 25,
         "video": "get_border"
     },
     {
@@ -2653,7 +2653,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Massachusetts, Vermont, Maine"
         },
-        "intent_template_id": 67,
+        "intent_template_id": 25,
         "video": "get_border"
     },
     {
@@ -2685,7 +2685,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "$36.39"
         },
-        "intent_template_id": 274,
+        "intent_template_id": 26,
         "video": "sales_tutorial"
     },
     {
@@ -2717,7 +2717,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "$39.64"
         },
-        "intent_template_id": 274,
+        "intent_template_id": 26,
         "video": "sales_tutorial"
     },
     {
@@ -2747,7 +2747,7 @@
             "reference_answer_raw_annotation": "The last order was canceled. It will never arrive.",
             "string_note": ""
         },
-        "intent_template_id": 193,
+        "intent_template_id": 27,
         "video": "order_history"
     },
     {
@@ -2778,7 +2778,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "914 km"
         },
-        "intent_template_id": 120,
+        "intent_template_id": 28,
         "video": "get_times"
     },
     {
@@ -2806,7 +2806,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 349,
+        "intent_template_id": 29,
         "video": "issue_repo_tutorial"
     },
     {
@@ -2834,7 +2834,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 349,
+        "intent_template_id": 29,
         "video": "issue_repo_tutorial"
     },
     {
@@ -2862,7 +2862,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 349,
+        "intent_template_id": 29,
         "video": "issue_repo_tutorial"
     },
     {
@@ -2890,7 +2890,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 349,
+        "intent_template_id": 29,
         "video": "issue_repo_tutorial"
     },
     {
@@ -2918,7 +2918,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 349,
+        "intent_template_id": 29,
         "video": "issue_repo_tutorial"
     },
     {
@@ -2957,7 +2957,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "May: 8 orders June: 13 orders July: 9 orders August: 8 orders Sepetember: 10 orders Octorbor: 4 orders November: 5 orders December: 10 orders  "
         },
-        "intent_template_id": 270,
+        "intent_template_id": 30,
         "video": "sales_tutorial"
     },
     {
@@ -2993,7 +2993,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "January: 12 orders Febulary: 7 orders March: 5 orders Apirl: 9 orders May: 5 orders"
         },
-        "intent_template_id": 270,
+        "intent_template_id": 30,
         "video": "sales_tutorial"
     },
     {
@@ -3036,7 +3036,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "January: 11 orders Feburary: 16 orders March: 14 orders April: 7 orders May: 8 orders June: 13 orders July: 9 orders August: 8 orders Sepetember: 10 orders Octorbor: 4 orders November: 5 orders December: 10 orders  "
         },
-        "intent_template_id": 270,
+        "intent_template_id": 30,
         "video": "sales_tutorial"
     },
     {
@@ -3078,7 +3078,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "January: 11 orders Feburary: 16 orders March: 14 orders April: 7 orders May: 8 orders June: 13 orders July: 9 orders August: 8 orders Sepetember: 10 orders Octorbor: 4 orders November: 5 orders  "
         },
-        "intent_template_id": 270,
+        "intent_template_id": 30,
         "video": "sales_tutorial"
     },
     {
@@ -3119,7 +3119,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Feburary: 16 orders March: 14 orders April: 7 orders May: 8 orders June: 13 orders July: 9 orders August: 8 orders Sepetember: 10 orders Octorbor: 4 orders November: 5 orders  "
         },
-        "intent_template_id": 270,
+        "intent_template_id": 30,
         "video": "sales_tutorial"
     },
     {
@@ -3149,7 +3149,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Hannah Lim"
         },
-        "intent_template_id": 245,
+        "intent_template_id": 31,
         "video": "see_reviews_tutorial"
     },
     {
@@ -3182,7 +3182,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Emma Lopez, Seam Miller"
         },
-        "intent_template_id": 245,
+        "intent_template_id": 31,
         "video": "see_reviews_tutorial"
     },
     {
@@ -3215,7 +3215,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Shaunte, Merrie"
         },
-        "intent_template_id": 245,
+        "intent_template_id": 31,
         "video": "see_reviews_tutorial"
     },
     {
@@ -3245,7 +3245,7 @@
             "string_note": "There is no negative review for Chloe tank",
             "reference_answer_raw_annotation": ""
         },
-        "intent_template_id": 245,
+        "intent_template_id": 32,
         "video": "see_reviews_tutorial"
     },
     {
@@ -3285,7 +3285,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Alexander, Carma, Dominic, Merrie, Monroe, Scotty, Shaunte, Teofila, Valorie"
         },
-        "intent_template_id": 245,
+        "intent_template_id": 33,
         "video": "see_reviews_tutorial"
     },
     {
@@ -3315,7 +3315,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "3/2/22"
         },
-        "intent_template_id": 161,
+        "intent_template_id": 34,
         "video": "order_history"
     },
     {
@@ -3350,7 +3350,7 @@
                 }
             ]
         },
-        "intent_template_id": 151,
+        "intent_template_id": 35,
         "video": "search_sort_buy"
     },
     {
@@ -3382,7 +3382,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Its color and style is good"
         },
-        "intent_template_id": 250,
+        "intent_template_id": 36,
         "video": "see_reviews_tutorial"
     },
     {
@@ -3414,7 +3414,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "It is comfortable"
         },
-        "intent_template_id": 250,
+        "intent_template_id": 36,
         "video": "see_reviews_tutorial"
     },
     {
@@ -3446,7 +3446,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Warm and comfortable. True to size."
         },
-        "intent_template_id": 250,
+        "intent_template_id": 36,
         "video": "see_reviews_tutorial"
     },
     {
@@ -3478,7 +3478,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Lightweight, comfortable, and stylish. Good design and details."
         },
-        "intent_template_id": 250,
+        "intent_template_id": 36,
         "video": "see_reviews_tutorial"
     },
     {
@@ -3510,7 +3510,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Warm and comfortable. True to size."
         },
-        "intent_template_id": 250,
+        "intent_template_id": 36,
         "video": "see_reviews_tutorial"
     },
     {
@@ -3543,7 +3543,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "$0.14 - $745.00"
         },
-        "intent_template_id": 159,
+        "intent_template_id": 37,
         "video": "cost_range"
     },
     {
@@ -3576,7 +3576,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "$1.46 - $85"
         },
-        "intent_template_id": 159,
+        "intent_template_id": 37,
         "video": "cost_range"
     },
     {
@@ -3609,7 +3609,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "$2.56 - $649.99"
         },
-        "intent_template_id": 159,
+        "intent_template_id": 37,
         "video": "cost_range"
     },
     {
@@ -3641,7 +3641,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Hollister, Joust, Antonia"
         },
-        "intent_template_id": 1001,
+        "intent_template_id": 38,
         "video": "find_best_selling"
     },
     {
@@ -3673,7 +3673,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "9"
         },
-        "intent_template_id": 1002,
+        "intent_template_id": 39,
         "video": "sales_tutorial"
     },
     {
@@ -3705,7 +3705,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "16"
         },
-        "intent_template_id": 1002,
+        "intent_template_id": 39,
         "video": "sales_tutorial"
     },
     {
@@ -3737,7 +3737,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "18"
         },
-        "intent_template_id": 1002,
+        "intent_template_id": 39,
         "video": "sales_tutorial"
     },
     {
@@ -3769,7 +3769,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "25"
         },
-        "intent_template_id": 1002,
+        "intent_template_id": 39,
         "video": "sales_tutorial"
     },
     {
@@ -3803,7 +3803,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "1"
         },
-        "intent_template_id": 322,
+        "intent_template_id": 40,
         "video": "repo_attributes"
     },
     {
@@ -3837,7 +3837,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "2"
         },
-        "intent_template_id": 322,
+        "intent_template_id": 40,
         "video": "repo_attributes"
     },
     {
@@ -3871,7 +3871,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "0"
         },
-        "intent_template_id": 322,
+        "intent_template_id": 40,
         "video": "repo_attributes"
     },
     {
@@ -3905,7 +3905,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "1"
         },
-        "intent_template_id": 322,
+        "intent_template_id": 40,
         "video": "repo_attributes"
     },
     {
@@ -3939,7 +3939,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "5"
         },
-        "intent_template_id": 322,
+        "intent_template_id": 40,
         "video": "repo_attributes"
     },
     {
@@ -3972,7 +3972,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "5h 47min"
         },
-        "intent_template_id": 51,
+        "intent_template_id": 41,
         "video": "get_times"
     },
     {
@@ -4005,7 +4005,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "1h 58min"
         },
-        "intent_template_id": 51,
+        "intent_template_id": 41,
         "video": "get_times"
     },
     {
@@ -4038,7 +4038,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "3h 20min"
         },
-        "intent_template_id": 51,
+        "intent_template_id": 41,
         "video": "get_times"
     },
     {
@@ -4071,7 +4071,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "8h 33min"
         },
-        "intent_template_id": 51,
+        "intent_template_id": 41,
         "video": "get_times"
     },
     {
@@ -4104,7 +4104,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "$47.41"
         },
-        "intent_template_id": 162,
+        "intent_template_id": 42,
         "video": "order_history"
     },
     {
@@ -4137,7 +4137,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "$95.23"
         },
-        "intent_template_id": 162,
+        "intent_template_id": 42,
         "video": "order_history"
     },
     {
@@ -4170,7 +4170,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "$265.69"
         },
-        "intent_template_id": 162,
+        "intent_template_id": 42,
         "video": "order_history"
     },
     {
@@ -4203,7 +4203,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "0"
         },
-        "intent_template_id": 162,
+        "intent_template_id": 42,
         "video": "order_history"
     },
     {
@@ -4236,7 +4236,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "$52.35"
         },
-        "intent_template_id": 162,
+        "intent_template_id": 42,
         "video": "order_history"
     },
     {
@@ -4270,7 +4270,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "16x24"
         },
-        "intent_template_id": 155,
+        "intent_template_id": 43,
         "video": "order_history"
     },
     {
@@ -4304,7 +4304,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "16x24"
         },
-        "intent_template_id": 155,
+        "intent_template_id": 43,
         "video": "order_history"
     },
     {
@@ -4338,7 +4338,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Mist"
         },
-        "intent_template_id": 155,
+        "intent_template_id": 43,
         "video": "order_history"
     },
     {
@@ -4372,7 +4372,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Green-vines"
         },
-        "intent_template_id": 155,
+        "intent_template_id": 43,
         "video": "order_history"
     },
     {
@@ -4406,7 +4406,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "260.69"
         },
-        "intent_template_id": 155,
+        "intent_template_id": 43,
         "video": "order_history"
     },
     {
@@ -4439,7 +4439,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "4min"
         },
-        "intent_template_id": 36,
+        "intent_template_id": 44,
         "video": "get_times"
     },
     {
@@ -4472,7 +4472,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "4min"
         },
-        "intent_template_id": 36,
+        "intent_template_id": 44,
         "video": "get_times"
     },
     {
@@ -4505,7 +4505,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "7min"
         },
-        "intent_template_id": 36,
+        "intent_template_id": 44,
         "video": "get_times"
     },
     {
@@ -4538,7 +4538,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "4min"
         },
-        "intent_template_id": 36,
+        "intent_template_id": 44,
         "video": "get_times"
     },
     {
@@ -4571,7 +4571,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "9min"
         },
-        "intent_template_id": 36,
+        "intent_template_id": 44,
         "video": "get_times"
     },
     {
@@ -4596,7 +4596,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 290,
+        "intent_template_id": 45,
         "video": "merge_request"
     },
     {
@@ -4621,7 +4621,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 255,
+        "intent_template_id": 46,
         "video": "customer_tutorial"
     },
     {
@@ -4648,7 +4648,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 171,
+        "intent_template_id": 47,
         "video": "search_sort_buy"
     },
     {
@@ -4675,7 +4675,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 171,
+        "intent_template_id": 47,
         "video": "search_sort_buy"
     },
     {
@@ -4702,7 +4702,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 171,
+        "intent_template_id": 47,
         "video": "search_sort_buy"
     },
     {
@@ -4729,7 +4729,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 171,
+        "intent_template_id": 47,
         "video": "search_sort_buy"
     },
     {
@@ -4756,7 +4756,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 171,
+        "intent_template_id": 47,
         "video": "search_sort_buy"
     },
     {
@@ -4791,7 +4791,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "I ordered the 16gb but I only got 14 gigs even though I formatted the card. The memory card is kind of slow on games and downloads. No original packaging It's used and the previous owners data has not been erased. The product is a legit sony hardware that have been owned by someone else before The media could not be loaded.  I could not format the card so I wasn\u2019t able to use it for my VITA"
         },
-        "intent_template_id": 136,
+        "intent_template_id": 48,
         "video": "review_tutorial"
     },
     {
@@ -4822,7 +4822,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "DryUneven color"
         },
-        "intent_template_id": 136,
+        "intent_template_id": 48,
         "video": "review_tutorial"
     },
     {
@@ -4857,7 +4857,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "The 39 was too small. I am afraid the 40 will be too big. I was very sad when the shoe rubbed up against my baby toe. I had to return them because I knew in time it would tear up my feet. The problem is that the strap is made of some really stiff leather and is painful to my heel. The front is also uncomfortably tight. The Dansko's were similar (not as bad) and loosened up over time."
         },
-        "intent_template_id": 136,
+        "intent_template_id": 48,
         "video": "review_tutorial"
     },
     {
@@ -4885,7 +4885,7 @@
             "string_note": "there is no existing criticism",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 136,
+        "intent_template_id": 48,
         "video": "review_tutorial"
     },
     {
@@ -4920,7 +4920,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "The wireless connection works on a whim (about 40% of the time I've owned it). It seems to constantly run out of ink. Cartridge prices are less than some printers I've had, but now I understand why. This printer seems to have more reasons NOT to work (none that are findable or correctable) Ex: error boxes saying that it's out of paper when it automatically switches to photo printing for some reason. Scanner is as slow as my first scanner I ever owned in the mid-90's. For the $176 I paid, there isn't even a fax component on it. I guess the \"PLUS\" part of it's name is in reference to the migraines it causes when you can't figure out the new reason why it's not working for the 10th time in the past 2 months."
         },
-        "intent_template_id": 136,
+        "intent_template_id": 48,
         "video": "review_tutorial"
     },
     {
@@ -4954,7 +4954,7 @@
             "string_note": "",
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 310,
+        "intent_template_id": 49,
         "video": "issue_tutorial"
     },
     {
@@ -4987,7 +4987,7 @@
             "reference_answer_raw_annotation": "Not closed",
             "string_note": ""
         },
-        "intent_template_id": 310,
+        "intent_template_id": 49,
         "video": "issue_tutorial"
     },
     {
@@ -5020,7 +5020,7 @@
             "reference_answer_raw_annotation": "Not closed",
             "string_note": ""
         },
-        "intent_template_id": 310,
+        "intent_template_id": 49,
         "video": "issue_tutorial"
     },
     {
@@ -5053,7 +5053,7 @@
             "reference_answer_raw_annotation": "Not closed",
             "string_note": ""
         },
-        "intent_template_id": 310,
+        "intent_template_id": 49,
         "video": "issue_tutorial"
     },
     {
@@ -5086,7 +5086,7 @@
             "reference_answer_raw_annotation": "closed",
             "string_note": ""
         },
-        "intent_template_id": 310,
+        "intent_template_id": 49,
         "video": "issue_tutorial"
     },
     {
@@ -5117,7 +5117,7 @@
             "reference_answer_raw_annotation": "Closed",
             "string_note": ""
         },
-        "intent_template_id": 500,
+        "intent_template_id": 50,
         "video": "issue_tutorial"
     },
     {
@@ -5148,7 +5148,7 @@
             "reference_answer_raw_annotation": "Closed",
             "string_note": ""
         },
-        "intent_template_id": 500,
+        "intent_template_id": 50,
         "video": "issue_tutorial"
     },
     {
@@ -5179,7 +5179,7 @@
             "reference_answer_raw_annotation": "Not closed",
             "string_note": ""
         },
-        "intent_template_id": 500,
+        "intent_template_id": 50,
         "video": "issue_tutorial"
     },
     {
@@ -5210,7 +5210,7 @@
             "reference_answer_raw_annotation": "Not closed",
             "string_note": ""
         },
-        "intent_template_id": 500,
+        "intent_template_id": 50,
         "video": "issue_tutorial"
     },
     {
@@ -5241,7 +5241,7 @@
             "reference_answer_raw_annotation": "closed",
             "string_note": ""
         },
-        "intent_template_id": 500,
+        "intent_template_id": 50,
         "video": "issue_tutorial"
     },
     {
@@ -5272,7 +5272,7 @@
             "string_note": "There is no product that has 10 quantities left.",
             "reference_answer_raw_annotation": "There is no product that has 10 quantities left."
         },
-        "intent_template_id": 368,
+        "intent_template_id": 51,
         "video": "catalog_tutorial"
     },
     {
@@ -5303,7 +5303,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Sinbad Fitness Tank"
         },
-        "intent_template_id": 368,
+        "intent_template_id": 51,
         "video": "catalog_tutorial"
     },
     {
@@ -5337,7 +5337,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Eos, Minerva"
         },
-        "intent_template_id": 368,
+        "intent_template_id": 51,
         "video": "catalog_tutorial"
     },
     {
@@ -5371,7 +5371,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Eos V-Neck Hoodie: S Minera Luma Tech V-Tee: XS"
         },
-        "intent_template_id": 368,
+        "intent_template_id": 51,
         "video": "catalog_tutorial"
     },
     {
@@ -5405,7 +5405,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "WH11-S-Blue, WS08-XS-Blue"
         },
-        "intent_template_id": 368,
+        "intent_template_id": 51,
         "video": "catalog_tutorial"
     },
     {
@@ -5437,7 +5437,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "365.42"
         },
-        "intent_template_id": 214,
+        "intent_template_id": 52,
         "video": "order_history"
     },
     {
@@ -5469,7 +5469,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "754.99"
         },
-        "intent_template_id": 214,
+        "intent_template_id": 52,
         "video": "order_history"
     },
     {
@@ -5501,7 +5501,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "65.32"
         },
-        "intent_template_id": 214,
+        "intent_template_id": 52,
         "video": "order_history"
     },
     {
@@ -5531,7 +5531,7 @@
             "string_note": "There is no order of \"processing\" status",
             "reference_answer_raw_annotation": "There is no order of \"processing\" status"
         },
-        "intent_template_id": 214,
+        "intent_template_id": 52,
         "video": "order_history"
     },
     {
@@ -5563,7 +5563,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "754.99"
         },
-        "intent_template_id": 214,
+        "intent_template_id": 52,
         "video": "order_history"
     },
     {
@@ -5596,7 +5596,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "182.4"
         },
-        "intent_template_id": 367,
+        "intent_template_id": 53,
         "video": "sales_tutorial"
     },
     {
@@ -5629,7 +5629,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "555.2"
         },
-        "intent_template_id": 367,
+        "intent_template_id": 53,
         "video": "sales_tutorial"
     },
     {
@@ -5662,7 +5662,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "885.4"
         },
-        "intent_template_id": 367,
+        "intent_template_id": 53,
         "video": "sales_tutorial"
     },
     {
@@ -5696,7 +5696,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "194.25"
         },
-        "intent_template_id": 367,
+        "intent_template_id": 54,
         "video": "sales_tutorial"
     },
     {
@@ -5730,7 +5730,7 @@
             "annotation_note": "219.4+210+166.4+93.4+89",
             "reference_answer_raw_annotation": "778.2"
         },
-        "intent_template_id": 367,
+        "intent_template_id": 53,
         "video": "sales_tutorial"
     },
     {
@@ -5761,7 +5761,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Lily Potter"
         },
-        "intent_template_id": 366,
+        "intent_template_id": 55,
         "video": "sales_tutorial"
     },
     {
@@ -5794,7 +5794,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "299"
         },
-        "intent_template_id": 366,
+        "intent_template_id": 55,
         "video": "sales_tutorial"
     },
     {
@@ -5825,7 +5825,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "John Lee"
         },
-        "intent_template_id": 366,
+        "intent_template_id": 55,
         "video": "sales_tutorial"
     },
     {
@@ -5856,7 +5856,7 @@
             "string_note": "There is no order of \"fraud suspect\" status",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 366,
+        "intent_template_id": 55,
         "video": "sales_tutorial"
     },
     {
@@ -5889,7 +5889,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "May 23, 2023"
         },
-        "intent_template_id": 366,
+        "intent_template_id": 55,
         "video": "sales_tutorial"
     },
     {
@@ -5923,7 +5923,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "000000299, May 31, 2023, 2:55:09 AM"
         },
-        "intent_template_id": 366,
+        "intent_template_id": 55,
         "video": "sales_tutorial"
     },
     {
@@ -5958,7 +5958,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Rapha Sports Short: $35 Thorpe Track Pant: $54.4 Mach Street Sweatshirt: $62"
         },
-        "intent_template_id": 366,
+        "intent_template_id": 55,
         "video": "sales_tutorial"
     },
     {
@@ -5991,7 +5991,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "1"
         },
-        "intent_template_id": 320,
+        "intent_template_id": 56,
         "video": "repo_attributes"
     },
     {
@@ -6024,7 +6024,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "2"
         },
-        "intent_template_id": 320,
+        "intent_template_id": 56,
         "video": "repo_attributes"
     },
     {
@@ -6057,7 +6057,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "1"
         },
-        "intent_template_id": 320,
+        "intent_template_id": 57,
         "video": "repo_attributes"
     },
     {
@@ -6090,7 +6090,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "John Smith, john.smith.xyz@gmail.com"
         },
-        "intent_template_id": 364,
+        "intent_template_id": 58,
         "video": "customer_tutorial"
     },
     {
@@ -6123,7 +6123,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Jennifer White, jennifer.white@yahoo.com"
         },
-        "intent_template_id": 364,
+        "intent_template_id": 58,
         "video": "customer_tutorial"
     },
     {
@@ -6156,7 +6156,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Adam Garcia, gamingpro456@gmail.com"
         },
-        "intent_template_id": 364,
+        "intent_template_id": 58,
         "video": "customer_tutorial"
     },
     {
@@ -6189,7 +6189,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Sean Miller, sean.miller@gmail.com"
         },
-        "intent_template_id": 364,
+        "intent_template_id": 58,
         "video": "customer_tutorial"
     },
     {
@@ -6222,7 +6222,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Veronica Costello, roni_cost@example.com"
         },
-        "intent_template_id": 364,
+        "intent_template_id": 58,
         "video": "customer_tutorial"
     },
     {
@@ -6254,7 +6254,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Not suitable for high-impact workouts"
         },
-        "intent_template_id": 249,
+        "intent_template_id": 59,
         "video": "see_reviews_tutorial"
     },
     {
@@ -6286,7 +6286,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "It is hard to find the right size. Won't last long"
         },
-        "intent_template_id": 249,
+        "intent_template_id": 59,
         "video": "see_reviews_tutorial"
     },
     {
@@ -6318,7 +6318,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Material quality, fit, insufficient warmth, color"
         },
-        "intent_template_id": 249,
+        "intent_template_id": 59,
         "video": "see_reviews_tutorial"
     },
     {
@@ -6350,7 +6350,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Not true to size"
         },
-        "intent_template_id": 249,
+        "intent_template_id": 59,
         "video": "see_reviews_tutorial"
     },
     {
@@ -6382,7 +6382,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Insufficient resistance for their workouts."
         },
-        "intent_template_id": 249,
+        "intent_template_id": 59,
         "video": "see_reviews_tutorial"
     },
     {
@@ -6415,7 +6415,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "$5.49 - $375.19"
         },
-        "intent_template_id": 370,
+        "intent_template_id": 60,
         "video": "brand"
     },
     {
@@ -6447,7 +6447,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "$9.99"
         },
-        "intent_template_id": 370,
+        "intent_template_id": 60,
         "video": "brand"
     },
     {
@@ -6480,7 +6480,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "$18.18 - $94.99"
         },
-        "intent_template_id": 370,
+        "intent_template_id": 60,
         "video": "brand"
     },
     {
@@ -6513,7 +6513,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "$6.99 - $38.99"
         },
-        "intent_template_id": 370,
+        "intent_template_id": 60,
         "video": "brand"
     },
     {
@@ -6546,7 +6546,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "$35 - $149"
         },
-        "intent_template_id": 370,
+        "intent_template_id": 60,
         "video": "brand"
     },
     {
@@ -6578,7 +6578,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "000000170"
         },
-        "intent_template_id": 213,
+        "intent_template_id": 61,
         "video": "order_history"
     },
     {
@@ -6610,7 +6610,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "000000189"
         },
-        "intent_template_id": 213,
+        "intent_template_id": 61,
         "video": "order_history"
     },
     {
@@ -6642,7 +6642,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "000000180"
         },
-        "intent_template_id": 213,
+        "intent_template_id": 61,
         "video": "order_history"
     },
     {
@@ -6672,7 +6672,7 @@
             "string_note": "there is no on hold order",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 213,
+        "intent_template_id": 61,
         "video": "order_history"
     },
     {
@@ -6702,7 +6702,7 @@
             "string_note": "There is no under delivery order",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 213,
+        "intent_template_id": 61,
         "video": "order_history"
     },
     {
@@ -6729,7 +6729,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 138,
+        "intent_template_id": 62,
         "video": "sort_by_price"
     },
     {
@@ -6756,7 +6756,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 138,
+        "intent_template_id": 62,
         "video": "sort_by_price"
     },
     {
@@ -6783,7 +6783,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 138,
+        "intent_template_id": 62,
         "video": "sort_by_price"
     },
     {
@@ -6810,7 +6810,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 138,
+        "intent_template_id": 62,
         "video": "sort_by_price"
     },
     {
@@ -6837,7 +6837,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 138,
+        "intent_template_id": 62,
         "video": "sort_by_price"
     },
     {
@@ -6868,7 +6868,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "hannah.lim@gmail.com"
         },
-        "intent_template_id": 244,
+        "intent_template_id": 63,
         "video": "info_search_customer_tutorial"
     },
     {
@@ -6899,7 +6899,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "emma.lopez@gmail.com"
         },
-        "intent_template_id": 244,
+        "intent_template_id": 63,
         "video": "info_search_customer_tutorial"
     },
     {
@@ -6930,7 +6930,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Shaunte"
         },
-        "intent_template_id": 244,
+        "intent_template_id": 63,
         "video": "info_search_customer_tutorial"
     },
     {
@@ -6961,7 +6961,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Teofila"
         },
-        "intent_template_id": 244,
+        "intent_template_id": 63,
         "video": "info_search_customer_tutorial"
     },
     {
@@ -6992,7 +6992,7 @@
             "string_note": "There is no negative review for Zoe products",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 244,
+        "intent_template_id": 63,
         "video": "info_search_customer_tutorial"
     },
     {
@@ -7017,7 +7017,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 325,
+        "intent_template_id": 64,
         "video": "explore_star_tutorial"
     },
     {
@@ -7045,7 +7045,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "TMN_bBn9Z48qVbUFZV45"
         },
-        "intent_template_id": 312,
+        "intent_template_id": 65,
         "video": "edit_personal"
     },
     {
@@ -7072,7 +7072,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 211,
+        "intent_template_id": 66,
         "video": "add_by_category"
     },
     {
@@ -7099,7 +7099,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 211,
+        "intent_template_id": 66,
         "video": "add_by_category"
     },
     {
@@ -7126,7 +7126,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 211,
+        "intent_template_id": 66,
         "video": "add_by_category"
     },
     {
@@ -7153,7 +7153,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 211,
+        "intent_template_id": 66,
         "video": "add_by_category"
     },
     {
@@ -7180,7 +7180,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 211,
+        "intent_template_id": 66,
         "video": "add_by_category"
     },
     {
@@ -7214,7 +7214,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Acadia National Park\n457km"
         },
-        "intent_template_id": 85,
+        "intent_template_id": 67,
         "video": "get_times"
     },
     {
@@ -7245,7 +7245,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Acadia National Park"
         },
-        "intent_template_id": 85,
+        "intent_template_id": 68,
         "video": "get_times"
     },
     {
@@ -7281,7 +7281,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Acadia National Park\n1h 23min"
         },
-        "intent_template_id": 85,
+        "intent_template_id": 69,
         "video": "get_times"
     },
     {
@@ -7317,7 +7317,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Acadia National Park\n10h 33min"
         },
-        "intent_template_id": 85,
+        "intent_template_id": 70,
         "video": "get_times"
     },
     {
@@ -7345,7 +7345,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 139,
+        "intent_template_id": 71,
         "video": "price_range_url"
     },
     {
@@ -7373,7 +7373,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 139,
+        "intent_template_id": 71,
         "video": "price_range_url"
     },
     {
@@ -7401,7 +7401,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 139,
+        "intent_template_id": 71,
         "video": "price_range_url"
     },
     {
@@ -7429,7 +7429,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 139,
+        "intent_template_id": 71,
         "video": "price_range_url"
     },
     {
@@ -7457,7 +7457,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 139,
+        "intent_template_id": 71,
         "video": "price_range_url"
     },
     {
@@ -7484,7 +7484,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 212,
+        "intent_template_id": 72,
         "video": "search_and_scroll"
     },
     {
@@ -7511,7 +7511,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 212,
+        "intent_template_id": 72,
         "video": "search_and_scroll"
     },
     {
@@ -7538,7 +7538,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 212,
+        "intent_template_id": 72,
         "video": "search_and_scroll"
     },
     {
@@ -7565,7 +7565,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 212,
+        "intent_template_id": 72,
         "video": "search_and_scroll"
     },
     {
@@ -7592,7 +7592,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 212,
+        "intent_template_id": 72,
         "video": "search_and_scroll"
     },
     {
@@ -7635,7 +7635,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "These models are avaiable:  SONY WH1000XM3 Bluetooth Wireless Noise Canceling Headphones Silver WH-1000XM3/S (Renewed) Sony WH-CH710N/H Wireless Bluetooth Noise Cancelling Headphones Sony WH-1000XM3B Wireless Bluetooth Noise-Canceling Over-Ear Headphones (Black) Basic Headphone Bundle Kit with Stylus Sony Wireless Headphones WH-CH510: Wireless Bluetooth On-Ear Headset with Mic for Phone-Call, Black Sony WHCH710N Wireless Bluetooth Noise Canceling Over-The-Ear Headphones (Black) with Kratos 18W PD Two-Port Power Adapter and Kratos 6-Feet Nylon Braided USB-C Cable Bundle (3 Items) Sony WI-SP500 Wireless in-Ear Sports Headphones, White (WISP500/W) Sony WI-SP510 Extra BASS Wireless in-Ear Headset/Headphones with mic for Phone Call Sports IPX5 Bluetooth, Black (WISP510/B) Sony MDRAS600BT Active Sports Bluetooth Headset (Black) Sony WH-1000XM4 Wireless Noise Canceling Over-Ear Headphones (Black) with Sony WLA-NS7 Wireless TV Adapter Bundle (2 Items) Sony WI-C300 Wireless In-Ear Headphones, Red (WIC300/R) Sony XB950N1 Extra Bass Wireless Noise Canceling Headphones, Black SONY - H900N Hi-Res Noise Cancelling Wireless Headphone Grayish Black Renewed The price ranges from $18.99 to $406  "
         },
-        "intent_template_id": 204,
+        "intent_template_id": 73,
         "video": "brand"
     },
     {
@@ -7678,7 +7678,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "These models are availiable: Anker USB C Charger 30W, 711 Charger, Compact Fast Charger (Not Foldable) for MacBook Air/iPhone 13/13 Mini/13 Pro/13 Pro Max/12, Galaxy S21, Note 20, iPad Pro, Pixel, and More Anker USB C Charger 40W, 521 Charger (Nano Pro), PIQ 3.0 Durable Compact Fast Charger (Not Foldable) for iPhone 13/13 Mini/13 Pro/13 Pro Max/12, Galaxy, Pixel 4/3, iPad/iPad Mini (Cable Not Included) Anker PowerCore Speed 20000, 20000mAh Qualcomm Quick Charge 3.0 & PowerIQ Portable Charger, with Quick Charge Recharging, Power Bank for Samsung, iPhone, iPad and More, Black (A1278) 5Ft Micro-USB Charger Cord Cable Fit for Anker-PowerCore 5000 10000 20100 13000 26800 Mini 3350 Fusion II 15000 Redux 20000 Slim 10000 Astro E1 AC Replacement Power Adapter Supply Anker 10W Max Wireless Charger, 313 Wireless Charger (Pad), Qi-Certified Wireless Charging 7.5W for iPhone 12/12 Pro/12 mini/12 Pro Max, 10W for Galaxy S10 S9 S8, S9 Plus, Note 9 (No AC Adapter) Anker Wireless Charger, 313 Wireless Charger (Stand), Qi-Certified for iPhone 12, 12 Pro Max, SE, 11, 11 Pro, 11 Pro Max, XR, XS Max, 10W Fast-Charging Galaxy S20, S10 (No AC Adapter) USB Charger, Anker Elite Dual Port 24W Wall Charger, PowerPort 2 with PowerIQ and Foldable Plug, for iPhone 11/Xs/XS Max/XR/X/8/7/6/Plus, iPad Pro/Air 2/Mini 3/Mini 4, Samsung S4/S5, and More iPhone 12 Charger [GaN Tech], Anker 30W Compact USB-C Wall Charger with Power Delivery, PowerPort Atom for iPhone 12 / Mini/Pro/Pro Max / 11 / X/XS/XR, iPad Pro, MacBook 12'', Pixel, Galaxy USB C Charger, Anker 30W 2 Port Fast Charger with 18W USB C Power Adapter, Foldable PowerPort PD 2 Charger for iPad Pro, iPhone 11/11 Pro / 11 Pro Max/XS/Max/XR/X, Pixel, Galaxy, and More Anker 40W 5-Port USB Wall Charger, PowerPort 5 for iPhone XS / XS Max / XR / X / 8 / 7 / 6 / Plus, iPad Pro / Air 2 / mini, Galaxy S9 / S8 / Edge / Plus, Note 8 / 7, LG, Nexus, HTC and More, Black (AK-A2124111) Anker Quick Charge 3.0 39W Dual USB Wall Charger, PowerPort Speed 2 for Galaxy S10/S9/S8/Edge/Plus, Note 8/7 and PowerIQ for iPhone Xs/XS Max/XR/X/8/Plus, iPad Pro/Air 2/Mini, LG, Nexus, HTC and More USB C Charger, Anker 20W PIQ 3.0 Fast Charger with Foldable Plug, PowerPort III Charger for iPhone 13/13 Mini/13 Pro/13 Pro Max/12/11, iPad/iPad Mini, MagSafe, and More (Cable Not Included) Magnetic Wireless Charger, Anker Wireless Charger with 5ft Built-in USB-C Cable, PowerWave Magnetic Pad, 7.5W Charging for iPhone 13 / 13 Pro / 13 Pro Max / 13 mini / 12 / 12 Pro (No AC Adapter) USB C Super Fast Charger, Anker 25W PD Wall Charger Fast Charging for Samsung Galaxy S21/S21+/S21 Ultra/S20/Z Flip/Note20/20 Ultra/Note10/10+/S9/S8/S10e, iPad Pro 12.9, and More (Cable not Included) The price ranges from $8.99 to $59.99"
         },
-        "intent_template_id": 204,
+        "intent_template_id": 74,
         "video": "brand"
     },
     {
@@ -7711,7 +7711,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "These models are availiable: Oral-B Kids Extra Soft Replacement Brush Heads featuring STAR WARS, 2 count Kids By Oral-b Stages Power Star Wars Replacement Heads 4 Pack The price ranges from $3.745 to $6.495 "
         },
-        "intent_template_id": 204,
+        "intent_template_id": 75,
         "video": "brand"
     },
     {
@@ -7751,7 +7751,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "These models are availiable: Nike Men's Air Max Camden Slide Sandal Nike Men's Benassi JDI Fanny Pack Slides Nike Victori One Mens Comfort Slide Cn9675-003 (Midnight Navy/Midnight Navy/White, Numeric_10) Nike Offcourt Slide Mens Bq4639-002 Size 12 Nike Jordan Men's Break Slide Red AR6374-602 Nike Victori One Slide Mens Style : Dd9559-300 Nike Men's Benassi Solarsoft Slide Athletic Sandal (Black/White, numeric_14) Nike Men's Benassi Solarsoft Slide Athletic Sandal (Midnight Navy/Blue, numeric_8) Nike womens Benassi Just Do It   The price ranges from $27.6 to $90.65"
         },
-        "intent_template_id": 204,
+        "intent_template_id": 76,
         "video": "brand"
     },
     {
@@ -7776,7 +7776,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 210,
+        "intent_template_id": 77,
         "video": "search_and_scroll"
     },
     {
@@ -7804,7 +7804,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 207,
+        "intent_template_id": 78,
         "video": "search_and_scroll"
     },
     {
@@ -7832,7 +7832,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 207,
+        "intent_template_id": 78,
         "video": "search_and_scroll"
     },
     {
@@ -7860,7 +7860,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 207,
+        "intent_template_id": 78,
         "video": "search_and_scroll"
     },
     {
@@ -7890,7 +7890,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "5h 47min"
         },
-        "intent_template_id": 47,
+        "intent_template_id": 79,
         "video": "get_times"
     },
     {
@@ -7920,7 +7920,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Samantha Jones"
         },
-        "intent_template_id": 234,
+        "intent_template_id": 80,
         "video": "info_search_customer_tutorial"
     },
     {
@@ -7954,7 +7954,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "email: coolcat321@hotmail.com name: Samantha Jones phone number: 3055551212"
         },
-        "intent_template_id": 234,
+        "intent_template_id": 80,
         "video": "info_search_customer_tutorial"
     },
     {
@@ -7989,7 +7989,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "WSH09-29-White,WSH09-28-Green,MSH11-34-Blue,WP09-29-Purple"
         },
-        "intent_template_id": 234,
+        "intent_template_id": 80,
         "video": "info_search_customer_tutorial"
     },
     {
@@ -8021,7 +8021,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "$148"
         },
-        "intent_template_id": 234,
+        "intent_template_id": 80,
         "video": "info_search_customer_tutorial"
     },
     {
@@ -8053,7 +8053,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "9"
         },
-        "intent_template_id": 234,
+        "intent_template_id": 80,
         "video": "info_search_customer_tutorial"
     },
     {
@@ -8083,7 +8083,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "git clone ssh://git@metis.lti.cs.cmu.edu:2222/convexegg/super_awesome_robot.git"
         },
-        "intent_template_id": 329,
+        "intent_template_id": 81,
         "video": "edit_project"
     },
     {
@@ -8113,7 +8113,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "git clone ssh://git@metis.lti.cs.cmu.edu:2222/convexegg/chatgpt.git"
         },
-        "intent_template_id": 329,
+        "intent_template_id": 81,
         "video": "edit_project"
     },
     {
@@ -8143,7 +8143,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "git clone ssh://git@metis.lti.cs.cmu.edu:2222/root/metaseq.git"
         },
-        "intent_template_id": 329,
+        "intent_template_id": 81,
         "video": "edit_project"
     },
     {
@@ -8173,7 +8173,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "ssh://git@metis.lti.cs.cmu.edu:2222/eriklindernoren/PyTorch-GAN.git"
         },
-        "intent_template_id": 329,
+        "intent_template_id": 81,
         "video": "edit_project"
     },
     {
@@ -8203,7 +8203,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "ssh://git@metis.lti.cs.cmu.edu:2222/yjlou/2019-nCov.git"
         },
-        "intent_template_id": 329,
+        "intent_template_id": 81,
         "video": "edit_project"
     },
     {
@@ -8230,7 +8230,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 180,
+        "intent_template_id": 82,
         "video": "order_history"
     },
     {
@@ -8257,7 +8257,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 180,
+        "intent_template_id": 82,
         "video": "order_history"
     },
     {
@@ -8284,7 +8284,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 180,
+        "intent_template_id": 82,
         "video": "order_history"
     },
     {
@@ -8313,7 +8313,7 @@
             "program_html": [],
             "string_note": "there is no order in processing"
         },
-        "intent_template_id": 180,
+        "intent_template_id": 82,
         "video": "order_history"
     },
     {
@@ -8342,7 +8342,7 @@
             "program_html": [],
             "string_note": "there is no order in processing"
         },
-        "intent_template_id": 180,
+        "intent_template_id": 82,
         "video": "order_history"
     },
     {
@@ -8375,7 +8375,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "1"
         },
-        "intent_template_id": 321,
+        "intent_template_id": 83,
         "video": "repo_attributes"
     },
     {
@@ -8408,7 +8408,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "14"
         },
-        "intent_template_id": 321,
+        "intent_template_id": 83,
         "video": "repo_attributes"
     },
     {
@@ -8441,7 +8441,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "0"
         },
-        "intent_template_id": 321,
+        "intent_template_id": 83,
         "video": "repo_attributes"
     },
     {
@@ -8474,7 +8474,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "0"
         },
-        "intent_template_id": 321,
+        "intent_template_id": 83,
         "video": "repo_attributes"
     },
     {
@@ -8507,7 +8507,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "16"
         },
-        "intent_template_id": 321,
+        "intent_template_id": 83,
         "video": "repo_attributes"
     },
     {
@@ -8537,7 +8537,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Shawn Allen"
         },
-        "intent_template_id": 323,
+        "intent_template_id": 84,
         "video": "repo_attributes"
     },
     {
@@ -8567,7 +8567,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Grayson Wright"
         },
-        "intent_template_id": 323,
+        "intent_template_id": 84,
         "video": "repo_attributes"
     },
     {
@@ -8597,7 +8597,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "tokudu"
         },
-        "intent_template_id": 323,
+        "intent_template_id": 84,
         "video": "repo_attributes"
     },
     {
@@ -8627,7 +8627,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Erik Linder-Nor\u00e9n"
         },
-        "intent_template_id": 323,
+        "intent_template_id": 84,
         "video": "repo_attributes"
     },
     {
@@ -8657,7 +8657,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Christopher Groskopf"
         },
-        "intent_template_id": 323,
+        "intent_template_id": 84,
         "video": "repo_attributes"
     },
     {
@@ -8685,7 +8685,7 @@
             "string_note": "There is no phone number in the website",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 134,
+        "intent_template_id": 85,
         "video": "contact_refund_subscribe"
     },
     {
@@ -8720,7 +8720,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Shawn Allen, Inayaili Le\u00f3n, Aurora Pleguezuelo"
         },
-        "intent_template_id": 324,
+        "intent_template_id": 86,
         "video": "repo_attributes"
     },
     {
@@ -8755,7 +8755,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "eriklindernoren@live.se, eriklindernoren@gmail.com, pinnacle.chen@qq.com"
         },
-        "intent_template_id": 324,
+        "intent_template_id": 86,
         "video": "repo_attributes"
     },
     {
@@ -8790,7 +8790,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Ian Sutherland, Joe Hadda, Dan Abramov"
         },
-        "intent_template_id": 324,
+        "intent_template_id": 86,
         "video": "repo_attributes"
     },
     {
@@ -8825,7 +8825,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Susan Zhang: 70, Stephen Roller: 51, Peter Albert: 12"
         },
-        "intent_template_id": 324,
+        "intent_template_id": 86,
         "video": "repo_attributes"
     },
     {
@@ -8860,7 +8860,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Lo, Chen, Chu"
         },
-        "intent_template_id": 324,
+        "intent_template_id": 86,
         "video": "repo_attributes"
     },
     {
@@ -8892,7 +8892,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "0"
         },
-        "intent_template_id": 160,
+        "intent_template_id": 87,
         "video": "order_history"
     },
     {
@@ -8924,7 +8924,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "406.53"
         },
-        "intent_template_id": 160,
+        "intent_template_id": 87,
         "video": "order_history"
     },
     {
@@ -8956,7 +8956,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "3053.97"
         },
-        "intent_template_id": 160,
+        "intent_template_id": 87,
         "video": "order_history"
     },
     {
@@ -8988,7 +8988,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "350.42"
         },
-        "intent_template_id": 160,
+        "intent_template_id": 88,
         "video": "order_history"
     },
     {
@@ -9020,7 +9020,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "264.49"
         },
-        "intent_template_id": 160,
+        "intent_template_id": 89,
         "video": "search_sort_buy"
     },
     {
@@ -9048,7 +9048,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 208,
+        "intent_template_id": 90,
         "video": "search_sort_buy"
     },
     {
@@ -9076,7 +9076,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 208,
+        "intent_template_id": 90,
         "video": "search_sort_buy"
     },
     {
@@ -9104,7 +9104,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 208,
+        "intent_template_id": 90,
         "video": "search_sort_buy"
     },
     {
@@ -9132,7 +9132,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 208,
+        "intent_template_id": 90,
         "video": "search_sort_buy"
     },
     {
@@ -9160,7 +9160,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 208,
+        "intent_template_id": 90,
         "video": "search_sort_buy"
     },
     {
@@ -9192,7 +9192,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "0"
         },
-        "intent_template_id": 147,
+        "intent_template_id": 91,
         "video": "order_history"
     },
     {
@@ -9224,7 +9224,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "81.31"
         },
-        "intent_template_id": 147,
+        "intent_template_id": 91,
         "video": "order_history"
     },
     {
@@ -9256,7 +9256,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "40.16"
         },
-        "intent_template_id": 147,
+        "intent_template_id": 91,
         "video": "order_history"
     },
     {
@@ -9290,7 +9290,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Jan: 572.8\nFeb: 762.18\nMar: 83.31"
         },
-        "intent_template_id": 147,
+        "intent_template_id": 91,
         "video": "order_history"
     },
     {
@@ -9322,7 +9322,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "359.546"
         },
-        "intent_template_id": 147,
+        "intent_template_id": 92,
         "video": "order_history"
     },
     {
@@ -9354,7 +9354,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "March 11th 2023"
         },
-        "intent_template_id": 169,
+        "intent_template_id": 93,
         "video": "order_history"
     },
     {
@@ -9386,7 +9386,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "January 16th 2023"
         },
-        "intent_template_id": 169,
+        "intent_template_id": 93,
         "video": "order_history"
     },
     {
@@ -9418,7 +9418,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "January 16th 2023"
         },
-        "intent_template_id": 169,
+        "intent_template_id": 93,
         "video": "order_history"
     },
     {
@@ -9450,7 +9450,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "December 12th 2022"
         },
-        "intent_template_id": 169,
+        "intent_template_id": 93,
         "video": "order_history"
     },
     {
@@ -9482,7 +9482,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "December 4th 2022"
         },
-        "intent_template_id": 169,
+        "intent_template_id": 93,
         "video": "order_history"
     },
     {
@@ -9509,7 +9509,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 299,
+        "intent_template_id": 94,
         "video": "issue_repo_tutorial"
     },
     {
@@ -9536,7 +9536,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 299,
+        "intent_template_id": 94,
         "video": "issue_repo_tutorial"
     },
     {
@@ -9563,7 +9563,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 299,
+        "intent_template_id": 94,
         "video": "issue_repo_tutorial"
     },
     {
@@ -9590,7 +9590,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 299,
+        "intent_template_id": 94,
         "video": "issue_repo_tutorial"
     },
     {
@@ -9617,7 +9617,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 299,
+        "intent_template_id": 94,
         "video": "issue_repo_tutorial"
     },
     {
@@ -9649,7 +9649,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "351"
         },
-        "intent_template_id": 248,
+        "intent_template_id": 95,
         "video": "see_reviews_tutorial"
     },
     {
@@ -9681,7 +9681,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "351"
         },
-        "intent_template_id": 248,
+        "intent_template_id": 95,
         "video": "see_reviews_tutorial"
     },
     {
@@ -9713,7 +9713,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "0"
         },
-        "intent_template_id": 248,
+        "intent_template_id": 95,
         "video": "see_reviews_tutorial"
     },
     {
@@ -9745,7 +9745,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "351"
         },
-        "intent_template_id": 248,
+        "intent_template_id": 95,
         "video": "see_reviews_tutorial"
     },
     {
@@ -9777,7 +9777,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "0"
         },
-        "intent_template_id": 248,
+        "intent_template_id": 95,
         "video": "see_reviews_tutorial"
     },
     {
@@ -9807,7 +9807,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "yjlou"
         },
-        "intent_template_id": 298,
+        "intent_template_id": 96,
         "video": "repo_attributes"
     },
     {
@@ -9839,7 +9839,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Abishek S, abisubramanya27"
         },
-        "intent_template_id": 298,
+        "intent_template_id": 96,
         "video": "repo_attributes"
     },
     {
@@ -9867,7 +9867,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 137,
+        "intent_template_id": 97,
         "video": "sort_by_price"
     },
     {
@@ -9895,7 +9895,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 137,
+        "intent_template_id": 97,
         "video": "sort_by_price"
     },
     {
@@ -9923,7 +9923,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 137,
+        "intent_template_id": 97,
         "video": "sort_by_price"
     },
     {
@@ -9951,7 +9951,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 137,
+        "intent_template_id": 97,
         "video": "sort_by_price"
     },
     {
@@ -9979,7 +9979,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 137,
+        "intent_template_id": 97,
         "video": "sort_by_price"
     },
     {
@@ -10031,7 +10031,7 @@
                 }
             ]
         },
-        "intent_template_id": 49,
+        "intent_template_id": 98,
         "video": "get_times"
     },
     {
@@ -10056,7 +10056,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 291,
+        "intent_template_id": 99,
         "video": "merge_request"
     },
     {
@@ -10089,7 +10089,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Flat Rate - Fixed"
         },
-        "intent_template_id": 206,
+        "intent_template_id": 100,
         "video": "order_history"
     },
     {
@@ -10122,7 +10122,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "1/29/2023"
         },
-        "intent_template_id": 206,
+        "intent_template_id": 100,
         "video": "order_history"
     },
     {
@@ -10156,7 +10156,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Bornbridge Artificial Spiral Topiary Tree - Indoor / Outdoor Topiary Trees - Artificial Outdoor Plants (2 Pack, 4' Cypress), Russound 5B45W 4\" Indoor Outdoor Speakers White"
         },
-        "intent_template_id": 206,
+        "intent_template_id": 100,
         "video": "order_history"
     },
     {
@@ -10190,7 +10190,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "170: cancelled, 189: pending"
         },
-        "intent_template_id": 206,
+        "intent_template_id": 100,
         "video": "order_history"
     },
     {
@@ -10227,7 +10227,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Emma Lopez, 101 S San Mateo Dr, San Mateo, California, 94010, United States"
         },
-        "intent_template_id": 206,
+        "intent_template_id": 100,
         "video": "order_history"
     },
     {
@@ -10258,7 +10258,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "748m"
         },
-        "intent_template_id": 58,
+        "intent_template_id": 101,
         "video": "get_times"
     },
     {
@@ -10289,7 +10289,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "1.7km"
         },
-        "intent_template_id": 58,
+        "intent_template_id": 101,
         "video": "get_times"
     },
     {
@@ -10320,7 +10320,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "2.2km"
         },
-        "intent_template_id": 58,
+        "intent_template_id": 101,
         "video": "get_times"
     },
     {
@@ -10351,7 +10351,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "1.2km"
         },
-        "intent_template_id": 58,
+        "intent_template_id": 101,
         "video": "get_times"
     },
     {
@@ -10382,7 +10382,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "1.4km"
         },
-        "intent_template_id": 58,
+        "intent_template_id": 101,
         "video": "get_times"
     },
     {
@@ -10409,7 +10409,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 266,
+        "intent_template_id": 102,
         "video": "content_tutorial"
     },
     {
@@ -10436,7 +10436,7 @@
             "program_html": [],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 266,
+        "intent_template_id": 102,
         "video": "content_tutorial"
     },
     {
@@ -10466,7 +10466,7 @@
             "string_note": "There is no review for this product",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 182,
+        "intent_template_id": 103,
         "video": "review_tutorial"
     },
     {
@@ -10499,7 +10499,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Lisa Lee, Evelyn Kurver, Amanda, N Randall"
         },
-        "intent_template_id": 666,
+        "intent_template_id": 104,
         "video": "review_tutorial"
     },
     {
@@ -10536,7 +10536,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Lisa Lee, MH, Misba009, Amanda, N Randall, Amazon Customer, Cally, Bethany Robertson"
         },
-        "intent_template_id": 666,
+        "intent_template_id": 105,
         "video": "review_tutorial"
     },
     {
@@ -10568,7 +10568,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Around 3.1 stars"
         },
-        "intent_template_id": 1355,
+        "intent_template_id": 106,
         "video": "review_tutorial"
     },
     {
@@ -10605,7 +10605,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "MH, Misba009, Amanda, Amazon Customer, Cally, Bethany Robertson, Bethany Robertson"
         },
-        "intent_template_id": 1356,
+        "intent_template_id": 107,
         "video": "review_tutorial"
     },
     {
@@ -10638,7 +10638,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Evelyn Kurver,  N Randall"
         },
-        "intent_template_id": 1356,
+        "intent_template_id": 107,
         "video": "review_tutorial"
     },
     {
@@ -10676,7 +10676,7 @@
                 }
             ]
         },
-        "intent_template_id": 348,
+        "intent_template_id": 108,
         "video": "merge_request"
     },
     {
@@ -10712,7 +10712,7 @@
                 }
             ]
         },
-        "intent_template_id": 348,
+        "intent_template_id": 108,
         "video": "merge_request"
     },
     {
@@ -10748,7 +10748,7 @@
                 }
             ]
         },
-        "intent_template_id": 348,
+        "intent_template_id": 108,
         "video": "merge_request"
     },
     {
@@ -10784,7 +10784,7 @@
                 }
             ]
         },
-        "intent_template_id": 348,
+        "intent_template_id": 108,
         "video": "merge_request"
     },
     {
@@ -10820,7 +10820,7 @@
                 }
             ]
         },
-        "intent_template_id": 348,
+        "intent_template_id": 108,
         "video": "merge_request"
     },
     {
@@ -10856,7 +10856,7 @@
                 }
             ]
         },
-        "intent_template_id": 352,
+        "intent_template_id": 109,
         "video": "edit_project"
     },
     {
@@ -10892,7 +10892,7 @@
                 }
             ]
         },
-        "intent_template_id": 352,
+        "intent_template_id": 109,
         "video": "edit_project"
     },
     {
@@ -10928,7 +10928,7 @@
                 }
             ]
         },
-        "intent_template_id": 352,
+        "intent_template_id": 109,
         "video": "edit_project"
     },
     {
@@ -10964,7 +10964,7 @@
                 }
             ]
         },
-        "intent_template_id": 352,
+        "intent_template_id": 109,
         "video": "edit_project"
     },
     {
@@ -11036,7 +11036,7 @@
                 }
             ]
         },
-        "intent_template_id": 352,
+        "intent_template_id": 109,
         "video": "edit_project"
     },
     {
@@ -11070,7 +11070,7 @@
                 }
             ]
         },
-        "intent_template_id": 6,
+        "intent_template_id": 110,
         "video": "change_account_info"
     },
     {
@@ -11104,7 +11104,7 @@
                 }
             ]
         },
-        "intent_template_id": 6,
+        "intent_template_id": 110,
         "video": "change_account_info"
     },
     {
@@ -11138,7 +11138,7 @@
                 }
             ]
         },
-        "intent_template_id": 6,
+        "intent_template_id": 110,
         "video": "change_account_info"
     },
     {
@@ -11172,7 +11172,7 @@
                 }
             ]
         },
-        "intent_template_id": 6,
+        "intent_template_id": 110,
         "video": "change_account_info"
     },
     {
@@ -11206,7 +11206,7 @@
                 }
             ]
         },
-        "intent_template_id": 6,
+        "intent_template_id": 110,
         "video": "change_account_info"
     },
     {
@@ -11242,7 +11242,7 @@
                 }
             ]
         },
-        "intent_template_id": 22,
+        "intent_template_id": 111,
         "video": "vote_tutorial"
     },
     {
@@ -11278,7 +11278,7 @@
                 }
             ]
         },
-        "intent_template_id": 22,
+        "intent_template_id": 111,
         "video": "vote_tutorial"
     },
     {
@@ -11314,7 +11314,7 @@
                 }
             ]
         },
-        "intent_template_id": 22,
+        "intent_template_id": 111,
         "video": "vote_tutorial"
     },
     {
@@ -11350,7 +11350,7 @@
                 }
             ]
         },
-        "intent_template_id": 22,
+        "intent_template_id": 111,
         "video": "vote_tutorial"
     },
     {
@@ -11386,7 +11386,7 @@
                 }
             ]
         },
-        "intent_template_id": 22,
+        "intent_template_id": 111,
         "video": "vote_tutorial"
     },
     {
@@ -11423,7 +11423,7 @@
                 }
             ]
         },
-        "intent_template_id": 23,
+        "intent_template_id": 112,
         "video": "go_to_comments"
     },
     {
@@ -11460,7 +11460,7 @@
                 }
             ]
         },
-        "intent_template_id": 23,
+        "intent_template_id": 112,
         "video": "go_to_comments"
     },
     {
@@ -11496,7 +11496,7 @@
                 }
             ]
         },
-        "intent_template_id": 355,
+        "intent_template_id": 113,
         "video": "project_tutorial"
     },
     {
@@ -11533,7 +11533,7 @@
                 }
             ]
         },
-        "intent_template_id": 355,
+        "intent_template_id": 114,
         "video": "project_tutorial"
     },
     {
@@ -11569,7 +11569,7 @@
                 }
             ]
         },
-        "intent_template_id": 355,
+        "intent_template_id": 115,
         "video": "project_tutorial"
     },
     {
@@ -11606,7 +11606,7 @@
                 }
             ]
         },
-        "intent_template_id": 355,
+        "intent_template_id": 113,
         "video": "project_tutorial"
     },
     {
@@ -11640,7 +11640,7 @@
                 }
             ]
         },
-        "intent_template_id": 360,
+        "intent_template_id": 116,
         "video": "merge_request"
     },
     {
@@ -11674,7 +11674,7 @@
                 }
             ]
         },
-        "intent_template_id": 360,
+        "intent_template_id": 116,
         "video": "merge_request"
     },
     {
@@ -11708,7 +11708,7 @@
                 }
             ]
         },
-        "intent_template_id": 360,
+        "intent_template_id": 116,
         "video": "merge_request"
     },
     {
@@ -11742,7 +11742,7 @@
                 }
             ]
         },
-        "intent_template_id": 361,
+        "intent_template_id": 117,
         "video": "edit_personal"
     },
     {
@@ -11776,7 +11776,7 @@
                 }
             ]
         },
-        "intent_template_id": 361,
+        "intent_template_id": 117,
         "video": "edit_personal"
     },
     {
@@ -11810,7 +11810,7 @@
                 }
             ]
         },
-        "intent_template_id": 361,
+        "intent_template_id": 117,
         "video": "edit_personal"
     },
     {
@@ -11844,7 +11844,7 @@
                 }
             ]
         },
-        "intent_template_id": 361,
+        "intent_template_id": 117,
         "video": "edit_personal"
     },
     {
@@ -11878,7 +11878,7 @@
                 }
             ]
         },
-        "intent_template_id": 361,
+        "intent_template_id": 117,
         "video": "edit_personal"
     },
     {
@@ -11912,7 +11912,7 @@
                 }
             ]
         },
-        "intent_template_id": 237,
+        "intent_template_id": 118,
         "video": "catalog_tutorial"
     },
     {
@@ -11946,7 +11946,7 @@
                 }
             ]
         },
-        "intent_template_id": 145,
+        "intent_template_id": 119,
         "video": "add_to_cart"
     },
     {
@@ -11980,7 +11980,7 @@
                 }
             ]
         },
-        "intent_template_id": 145,
+        "intent_template_id": 119,
         "video": "add_to_cart"
     },
     {
@@ -12014,7 +12014,7 @@
                 }
             ]
         },
-        "intent_template_id": 145,
+        "intent_template_id": 119,
         "video": "add_to_cart"
     },
     {
@@ -12048,7 +12048,7 @@
                 }
             ]
         },
-        "intent_template_id": 145,
+        "intent_template_id": 119,
         "video": "add_to_cart"
     },
     {
@@ -12082,7 +12082,7 @@
                 }
             ]
         },
-        "intent_template_id": 145,
+        "intent_template_id": 119,
         "video": "add_to_cart"
     },
     {
@@ -12119,7 +12119,7 @@
                 }
             ]
         },
-        "intent_template_id": 156,
+        "intent_template_id": 120,
         "video": "order_history"
     },
     {
@@ -12156,7 +12156,7 @@
                 }
             ]
         },
-        "intent_template_id": 156,
+        "intent_template_id": 120,
         "video": "order_history"
     },
     {
@@ -12193,7 +12193,7 @@
                 }
             ]
         },
-        "intent_template_id": 156,
+        "intent_template_id": 120,
         "video": "order_history"
     },
     {
@@ -12230,7 +12230,7 @@
                 }
             ]
         },
-        "intent_template_id": 156,
+        "intent_template_id": 120,
         "video": "order_history"
     },
     {
@@ -12267,7 +12267,7 @@
                 }
             ]
         },
-        "intent_template_id": 156,
+        "intent_template_id": 120,
         "video": "order_history"
     },
     {
@@ -12303,7 +12303,7 @@
                 }
             ]
         },
-        "intent_template_id": 308,
+        "intent_template_id": 121,
         "video": "edit_project"
     },
     {
@@ -12339,7 +12339,7 @@
                 }
             ]
         },
-        "intent_template_id": 308,
+        "intent_template_id": 121,
         "video": "edit_project"
     },
     {
@@ -12375,7 +12375,7 @@
                 }
             ]
         },
-        "intent_template_id": 308,
+        "intent_template_id": 121,
         "video": "edit_project"
     },
     {
@@ -12411,7 +12411,7 @@
                 }
             ]
         },
-        "intent_template_id": 308,
+        "intent_template_id": 121,
         "video": "edit_project"
     },
     {
@@ -12447,7 +12447,7 @@
                 }
             ]
         },
-        "intent_template_id": 308,
+        "intent_template_id": 121,
         "video": "edit_project"
     },
     {
@@ -12485,7 +12485,7 @@
                 }
             ]
         },
-        "intent_template_id": 999,
+        "intent_template_id": 122,
         "video": "issue_tutorial"
     },
     {
@@ -12523,7 +12523,7 @@
                 }
             ]
         },
-        "intent_template_id": 999,
+        "intent_template_id": 122,
         "video": "issue_tutorial"
     },
     {
@@ -12557,7 +12557,7 @@
                 }
             ]
         },
-        "intent_template_id": 331,
+        "intent_template_id": 123,
         "video": "edit_personal"
     },
     {
@@ -12591,7 +12591,7 @@
                 }
             ]
         },
-        "intent_template_id": 331,
+        "intent_template_id": 123,
         "video": "edit_personal"
     },
     {
@@ -12625,7 +12625,7 @@
                 }
             ]
         },
-        "intent_template_id": 331,
+        "intent_template_id": 123,
         "video": "edit_personal"
     },
     {
@@ -12659,7 +12659,7 @@
                 }
             ]
         },
-        "intent_template_id": 331,
+        "intent_template_id": 123,
         "video": "edit_personal"
     },
     {
@@ -12693,7 +12693,7 @@
                 }
             ]
         },
-        "intent_template_id": 331,
+        "intent_template_id": 123,
         "video": "edit_personal"
     },
     {
@@ -12727,7 +12727,7 @@
                 }
             ]
         },
-        "intent_template_id": 242,
+        "intent_template_id": 124,
         "video": "catalog_tutorial"
     },
     {
@@ -12761,7 +12761,7 @@
                 }
             ]
         },
-        "intent_template_id": 242,
+        "intent_template_id": 124,
         "video": "catalog_tutorial"
     },
     {
@@ -12795,7 +12795,7 @@
                 }
             ]
         },
-        "intent_template_id": 242,
+        "intent_template_id": 124,
         "video": "catalog_tutorial"
     },
     {
@@ -12829,7 +12829,7 @@
                 }
             ]
         },
-        "intent_template_id": 242,
+        "intent_template_id": 124,
         "video": "catalog_tutorial"
     },
     {
@@ -12863,7 +12863,7 @@
                 }
             ]
         },
-        "intent_template_id": 242,
+        "intent_template_id": 124,
         "video": "catalog_tutorial"
     },
     {
@@ -12898,7 +12898,7 @@
                 }
             ]
         },
-        "intent_template_id": 247,
+        "intent_template_id": 125,
         "video": "catalog_tutorial"
     },
     {
@@ -12933,7 +12933,7 @@
                 }
             ]
         },
-        "intent_template_id": 247,
+        "intent_template_id": 125,
         "video": "catalog_tutorial"
     },
     {
@@ -12968,7 +12968,7 @@
                 }
             ]
         },
-        "intent_template_id": 247,
+        "intent_template_id": 125,
         "video": "catalog_tutorial"
     },
     {
@@ -13003,7 +13003,7 @@
                 }
             ]
         },
-        "intent_template_id": 247,
+        "intent_template_id": 125,
         "video": "catalog_tutorial"
     },
     {
@@ -13038,7 +13038,7 @@
                 }
             ]
         },
-        "intent_template_id": 247,
+        "intent_template_id": 125,
         "video": "catalog_tutorial"
     },
     {
@@ -13073,7 +13073,7 @@
                 }
             ]
         },
-        "intent_template_id": 247,
+        "intent_template_id": 125,
         "video": "catalog_tutorial"
     },
     {
@@ -13111,7 +13111,7 @@
                 }
             ]
         },
-        "intent_template_id": 251,
+        "intent_template_id": 126,
         "video": "catalog_tutorial"
     },
     {
@@ -13147,7 +13147,7 @@
                 }
             ]
         },
-        "intent_template_id": 186,
+        "intent_template_id": 127,
         "video": "add_to_wishlist"
     },
     {
@@ -13183,7 +13183,7 @@
                 }
             ]
         },
-        "intent_template_id": 186,
+        "intent_template_id": 127,
         "video": "add_to_wishlist"
     },
     {
@@ -13219,7 +13219,7 @@
                 }
             ]
         },
-        "intent_template_id": 186,
+        "intent_template_id": 127,
         "video": "add_to_wishlist"
     },
     {
@@ -13255,7 +13255,7 @@
                 }
             ]
         },
-        "intent_template_id": 186,
+        "intent_template_id": 127,
         "video": "add_to_wishlist"
     },
     {
@@ -13291,7 +13291,7 @@
                 }
             ]
         },
-        "intent_template_id": 186,
+        "intent_template_id": 127,
         "video": "add_to_wishlist"
     },
     {
@@ -13325,7 +13325,7 @@
                 }
             ]
         },
-        "intent_template_id": 257,
+        "intent_template_id": 128,
         "video": "sales_tutorial"
     },
     {
@@ -13359,7 +13359,7 @@
                 }
             ]
         },
-        "intent_template_id": 257,
+        "intent_template_id": 128,
         "video": "sales_tutorial"
     },
     {
@@ -13393,7 +13393,7 @@
                 }
             ]
         },
-        "intent_template_id": 257,
+        "intent_template_id": 128,
         "video": "sales_tutorial"
     },
     {
@@ -13427,7 +13427,7 @@
                 }
             ]
         },
-        "intent_template_id": 257,
+        "intent_template_id": 128,
         "video": "sales_tutorial"
     },
     {
@@ -13461,7 +13461,7 @@
                 }
             ]
         },
-        "intent_template_id": 257,
+        "intent_template_id": 128,
         "video": "sales_tutorial"
     },
     {
@@ -13497,7 +13497,7 @@
                 }
             ]
         },
-        "intent_template_id": 292,
+        "intent_template_id": 129,
         "video": "project_tutorial"
     },
     {
@@ -13533,7 +13533,7 @@
                 }
             ]
         },
-        "intent_template_id": 292,
+        "intent_template_id": 129,
         "video": "project_tutorial"
     },
     {
@@ -13569,7 +13569,7 @@
                 }
             ]
         },
-        "intent_template_id": 292,
+        "intent_template_id": 129,
         "video": "project_tutorial"
     },
     {
@@ -13605,7 +13605,7 @@
                 }
             ]
         },
-        "intent_template_id": 292,
+        "intent_template_id": 129,
         "video": "project_tutorial"
     },
     {
@@ -13641,7 +13641,7 @@
                 }
             ]
         },
-        "intent_template_id": 292,
+        "intent_template_id": 129,
         "video": "project_tutorial"
     },
     {
@@ -13678,7 +13678,7 @@
                 }
             ]
         },
-        "intent_template_id": 293,
+        "intent_template_id": 130,
         "video": "edit_project"
     },
     {
@@ -13714,7 +13714,7 @@
                 }
             ]
         },
-        "intent_template_id": 294,
+        "intent_template_id": 131,
         "video": "edit_project"
     },
     {
@@ -13750,7 +13750,7 @@
                 }
             ]
         },
-        "intent_template_id": 294,
+        "intent_template_id": 131,
         "video": "edit_project"
     },
     {
@@ -13786,7 +13786,7 @@
                 }
             ]
         },
-        "intent_template_id": 294,
+        "intent_template_id": 131,
         "video": "edit_project"
     },
     {
@@ -13822,7 +13822,7 @@
                 }
             ]
         },
-        "intent_template_id": 294,
+        "intent_template_id": 131,
         "video": "edit_project"
     },
     {
@@ -13858,7 +13858,7 @@
                 }
             ]
         },
-        "intent_template_id": 294,
+        "intent_template_id": 131,
         "video": "edit_project"
     },
     {
@@ -13893,7 +13893,7 @@
                 }
             ]
         },
-        "intent_template_id": 275,
+        "intent_template_id": 132,
         "video": "content_tutorial"
     },
     {
@@ -13928,7 +13928,7 @@
                 }
             ]
         },
-        "intent_template_id": 275,
+        "intent_template_id": 132,
         "video": "content_tutorial"
     },
     {
@@ -13963,7 +13963,7 @@
                 }
             ]
         },
-        "intent_template_id": 275,
+        "intent_template_id": 132,
         "video": "content_tutorial"
     },
     {
@@ -13998,7 +13998,7 @@
                 }
             ]
         },
-        "intent_template_id": 275,
+        "intent_template_id": 132,
         "video": "content_tutorial"
     },
     {
@@ -14033,7 +14033,7 @@
                 }
             ]
         },
-        "intent_template_id": 275,
+        "intent_template_id": 132,
         "video": "content_tutorial"
     },
     {
@@ -14063,7 +14063,7 @@
             "program_html": [],
             "string_note": "System message: We cannot add order history."
         },
-        "intent_template_id": 280,
+        "intent_template_id": 133,
         "video": "sales_tutorial"
     },
     {
@@ -14098,7 +14098,7 @@
                 }
             ]
         },
-        "intent_template_id": 280,
+        "intent_template_id": 133,
         "video": "sales_tutorial"
     },
     {
@@ -14133,7 +14133,7 @@
                 }
             ]
         },
-        "intent_template_id": 280,
+        "intent_template_id": 133,
         "video": "sales_tutorial"
     },
     {
@@ -14168,7 +14168,7 @@
                 }
             ]
         },
-        "intent_template_id": 280,
+        "intent_template_id": 133,
         "video": "sales_tutorial"
     },
     {
@@ -14203,7 +14203,7 @@
                 }
             ]
         },
-        "intent_template_id": 280,
+        "intent_template_id": 133,
         "video": "sales_tutorial"
     },
     {
@@ -14241,7 +14241,7 @@
                 }
             ]
         },
-        "intent_template_id": 284,
+        "intent_template_id": 134,
         "video": "sales_tutorial"
     },
     {
@@ -14279,7 +14279,7 @@
                 }
             ]
         },
-        "intent_template_id": 284,
+        "intent_template_id": 134,
         "video": "sales_tutorial"
     },
     {
@@ -14317,7 +14317,7 @@
                 }
             ]
         },
-        "intent_template_id": 284,
+        "intent_template_id": 134,
         "video": "sales_tutorial"
     },
     {
@@ -14355,7 +14355,7 @@
                 }
             ]
         },
-        "intent_template_id": 284,
+        "intent_template_id": 134,
         "video": "sales_tutorial"
     },
     {
@@ -14393,7 +14393,7 @@
                 }
             ]
         },
-        "intent_template_id": 284,
+        "intent_template_id": 134,
         "video": "sales_tutorial"
     },
     {
@@ -14427,7 +14427,7 @@
                 }
             ]
         },
-        "intent_template_id": 287,
+        "intent_template_id": 135,
         "video": "catalog_tutorial"
     },
     {
@@ -14461,7 +14461,7 @@
                 }
             ]
         },
-        "intent_template_id": 287,
+        "intent_template_id": 135,
         "video": "catalog_tutorial"
     },
     {
@@ -14495,7 +14495,7 @@
                 }
             ]
         },
-        "intent_template_id": 287,
+        "intent_template_id": 135,
         "video": "catalog_tutorial"
     },
     {
@@ -14529,7 +14529,7 @@
                 }
             ]
         },
-        "intent_template_id": 287,
+        "intent_template_id": 135,
         "video": "catalog_tutorial"
     },
     {
@@ -14563,7 +14563,7 @@
                 }
             ]
         },
-        "intent_template_id": 287,
+        "intent_template_id": 135,
         "video": "catalog_tutorial"
     },
     {
@@ -14600,7 +14600,7 @@
                 }
             ]
         },
-        "intent_template_id": 172,
+        "intent_template_id": 136,
         "video": "search_sort_buy"
     },
     {
@@ -14637,7 +14637,7 @@
                 }
             ]
         },
-        "intent_template_id": 172,
+        "intent_template_id": 136,
         "video": "search_sort_buy"
     },
     {
@@ -14674,7 +14674,7 @@
                 }
             ]
         },
-        "intent_template_id": 172,
+        "intent_template_id": 136,
         "video": "search_sort_buy"
     },
     {
@@ -14710,7 +14710,7 @@
                 }
             ]
         },
-        "intent_template_id": 216,
+        "intent_template_id": 137,
         "video": "search_sort_buy"
     },
     {
@@ -14746,7 +14746,7 @@
                 }
             ]
         },
-        "intent_template_id": 216,
+        "intent_template_id": 137,
         "video": "search_sort_buy"
     },
     {
@@ -14783,7 +14783,7 @@
                 }
             ]
         },
-        "intent_template_id": 189,
+        "intent_template_id": 138,
         "video": "add_to_wishlist"
     },
     {
@@ -14819,7 +14819,7 @@
                 }
             ]
         },
-        "intent_template_id": 189,
+        "intent_template_id": 138,
         "video": "add_to_wishlist"
     },
     {
@@ -14855,7 +14855,7 @@
                 }
             ]
         },
-        "intent_template_id": 189,
+        "intent_template_id": 138,
         "video": "add_to_wishlist"
     },
     {
@@ -14892,7 +14892,7 @@
                 }
             ]
         },
-        "intent_template_id": 189,
+        "intent_template_id": 138,
         "video": "add_to_wishlist"
     },
     {
@@ -14930,7 +14930,7 @@
                 }
             ]
         },
-        "intent_template_id": 189,
+        "intent_template_id": 138,
         "video": "add_to_wishlist"
     },
     {
@@ -14964,7 +14964,7 @@
                 }
             ]
         },
-        "intent_template_id": 196,
+        "intent_template_id": 139,
         "video": "add_to_wishlist"
     },
     {
@@ -14998,7 +14998,7 @@
                 }
             ]
         },
-        "intent_template_id": 196,
+        "intent_template_id": 139,
         "video": "add_to_wishlist"
     },
     {
@@ -15032,7 +15032,7 @@
                 }
             ]
         },
-        "intent_template_id": 196,
+        "intent_template_id": 139,
         "video": "add_to_wishlist"
     },
     {
@@ -15066,7 +15066,7 @@
                 }
             ]
         },
-        "intent_template_id": 196,
+        "intent_template_id": 139,
         "video": "add_to_wishlist"
     },
     {
@@ -15100,7 +15100,7 @@
                 }
             ]
         },
-        "intent_template_id": 196,
+        "intent_template_id": 139,
         "video": "add_to_wishlist"
     },
     {
@@ -15132,7 +15132,7 @@
                 }
             ]
         },
-        "intent_template_id": 199,
+        "intent_template_id": 140,
         "video": "contact_refund_subscribe"
     },
     {
@@ -15169,7 +15169,7 @@
                 }
             ]
         },
-        "intent_template_id": 352,
+        "intent_template_id": 109,
         "video": "edit_project"
     },
     {
@@ -15209,7 +15209,7 @@
                 }
             ]
         },
-        "intent_template_id": 354,
+        "intent_template_id": 141,
         "video": "explore_star_tutorial"
     },
     {
@@ -15252,7 +15252,7 @@
                 }
             ]
         },
-        "intent_template_id": 354,
+        "intent_template_id": 141,
         "video": "explore_star_tutorial"
     },
     {
@@ -15291,7 +15291,7 @@
                 }
             ]
         },
-        "intent_template_id": 354,
+        "intent_template_id": 141,
         "video": "explore_star_tutorial"
     },
     {
@@ -15329,7 +15329,7 @@
                 }
             ]
         },
-        "intent_template_id": 354,
+        "intent_template_id": 141,
         "video": "explore_star_tutorial"
     },
     {
@@ -15365,7 +15365,7 @@
                 }
             ]
         },
-        "intent_template_id": 354,
+        "intent_template_id": 141,
         "video": "explore_star_tutorial"
     },
     {
@@ -15405,7 +15405,7 @@
                 }
             ]
         },
-        "intent_template_id": 154,
+        "intent_template_id": 142,
         "video": "contact_refund_subscribe"
     },
     {
@@ -15445,7 +15445,7 @@
                 }
             ]
         },
-        "intent_template_id": 154,
+        "intent_template_id": 142,
         "video": "contact_refund_subscribe"
     },
     {
@@ -15485,7 +15485,7 @@
                 }
             ]
         },
-        "intent_template_id": 154,
+        "intent_template_id": 142,
         "video": "contact_refund_subscribe"
     },
     {
@@ -15525,7 +15525,7 @@
                 }
             ]
         },
-        "intent_template_id": 154,
+        "intent_template_id": 142,
         "video": "contact_refund_subscribe"
     },
     {
@@ -15565,7 +15565,7 @@
                 }
             ]
         },
-        "intent_template_id": 154,
+        "intent_template_id": 142,
         "video": "contact_refund_subscribe"
     },
     {
@@ -15605,7 +15605,7 @@
                 }
             ]
         },
-        "intent_template_id": 330,
+        "intent_template_id": 143,
         "video": "explore_star_tutorial"
     },
     {
@@ -15647,7 +15647,7 @@
                 }
             ]
         },
-        "intent_template_id": 330,
+        "intent_template_id": 143,
         "video": "explore_star_tutorial"
     },
     {
@@ -15689,7 +15689,7 @@
                 }
             ]
         },
-        "intent_template_id": 330,
+        "intent_template_id": 143,
         "video": "explore_star_tutorial"
     },
     {
@@ -15731,7 +15731,7 @@
                 }
             ]
         },
-        "intent_template_id": 330,
+        "intent_template_id": 143,
         "video": "explore_star_tutorial"
     },
     {
@@ -15777,7 +15777,7 @@
                 }
             ]
         },
-        "intent_template_id": 330,
+        "intent_template_id": 143,
         "video": "explore_star_tutorial"
     },
     {
@@ -15817,7 +15817,7 @@
                 }
             ]
         },
-        "intent_template_id": 240,
+        "intent_template_id": 144,
         "video": "sales_tutorial"
     },
     {
@@ -15857,7 +15857,7 @@
                 }
             ]
         },
-        "intent_template_id": 240,
+        "intent_template_id": 144,
         "video": "sales_tutorial"
     },
     {
@@ -15898,7 +15898,7 @@
                 }
             ]
         },
-        "intent_template_id": 240,
+        "intent_template_id": 144,
         "video": "sales_tutorial"
     },
     {
@@ -15939,7 +15939,7 @@
                 }
             ]
         },
-        "intent_template_id": 240,
+        "intent_template_id": 144,
         "video": "sales_tutorial"
     },
     {
@@ -15979,7 +15979,7 @@
                 }
             ]
         },
-        "intent_template_id": 240,
+        "intent_template_id": 144,
         "video": "sales_tutorial"
     },
     {
@@ -16018,7 +16018,7 @@
                 }
             ]
         },
-        "intent_template_id": 251,
+        "intent_template_id": 126,
         "video": "catalog_tutorial"
     },
     {
@@ -16058,7 +16058,7 @@
                 }
             ]
         },
-        "intent_template_id": 251,
+        "intent_template_id": 145,
         "video": "catalog_tutorial"
     },
     {
@@ -16099,7 +16099,7 @@
                 }
             ]
         },
-        "intent_template_id": 251,
+        "intent_template_id": 145,
         "video": "catalog_tutorial"
     },
     {
@@ -16135,7 +16135,7 @@
                 }
             ]
         },
-        "intent_template_id": 251,
+        "intent_template_id": 145,
         "video": "catalog_tutorial"
     },
     {
@@ -16174,7 +16174,7 @@
                 }
             ]
         },
-        "intent_template_id": 252,
+        "intent_template_id": 146,
         "video": "catalog_tutorial"
     },
     {
@@ -16214,7 +16214,7 @@
                 }
             ]
         },
-        "intent_template_id": 252,
+        "intent_template_id": 147,
         "video": "catalog_tutorial"
     },
     {
@@ -16253,7 +16253,7 @@
                 }
             ]
         },
-        "intent_template_id": 252,
+        "intent_template_id": 148,
         "video": "catalog_tutorial"
     },
     {
@@ -16293,7 +16293,7 @@
                 }
             ]
         },
-        "intent_template_id": 252,
+        "intent_template_id": 148,
         "video": "catalog_tutorial"
     },
     {
@@ -16337,7 +16337,7 @@
                 }
             ]
         },
-        "intent_template_id": 252,
+        "intent_template_id": 149,
         "video": "catalog_tutorial"
     },
     {
@@ -16380,7 +16380,7 @@
                 }
             ]
         },
-        "intent_template_id": 84,
+        "intent_template_id": 150,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -16423,7 +16423,7 @@
                 }
             ]
         },
-        "intent_template_id": 84,
+        "intent_template_id": 150,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -16466,7 +16466,7 @@
                 }
             ]
         },
-        "intent_template_id": 84,
+        "intent_template_id": 150,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -16509,7 +16509,7 @@
                 }
             ]
         },
-        "intent_template_id": 84,
+        "intent_template_id": 150,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -16558,7 +16558,7 @@
                 }
             ]
         },
-        "intent_template_id": 87,
+        "intent_template_id": 151,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -16601,7 +16601,7 @@
                 }
             ]
         },
-        "intent_template_id": 87,
+        "intent_template_id": 151,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -16644,7 +16644,7 @@
                 }
             ]
         },
-        "intent_template_id": 87,
+        "intent_template_id": 151,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -16685,7 +16685,7 @@
                 }
             ]
         },
-        "intent_template_id": 87,
+        "intent_template_id": 151,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -16727,7 +16727,7 @@
                 }
             ]
         },
-        "intent_template_id": 87,
+        "intent_template_id": 151,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -16771,7 +16771,7 @@
                 }
             ]
         },
-        "intent_template_id": 87,
+        "intent_template_id": 151,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -16814,7 +16814,7 @@
                 }
             ]
         },
-        "intent_template_id": 88,
+        "intent_template_id": 152,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -16856,7 +16856,7 @@
                 }
             ]
         },
-        "intent_template_id": 88,
+        "intent_template_id": 152,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -16896,7 +16896,7 @@
                 }
             ]
         },
-        "intent_template_id": 88,
+        "intent_template_id": 152,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -16943,7 +16943,7 @@
                 }
             ]
         },
-        "intent_template_id": 88,
+        "intent_template_id": 152,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -16988,7 +16988,7 @@
                 }
             ]
         },
-        "intent_template_id": 88,
+        "intent_template_id": 152,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -17026,7 +17026,7 @@
                 }
             ]
         },
-        "intent_template_id": 293,
+        "intent_template_id": 153,
         "video": "edit_project"
     },
     {
@@ -17064,7 +17064,7 @@
                 }
             ]
         },
-        "intent_template_id": 293,
+        "intent_template_id": 153,
         "video": "edit_project"
     },
     {
@@ -17102,7 +17102,7 @@
                 }
             ]
         },
-        "intent_template_id": 293,
+        "intent_template_id": 153,
         "video": "edit_project"
     },
     {
@@ -17142,7 +17142,7 @@
                 }
             ]
         },
-        "intent_template_id": 293,
+        "intent_template_id": 153,
         "video": "edit_project"
     },
     {
@@ -17191,7 +17191,7 @@
                 }
             ]
         },
-        "intent_template_id": 165,
+        "intent_template_id": 154,
         "video": "change_contact"
     },
     {
@@ -17240,7 +17240,7 @@
                 }
             ]
         },
-        "intent_template_id": 165,
+        "intent_template_id": 154,
         "video": "change_contact"
     },
     {
@@ -17287,7 +17287,7 @@
                 }
             ]
         },
-        "intent_template_id": 165,
+        "intent_template_id": 154,
         "video": "change_contact"
     },
     {
@@ -17334,7 +17334,7 @@
                 }
             ]
         },
-        "intent_template_id": 165,
+        "intent_template_id": 154,
         "video": "change_contact"
     },
     {
@@ -17383,7 +17383,7 @@
                 }
             ]
         },
-        "intent_template_id": 165,
+        "intent_template_id": 154,
         "video": "change_contact"
     },
     {
@@ -17433,7 +17433,7 @@
                 }
             ]
         },
-        "intent_template_id": 351,
+        "intent_template_id": 155,
         "video": "edit_project"
     },
     {
@@ -17483,7 +17483,7 @@
                 }
             ]
         },
-        "intent_template_id": 351,
+        "intent_template_id": 156,
         "video": "edit_project"
     },
     {
@@ -17533,7 +17533,7 @@
                 }
             ]
         },
-        "intent_template_id": 351,
+        "intent_template_id": 155,
         "video": "edit_project"
     },
     {
@@ -17573,7 +17573,7 @@
                 }
             ]
         },
-        "intent_template_id": 351,
+        "intent_template_id": 156,
         "video": "edit_project"
     },
     {
@@ -17630,7 +17630,7 @@
                 }
             ]
         },
-        "intent_template_id": 7,
+        "intent_template_id": 157,
         "video": "new_forum"
     },
     {
@@ -17683,7 +17683,7 @@
                 }
             ]
         },
-        "intent_template_id": 7,
+        "intent_template_id": 157,
         "video": "new_forum"
     },
     {
@@ -17738,7 +17738,7 @@
                 }
             ]
         },
-        "intent_template_id": 7,
+        "intent_template_id": 157,
         "video": "new_forum"
     },
     {
@@ -17793,7 +17793,7 @@
                 }
             ]
         },
-        "intent_template_id": 7,
+        "intent_template_id": 157,
         "video": "new_forum"
     },
     {
@@ -17844,7 +17844,7 @@
                 }
             ]
         },
-        "intent_template_id": 7,
+        "intent_template_id": 157,
         "video": "new_forum"
     },
     {
@@ -17891,7 +17891,7 @@
                 }
             ]
         },
-        "intent_template_id": 194,
+        "intent_template_id": 158,
         "video": "review_tutorial"
     },
     {
@@ -17938,7 +17938,7 @@
                 }
             ]
         },
-        "intent_template_id": 194,
+        "intent_template_id": 158,
         "video": "review_tutorial"
     },
     {
@@ -17985,7 +17985,7 @@
                 }
             ]
         },
-        "intent_template_id": 194,
+        "intent_template_id": 158,
         "video": "review_tutorial"
     },
     {
@@ -18032,7 +18032,7 @@
                 }
             ]
         },
-        "intent_template_id": 194,
+        "intent_template_id": 158,
         "video": "review_tutorial"
     },
     {
@@ -18079,7 +18079,7 @@
                 }
             ]
         },
-        "intent_template_id": 194,
+        "intent_template_id": 158,
         "video": "review_tutorial"
     },
     {
@@ -18137,7 +18137,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 339,
+        "intent_template_id": 159,
         "video": "issue_repo_tutorial"
     },
     {
@@ -18195,7 +18195,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 339,
+        "intent_template_id": 159,
         "video": "issue_repo_tutorial"
     },
     {
@@ -18253,7 +18253,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 339,
+        "intent_template_id": 159,
         "video": "issue_repo_tutorial"
     },
     {
@@ -18311,7 +18311,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 339,
+        "intent_template_id": 159,
         "video": "issue_repo_tutorial"
     },
     {
@@ -18369,7 +18369,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 339,
+        "intent_template_id": 159,
         "video": "issue_repo_tutorial"
     },
     {
@@ -18407,7 +18407,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 4,
+        "intent_template_id": 160,
         "video": "subscribe"
     },
     {
@@ -18445,7 +18445,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 4,
+        "intent_template_id": 160,
         "video": "subscribe"
     },
     {
@@ -18483,7 +18483,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 4,
+        "intent_template_id": 160,
         "video": "subscribe"
     },
     {
@@ -18521,7 +18521,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 4,
+        "intent_template_id": 160,
         "video": "subscribe"
     },
     {
@@ -18559,7 +18559,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 4,
+        "intent_template_id": 160,
         "video": "subscribe"
     },
     {
@@ -18597,7 +18597,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 3765,
+        "intent_template_id": 161,
         "video": "make_post"
     },
     {
@@ -18635,7 +18635,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 3765,
+        "intent_template_id": 161,
         "video": "make_post"
     },
     {
@@ -18673,7 +18673,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 3765,
+        "intent_template_id": 161,
         "video": "make_post"
     },
     {
@@ -18711,7 +18711,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 3765,
+        "intent_template_id": 161,
         "video": "make_post"
     },
     {
@@ -18749,7 +18749,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 3765,
+        "intent_template_id": 161,
         "video": "make_post"
     },
     {
@@ -18788,7 +18788,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 5,
+        "intent_template_id": 162,
         "video": "make_post"
     },
     {
@@ -18827,7 +18827,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 5,
+        "intent_template_id": 162,
         "video": "make_post"
     },
     {
@@ -18866,7 +18866,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 5,
+        "intent_template_id": 162,
         "video": "make_post"
     },
     {
@@ -18905,7 +18905,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 5,
+        "intent_template_id": 162,
         "video": "make_post"
     },
     {
@@ -18944,7 +18944,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 5,
+        "intent_template_id": 162,
         "video": "make_post"
     },
     {
@@ -18984,7 +18984,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 9,
+        "intent_template_id": 163,
         "video": "make_post"
     },
     {
@@ -19024,7 +19024,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 9,
+        "intent_template_id": 163,
         "video": "make_post"
     },
     {
@@ -19064,7 +19064,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 9,
+        "intent_template_id": 163,
         "video": "make_post"
     },
     {
@@ -19104,7 +19104,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 9,
+        "intent_template_id": 163,
         "video": "make_post"
     },
     {
@@ -19144,7 +19144,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 9,
+        "intent_template_id": 163,
         "video": "make_post"
     },
     {
@@ -19192,7 +19192,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 11,
+        "intent_template_id": 164,
         "video": "repost"
     },
     {
@@ -19240,7 +19240,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 11,
+        "intent_template_id": 164,
         "video": "repost"
     },
     {
@@ -19288,7 +19288,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 11,
+        "intent_template_id": 164,
         "video": "repost"
     },
     {
@@ -19336,7 +19336,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 11,
+        "intent_template_id": 164,
         "video": "repost"
     },
     {
@@ -19384,7 +19384,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 11,
+        "intent_template_id": 164,
         "video": "repost"
     },
     {
@@ -19424,7 +19424,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 12,
+        "intent_template_id": 165,
         "video": "make_post"
     },
     {
@@ -19462,7 +19462,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 12,
+        "intent_template_id": 165,
         "video": "make_post"
     },
     {
@@ -19501,7 +19501,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 12,
+        "intent_template_id": 165,
         "video": "make_post"
     },
     {
@@ -19540,7 +19540,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 12,
+        "intent_template_id": 165,
         "video": "make_post"
     },
     {
@@ -19579,7 +19579,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 12,
+        "intent_template_id": 165,
         "video": "make_post"
     },
     {
@@ -19618,7 +19618,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 13,
+        "intent_template_id": 166,
         "video": "make_post"
     },
     {
@@ -19657,7 +19657,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 13,
+        "intent_template_id": 166,
         "video": "make_post"
     },
     {
@@ -19696,7 +19696,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 13,
+        "intent_template_id": 166,
         "video": "make_post"
     },
     {
@@ -19735,7 +19735,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 13,
+        "intent_template_id": 166,
         "video": "make_post"
     },
     {
@@ -19774,7 +19774,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 13,
+        "intent_template_id": 166,
         "video": "make_post"
     },
     {
@@ -19816,7 +19816,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 15,
+        "intent_template_id": 167,
         "video": "make_post"
     },
     {
@@ -19858,7 +19858,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 15,
+        "intent_template_id": 167,
         "video": "make_post"
     },
     {
@@ -19900,7 +19900,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 15,
+        "intent_template_id": 167,
         "video": "make_post"
     },
     {
@@ -19942,7 +19942,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 15,
+        "intent_template_id": 167,
         "video": "make_post"
     },
     {
@@ -19983,7 +19983,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 15,
+        "intent_template_id": 167,
         "video": "make_post"
     },
     {
@@ -20024,7 +20024,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 6100,
+        "intent_template_id": 168,
         "video": "make_post"
     },
     {
@@ -20065,7 +20065,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 6100,
+        "intent_template_id": 168,
         "video": "make_post"
     },
     {
@@ -20105,7 +20105,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 6100,
+        "intent_template_id": 168,
         "video": "make_post"
     },
     {
@@ -20147,7 +20147,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 6100,
+        "intent_template_id": 168,
         "video": "make_post"
     },
     {
@@ -20187,7 +20187,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 6100,
+        "intent_template_id": 168,
         "video": "make_post"
     },
     {
@@ -20229,7 +20229,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 16,
+        "intent_template_id": 169,
         "video": "make_post"
     },
     {
@@ -20271,7 +20271,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 16,
+        "intent_template_id": 169,
         "video": "make_post"
     },
     {
@@ -20313,7 +20313,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 16,
+        "intent_template_id": 169,
         "video": "make_post"
     },
     {
@@ -20355,7 +20355,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 16,
+        "intent_template_id": 169,
         "video": "make_post"
     },
     {
@@ -20397,7 +20397,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 16,
+        "intent_template_id": 169,
         "video": "make_post"
     },
     {
@@ -20436,7 +20436,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 19,
+        "intent_template_id": 170,
         "video": "make_post"
     },
     {
@@ -20475,7 +20475,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 19,
+        "intent_template_id": 171,
         "video": "make_post"
     },
     {
@@ -20514,7 +20514,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 19,
+        "intent_template_id": 172,
         "video": "make_post"
     },
     {
@@ -20553,7 +20553,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 19,
+        "intent_template_id": 173,
         "video": "make_post"
     },
     {
@@ -20592,7 +20592,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 19,
+        "intent_template_id": 174,
         "video": "make_post"
     },
     {
@@ -20629,7 +20629,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 23,
+        "intent_template_id": 175,
         "video": "go_to_comments"
     },
     {
@@ -20666,7 +20666,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 23,
+        "intent_template_id": 175,
         "video": "go_to_comments"
     },
     {
@@ -20703,7 +20703,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 23,
+        "intent_template_id": 175,
         "video": "go_to_comments"
     },
     {
@@ -20745,7 +20745,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 153,
+        "intent_template_id": 176,
         "video": "contact_refund_subscribe"
     },
     {
@@ -20787,7 +20787,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 153,
+        "intent_template_id": 176,
         "video": "contact_refund_subscribe"
     },
     {
@@ -20829,7 +20829,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 153,
+        "intent_template_id": 176,
         "video": "contact_refund_subscribe"
     },
     {
@@ -20871,7 +20871,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 153,
+        "intent_template_id": 176,
         "video": "contact_refund_subscribe"
     },
     {
@@ -20913,7 +20913,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 153,
+        "intent_template_id": 176,
         "video": "contact_refund_subscribe"
     },
     {
@@ -20970,7 +20970,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 327,
+        "intent_template_id": 177,
         "video": "issue_repo_tutorial"
     },
     {
@@ -21027,7 +21027,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 327,
+        "intent_template_id": 177,
         "video": "issue_repo_tutorial"
     },
     {
@@ -21084,7 +21084,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 327,
+        "intent_template_id": 177,
         "video": "issue_repo_tutorial"
     },
     {
@@ -21123,7 +21123,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 328,
+        "intent_template_id": 178,
         "video": "issue_repo_tutorial"
     },
     {
@@ -21162,7 +21162,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 328,
+        "intent_template_id": 178,
         "video": "issue_repo_tutorial"
     },
     {
@@ -21201,7 +21201,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 328,
+        "intent_template_id": 178,
         "video": "issue_repo_tutorial"
     },
     {
@@ -21240,7 +21240,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 328,
+        "intent_template_id": 178,
         "video": "issue_repo_tutorial"
     },
     {
@@ -21279,7 +21279,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 328,
+        "intent_template_id": 178,
         "video": "issue_repo_tutorial"
     },
     {
@@ -21333,7 +21333,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 335,
+        "intent_template_id": 179,
         "video": "merge_request"
     },
     {
@@ -21387,7 +21387,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 335,
+        "intent_template_id": 180,
         "video": "merge_request"
     },
     {
@@ -21441,7 +21441,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 335,
+        "intent_template_id": 180,
         "video": "merge_request"
     },
     {
@@ -21480,7 +21480,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 337,
+        "intent_template_id": 181,
         "video": "issue_repo_tutorial"
     },
     {
@@ -21520,7 +21520,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 337,
+        "intent_template_id": 181,
         "video": "issue_repo_tutorial"
     },
     {
@@ -21569,7 +21569,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 101,
+        "intent_template_id": 182,
         "video": "post_from_shopping"
     },
     {
@@ -21621,7 +21621,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 101,
+        "intent_template_id": 182,
         "video": "post_from_shopping"
     },
     {
@@ -21672,7 +21672,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 101,
+        "intent_template_id": 182,
         "video": "post_from_shopping"
     },
     {
@@ -21721,7 +21721,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 101,
+        "intent_template_id": 182,
         "video": "post_from_shopping"
     },
     {
@@ -21770,7 +21770,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 101,
+        "intent_template_id": 182,
         "video": "post_from_shopping"
     },
     {
@@ -21808,7 +21808,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 253,
+        "intent_template_id": 183,
         "video": "sales_tutorial"
     },
     {
@@ -21846,7 +21846,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 253,
+        "intent_template_id": 183,
         "video": "sales_tutorial"
     },
     {
@@ -21884,7 +21884,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 253,
+        "intent_template_id": 183,
         "video": "sales_tutorial"
     },
     {
@@ -21922,7 +21922,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 253,
+        "intent_template_id": 183,
         "video": "sales_tutorial"
     },
     {
@@ -21960,7 +21960,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 253,
+        "intent_template_id": 183,
         "video": "sales_tutorial"
     },
     {
@@ -22000,7 +22000,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 116,
+        "intent_template_id": 184,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -22040,7 +22040,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 116,
+        "intent_template_id": 184,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -22080,7 +22080,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 116,
+        "intent_template_id": 184,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -22121,7 +22121,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 117,
+        "intent_template_id": 185,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -22162,7 +22162,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 117,
+        "intent_template_id": 185,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -22203,7 +22203,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 117,
+        "intent_template_id": 185,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -22244,7 +22244,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 117,
+        "intent_template_id": 185,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -22285,7 +22285,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 117,
+        "intent_template_id": 185,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -22324,7 +22324,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 163,
+        "intent_template_id": 186,
         "video": "contact_refund_subscribe"
     },
     {
@@ -22363,7 +22363,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 163,
+        "intent_template_id": 186,
         "video": "contact_refund_subscribe"
     },
     {
@@ -22402,7 +22402,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 163,
+        "intent_template_id": 186,
         "video": "contact_refund_subscribe"
     },
     {
@@ -22441,7 +22441,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 163,
+        "intent_template_id": 186,
         "video": "contact_refund_subscribe"
     },
     {
@@ -22480,7 +22480,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 163,
+        "intent_template_id": 186,
         "video": "contact_refund_subscribe"
     },
     {
@@ -22568,7 +22568,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 256,
+        "intent_template_id": 187,
         "video": "catalog_tutorial"
     },
     {
@@ -22656,7 +22656,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 256,
+        "intent_template_id": 187,
         "video": "catalog_tutorial"
     },
     {
@@ -22744,7 +22744,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 256,
+        "intent_template_id": 187,
         "video": "catalog_tutorial"
     },
     {
@@ -22825,7 +22825,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 256,
+        "intent_template_id": 187,
         "video": "catalog_tutorial"
     },
     {
@@ -22906,7 +22906,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 256,
+        "intent_template_id": 187,
         "video": "catalog_tutorial"
     },
     {
@@ -22979,7 +22979,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 258,
+        "intent_template_id": 188,
         "video": "marketing_tutorial"
     },
     {
@@ -23052,7 +23052,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 258,
+        "intent_template_id": 188,
         "video": "marketing_tutorial"
     },
     {
@@ -23125,7 +23125,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 258,
+        "intent_template_id": 188,
         "video": "marketing_tutorial"
     },
     {
@@ -23198,7 +23198,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 258,
+        "intent_template_id": 188,
         "video": "marketing_tutorial"
     },
     {
@@ -23271,7 +23271,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 258,
+        "intent_template_id": 188,
         "video": "marketing_tutorial"
     },
     {
@@ -23315,7 +23315,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 268,
+        "intent_template_id": 189,
         "video": "report_tutorial"
     },
     {
@@ -23359,7 +23359,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 268,
+        "intent_template_id": 189,
         "video": "report_tutorial"
     },
     {
@@ -23403,7 +23403,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 268,
+        "intent_template_id": 189,
         "video": "report_tutorial"
     },
     {
@@ -23447,7 +23447,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 268,
+        "intent_template_id": 189,
         "video": "report_tutorial"
     },
     {
@@ -23491,7 +23491,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 268,
+        "intent_template_id": 189,
         "video": "report_tutorial"
     },
     {
@@ -23536,7 +23536,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 271,
+        "intent_template_id": 190,
         "video": "report_tutorial"
     },
     {
@@ -23581,7 +23581,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 271,
+        "intent_template_id": 191,
         "video": "report_tutorial"
     },
     {
@@ -23626,7 +23626,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 271,
+        "intent_template_id": 191,
         "video": "report_tutorial"
     },
     {
@@ -23671,7 +23671,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 271,
+        "intent_template_id": 191,
         "video": "report_tutorial"
     },
     {
@@ -23716,7 +23716,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 271,
+        "intent_template_id": 191,
         "video": "report_tutorial"
     },
     {
@@ -23753,7 +23753,7 @@
                 }
             ]
         },
-        "intent_template_id": 24,
+        "intent_template_id": 192,
         "video": "vote_tutorial"
     },
     {
@@ -23799,7 +23799,7 @@
                 }
             ]
         },
-        "intent_template_id": 24,
+        "intent_template_id": 192,
         "video": "vote_tutorial"
     },
     {
@@ -23854,7 +23854,7 @@
                 }
             ]
         },
-        "intent_template_id": 24,
+        "intent_template_id": 192,
         "video": "vote_tutorial"
     },
     {
@@ -23918,7 +23918,7 @@
                 }
             ]
         },
-        "intent_template_id": 24,
+        "intent_template_id": 192,
         "video": "vote_tutorial"
     },
     {
@@ -23991,7 +23991,7 @@
                 }
             ]
         },
-        "intent_template_id": 24,
+        "intent_template_id": 192,
         "video": "vote_tutorial"
     },
     {
@@ -24037,7 +24037,7 @@
                 }
             ]
         },
-        "intent_template_id": 25,
+        "intent_template_id": 193,
         "video": "vote_all_poster"
     },
     {
@@ -24092,7 +24092,7 @@
                 }
             ]
         },
-        "intent_template_id": 25,
+        "intent_template_id": 193,
         "video": "vote_all_poster"
     },
     {
@@ -24192,7 +24192,7 @@
                 }
             ]
         },
-        "intent_template_id": 25,
+        "intent_template_id": 193,
         "video": "vote_all_poster"
     },
     {
@@ -24229,7 +24229,7 @@
                 }
             ]
         },
-        "intent_template_id": 25,
+        "intent_template_id": 193,
         "video": "vote_all_poster"
     },
     {
@@ -24260,7 +24260,7 @@
             "reference_answer_raw_annotation": "N/A",
             "string_note": "FTorrez81 does not have any submissions in iphone13"
         },
-        "intent_template_id": 25,
+        "intent_template_id": 193,
         "string_note": "FTorrez81 has no submissions in subreddit iphone13",
         "video": "vote_all_poster"
     },
@@ -24379,7 +24379,7 @@
                 }
             ]
         },
-        "intent_template_id": 25,
+        "intent_template_id": 193,
         "video": "vote_all_poster"
     },
     {
@@ -24416,7 +24416,7 @@
                 }
             ]
         },
-        "intent_template_id": 1510,
+        "intent_template_id": 194,
         "video": "vote_all_poster"
     },
     {
@@ -24447,7 +24447,7 @@
             "string_note": "jacyanthis does not have any submissions in earthporn",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 1510,
+        "intent_template_id": 194,
         "video": "vote_all_poster"
     },
     {
@@ -24484,7 +24484,7 @@
                 }
             ]
         },
-        "intent_template_id": 1510,
+        "intent_template_id": 194,
         "video": "vote_all_poster"
     },
     {
@@ -24521,7 +24521,7 @@
                 }
             ]
         },
-        "intent_template_id": 1510,
+        "intent_template_id": 194,
         "video": "vote_all_poster"
     },
     {
@@ -24558,7 +24558,7 @@
                 }
             ]
         },
-        "intent_template_id": 1510,
+        "intent_template_id": 194,
         "video": "vote_all_poster"
     },
     {
@@ -24676,7 +24676,7 @@
                 }
             ]
         },
-        "intent_template_id": 1510,
+        "intent_template_id": 194,
         "video": "vote_all_poster"
     },
     {
@@ -24714,7 +24714,7 @@
                 }
             ]
         },
-        "intent_template_id": 27,
+        "intent_template_id": 195,
         "video": "edit_post"
     },
     {
@@ -24749,7 +24749,7 @@
                 }
             ]
         },
-        "intent_template_id": 27,
+        "intent_template_id": 195,
         "video": "edit_post"
     },
     {
@@ -24784,7 +24784,7 @@
                 }
             ]
         },
-        "intent_template_id": 27,
+        "intent_template_id": 195,
         "video": "edit_post"
     },
     {
@@ -24819,7 +24819,7 @@
                 }
             ]
         },
-        "intent_template_id": 27,
+        "intent_template_id": 195,
         "video": "edit_post"
     },
     {
@@ -24854,7 +24854,7 @@
                 }
             ]
         },
-        "intent_template_id": 27,
+        "intent_template_id": 195,
         "video": "edit_post"
     },
     {
@@ -24901,7 +24901,7 @@
                 }
             ]
         },
-        "intent_template_id": 355,
+        "intent_template_id": 113,
         "video": "project_tutorial"
     },
     {
@@ -24958,7 +24958,7 @@
                 }
             ]
         },
-        "intent_template_id": 94,
+        "intent_template_id": 196,
         "video": "get_times"
     },
     {
@@ -25015,7 +25015,7 @@
                 }
             ]
         },
-        "intent_template_id": 94,
+        "intent_template_id": 196,
         "video": "get_times"
     },
     {
@@ -25072,7 +25072,7 @@
                 }
             ]
         },
-        "intent_template_id": 94,
+        "intent_template_id": 196,
         "video": "get_times"
     },
     {
@@ -25131,7 +25131,7 @@
                 }
             ]
         },
-        "intent_template_id": 94,
+        "intent_template_id": 196,
         "video": "get_times"
     },
     {
@@ -25189,7 +25189,7 @@
                 }
             ]
         },
-        "intent_template_id": 94,
+        "intent_template_id": 196,
         "video": "get_times"
     },
     {
@@ -25236,7 +25236,7 @@
                 }
             ]
         },
-        "intent_template_id": 332,
+        "intent_template_id": 197,
         "video": "project_tutorial"
     },
     {
@@ -25283,7 +25283,7 @@
                 }
             ]
         },
-        "intent_template_id": 332,
+        "intent_template_id": 198,
         "video": "project_tutorial"
     },
     {
@@ -25329,7 +25329,7 @@
                 }
             ]
         },
-        "intent_template_id": 332,
+        "intent_template_id": 199,
         "video": "project_tutorial"
     },
     {
@@ -25377,7 +25377,7 @@
                 }
             ]
         },
-        "intent_template_id": 332,
+        "intent_template_id": 200,
         "video": "project_tutorial"
     },
     {
@@ -25425,7 +25425,7 @@
                 }
             ]
         },
-        "intent_template_id": 332,
+        "intent_template_id": 201,
         "video": "project_tutorial"
     },
     {
@@ -25482,7 +25482,7 @@
                 }
             ]
         },
-        "intent_template_id": 2100,
+        "intent_template_id": 202,
         "video": "project_tutorial"
     },
     {
@@ -25540,7 +25540,7 @@
                 }
             ]
         },
-        "intent_template_id": 2100,
+        "intent_template_id": 202,
         "video": "project_tutorial"
     },
     {
@@ -25598,7 +25598,7 @@
                 }
             ]
         },
-        "intent_template_id": 2100,
+        "intent_template_id": 202,
         "video": "project_tutorial"
     },
     {
@@ -25654,7 +25654,7 @@
                 }
             ]
         },
-        "intent_template_id": 2100,
+        "intent_template_id": 202,
         "video": "project_tutorial"
     },
     {
@@ -25711,7 +25711,7 @@
                 }
             ]
         },
-        "intent_template_id": 2100,
+        "intent_template_id": 202,
         "video": "project_tutorial"
     },
     {
@@ -25757,7 +25757,7 @@
                 }
             ]
         },
-        "intent_template_id": 332,
+        "intent_template_id": 203,
         "video": "project_tutorial"
     },
     {
@@ -25803,7 +25803,7 @@
                 }
             ]
         },
-        "intent_template_id": 332,
+        "intent_template_id": 203,
         "video": "project_tutorial"
     },
     {
@@ -25849,7 +25849,7 @@
                 }
             ]
         },
-        "intent_template_id": 332,
+        "intent_template_id": 203,
         "video": "project_tutorial"
     },
     {
@@ -25895,7 +25895,7 @@
                 }
             ]
         },
-        "intent_template_id": 332,
+        "intent_template_id": 203,
         "video": "project_tutorial"
     },
     {
@@ -25941,7 +25941,7 @@
                 }
             ]
         },
-        "intent_template_id": 332,
+        "intent_template_id": 203,
         "video": "project_tutorial"
     },
     {
@@ -25994,7 +25994,7 @@
                 }
             ]
         },
-        "intent_template_id": 42,
+        "intent_template_id": 204,
         "video": "get_times"
     },
     {
@@ -26048,7 +26048,7 @@
                 }
             ]
         },
-        "intent_template_id": 42,
+        "intent_template_id": 204,
         "video": "get_times"
     },
     {
@@ -26102,7 +26102,7 @@
                 }
             ]
         },
-        "intent_template_id": 42,
+        "intent_template_id": 205,
         "video": "get_times_from_shopping_admin"
     },
     {
@@ -26157,7 +26157,7 @@
                 }
             ]
         },
-        "intent_template_id": 42,
+        "intent_template_id": 205,
         "video": "get_times_from_shopping_admin"
     },
     {
@@ -26214,7 +26214,7 @@
                 }
             ]
         },
-        "intent_template_id": 54,
+        "intent_template_id": 206,
         "video": "get_times"
     },
     {
@@ -26272,7 +26272,7 @@
                 }
             ]
         },
-        "intent_template_id": 54,
+        "intent_template_id": 206,
         "video": "get_times"
     },
     {
@@ -26314,7 +26314,7 @@
                 }
             ]
         },
-        "intent_template_id": 241,
+        "intent_template_id": 207,
         "video": "catalog_tutorial"
     },
     {
@@ -26377,7 +26377,7 @@
                 }
             ]
         },
-        "intent_template_id": 241,
+        "intent_template_id": 208,
         "video": "catalog_tutorial"
     },
     {
@@ -26418,7 +26418,7 @@
                 }
             ]
         },
-        "intent_template_id": 241,
+        "intent_template_id": 209,
         "video": "catalog_tutorial"
     },
     {
@@ -26464,7 +26464,7 @@
                 }
             ]
         },
-        "intent_template_id": 243,
+        "intent_template_id": 210,
         "video": "marketing_tutorial"
     },
     {
@@ -26500,7 +26500,7 @@
                 }
             ]
         },
-        "intent_template_id": 246,
+        "intent_template_id": 211,
         "video": "marketing_tutorial"
     },
     {
@@ -26545,7 +26545,7 @@
                 }
             ]
         },
-        "intent_template_id": 246,
+        "intent_template_id": 211,
         "video": "marketing_tutorial"
     },
     {
@@ -26599,7 +26599,7 @@
                 }
             ]
         },
-        "intent_template_id": 246,
+        "intent_template_id": 211,
         "video": "marketing_tutorial"
     },
     {
@@ -26635,7 +26635,7 @@
                 }
             ]
         },
-        "intent_template_id": 246,
+        "intent_template_id": 211,
         "video": "marketing_tutorial"
     },
     {
@@ -26680,7 +26680,7 @@
                 }
             ]
         },
-        "intent_template_id": 246,
+        "intent_template_id": 211,
         "video": "marketing_tutorial"
     },
     {
@@ -26744,7 +26744,7 @@
                 }
             ]
         },
-        "intent_template_id": 742,
+        "intent_template_id": 212,
         "video": "catalog_tutorial"
     },
     {
@@ -26794,7 +26794,7 @@
                 }
             ]
         },
-        "intent_template_id": 742,
+        "intent_template_id": 212,
         "video": "catalog_tutorial"
     },
     {
@@ -26844,7 +26844,7 @@
                 }
             ]
         },
-        "intent_template_id": 742,
+        "intent_template_id": 212,
         "video": "catalog_tutorial"
     },
     {
@@ -26887,7 +26887,7 @@
                 }
             ]
         },
-        "intent_template_id": 742,
+        "intent_template_id": 212,
         "video": "catalog_tutorial"
     },
     {
@@ -26923,7 +26923,7 @@
                 }
             ]
         },
-        "intent_template_id": 742,
+        "intent_template_id": 212,
         "video": "catalog_tutorial"
     },
     {
@@ -26980,7 +26980,7 @@
                 }
             ]
         },
-        "intent_template_id": 742,
+        "intent_template_id": 212,
         "video": "catalog_tutorial"
     },
     {
@@ -27015,7 +27015,7 @@
             "string_note": "not the owner of the repo so cannot add maintainer",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 351,
+        "intent_template_id": 155,
         "video": "edit_project"
     },
     {
@@ -27048,7 +27048,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "secupwn@users.noreply.github.com"
         },
-        "intent_template_id": 316,
+        "intent_template_id": 213,
         "video": "repo_attributes"
     },
     {
@@ -27081,7 +27081,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "secupwn@users.noreply.github.com"
         },
-        "intent_template_id": 316,
+        "intent_template_id": 213,
         "video": "repo_attributes"
     },
     {
@@ -27114,7 +27114,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "412"
         },
-        "intent_template_id": 316,
+        "intent_template_id": 213,
         "video": "repo_attributes"
     },
     {
@@ -27147,7 +27147,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "0"
         },
-        "intent_template_id": 316,
+        "intent_template_id": 213,
         "video": "repo_attributes"
     },
     {
@@ -27183,7 +27183,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "Andrew M. Whalen, amwhalen, Massachusetts, github@amwhalen.com"
         },
-        "intent_template_id": 316,
+        "intent_template_id": 213,
         "video": "repo_attributes"
     },
     {
@@ -27214,7 +27214,7 @@
             "string_note": "huggingface repo does not exist",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 328,
+        "intent_template_id": 214,
         "video": "issue_repo_tutorial"
     },
     {
@@ -27244,7 +27244,7 @@
             "string_note": "No negative reviews for sybil running short",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 246,
+        "intent_template_id": 211,
         "video": "marketing_tutorial"
     },
     {
@@ -27277,7 +27277,7 @@
             "string_note": "the subreddit does not exist",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 84,
+        "intent_template_id": 215,
         "video": "project_wikipediareddit_tutorial"
     },
     {
@@ -27308,7 +27308,7 @@
             "string_note": "The website does not support sorting by rating and there are too many products in this category",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 172,
+        "intent_template_id": 136,
         "video": "search_sort_buy"
     },
     {
@@ -27339,7 +27339,7 @@
             "string_note": "The website does not support sorting by rating and there are too many products in this category",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 172,
+        "intent_template_id": 136,
         "video": "search_sort_buy"
     },
     {
@@ -27369,7 +27369,7 @@
             "string_note": "The shipping address cannot be changed after an order is placed in the website.",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 191,
+        "intent_template_id": 216,
         "video": "order_history"
     },
     {
@@ -27399,7 +27399,7 @@
             "string_note": "The shipping address cannot be changed after an order is placed in the website.",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 191,
+        "intent_template_id": 216,
         "video": "order_history"
     },
     {
@@ -27429,7 +27429,7 @@
             "string_note": "The shipping address cannot be changed after an order is placed in the website.",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 191,
+        "intent_template_id": 216,
         "video": "order_history"
     },
     {
@@ -27459,7 +27459,7 @@
             "string_note": "The shipping address cannot be changed after an order is placed in the website.",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 191,
+        "intent_template_id": 216,
         "video": "order_history"
     },
     {
@@ -27489,7 +27489,7 @@
             "string_note": "The shipping address cannot be changed after an order is placed in the website.",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 191,
+        "intent_template_id": 216,
         "video": "order_history"
     },
     {
@@ -27529,7 +27529,7 @@
                 }
             ]
         },
-        "intent_template_id": 600,
+        "intent_template_id": 217,
         "video": "create_group"
     },
     {
@@ -27570,7 +27570,7 @@
                 }
             ]
         },
-        "intent_template_id": 600,
+        "intent_template_id": 217,
         "video": "create_group"
     },
     {
@@ -27610,7 +27610,7 @@
                 }
             ]
         },
-        "intent_template_id": 600,
+        "intent_template_id": 217,
         "video": "create_group"
     },
     {
@@ -27648,7 +27648,7 @@
                 }
             ]
         },
-        "intent_template_id": 600,
+        "intent_template_id": 217,
         "video": "create_group"
     },
     {
@@ -27686,7 +27686,7 @@
                 }
             ]
         },
-        "intent_template_id": 600,
+        "intent_template_id": 217,
         "video": "create_group"
     },
     {
@@ -27734,7 +27734,7 @@
                 }
             ]
         },
-        "intent_template_id": 999,
+        "intent_template_id": 218,
         "video": "issue_tutorial"
     },
     {
@@ -27789,7 +27789,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 335,
+        "intent_template_id": 219,
         "video": "merge_request"
     },
     {
@@ -27843,7 +27843,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 335,
+        "intent_template_id": 180,
         "video": "merge_request"
     },
     {
@@ -27897,7 +27897,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 335,
+        "intent_template_id": 180,
         "video": "merge_request"
     },
     {
@@ -27954,7 +27954,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 327,
+        "intent_template_id": 177,
         "video": "issue_repo_tutorial"
     },
     {
@@ -28011,7 +28011,7 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 327,
+        "intent_template_id": 177,
         "video": "issue_repo_tutorial"
     },
     {
@@ -28050,7 +28050,7 @@
                 }
             ]
         },
-        "intent_template_id": 999,
+        "intent_template_id": 220,
         "video": "issue_tutorial"
     },
     {
@@ -28088,7 +28088,7 @@
                 }
             ]
         },
-        "intent_template_id": 999,
+        "intent_template_id": 122,
         "video": "issue_tutorial"
     }
 ]

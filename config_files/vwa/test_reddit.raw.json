@@ -2164,7 +2164,7 @@
                 "exact_match": "Sam Mendes"
             }
         },
-        "intent_template_id": 24,
+        "intent_template_id": 23,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -2197,7 +2197,7 @@
                 "exact_match": "Lisa Kudrow"
             }
         },
-        "intent_template_id": 24,
+        "intent_template_id": 23,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -2268,7 +2268,7 @@
                 ]
             }
         },
-        "intent_template_id": 25,
+        "intent_template_id": 24,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
@@ -2411,7 +2411,7 @@
                 }
             ]
         },
-        "intent_template_id": 27,
+        "intent_template_id": 25,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -2445,7 +2445,7 @@
                 ]
             }
         },
-        "intent_template_id": 28,
+        "intent_template_id": 26,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
@@ -2486,7 +2486,7 @@
                 }
             ]
         },
-        "intent_template_id": 29,
+        "intent_template_id": 27,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
@@ -2525,7 +2525,7 @@
                 }
             ]
         },
-        "intent_template_id": 27,
+        "intent_template_id": 25,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -2578,7 +2578,7 @@
                 }
             ]
         },
-        "intent_template_id": 30,
+        "intent_template_id": 28,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
@@ -2623,7 +2623,7 @@
                 }
             ]
         },
-        "intent_template_id": 29,
+        "intent_template_id": 27,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -2667,7 +2667,7 @@
                 }
             ]
         },
-        "intent_template_id": 31,
+        "intent_template_id": 29,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -2719,7 +2719,7 @@
                 }
             ]
         },
-        "intent_template_id": 32,
+        "intent_template_id": 30,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -2762,7 +2762,7 @@
                 }
             ]
         },
-        "intent_template_id": 33,
+        "intent_template_id": 31,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -2809,7 +2809,7 @@
                 }
             ]
         },
-        "intent_template_id": 33,
+        "intent_template_id": 31,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -2852,7 +2852,7 @@
                 }
             ]
         },
-        "intent_template_id": 33,
+        "intent_template_id": 31,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -2940,7 +2940,7 @@
                 }
             ]
         },
-        "intent_template_id": 34,
+        "intent_template_id": 32,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -3028,7 +3028,7 @@
                 }
             ]
         },
-        "intent_template_id": 34,
+        "intent_template_id": 32,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -3116,7 +3116,7 @@
                 }
             ]
         },
-        "intent_template_id": 34,
+        "intent_template_id": 32,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -3260,7 +3260,7 @@
                 }
             ]
         },
-        "intent_template_id": 34,
+        "intent_template_id": 32,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -3371,7 +3371,7 @@
                 }
             ]
         },
-        "intent_template_id": 35,
+        "intent_template_id": 33,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -3490,7 +3490,7 @@
                 }
             ]
         },
-        "intent_template_id": 36,
+        "intent_template_id": 34,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -3525,7 +3525,7 @@
             },
             "reference_url": null
         },
-        "intent_template_id": 37,
+        "intent_template_id": 35,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
@@ -3560,7 +3560,7 @@
             },
             "reference_url": null
         },
-        "intent_template_id": 37,
+        "intent_template_id": 35,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -3634,7 +3634,7 @@
                 }
             ]
         },
-        "intent_template_id": 34,
+        "intent_template_id": 32,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -3674,7 +3674,7 @@
                 }
             ]
         },
-        "intent_template_id": 38,
+        "intent_template_id": 36,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -3714,7 +3714,7 @@
                 }
             ]
         },
-        "intent_template_id": 38,
+        "intent_template_id": 36,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -3754,7 +3754,7 @@
                 }
             ]
         },
-        "intent_template_id": 38,
+        "intent_template_id": 36,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -3789,7 +3789,7 @@
                 ]
             }
         },
-        "intent_template_id": 39,
+        "intent_template_id": 37,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -3824,7 +3824,7 @@
                 ]
             }
         },
-        "intent_template_id": 39,
+        "intent_template_id": 37,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -3859,7 +3859,7 @@
                 ]
             }
         },
-        "intent_template_id": 39,
+        "intent_template_id": 37,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -3894,7 +3894,7 @@
                 ]
             }
         },
-        "intent_template_id": 39,
+        "intent_template_id": 37,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -3929,7 +3929,7 @@
                 ]
             }
         },
-        "intent_template_id": 39,
+        "intent_template_id": 37,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -3964,7 +3964,7 @@
                 ]
             }
         },
-        "intent_template_id": 39,
+        "intent_template_id": 37,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -4004,7 +4004,7 @@
                 }
             ]
         },
-        "intent_template_id": 40,
+        "intent_template_id": 38,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -4048,7 +4048,7 @@
                 }
             ]
         },
-        "intent_template_id": 40,
+        "intent_template_id": 38,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -4088,7 +4088,7 @@
                 }
             ]
         },
-        "intent_template_id": 40,
+        "intent_template_id": 38,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -4128,7 +4128,7 @@
                 }
             ]
         },
-        "intent_template_id": 40,
+        "intent_template_id": 38,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -4176,7 +4176,7 @@
                 }
             ]
         },
-        "intent_template_id": 41,
+        "intent_template_id": 39,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
@@ -4224,7 +4224,7 @@
                 }
             ]
         },
-        "intent_template_id": 41,
+        "intent_template_id": 39,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -4272,7 +4272,7 @@
                 }
             ]
         },
-        "intent_template_id": 41,
+        "intent_template_id": 39,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -4314,7 +4314,7 @@
                 }
             ]
         },
-        "intent_template_id": 42,
+        "intent_template_id": 40,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -4353,7 +4353,7 @@
                 }
             ]
         },
-        "intent_template_id": 42,
+        "intent_template_id": 40,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -4394,7 +4394,7 @@
                 }
             ]
         },
-        "intent_template_id": 42,
+        "intent_template_id": 40,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -4433,7 +4433,7 @@
                 }
             ]
         },
-        "intent_template_id": 43,
+        "intent_template_id": 41,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -4472,7 +4472,7 @@
                 }
             ]
         },
-        "intent_template_id": 43,
+        "intent_template_id": 41,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -4511,7 +4511,7 @@
                 }
             ]
         },
-        "intent_template_id": 43,
+        "intent_template_id": 41,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -4555,7 +4555,7 @@
                 }
             ]
         },
-        "intent_template_id": 44,
+        "intent_template_id": 42,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -4599,7 +4599,7 @@
                 }
             ]
         },
-        "intent_template_id": 44,
+        "intent_template_id": 42,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -4650,7 +4650,7 @@
                 }
             ]
         },
-        "intent_template_id": 44,
+        "intent_template_id": 42,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -4688,7 +4688,7 @@
             "reference_url": "__REDDIT__/f/washingtondc/136747",
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 45,
+        "intent_template_id": 43,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
@@ -4726,7 +4726,7 @@
             "reference_url": "__REDDIT__/f/monitor/107539",
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 45,
+        "intent_template_id": 43,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
@@ -4764,7 +4764,7 @@
             "reference_url": "__REDDIT__/f/aww/80903",
             "url_note": "GOLD in PRED"
         },
-        "intent_template_id": 45,
+        "intent_template_id": 43,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
@@ -4798,7 +4798,7 @@
                 ]
             }
         },
-        "intent_template_id": 46,
+        "intent_template_id": 44,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -4832,7 +4832,7 @@
                 ]
             }
         },
-        "intent_template_id": 46,
+        "intent_template_id": 44,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -4866,7 +4866,7 @@
                 ]
             }
         },
-        "intent_template_id": 46,
+        "intent_template_id": 44,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -4896,7 +4896,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "intent_template_id": 48,
+        "intent_template_id": 45,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
@@ -4926,7 +4926,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "intent_template_id": 48,
+        "intent_template_id": 45,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
@@ -4964,7 +4964,7 @@
             },
             "reference_url": "__REDDIT__/f/wallstreetbets/29340 |OR| __REDDIT__/f/wallstreetbets/29340/visual-breakdown-of-amzn-q3-fy22-income-statement"
         },
-        "intent_template_id": 49,
+        "intent_template_id": 46,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -5001,7 +5001,7 @@
             },
             "reference_url": "__REDDIT__/f/dataisbeautiful/18389 |OR| __REDDIT__/f/dataisbeautiful/18389/oc-microsoft-ipo-vs-now-breaking-down-its-revenue-and"
         },
-        "intent_template_id": 49,
+        "intent_template_id": 46,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -5039,7 +5039,7 @@
             },
             "reference_url": "__REDDIT__/f/dataisbeautiful/124787 |OR| __REDDIT__/f/dataisbeautiful/124787/oc-nvidia-s-fy22-income-statement"
         },
-        "intent_template_id": 49,
+        "intent_template_id": 46,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -5071,7 +5071,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "intent_template_id": 50,
+        "intent_template_id": 47,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
@@ -5103,7 +5103,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "intent_template_id": 50,
+        "intent_template_id": 47,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
@@ -5135,7 +5135,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "intent_template_id": 50,
+        "intent_template_id": 47,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
@@ -5172,7 +5172,7 @@
                 }
             ]
         },
-        "intent_template_id": 51,
+        "intent_template_id": 48,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -5209,7 +5209,7 @@
                 }
             ]
         },
-        "intent_template_id": 51,
+        "intent_template_id": 48,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -5246,7 +5246,7 @@
                 }
             ]
         },
-        "intent_template_id": 51,
+        "intent_template_id": 48,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -5279,7 +5279,7 @@
                 ]
             }
         },
-        "intent_template_id": 52,
+        "intent_template_id": 49,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -5312,7 +5312,7 @@
                 ]
             }
         },
-        "intent_template_id": 52,
+        "intent_template_id": 49,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -5345,7 +5345,7 @@
                 ]
             }
         },
-        "intent_template_id": 52,
+        "intent_template_id": 49,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -5379,7 +5379,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "intent_template_id": 53,
+        "intent_template_id": 50,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
@@ -5413,7 +5413,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "intent_template_id": 54,
+        "intent_template_id": 51,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
@@ -5447,7 +5447,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "intent_template_id": 54,
+        "intent_template_id": 51,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
@@ -5484,7 +5484,7 @@
                 }
             ]
         },
-        "intent_template_id": 55,
+        "intent_template_id": 52,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
@@ -5524,7 +5524,7 @@
                 }
             ]
         },
-        "intent_template_id": 56,
+        "intent_template_id": 53,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -5565,7 +5565,7 @@
                 }
             ]
         },
-        "intent_template_id": 56,
+        "intent_template_id": 53,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -5602,7 +5602,7 @@
                 }
             ]
         },
-        "intent_template_id": 57,
+        "intent_template_id": 54,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -5639,7 +5639,7 @@
                 }
             ]
         },
-        "intent_template_id": 57,
+        "intent_template_id": 54,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -5676,7 +5676,7 @@
                 }
             ]
         },
-        "intent_template_id": 57,
+        "intent_template_id": 54,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -5713,7 +5713,7 @@
                 }
             ]
         },
-        "intent_template_id": 58,
+        "intent_template_id": 55,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
@@ -5750,7 +5750,7 @@
                 }
             ]
         },
-        "intent_template_id": 59,
+        "intent_template_id": 56,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
@@ -5787,7 +5787,7 @@
                 }
             ]
         },
-        "intent_template_id": 58,
+        "intent_template_id": 55,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
@@ -5826,7 +5826,7 @@
                 }
             ]
         },
-        "intent_template_id": 60,
+        "intent_template_id": 57,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -5865,7 +5865,7 @@
                 }
             ]
         },
-        "intent_template_id": 60,
+        "intent_template_id": 57,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -5904,7 +5904,7 @@
                 }
             ]
         },
-        "intent_template_id": 60,
+        "intent_template_id": 57,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -5943,7 +5943,7 @@
                 }
             ]
         },
-        "intent_template_id": 60,
+        "intent_template_id": 57,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -5982,7 +5982,7 @@
                 }
             ]
         },
-        "intent_template_id": 60,
+        "intent_template_id": 57,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -6021,7 +6021,7 @@
                 }
             ]
         },
-        "intent_template_id": 60,
+        "intent_template_id": 57,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -6055,7 +6055,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 61,
+        "intent_template_id": 58,
         "video": "go_to_comments"
     },
     {
@@ -6095,7 +6095,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "__REDDIT__/f/dataisbeautiful/103920/oc-the-cost-of-training-ai-on-imagenet-has-decreased-from",
-        "intent_template_id": 62,
+        "intent_template_id": 59,
         "video": "sort_and_go_to_comments"
     },
     {
@@ -6128,7 +6128,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 63,
+        "intent_template_id": 60,
         "video": "go_to_comments"
     },
     {
@@ -6166,7 +6166,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 62,
+        "intent_template_id": 59,
         "video": "sort_and_go_to_comments"
     },
     {
@@ -6199,7 +6199,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "Text is very hard to read, even for a human.",
-        "intent_template_id": 64,
+        "intent_template_id": 61,
         "video": "sort_and_go_to_comments"
     },
     {
@@ -6247,7 +6247,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 65,
+        "intent_template_id": 62,
         "video": "subscribe"
     },
     {
@@ -6297,7 +6297,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 65,
+        "intent_template_id": 62,
         "video": "subscribe"
     },
     {
@@ -6340,7 +6340,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 65,
+        "intent_template_id": 62,
         "video": "subscribe"
     },
     {
@@ -6370,7 +6370,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "The post mispells 'deserted' as 'desert' which makes it hard to find.",
-        "intent_template_id": 66,
+        "intent_template_id": 63,
         "video": "go_to_comments"
     },
     {
@@ -6404,7 +6404,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 67,
+        "intent_template_id": 64,
         "video": "sort_and_go_to_comments"
     },
     {
@@ -6441,7 +6441,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "Post is __REDDIT__/f/photoshopbattles/45340/psbattle-halloween-costume",
-        "intent_template_id": 68,
+        "intent_template_id": 65,
         "video": "go_to_comments"
     },
     {
@@ -6478,7 +6478,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "Post is __REDDIT__/f/gifs/19936/ok-time-for-you-to-go-to-bed hard visual because the agent needs to understand a moving gif",
-        "intent_template_id": 68,
+        "intent_template_id": 65,
         "video": "go_to_comments"
     },
     {
@@ -6521,7 +6521,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "__REDDIT__/f/pittsburgh/89846/fallingwater-by-lisa-frank-lloyd-wright",
-        "intent_template_id": 69,
+        "intent_template_id": 66,
         "video": "poster_info"
     },
     {
@@ -6563,7 +6563,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "__REDDIT__/f/space/27376/a-view-i-captured-of-the-sun-between-iss-solar-panels-more |OR| __REDDIT__/f/space/92045/ireland-seen-from-the-international-space-station",
-        "intent_template_id": 69,
+        "intent_template_id": 66,
         "video": "poster_info"
     },
     {
@@ -6610,7 +6610,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "An example is at __REDDIT__/f/aww/81028/cute-buddies",
-        "intent_template_id": 63,
+        "intent_template_id": 60,
         "video": "go_to_comments"
     },
     {
@@ -6660,7 +6660,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 70,
+        "intent_template_id": 67,
         "video": "repost"
     },
     {
@@ -6710,7 +6710,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 70,
+        "intent_template_id": 67,
         "video": "repost"
     },
     {
@@ -6751,7 +6751,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 71,
+        "intent_template_id": 68,
         "video": "subscribe"
     },
     {
@@ -6792,7 +6792,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 71,
+        "intent_template_id": 68,
         "video": "subscribe"
     },
     {
@@ -6834,7 +6834,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "Occulded text is hard to read.",
-        "intent_template_id": 72,
+        "intent_template_id": 69,
         "video": "go_to_comments"
     },
     {
@@ -6876,7 +6876,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 72,
+        "intent_template_id": 69,
         "video": "go_to_comments"
     },
     {
@@ -6918,7 +6918,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "Needs to see animated gif to complete task.",
-        "intent_template_id": 72,
+        "intent_template_id": 69,
         "video": "go_to_comments"
     },
     {
@@ -6961,7 +6961,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 74,
+        "intent_template_id": 70,
         "video": "go_to_comments"
     },
     {
@@ -7004,7 +7004,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 74,
+        "intent_template_id": 70,
         "video": "go_to_comments"
     },
     {
@@ -7045,7 +7045,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "The image is of the 'Vessel' in New York City.",
-        "intent_template_id": 71,
+        "intent_template_id": 68,
         "video": "subscribe"
     },
     {
@@ -7078,7 +7078,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 75,
+        "intent_template_id": 71,
         "video": "sort_and_go_to_comments"
     },
     {
@@ -7111,7 +7111,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 75,
+        "intent_template_id": 71,
         "video": "sort_and_go_to_comments"
     },
     {
@@ -7154,7 +7154,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "The text in the image looks like 'Vale' but the agent needs to know it's Yale.",
-        "intent_template_id": 76,
+        "intent_template_id": 72,
         "video": "make_post"
     },
     {
@@ -7187,7 +7187,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "Hard to read text off the football field and has to recognize that StamfordCT is not where Stanford is located. Also there is no forum for Palo Alto.",
-        "intent_template_id": 76,
+        "intent_template_id": 72,
         "video": "make_post"
     },
     {
@@ -7239,7 +7239,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 77,
+        "intent_template_id": 73,
         "video": "post_from_shopping"
     },
     {
@@ -7291,7 +7291,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 77,
+        "intent_template_id": 73,
         "video": "post_from_shopping"
     },
     {
@@ -7344,7 +7344,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 78,
+        "intent_template_id": 74,
         "video": "post_from_shopping"
     },
     {
@@ -7397,7 +7397,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 78,
+        "intent_template_id": 74,
         "video": "post_from_shopping"
     },
     {
@@ -7450,7 +7450,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 78,
+        "intent_template_id": 74,
         "video": "post_from_shopping"
     },
     {
@@ -7489,7 +7489,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 79,
+        "intent_template_id": 75,
         "video": "subscribe"
     },
     {
@@ -7528,7 +7528,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 79,
+        "intent_template_id": 75,
         "video": "subscribe"
     },
     {
@@ -7567,7 +7567,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 79,
+        "intent_template_id": 75,
         "video": "subscribe"
     },
     {
@@ -7603,7 +7603,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "1) __REDDIT__/f/iphone/106148/apple-really-should-bring-back-the-rose-gold-color-option-it 2) __REDDIT__/f/iphone/41010/strong-magnets 3) __REDDIT__/f/iphone/62333/this-mesh-thing-fell-out-of-my-iphone-13-pro-is-it-a-big",
-        "intent_template_id": 80,
+        "intent_template_id": 76,
         "video": "vote_tutorial"
     },
     {
@@ -7639,7 +7639,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "1) __REDDIT__/f/aww/80942/oc-what-do-you-suspect-they-want 2) __REDDIT__/f/aww/102762/they-think-the-couch-is-theirs-oc",
-        "intent_template_id": 80,
+        "intent_template_id": 76,
         "video": "vote_tutorial"
     },
     {
@@ -7679,7 +7679,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 81,
+        "intent_template_id": 77,
         "video": "time_and_comment"
     },
     {
@@ -7719,7 +7719,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "Has to look at a lot of images, and some have unexpected layouts.",
-        "intent_template_id": 81,
+        "intent_template_id": 77,
         "video": "time_and_comment"
     },
     {
@@ -7759,7 +7759,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 81,
+        "intent_template_id": 77,
         "video": "time_and_comment"
     },
     {
@@ -7791,7 +7791,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 64,
+        "intent_template_id": 61,
         "video": "sort_and_go_to_comments"
     },
     {
@@ -7823,7 +7823,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 64,
+        "intent_template_id": 61,
         "video": "sort_and_go_to_comments"
     },
     {
@@ -7863,7 +7863,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
         "comments": "",
-        "intent_template_id": 82,
+        "intent_template_id": 78,
         "video": "sort_and_go_to_comments"
     },
     {
@@ -7903,7 +7903,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 82,
+        "intent_template_id": 78,
         "video": "sort_and_go_to_comments"
     },
     {
@@ -7933,7 +7933,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 83,
+        "intent_template_id": 79,
         "video": "go_to_comments"
     },
     {
@@ -7963,7 +7963,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 83,
+        "intent_template_id": 79,
         "video": "go_to_comments"
     },
     {
@@ -8015,7 +8015,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "Needs to message lots of different people and some of the animals are quite hard to spot.",
-        "intent_template_id": 84,
+        "intent_template_id": 80,
         "video": "poster_info"
     },
     {
@@ -8063,7 +8063,7 @@
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
         "comments": "Did not check for three ambiguous posts __REDDIT__/f/gaming/61510/i-was-cleaning-my-basement-and-found-some-games-i-saved-from and __REDDIT__/f/gaming/105197/updated-game-room and __REDDIT__/f/gaming/126167/welp",
-        "intent_template_id": 84,
+        "intent_template_id": 80,
         "video": "poster_info"
     },
     {
@@ -8095,7 +8095,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 64,
+        "intent_template_id": 61,
         "video": "sort_and_go_to_comments"
     },
     {
@@ -8132,7 +8132,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
         "comments": "Guy in the picture is Elon Musk and he founded SpaceX.",
-        "intent_template_id": 85,
+        "intent_template_id": 81,
         "video": "go_to_comments"
     },
     {
@@ -8169,7 +8169,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
         "comments": "",
-        "intent_template_id": 85,
+        "intent_template_id": 81,
         "video": "go_to_comments"
     },
     {
@@ -8235,7 +8235,7 @@
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 86,
+        "intent_template_id": 82,
         "video": "make_post"
     },
     {
@@ -8301,7 +8301,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 86,
+        "intent_template_id": 82,
         "video": "make_post"
     },
     {
@@ -8367,7 +8367,7 @@
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
         "comments": "",
-        "intent_template_id": 86,
+        "intent_template_id": 82,
         "video": "make_post"
     }
 ]
