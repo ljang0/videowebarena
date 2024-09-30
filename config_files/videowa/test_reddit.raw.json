@@ -40,6 +40,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "spatial_reasoning": false,
         "audio_reasoning": true,
@@ -102,7 +103,8 @@
                 }
             ]
         },
-        "overall_difficulty": "hard",
+       "intermediate_difficulty": "easy",
+       "overall_difficulty": "hard",
         "spatial_reasoning": false,
         "audio_reasoning": false,
         "multihop_reasoning": true,
@@ -179,7 +181,8 @@
                 }
             ]
         },
-        "overall_difficulty": "hard",
+       "intermediate_difficulty": "medium",
+       "overall_difficulty": "hard",
         "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
@@ -227,10 +230,11 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "hard",
+        "intermediate_difficulty": "easy",
+        "overall_difficulty": "easy",
         "spatial_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 0
@@ -276,8 +280,9 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "hard",
-        "spatial_reasoning": false,
+        "spatial_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
@@ -331,6 +336,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -379,6 +385,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -428,6 +435,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -477,6 +485,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -557,7 +566,8 @@
                 }
             }
         ],
-        "overall_difficulty": "medium",
+        "intermediate_difficulty": "hard",
+        "overall_difficulty": "hard",
         "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
@@ -605,6 +615,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "easy",
         "spatial_reasoning": false,
         "audio_reasoning": true,
@@ -653,6 +664,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "easy",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -709,7 +721,8 @@
                 }
             ]
         },
-        "overall_difficulty": "easy",
+        "intermediate_difficulty": "easy",
+        "overall_difficulty": "medium",
         "spatial_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": false,
@@ -767,6 +780,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -815,6 +829,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "easy",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -870,6 +885,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -925,7 +941,8 @@
                 }
             ]
         },
-        "overall_difficulty": "hard",
+        "intermediate_difficulty": "easy",
+        "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
@@ -985,6 +1002,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -1041,8 +1059,9 @@
                 }
             ]
         },
-        "overall_difficulty": "medium",
-        "spatial_reasoning": true,
+        "intermediate_difficulty": "easy",
+        "overall_difficulty": "easy",
+        "spatial_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
@@ -1151,7 +1170,8 @@
                 }
             ]
         },
-        "overall_difficulty": "hard",
+        "intermediate_difficulty": "hard",
+        "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
@@ -1208,7 +1228,8 @@
                 }
             ]
         },
-        "overall_difficulty": "hard",
+        "intermediate_difficulty": "hard",
+        "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
@@ -1266,7 +1287,8 @@
                 }
             ]
         },
-        "overall_difficulty": "hard",
+        "intermediate_difficulty": "hard",
+        "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
@@ -1314,10 +1336,11 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "hard",
+        "intermediate_difficulty": "easy",
+        "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 0
@@ -1363,6 +1386,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "spatial_reasoning": false,
         "audio_reasoning": true,
@@ -1419,7 +1443,8 @@
                 }
             ]
         },
-        "overall_difficulty": "medium",
+        "intermediate_difficulty": "medium",
+        "overall_difficulty": "easy",
         "spatial_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": false,
@@ -1468,6 +1493,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -1527,6 +1553,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -1576,6 +1603,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "spatial_reasoning": false,
         "audio_reasoning": false,
@@ -1632,6 +1660,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "medium",
         "spatial_reasoning": false,
         "audio_reasoning": true,
@@ -1689,6 +1718,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "spatial_reasoning": false,
         "audio_reasoning": false,
@@ -1747,7 +1777,8 @@
                 }
             ]
         },
-        "overall_difficulty": "hard",
+        "intermediate_difficulty": "easy",
+        "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
@@ -1804,6 +1835,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "hard",
         "spatial_reasoning": false,
         "audio_reasoning": true,
@@ -1853,7 +1885,8 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "medium",
+        "intermediate_difficulty": "medium",
+        "overall_difficulty": "easy",
         "spatial_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": false,
@@ -1910,6 +1943,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "spatial_reasoning": false,
         "audio_reasoning": false,
@@ -1985,8 +2019,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
-        "spatial_reasoning": false,
+        "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
@@ -2042,6 +2077,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -2097,6 +2133,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -2145,6 +2182,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -2207,6 +2245,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -2256,8 +2295,9 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "easy",
-        "spatial_reasoning": true,
+        "spatial_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
@@ -2310,10 +2350,11 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "spatial_reasoning": false,
         "audio_reasoning": true,
-        "multihop_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 0
@@ -2365,6 +2406,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -2468,6 +2510,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -2516,6 +2559,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -2574,6 +2618,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -2623,6 +2668,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "easy",
         "spatial_reasoning": true,
         "audio_reasoning": true,
@@ -2682,7 +2728,8 @@
                 }
             ]
         },
-        "overall_difficulty": "medium",
+        "intermediate_difficulty": "hard",
+        "overall_difficulty": "hard",
         "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
@@ -2740,6 +2787,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -2806,7 +2854,8 @@
                 }
             ]
         },
-        "overall_difficulty": "medium",
+        "intermediate_difficulty": "hard",
+        "overall_difficulty": "hard",
         "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
@@ -2872,6 +2921,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -2938,6 +2988,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -2986,6 +3037,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "easy",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -3041,6 +3093,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "easy",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -3096,7 +3149,8 @@
                 }
             ]
         },
-        "overall_difficulty": "easy",
+        "intermediate_difficulty": "medium",
+        "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
@@ -3146,6 +3200,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "easy",
         "spatial_reasoning": true,
         "audio_reasoning": true,
@@ -3195,6 +3250,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "easy",
         "spatial_reasoning": true,
         "audio_reasoning": true,
@@ -3254,6 +3310,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -3313,6 +3370,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -3372,6 +3430,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -3420,6 +3479,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "easy",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -3486,6 +3546,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -3552,6 +3613,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -3603,6 +3665,7 @@
             "program_html": [],
             "string_note": "forum doesn't exist on the base website."
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "easy",
         "spatial_reasoning": true,
         "audio_reasoning": true,
@@ -3653,6 +3716,7 @@
             "program_html": [],
             "string_note": "forum doesn't exist on the base website."
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "easy",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -3703,6 +3767,7 @@
             "program_html": [],
             "string_note": "forum doesn't exist on the base website."
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "easy",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -3753,7 +3818,8 @@
             "program_html": [],
             "string_note": "forum doesn't exist on the base website."
         },
-        "overall_difficulty": "easy",
+        "intermediate_difficulty": "easy",
+        "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
@@ -3803,7 +3869,8 @@
             "program_html": [],
             "string_note": "forum doesn't exist on the base website."
         },
-        "overall_difficulty": "easy",
+        "intermediate_difficulty": "easy",
+        "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
@@ -3888,6 +3955,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -3937,7 +4005,8 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "easy",
+        "intermediate_difficulty": "easy",
+        "overall_difficulty": "medium",
         "spatial_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": false,
@@ -3992,6 +4061,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -4047,6 +4117,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -4102,6 +4173,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -4157,6 +4229,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -4212,6 +4285,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -4310,6 +4384,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -4408,6 +4483,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -4456,6 +4532,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -4506,6 +4583,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "easy",
         "spatial_reasoning": true,
         "audio_reasoning": true,
@@ -4555,6 +4633,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "easy",
         "spatial_reasoning": true,
         "audio_reasoning": true,
@@ -4612,6 +4691,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "easy",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -4667,6 +4747,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "easy",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -4722,6 +4803,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "easy",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -4777,6 +4859,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -4832,7 +4915,8 @@
                 }
             ]
         },
-        "overall_difficulty": "hard",
+        "intermediate_difficulty": "medium",
+        "overall_difficulty": "medium",
         "spatial_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
@@ -4887,6 +4971,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "spatial_reasoning": true,
         "audio_reasoning": false,
@@ -4936,6 +5021,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "easy",
         "spatial_reasoning": true,
         "audio_reasoning": true,
