@@ -3004,6 +3004,7 @@
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "medium",
+        "intermediate_difficulty": "hard",
         "visual_reasoning": false,
         "audio_reasoning": false,
         "multihop_reasoning": true,
@@ -4780,6 +4781,7 @@
             ]
         },
         "overall_difficulty": "hard",
+        "intermediate_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
