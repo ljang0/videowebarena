@@ -2575,7 +2575,7 @@
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": false,t
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 8
