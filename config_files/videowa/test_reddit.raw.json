@@ -1116,6 +1116,7 @@
             ]
         },
         "overall_difficulty": "hard",
+        "intermediate_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
