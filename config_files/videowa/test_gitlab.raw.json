@@ -213,6 +213,7 @@
             ]
         },
         "overall_difficulty": "hard",
+        "intermediate_difficulty": "medium",
         "visual_reasoning": false,
         "audio_reasoning": false,
         "multihop_reasoning": false,
@@ -1342,6 +1343,7 @@
             "url_note": "EXACT"
         },
         "overall_difficulty": "hard",
+        "intermediate_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
