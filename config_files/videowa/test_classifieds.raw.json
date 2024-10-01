@@ -984,6 +984,7 @@
             "string_note": ""
         },
         "overall_difficulty": "medium",
+        "intermediate_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
