@@ -50,6 +50,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
         "visual_reasoning": false,
         "audio_reasoning": false,
@@ -107,11 +108,12 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
-        "temporal_reasoning": false,
+        "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 0
     },
@@ -155,8 +157,9 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "easy",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
@@ -203,8 +206,9 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "easy",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
@@ -264,8 +268,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
@@ -325,8 +330,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
@@ -382,6 +388,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -439,6 +446,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -505,8 +513,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
@@ -563,6 +572,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "hard",
         "visual_reasoning": false,
         "audio_reasoning": true,
@@ -621,6 +631,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
         "visual_reasoning": false,
         "audio_reasoning": true,
@@ -681,6 +692,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -738,6 +750,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -796,8 +809,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "medium",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
@@ -862,6 +876,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "medium",
         "visual_reasoning": false,
         "audio_reasoning": true,
@@ -910,6 +925,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "visual_reasoning": false,
         "audio_reasoning": false,
@@ -967,8 +983,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "medium",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
@@ -1024,10 +1041,11 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 3
@@ -1081,6 +1099,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "visual_reasoning": false,
         "audio_reasoning": true,
@@ -1139,6 +1158,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "visual_reasoning": false,
         "audio_reasoning": true,
@@ -1202,8 +1222,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
@@ -1269,10 +1290,11 @@
                 }
             ]
         },
-        "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "intermediate_difficulty": "medium",
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 12
@@ -1326,10 +1348,11 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 3
@@ -1386,6 +1409,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -1435,6 +1459,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "easy",
         "visual_reasoning": false,
         "audio_reasoning": true,
@@ -1493,6 +1518,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -1550,6 +1576,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -1609,6 +1636,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "medium",
         "visual_reasoning": false,
         "audio_reasoning": false,
@@ -1666,8 +1694,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
@@ -1723,10 +1752,11 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 3
@@ -1781,6 +1811,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": true,
@@ -1839,6 +1870,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "visual_reasoning": false,
         "audio_reasoning": true,
@@ -1905,8 +1937,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
@@ -1964,8 +1997,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
@@ -2013,6 +2047,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -2071,6 +2106,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "hard",
         "visual_reasoning": false,
         "audio_reasoning": true,
@@ -2129,6 +2165,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "hard",
         "visual_reasoning": false,
         "audio_reasoning": true,
@@ -2190,6 +2227,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "hard",
         "visual_reasoning": false,
         "audio_reasoning": false,
@@ -2260,8 +2298,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
@@ -2317,6 +2356,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -2376,6 +2416,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": true,
@@ -2435,6 +2476,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": true,
@@ -2496,8 +2538,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
@@ -2545,8 +2588,9 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
@@ -2612,6 +2656,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -2670,6 +2715,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "visual_reasoning": false,
         "audio_reasoning": true,
@@ -2727,6 +2773,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -2784,6 +2831,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -2841,6 +2889,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -2898,6 +2947,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -3011,8 +3061,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "medium",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
@@ -3068,6 +3119,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -3127,6 +3179,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "medium",
         "visual_reasoning": false,
         "audio_reasoning": false,
@@ -3193,8 +3246,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
@@ -3251,6 +3305,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "easy",
         "visual_reasoning": false,
         "audio_reasoning": true,
@@ -3314,8 +3369,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
@@ -3373,6 +3429,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
         "visual_reasoning": false,
         "audio_reasoning": false,
@@ -3426,10 +3483,11 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 21
@@ -3485,6 +3543,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
         "visual_reasoning": false,
         "audio_reasoning": true,
@@ -3542,6 +3601,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "easy",
         "visual_reasoning": false,
         "audio_reasoning": false,
@@ -3601,11 +3661,12 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "easy",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": false,
-        "temporal_reasoning": true,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 18
     },
@@ -3659,6 +3720,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -3709,10 +3771,11 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "visual_reasoning": false,
         "audio_reasoning": true,
-        "multihop_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 24
@@ -3758,8 +3821,9 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "easy",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
@@ -3817,8 +3881,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
@@ -3883,6 +3948,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -3949,8 +4015,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
@@ -4017,6 +4084,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": true,
@@ -4074,6 +4142,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -4131,6 +4200,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -4188,8 +4258,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
@@ -4255,8 +4326,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
@@ -4313,6 +4385,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -4361,8 +4434,9 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty":"easy",
         "overall_difficulty": "easy",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
@@ -4420,10 +4494,11 @@
                 }
             ]
         },
+        "intermediate_difficulty":"easy",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 27
@@ -4477,10 +4552,11 @@
                 }
             ]
         },
+        "intermediate_difficulty":"easy",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 28
@@ -4534,10 +4610,11 @@
                 }
             ]
         },
+        "intermediate_difficulty":"medium",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 8
@@ -4582,6 +4659,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -4641,6 +4719,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -4759,6 +4838,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -4816,6 +4896,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -4873,6 +4954,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -4930,6 +5012,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -4978,6 +5061,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty":"easy",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -5035,6 +5119,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -5092,6 +5177,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -5149,6 +5235,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -5197,6 +5284,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -5254,6 +5342,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -5311,6 +5400,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -5368,6 +5458,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -5416,6 +5507,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -5465,6 +5557,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty":"easy",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": true,
@@ -5514,6 +5607,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty":"easy",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": true,
@@ -5563,6 +5657,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty":"easy",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": true,
@@ -5620,6 +5715,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -5677,6 +5773,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -5734,6 +5831,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -5782,7 +5880,8 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "easy",
+        "intermediate_difficulty":"hard",
+        "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
@@ -5839,6 +5938,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -5896,6 +5996,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -5953,6 +6054,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -6001,6 +6103,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -6058,6 +6161,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -6115,6 +6219,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -6172,6 +6277,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -6220,7 +6326,8 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "easy",
+        "intermediate_difficulty":"hard",
+        "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
@@ -6269,11 +6376,12 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty":"medium",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
-        "temporal_reasoning": true,
+        "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 29
     },
@@ -6326,10 +6434,11 @@
                 }
             ]
         },
+        "intermediate_difficulty":"medium",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 18
@@ -6383,10 +6492,11 @@
                 }
             ]
         },
+        "intermediate_difficulty":"medium",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 0
@@ -6440,10 +6550,11 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 3
@@ -6488,10 +6599,11 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 25
@@ -6545,10 +6657,11 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 18
@@ -6602,10 +6715,11 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 0
@@ -6659,10 +6773,11 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 3
@@ -6707,10 +6822,11 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "easy",
+        "intermediate_difficulty":"hard",
+        "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 25
@@ -6764,11 +6880,12 @@
                 }
             ]
         },
-        "overall_difficulty": "medium",
+       "intermediate_difficulty":"medium",
+        "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
-        "temporal_reasoning": false,
+        "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 3
     },
@@ -6830,6 +6947,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -6887,7 +7005,8 @@
                 }
             ]
         },
-        "overall_difficulty": "hard",
+        "intermediate_difficulty":"hard",
+        "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
