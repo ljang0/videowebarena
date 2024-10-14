@@ -99,8 +99,16 @@ Then, set the following environment variables:
 export VERTEXAI_LOCATION=<your_location>
 export VERTEXAI_PROJECT=<your_project_name>
 ```
+6. Download the videos from this link: [videos](https://drive.google.com/file/d/17DwmsM7KzBWyz1BN1aq7NHDvgcTIrCgx/view?usp=sharing). You can use gdown to download the videos:
+```bash
+pip install gdown
+gdown --id 17DwmsM7KzBWyz1BN1aq7NHDvgcTIrCgx
+```
+then move all videos to the media folder
 
-6. Launch the evaluation:
+
+
+7. Launch the evaluation:
 
 There are two types of agent in general for videowebarena evaluation:
 - video_summary_agent (agent type name: video_summary_prompt): this type of agent first summarize the video into the text and then use the text as part of context during each step when agent takes action.
