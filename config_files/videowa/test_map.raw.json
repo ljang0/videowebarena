@@ -41,7 +41,8 @@
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "medium",
-        "spatial_reasoning": false,
+        "intermediate_difficulty": "hard",
+        "visual_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
@@ -96,9 +97,10 @@
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "medium",
-        "spatial_reasoning": true,
+        "intermediate_difficulty": "medium",
+        "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 1
@@ -152,10 +154,11 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
-        "overall_difficulty": "medium",
-        "spatial_reasoning": true,
+        "overall_difficulty": "hard",
+        "intermediate_difficulty": "hard",
+        "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 2
@@ -207,8 +210,9 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
-        "overall_difficulty": "medium",
-        "spatial_reasoning": false,
+        "overall_difficulty": "easy",
+        "intermediate_difficulty": "easy",
+        "visual_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
@@ -256,7 +260,8 @@
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "medium",
-        "spatial_reasoning": false,
+        "intermediate_difficulty": "medium",
+        "visual_reasoning": false,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
@@ -311,7 +316,8 @@
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "medium",
-        "spatial_reasoning": true,
+        "intermediate_difficulty": "easy",
+        "visual_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
@@ -341,6 +347,8 @@
             ],
             "reference_answers": {
                 "must_include": [
+                    "Schenley Park",
+                    "Carnegie Mellon University",
                     "Schenley Park"
                 ]
             },
@@ -363,10 +371,11 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
-        "overall_difficulty": "medium",
-        "spatial_reasoning": true,
-        "audio_reasoning": true,
-        "multihop_reasoning": false,
+        "overall_difficulty": "hard",
+        "intermediate_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 5
@@ -416,13 +425,14 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
-        "overall_difficulty": "medium",
-        "spatial_reasoning": true,
-        "audio_reasoning": true,
+        "overall_difficulty": "hard",
+        "intermediate_difficulty": "medium",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 3
+        "intent_template_id": 5
     },
     {
         "sites": [
@@ -436,7 +446,7 @@
         "intent_template": "Recall in the video the states that border the state mentioned in the video. Can you list them in counterclockwise order starting from the east?",
         "instantiation_dict": {},
         "intent": "Recall in the video the states that border the state mentioned in the video. Can you list them in counterclockwise order starting from the east?",
-        "intermediate_intent": "What are the 3 states mentioned in the video?",
+        "intermediate_intent": "What are the 3 bordering states mentioned in the video?",
         "video": "get_border",
         "require_reset": false,
         "intermediate_eval": {
@@ -469,10 +479,11 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
-        "overall_difficulty": "medium",
-        "spatial_reasoning": true,
+        "overall_difficulty": "easy",
+        "intermediate_difficulty": "medium",
+        "visual_reasoning": true,
         "audio_reasoning": true,
-        "multihop_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 6
@@ -489,7 +500,7 @@
         "intent_template": "Recall the states that border the state mentioned in the video. Which state's capital is the closest to the capital of Conneticut?",
         "instantiation_dict": {},
         "intent": "Recall the states that border the state mentioned in the video. Which state's capital is the closest to the capital of Conneticut?",
-        "intermediate_intent": "What are the 4 states mentioned in the video?",
+        "intermediate_intent": "What are the 3 bordering states mentioned in the video?",
         "video": "get_border",
         "require_reset": false,
         "intermediate_eval": {
@@ -522,10 +533,11 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
-        "overall_difficulty": "medium",
-        "spatial_reasoning": true,
+        "overall_difficulty": "easy",
+        "intermediate_difficulty": "medium",
+        "visual_reasoning": true,
         "audio_reasoning": true,
-        "multihop_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 7
@@ -574,10 +586,11 @@
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "easy",
-        "spatial_reasoning": true,
+        "intermediate_difficulty": "easy",
+        "visual_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": false,
-        "temporal_reasoning": false,
+        "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 8
     },
@@ -620,9 +633,10 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
-        "overall_difficulty": "easy",
-        "spatial_reasoning": false,
-        "audio_reasoning": true,
+        "overall_difficulty": "medium",
+        "intermediate_difficulty": "easy",
+        "visual_reasoning": true,
+        "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
@@ -675,10 +689,11 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
-        "overall_difficulty": "easy",
-        "spatial_reasoning": false,
+        "overall_difficulty": "hard",
+        "intermediate_difficulty": "medium",
+        "visual_reasoning": true,
         "audio_reasoning": true,
-        "multihop_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 10
@@ -724,10 +739,11 @@
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "medium",
-        "spatial_reasoning": true,
+        "intermediate_difficulty": "easy",
+        "visual_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
-        "temporal_reasoning": false,
+        "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 11
     },
@@ -772,10 +788,11 @@
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "medium",
-        "spatial_reasoning": true,
+        "intermediate_difficulty": "easy",
+        "visual_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
-        "temporal_reasoning": false,
+        "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 12
     }

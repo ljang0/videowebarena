@@ -8877,7 +8877,7 @@
                 }
             ]
         },
-        "intent_template_id": 71,
+        "intent_template_id": 70,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -8919,7 +8919,7 @@
                 }
             ]
         },
-        "intent_template_id": 71,
+        "intent_template_id": 70,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -8963,7 +8963,7 @@
                 }
             ]
         },
-        "intent_template_id": 72,
+        "intent_template_id": 71,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -9005,7 +9005,7 @@
                 }
             ]
         },
-        "intent_template_id": 73,
+        "intent_template_id": 72,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -9045,7 +9045,7 @@
                 }
             ]
         },
-        "intent_template_id": 74,
+        "intent_template_id": 73,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -9085,7 +9085,7 @@
                 }
             ]
         },
-        "intent_template_id": 74,
+        "intent_template_id": 73,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -9125,7 +9125,7 @@
                 }
             ]
         },
-        "intent_template_id": 74,
+        "intent_template_id": 73,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -9165,7 +9165,7 @@
                 }
             ]
         },
-        "intent_template_id": 74,
+        "intent_template_id": 73,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -9205,7 +9205,7 @@
                 }
             ]
         },
-        "intent_template_id": 74,
+        "intent_template_id": 73,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
@@ -9246,7 +9246,7 @@
                 }
             ]
         },
-        "intent_template_id": 75,
+        "intent_template_id": 74,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -9287,7 +9287,7 @@
                 }
             ]
         },
-        "intent_template_id": 75,
+        "intent_template_id": 74,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -9328,7 +9328,7 @@
                 }
             ]
         },
-        "intent_template_id": 75,
+        "intent_template_id": 74,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -9378,7 +9378,7 @@
                 }
             ]
         },
-        "intent_template_id": 76,
+        "intent_template_id": 75,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
@@ -9431,7 +9431,7 @@
                 }
             ]
         },
-        "intent_template_id": 76,
+        "intent_template_id": 75,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
@@ -9481,7 +9481,7 @@
                 }
             ]
         },
-        "intent_template_id": 76,
+        "intent_template_id": 75,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
@@ -9530,7 +9530,7 @@
                 }
             ]
         },
-        "intent_template_id": 77,
+        "intent_template_id": 76,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -9579,7 +9579,7 @@
                 }
             ]
         },
-        "intent_template_id": 77,
+        "intent_template_id": 76,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -9632,7 +9632,7 @@
                 }
             ]
         },
-        "intent_template_id": 78,
+        "intent_template_id": 77,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -9686,7 +9686,7 @@
                 }
             ]
         },
-        "intent_template_id": 78,
+        "intent_template_id": 77,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -9768,7 +9768,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "__SHOPPING__/media/catalog/product/cache/829a59e57f886f8cf0598ffca4f8a940/B/0/B074DKNVPL.1.jpg"
         },
-        "intent_template_id": 79,
+        "intent_template_id": 78,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
@@ -9807,7 +9807,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "__SHOPPING__/media/catalog/product/cache/829a59e57f886f8cf0598ffca4f8a940/B/0/B07H3K871G.1.jpg"
         },
-        "intent_template_id": 80,
+        "intent_template_id": 79,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
@@ -9843,7 +9843,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "__SHOPPING__/media/catalog/product/cache/829a59e57f886f8cf0598ffca4f8a940/B/0/B09JSYYC12.1.jpg"
         },
-        "intent_template_id": 80,
+        "intent_template_id": 79,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "hard",
         "overall_difficulty": "easy",
@@ -9885,7 +9885,7 @@
                 }
             ]
         },
-        "intent_template_id": 73,
+        "intent_template_id": 72,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -9927,7 +9927,7 @@
                 }
             ]
         },
-        "intent_template_id": 73,
+        "intent_template_id": 72,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
@@ -9982,7 +9982,7 @@
                 }
             ]
         },
-        "intent_template_id": 81,
+        "intent_template_id": 80,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
@@ -10037,7 +10037,7 @@
                 }
             ]
         },
-        "intent_template_id": 81,
+        "intent_template_id": 80,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -10087,7 +10087,7 @@
                 }
             ]
         },
-        "intent_template_id": 82,
+        "intent_template_id": 81,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -10139,7 +10139,7 @@
                 }
             ]
         },
-        "intent_template_id": 82,
+        "intent_template_id": 81,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -10189,7 +10189,7 @@
                 }
             ]
         },
-        "intent_template_id": 83,
+        "intent_template_id": 82,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -10242,7 +10242,7 @@
                 }
             ]
         },
-        "intent_template_id": 83,
+        "intent_template_id": 82,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -10292,7 +10292,7 @@
                 }
             ]
         },
-        "intent_template_id": 83,
+        "intent_template_id": 82,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -10339,7 +10339,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "$94.99"
         },
-        "intent_template_id": 84,
+        "intent_template_id": 83,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -10386,7 +10386,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "$200.00"
         },
-        "intent_template_id": 84,
+        "intent_template_id": 83,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -10443,7 +10443,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "$689.98"
         },
-        "intent_template_id": 84,
+        "intent_template_id": 83,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -10577,7 +10577,7 @@
                 }
             ]
         },
-        "intent_template_id": 85,
+        "intent_template_id": 84,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -10630,7 +10630,7 @@
                 }
             ]
         },
-        "intent_template_id": 85,
+        "intent_template_id": 84,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -10672,7 +10672,7 @@
                 }
             ]
         },
-        "intent_template_id": 86,
+        "intent_template_id": 85,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -10715,7 +10715,7 @@
                 }
             ]
         },
-        "intent_template_id": 86,
+        "intent_template_id": 85,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -10767,7 +10767,7 @@
                 }
             ]
         },
-        "intent_template_id": 87,
+        "intent_template_id": 86,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -10819,7 +10819,7 @@
                 }
             ]
         },
-        "intent_template_id": 87,
+        "intent_template_id": 86,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -10871,7 +10871,7 @@
                 }
             ]
         },
-        "intent_template_id": 87,
+        "intent_template_id": 86,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
@@ -10913,7 +10913,7 @@
                 }
             ]
         },
-        "intent_template_id": 88,
+        "intent_template_id": 87,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
@@ -10955,7 +10955,7 @@
                 }
             ]
         },
-        "intent_template_id": 88,
+        "intent_template_id": 87,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -10997,7 +10997,7 @@
                 }
             ]
         },
-        "intent_template_id": 89,
+        "intent_template_id": 88,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -11038,7 +11038,7 @@
                 }
             ]
         },
-        "intent_template_id": 89,
+        "intent_template_id": 88,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -11079,7 +11079,7 @@
                 }
             ]
         },
-        "intent_template_id": 89,
+        "intent_template_id": 88,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -11120,7 +11120,7 @@
                 }
             ]
         },
-        "intent_template_id": 89,
+        "intent_template_id": 88,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -11164,7 +11164,7 @@
                 }
             ]
         },
-        "intent_template_id": 90,
+        "intent_template_id": 89,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
@@ -11206,7 +11206,7 @@
                 }
             ]
         },
-        "intent_template_id": 90,
+        "intent_template_id": 89,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
@@ -11248,7 +11248,7 @@
                 }
             ]
         },
-        "intent_template_id": 90,
+        "intent_template_id": 89,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -11290,7 +11290,7 @@
                 }
             ]
         },
-        "intent_template_id": 86,
+        "intent_template_id": 85,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -11322,7 +11322,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "intent_template_id": 91,
+        "intent_template_id": 90,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "comments": "",
@@ -11355,7 +11355,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "intent_template_id": 91,
+        "intent_template_id": 90,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "comments": "",
@@ -11388,7 +11388,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "intent_template_id": 91,
+        "intent_template_id": 90,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "comments": "",
@@ -11421,7 +11421,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "intent_template_id": 91,
+        "intent_template_id": 90,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "comments": "",
@@ -11456,7 +11456,7 @@
             "program_html": [],
             "string_note": "Such an item is not available on OneStopMarket."
         },
-        "intent_template_id": 91,
+        "intent_template_id": 90,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "comments": "",
@@ -11491,7 +11491,7 @@
             "program_html": [],
             "string_note": "Such an item is not available on OneStopMarket."
         },
-        "intent_template_id": 91,
+        "intent_template_id": 90,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "comments": "",
@@ -11533,7 +11533,7 @@
                 }
             ]
         },
-        "intent_template_id": 92,
+        "intent_template_id": 91,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -11574,7 +11574,7 @@
                 }
             ]
         },
-        "intent_template_id": 92,
+        "intent_template_id": 91,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -11616,7 +11616,7 @@
                 }
             ]
         },
-        "intent_template_id": 92,
+        "intent_template_id": 91,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -11660,7 +11660,7 @@
                 }
             ]
         },
-        "intent_template_id": 93,
+        "intent_template_id": 92,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -11702,7 +11702,7 @@
                 }
             ]
         },
-        "intent_template_id": 94,
+        "intent_template_id": 93,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -11784,7 +11784,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "90cm."
         },
-        "intent_template_id": 95,
+        "intent_template_id": 94,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -11868,7 +11868,7 @@
                 }
             ]
         },
-        "intent_template_id": 96,
+        "intent_template_id": 95,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -11908,7 +11908,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "26*20"
         },
-        "intent_template_id": 95,
+        "intent_template_id": 94,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -11947,7 +11947,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "15.75\""
         },
-        "intent_template_id": 95,
+        "intent_template_id": 94,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -11986,7 +11986,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "$3.99"
         },
-        "intent_template_id": 97,
+        "intent_template_id": 96,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -12025,7 +12025,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "7.58 Ounces"
         },
-        "intent_template_id": 97,
+        "intent_template_id": 96,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -12064,7 +12064,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "$0.99"
         },
-        "intent_template_id": 97,
+        "intent_template_id": 96,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -12113,7 +12113,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
-        "intent_template_id": 98,
+        "intent_template_id": 97,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -12156,7 +12156,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
-        "intent_template_id": 98,
+        "intent_template_id": 97,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -12212,7 +12212,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
-        "intent_template_id": 98,
+        "intent_template_id": 97,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -12249,7 +12249,7 @@
             "string_note": "This task requires OCR.",
             "reference_answer_raw_annotation": "XL"
         },
-        "intent_template_id": 99,
+        "intent_template_id": 98,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -12286,7 +12286,7 @@
             "string_note": "This task requires OCR.",
             "reference_answer_raw_annotation": "S"
         },
-        "intent_template_id": 99,
+        "intent_template_id": 98,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -12323,7 +12323,7 @@
             "string_note": "This task requires OCR.",
             "reference_answer_raw_annotation": "XX-Large"
         },
-        "intent_template_id": 99,
+        "intent_template_id": 98,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -12359,7 +12359,7 @@
             "string_note": "This task requires OCR.",
             "reference_answer_raw_annotation": "70"
         },
-        "intent_template_id": 100,
+        "intent_template_id": 99,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -12395,7 +12395,7 @@
             "string_note": "This task requires OCR.",
             "reference_answer_raw_annotation": "280"
         },
-        "intent_template_id": 100,
+        "intent_template_id": 99,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -12431,7 +12431,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "4200"
         },
-        "intent_template_id": 100,
+        "intent_template_id": 99,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -12467,7 +12467,7 @@
             "string_note": "This task requires OCR and translation.",
             "reference_answer_raw_annotation": "117.6"
         },
-        "intent_template_id": 100,
+        "intent_template_id": 99,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -12500,7 +12500,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "intent_template_id": 98,
+        "intent_template_id": 97,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -12531,7 +12531,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "intent_template_id": 101,
+        "intent_template_id": 100,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -12562,7 +12562,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "intent_template_id": 101,
+        "intent_template_id": 100,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -12593,7 +12593,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "intent_template_id": 101,
+        "intent_template_id": 100,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -12629,7 +12629,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "intent_template_id": 102,
+        "intent_template_id": 101,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -12665,7 +12665,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "intent_template_id": 102,
+        "intent_template_id": 101,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -12739,7 +12739,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "intent_template_id": 102,
+        "intent_template_id": 101,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -12784,7 +12784,7 @@
                 }
             ]
         },
-        "intent_template_id": 103,
+        "intent_template_id": 102,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -12819,7 +12819,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "intent_template_id": 104,
+        "intent_template_id": 103,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
@@ -12854,7 +12854,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "intent_template_id": 104,
+        "intent_template_id": 103,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "easy",
@@ -12965,7 +12965,7 @@
                 }
             ]
         },
-        "intent_template_id": 105,
+        "intent_template_id": 104,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -13008,7 +13008,7 @@
                 }
             ]
         },
-        "intent_template_id": 105,
+        "intent_template_id": 104,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -13050,7 +13050,7 @@
                 }
             ]
         },
-        "intent_template_id": 96,
+        "intent_template_id": 95,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -13092,7 +13092,7 @@
                 }
             ]
         },
-        "intent_template_id": 96,
+        "intent_template_id": 95,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -13125,7 +13125,7 @@
             "string_note": "The vaccum cleaner is not brand new",
             "reference_answer_raw_annotation": "The vaccum cleaner is not brand new"
         },
-        "intent_template_id": 106,
+        "intent_template_id": 105,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -13238,7 +13238,7 @@
                 }
             ]
         },
-        "intent_template_id": 107,
+        "intent_template_id": 106,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -13281,7 +13281,7 @@
                 }
             ]
         },
-        "intent_template_id": 107,
+        "intent_template_id": 106,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -13324,7 +13324,7 @@
                 }
             ]
         },
-        "intent_template_id": 107,
+        "intent_template_id": 106,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -13366,7 +13366,7 @@
                 }
             ]
         },
-        "intent_template_id": 108,
+        "intent_template_id": 107,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -13408,7 +13408,7 @@
                 }
             ]
         },
-        "intent_template_id": 108,
+        "intent_template_id": 107,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -13451,7 +13451,7 @@
                 }
             ]
         },
-        "intent_template_id": 109,
+        "intent_template_id": 108,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -13491,7 +13491,7 @@
                 }
             ]
         },
-        "intent_template_id": 110,
+        "intent_template_id": 109,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -13531,7 +13531,7 @@
                 }
             ]
         },
-        "intent_template_id": 110,
+        "intent_template_id": 109,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -13563,7 +13563,7 @@
             "reference_url": "",
             "program_html": []
         },
-        "intent_template_id": 110,
+        "intent_template_id": 109,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -13595,7 +13595,7 @@
             "reference_url": "",
             "program_html": []
         },
-        "intent_template_id": 110,
+        "intent_template_id": 109,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -13648,7 +13648,7 @@
                 }
             ]
         },
-        "intent_template_id": 111,
+        "intent_template_id": 110,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -13701,7 +13701,7 @@
                 }
             ]
         },
-        "intent_template_id": 111,
+        "intent_template_id": 110,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -13736,7 +13736,7 @@
             "reference_url": "",
             "program_html": []
         },
-        "intent_template_id": 111,
+        "intent_template_id": 110,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -13777,7 +13777,7 @@
                 }
             ]
         },
-        "intent_template_id": 112,
+        "intent_template_id": 111,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
@@ -13818,7 +13818,7 @@
                 }
             ]
         },
-        "intent_template_id": 112,
+        "intent_template_id": 111,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
@@ -13850,7 +13850,7 @@
             "reference_url": "",
             "program_html": []
         },
-        "intent_template_id": 112,
+        "intent_template_id": 111,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -13902,7 +13902,7 @@
                 }
             ]
         },
-        "intent_template_id": 109,
+        "intent_template_id": 108,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -13945,7 +13945,7 @@
                 }
             ]
         },
-        "intent_template_id": 109,
+        "intent_template_id": 108,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -13988,7 +13988,7 @@
                 }
             ]
         },
-        "intent_template_id": 109,
+        "intent_template_id": 108,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -14031,7 +14031,7 @@
                 }
             ]
         },
-        "intent_template_id": 109,
+        "intent_template_id": 108,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -14073,7 +14073,7 @@
                 }
             ]
         },
-        "intent_template_id": 113,
+        "intent_template_id": 112,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -14114,7 +14114,7 @@
                 }
             ]
         },
-        "intent_template_id": 113,
+        "intent_template_id": 112,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
@@ -14155,7 +14155,7 @@
                 }
             ]
         },
-        "intent_template_id": 113,
+        "intent_template_id": 112,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -14201,7 +14201,7 @@
                 }
             ]
         },
-        "intent_template_id": 114,
+        "intent_template_id": 113,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -14245,7 +14245,7 @@
                 }
             ]
         },
-        "intent_template_id": 114,
+        "intent_template_id": 113,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -14287,7 +14287,7 @@
                 }
             ]
         },
-        "intent_template_id": 109,
+        "intent_template_id": 108,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -14329,7 +14329,7 @@
                 }
             ]
         },
-        "intent_template_id": 109,
+        "intent_template_id": 108,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -14371,7 +14371,7 @@
                 }
             ]
         },
-        "intent_template_id": 105,
+        "intent_template_id": 104,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -14422,7 +14422,7 @@
                 }
             ]
         },
-        "intent_template_id": 116,
+        "intent_template_id": 114,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -14459,7 +14459,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "__SHOPPING__/media/catalog/product/cache/829a59e57f886f8cf0598ffca4f8a940/B/0/B07BCKK3HS.0.jpg"
         },
-        "intent_template_id": 117,
+        "intent_template_id": 115,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -14492,7 +14492,7 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "intent_template_id": 118,
+        "intent_template_id": 116,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -14530,7 +14530,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "__SHOPPING__/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07BD2CV35.0.jpg"
         },
-        "intent_template_id": 119,
+        "intent_template_id": 117,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -14571,7 +14571,7 @@
                 }
             ]
         },
-        "intent_template_id": 120,
+        "intent_template_id": 118,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -14612,7 +14612,7 @@
                 }
             ]
         },
-        "intent_template_id": 121,
+        "intent_template_id": 119,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -14653,7 +14653,7 @@
                 }
             ]
         },
-        "intent_template_id": 121,
+        "intent_template_id": 119,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -14694,7 +14694,7 @@
                 }
             ]
         },
-        "intent_template_id": 121,
+        "intent_template_id": 119,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -14735,7 +14735,7 @@
                 }
             ]
         },
-        "intent_template_id": 122,
+        "intent_template_id": 120,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -14776,7 +14776,7 @@
                 }
             ]
         },
-        "intent_template_id": 123,
+        "intent_template_id": 121,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -14811,7 +14811,7 @@
             "string_note": "There are no Packers shirts available on this page.",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 117,
+        "intent_template_id": 115,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -14853,7 +14853,7 @@
                 }
             ]
         },
-        "intent_template_id": 122,
+        "intent_template_id": 120,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -14894,7 +14894,7 @@
                 }
             ]
         },
-        "intent_template_id": 122,
+        "intent_template_id": 120,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -14935,7 +14935,7 @@
                 }
             ]
         },
-        "intent_template_id": 121,
+        "intent_template_id": 119,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -14976,7 +14976,7 @@
                 }
             ]
         },
-        "intent_template_id": 124,
+        "intent_template_id": 122,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -15019,7 +15019,7 @@
                 }
             ]
         },
-        "intent_template_id": 125,
+        "intent_template_id": 123,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
@@ -15062,7 +15062,7 @@
                 }
             ]
         },
-        "intent_template_id": 125,
+        "intent_template_id": 123,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "hard",
@@ -15104,7 +15104,7 @@
                 }
             ]
         },
-        "intent_template_id": 126,
+        "intent_template_id": 124,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -15147,7 +15147,7 @@
                 }
             ]
         },
-        "intent_template_id": 125,
+        "intent_template_id": 123,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -15225,7 +15225,7 @@
                 }
             ]
         },
-        "intent_template_id": 127,
+        "intent_template_id": 125,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -15267,7 +15267,7 @@
                 }
             ]
         },
-        "intent_template_id": 127,
+        "intent_template_id": 125,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -15308,7 +15308,7 @@
                 }
             ]
         },
-        "intent_template_id": 127,
+        "intent_template_id": 125,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -15350,7 +15350,7 @@
                 }
             ]
         },
-        "intent_template_id": 127,
+        "intent_template_id": 125,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -15385,7 +15385,7 @@
             "string_note": "There are no Falcons items available in this category.",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 128,
+        "intent_template_id": 126,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -15420,7 +15420,7 @@
             "string_note": "There are no Browns items available in this category.",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 128,
+        "intent_template_id": 126,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -15455,7 +15455,7 @@
             "string_note": "There are no Bills items available in this category.",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 128,
+        "intent_template_id": 126,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -15492,7 +15492,7 @@
             "string_note": "",
             "reference_answer_raw_annotation": "__SHOPPING__/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07583CVJW.0.jpg"
         },
-        "intent_template_id": 128,
+        "intent_template_id": 126,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -15533,7 +15533,7 @@
                 }
             ]
         },
-        "intent_template_id": 129,
+        "intent_template_id": 127,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -15574,7 +15574,7 @@
                 }
             ]
         },
-        "intent_template_id": 129,
+        "intent_template_id": 127,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -15615,7 +15615,7 @@
                 }
             ]
         },
-        "intent_template_id": 122,
+        "intent_template_id": 120,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -15656,7 +15656,7 @@
                 }
             ]
         },
-        "intent_template_id": 130,
+        "intent_template_id": 128,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "comments": "",
@@ -15697,7 +15697,7 @@
                 }
             ]
         },
-        "intent_template_id": 130,
+        "intent_template_id": 128,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "comments": "",
@@ -15738,7 +15738,7 @@
                 }
             ]
         },
-        "intent_template_id": 130,
+        "intent_template_id": 128,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "comments": "",
@@ -15779,7 +15779,7 @@
                 }
             ]
         },
-        "intent_template_id": 129,
+        "intent_template_id": 127,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "comments": "",
@@ -15820,7 +15820,7 @@
                 }
             ]
         },
-        "intent_template_id": 130,
+        "intent_template_id": 128,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "comments": "",
@@ -15872,7 +15872,7 @@
                 }
             ]
         },
-        "intent_template_id": 131,
+        "intent_template_id": 129,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "comments": "",
@@ -15924,7 +15924,7 @@
                 }
             ]
         },
-        "intent_template_id": 131,
+        "intent_template_id": 129,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "comments": "",
@@ -15966,7 +15966,7 @@
                 }
             ]
         },
-        "intent_template_id": 130,
+        "intent_template_id": 128,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "comments": "",
@@ -16007,7 +16007,7 @@
                 }
             ]
         },
-        "intent_template_id": 129,
+        "intent_template_id": 127,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -16048,7 +16048,7 @@
                 }
             ]
         },
-        "intent_template_id": 129,
+        "intent_template_id": 127,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -16089,7 +16089,7 @@
                 }
             ]
         },
-        "intent_template_id": 129,
+        "intent_template_id": 127,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -16130,7 +16130,7 @@
                 }
             ]
         },
-        "intent_template_id": 129,
+        "intent_template_id": 127,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -16180,7 +16180,7 @@
                 }
             ]
         },
-        "intent_template_id": 129,
+        "intent_template_id": 127,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -16221,7 +16221,7 @@
                 }
             ]
         },
-        "intent_template_id": 123,
+        "intent_template_id": 121,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -16262,7 +16262,7 @@
                 }
             ]
         },
-        "intent_template_id": 130,
+        "intent_template_id": 128,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "comments": "",
@@ -16303,7 +16303,7 @@
                 }
             ]
         },
-        "intent_template_id": 122,
+        "intent_template_id": 120,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -16338,7 +16338,7 @@
             "string_note": "There are no cakes with green turtles available on this page.",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 129,
+        "intent_template_id": 127,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -16373,7 +16373,7 @@
             "string_note": "There are no Korean cakes on this page.",
             "reference_answer_raw_annotation": "N/A"
         },
-        "intent_template_id": 129,
+        "intent_template_id": 127,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -16414,7 +16414,7 @@
                 }
             ]
         },
-        "intent_template_id": 129,
+        "intent_template_id": 127,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -16455,7 +16455,7 @@
                 }
             ]
         },
-        "intent_template_id": 129,
+        "intent_template_id": 127,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -16498,7 +16498,7 @@
                 }
             ]
         },
-        "intent_template_id": 125,
+        "intent_template_id": 123,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -16539,7 +16539,7 @@
                 }
             ]
         },
-        "intent_template_id": 122,
+        "intent_template_id": 120,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
@@ -16580,7 +16580,7 @@
                 }
             ]
         },
-        "intent_template_id": 122,
+        "intent_template_id": 120,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -16622,7 +16622,7 @@
                 }
             ]
         },
-        "intent_template_id": 132,
+        "intent_template_id": 130,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -16664,7 +16664,7 @@
                 }
             ]
         },
-        "intent_template_id": 132,
+        "intent_template_id": 130,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -16705,7 +16705,7 @@
                 }
             ]
         },
-        "intent_template_id": 133,
+        "intent_template_id": 131,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -16755,7 +16755,7 @@
                 }
             ]
         },
-        "intent_template_id": 134,
+        "intent_template_id": 132,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -16796,7 +16796,7 @@
                 }
             ]
         },
-        "intent_template_id": 133,
+        "intent_template_id": 131,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -16838,7 +16838,7 @@
                 }
             ]
         },
-        "intent_template_id": 134,
+        "intent_template_id": 132,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -16890,7 +16890,7 @@
                 }
             ]
         },
-        "intent_template_id": 131,
+        "intent_template_id": 129,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "comments": "",
@@ -16942,7 +16942,7 @@
                 }
             ]
         },
-        "intent_template_id": 131,
+        "intent_template_id": 129,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "comments": "",
@@ -16983,7 +16983,7 @@
                 }
             ]
         },
-        "intent_template_id": 120,
+        "intent_template_id": 118,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -17024,7 +17024,7 @@
                 }
             ]
         },
-        "intent_template_id": 120,
+        "intent_template_id": 118,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -17065,7 +17065,7 @@
                 }
             ]
         },
-        "intent_template_id": 120,
+        "intent_template_id": 118,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -17106,7 +17106,7 @@
                 }
             ]
         },
-        "intent_template_id": 120,
+        "intent_template_id": 118,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -17147,7 +17147,7 @@
                 }
             ]
         },
-        "intent_template_id": 120,
+        "intent_template_id": 118,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -17189,7 +17189,7 @@
                 }
             ]
         },
-        "intent_template_id": 135,
+        "intent_template_id": 133,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -17231,7 +17231,7 @@
                 }
             ]
         },
-        "intent_template_id": 135,
+        "intent_template_id": 133,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "easy",
         "overall_difficulty": "medium",
@@ -17272,7 +17272,7 @@
                 }
             ]
         },
-        "intent_template_id": 135,
+        "intent_template_id": 133,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -17313,7 +17313,7 @@
                 }
             ]
         },
-        "intent_template_id": 136,
+        "intent_template_id": 134,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -17354,7 +17354,7 @@
                 }
             ]
         },
-        "intent_template_id": 136,
+        "intent_template_id": 134,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
@@ -17395,7 +17395,7 @@
                 }
             ]
         },
-        "intent_template_id": 136,
+        "intent_template_id": 134,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
@@ -17437,7 +17437,7 @@
                 }
             ]
         },
-        "intent_template_id": 72,
+        "intent_template_id": 71,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
@@ -17478,7 +17478,7 @@
                 }
             ]
         },
-        "intent_template_id": 72,
+        "intent_template_id": 71,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
@@ -17520,7 +17520,7 @@
                 }
             ]
         },
-        "intent_template_id": 72,
+        "intent_template_id": 71,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
@@ -17571,7 +17571,7 @@
                 }
             ]
         },
-        "intent_template_id": 137,
+        "intent_template_id": 135,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -17614,7 +17614,7 @@
                 }
             ]
         },
-        "intent_template_id": 137,
+        "intent_template_id": 135,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "medium",
         "overall_difficulty": "hard",
@@ -17657,7 +17657,7 @@
                 }
             ]
         },
-        "intent_template_id": 137,
+        "intent_template_id": 135,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -17698,7 +17698,7 @@
                 }
             ]
         },
-        "intent_template_id": 138,
+        "intent_template_id": 136,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -17739,7 +17739,7 @@
                 }
             ]
         },
-        "intent_template_id": 138,
+        "intent_template_id": 136,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -17780,7 +17780,7 @@
                 }
             ]
         },
-        "intent_template_id": 138,
+        "intent_template_id": 136,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -17822,7 +17822,7 @@
                 }
             ]
         },
-        "intent_template_id": 139,
+        "intent_template_id": 137,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -17864,7 +17864,7 @@
                 }
             ]
         },
-        "intent_template_id": 139,
+        "intent_template_id": 137,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -17906,7 +17906,7 @@
                 }
             ]
         },
-        "intent_template_id": 140,
+        "intent_template_id": 138,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -17948,7 +17948,7 @@
                 }
             ]
         },
-        "intent_template_id": 141,
+        "intent_template_id": 139,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -17990,7 +17990,7 @@
                 }
             ]
         },
-        "intent_template_id": 141,
+        "intent_template_id": 139,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -18029,7 +18029,7 @@
                 }
             ]
         },
-        "intent_template_id": 142,
+        "intent_template_id": 140,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -18073,7 +18073,7 @@
                 }
             ]
         },
-        "intent_template_id": 143,
+        "intent_template_id": 141,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -18117,7 +18117,7 @@
                 }
             ]
         },
-        "intent_template_id": 143,
+        "intent_template_id": 141,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -18157,7 +18157,7 @@
                 }
             ]
         },
-        "intent_template_id": 144,
+        "intent_template_id": 142,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -18197,7 +18197,7 @@
                 }
             ]
         },
-        "intent_template_id": 144,
+        "intent_template_id": 142,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "easy",
         "overall_difficulty": "easy",
@@ -18237,7 +18237,7 @@
                 }
             ]
         },
-        "intent_template_id": 144,
+        "intent_template_id": 142,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
@@ -18278,7 +18278,7 @@
                 }
             ]
         },
-        "intent_template_id": 145,
+        "intent_template_id": 143,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
@@ -18319,7 +18319,7 @@
                 }
             ]
         },
-        "intent_template_id": 145,
+        "intent_template_id": 143,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
@@ -18362,7 +18362,7 @@
                 }
             ]
         },
-        "intent_template_id": 145,
+        "intent_template_id": 143,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "hard",
         "overall_difficulty": "medium",
@@ -18404,7 +18404,7 @@
                 }
             ]
         },
-        "intent_template_id": 146,
+        "intent_template_id": 144,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -18445,7 +18445,7 @@
                 }
             ]
         },
-        "intent_template_id": 147,
+        "intent_template_id": 145,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -18486,7 +18486,7 @@
                 }
             ]
         },
-        "intent_template_id": 147,
+        "intent_template_id": 145,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -18527,7 +18527,7 @@
                 }
             ]
         },
-        "intent_template_id": 148,
+        "intent_template_id": 146,
         "reasoning_difficulty": "medium",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -18568,7 +18568,7 @@
                 }
             ]
         },
-        "intent_template_id": 147,
+        "intent_template_id": 145,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -18610,7 +18610,7 @@
                 }
             ]
         },
-        "intent_template_id": 149,
+        "intent_template_id": 147,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -18651,7 +18651,7 @@
                 }
             ]
         },
-        "intent_template_id": 150,
+        "intent_template_id": 148,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -18692,7 +18692,7 @@
                 }
             ]
         },
-        "intent_template_id": 150,
+        "intent_template_id": 148,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -18738,7 +18738,7 @@
                 }
             ]
         },
-        "intent_template_id": 150,
+        "intent_template_id": 148,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -18782,7 +18782,7 @@
                 }
             ]
         },
-        "intent_template_id": 150,
+        "intent_template_id": 148,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -18865,7 +18865,7 @@
                 }
             ]
         },
-        "intent_template_id": 150,
+        "intent_template_id": 148,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -18906,7 +18906,7 @@
                 }
             ]
         },
-        "intent_template_id": 149,
+        "intent_template_id": 147,
         "reasoning_difficulty": "hard",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -18946,7 +18946,7 @@
                 }
             ]
         },
-        "intent_template_id": 151,
+        "intent_template_id": 149,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "hard",
         "overall_difficulty": "hard",
@@ -18986,7 +18986,7 @@
                 }
             ]
         },
-        "intent_template_id": 151,
+        "intent_template_id": 149,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",
@@ -19026,7 +19026,7 @@
                 }
             ]
         },
-        "intent_template_id": 151,
+        "intent_template_id": 149,
         "reasoning_difficulty": "easy",
         "visual_difficulty": "medium",
         "overall_difficulty": "medium",

@@ -41,9 +41,10 @@
             "url_note": "EXACT"
         },
         "overall_difficulty": "medium",
-        "visual_reasoning": false,
+        "intermediate_difficulty": "medium",
+        "visual_reasoning": true,
         "audio_reasoning": true,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 0
@@ -90,9 +91,10 @@
             "url_note": "EXACT"
         },
         "overall_difficulty": "medium",
-        "visual_reasoning": false,
+        "intermediate_difficulty": "medium",
+        "visual_reasoning": true,
         "audio_reasoning": true,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 0
@@ -139,9 +141,10 @@
             "url_note": "EXACT"
         },
         "overall_difficulty": "medium",
-        "visual_reasoning": false,
+        "intermediate_difficulty": "medium",
+        "visual_reasoning": true,
         "audio_reasoning": true,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
         "intent_template_id": 0
@@ -157,7 +160,7 @@
         "geolocation": null,
         "intent_template": "The person in the video mentions that {description}. Can you take me to {description2}?",
         "intent": "The person in the video mentions that the bestsellers tab is under a certain section in reports. Can you take me to the tab below the bestsellers tab in that section?",
-        "intermediate_intent": "What tab is below the bestsellers tab in that section?",
+        "intermediate_intent": "What tab is below the bestsellers tab under a certain section in reports?",
         "video": "find_best_selling",
         "instantiation_dict": {
             "description": "the bestsellers tab is under a certain section in reports",
@@ -188,6 +191,7 @@
             "url_note": "EXACT"
         },
         "overall_difficulty": "easy",
+        "intermediate_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
@@ -235,13 +239,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "easy",
+        "overall_difficulty": "medium",
+        "intermediate_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 1
     },
     {
         "sites": [
@@ -254,7 +259,7 @@
         "geolocation": null,
         "intent_template": "Can you tell me {description}?",
         "intent": "Can you tell me how many total orders were made by Grace Nguyen in March 2023?",
-        "intermediate_intent": "What section of reports would the information be under?",
+        "intermediate_intent": "What section of reports would show how many total orders were made by Grace Nguyen in March 2023?",
         "video": "find_best_selling",
         "instantiation_dict": {
             "description": "how many total orders were made by Grace Nguyen in March 2023"
@@ -289,12 +294,13 @@
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "hard",
+        "intermediate_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 2
     },
     {
         "sites": [
@@ -336,13 +342,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "easy",
+        "overall_difficulty": "hard",
+        "intermediate_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 1
     },
     {
         "sites": [
@@ -385,12 +392,13 @@
             "url_note": "EXACT"
         },
         "overall_difficulty": "medium",
+        "intermediate_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 3
     },
     {
         "sites": [
@@ -433,12 +441,13 @@
             "url_note": "EXACT"
         },
         "overall_difficulty": "medium",
+        "intermediate_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 3
     },
     {
         "sites": [
@@ -481,13 +490,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "easy",
+        "overall_difficulty": "hard",
+        "intermediate_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 4
     },
     {
         "sites": [
@@ -529,13 +539,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "medium",
+        "overall_difficulty": "hard",
+        "intermediate_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 5
     },
     {
         "sites": [
@@ -577,13 +588,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "hard",
+        "overall_difficulty": "medium",
+        "intermediate_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 5
     },
     {
         "sites": [
@@ -625,13 +637,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "easy",
+        "overall_difficulty": "medium",
+        "intermediate_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
-        "temporal_reasoning": false,
+        "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 5
     },
     {
         "sites": [
@@ -674,12 +687,13 @@
             "url_note": "EXACT"
         },
         "overall_difficulty": "medium",
+        "intermediate_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 5
     },
     {
         "sites": [
@@ -692,7 +706,7 @@
         "geolocation": null,
         "intent_template": "Send a message to {description}.",
         "intent": "Send a message to [blank] for her most recent processing order: \"Sorry we are out of stock, please reorder\". [blank] refers to the second customer from the top after the last filter made in the video.",
-        "intermediate_intent": "Take me to the detailed order page where I can send a message to [blank] for her most recent processing order. [blank] refers to the second customer from the top after the last filter made in the video",
+        "intermediate_intent": "Who was the second customer from the top after the last filter made in the video?",
         "video": "sales_tutorial",
         "instantiation_dict": {
             "description": "[blank] for her most recent processing order: \"Sorry we are out of stock, please reorder\". [blank] refers to the second customer from the top after the last filter made in the video"
@@ -700,12 +714,17 @@
         "require_reset": false,
         "intermediate_eval": {
             "eval_types": [
-                "url_match"
+                "string_match"
             ],
-            "reference_answers": null,
-            "reference_url": "__SHOPPING_ADMIN__/admin/sales/order/view/order_id/300/",
+            "reference_answers": {
+                "must_include": [
+                    "Grace Nguyen"
+                ]
+            },
+            "reference_url": "",
             "program_html": [],
-            "url_note": "EXACT"
+            "string_note": "",
+            "reference_answer_raw_annotation": ""
         },
         "eval": {
             "eval_types": [
@@ -724,12 +743,13 @@
             ]
         },
         "overall_difficulty": "hard",
+        "intermediate_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": false,
-        "temporal_reasoning": false,
+        "multihop_reasoning": true,
+        "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 6
     },
     {
         "sites": [
@@ -771,13 +791,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "medium",
+        "overall_difficulty": "hard",
+        "intermediate_difficulty": "medium",
         "visual_reasoning": true,
-        "audio_reasoning": true,
-        "multihop_reasoning": false,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 5
     },
     {
         "sites": [
@@ -820,12 +841,13 @@
             "url_note": "EXACT"
         },
         "overall_difficulty": "hard",
+        "intermediate_difficulty": "medium",
         "visual_reasoning": true,
-        "audio_reasoning": true,
+        "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 5
     },
     {
         "sites": [
@@ -875,13 +897,14 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "overall_difficulty": "easy",
+        "overall_difficulty": "medium",
+        "intermediate_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 5
     },
     {
         "sites": [
@@ -931,13 +954,14 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "overall_difficulty": "easy",
+        "overall_difficulty": "medium",
+        "intermediate_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 5
     },
     {
         "sites": [
@@ -989,13 +1013,14 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "overall_difficulty": "medium",
+        "overall_difficulty": "easy",
+        "intermediate_difficulty": "easy",
         "visual_reasoning": true,
-        "audio_reasoning": true,
-        "multihop_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 5
     },
     {
         "sites": [
@@ -1036,13 +1061,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "hard",
+        "overall_difficulty": "medium",
+        "intermediate_difficulty": "medium",
         "visual_reasoning": true,
-        "audio_reasoning": true,
-        "multihop_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 5
     },
     {
         "sites": [
@@ -1085,12 +1111,13 @@
             "url_note": "EXACT"
         },
         "overall_difficulty": "hard",
+        "intermediate_difficulty": "medium",
         "visual_reasoning": true,
-        "audio_reasoning": true,
-        "multihop_reasoning": true,
-        "temporal_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
+        "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 5
     },
     {
         "sites": [
@@ -1141,12 +1168,13 @@
             "url_note": "GOLD in PRED"
         },
         "overall_difficulty": "hard",
+        "intermediate_difficulty": "easy",
         "visual_reasoning": true,
-        "audio_reasoning": true,
-        "multihop_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 7
     },
     {
         "sites": [
@@ -1159,7 +1187,7 @@
         "geolocation": null,
         "intent_template": "Add the {description}.",
         "intent": "Add the blue-colored version of the product (same size and other attributes) that appeared when the person in the video first demonstrated how to filter the table.",
-        "intermediate_intent": "What is the name blue-colored version of the product that appeared when the person in the video first demonstrated how to filter the table be called?",
+        "intermediate_intent": "What is the name of the blue-colored version of the product that appeared when the person in the video first demonstrated how to filter the table be called?",
         "video": "catalog_tutorial",
         "instantiation_dict": {
             "description": "blue-colored version of the product (same size and other attributes) that appeared when the person in the video first demonstrated how to filter the table"
@@ -1199,12 +1227,13 @@
             "url_note": "GOLD in PRED"
         },
         "overall_difficulty": "hard",
+        "intermediate_difficulty": "easy",
         "visual_reasoning": true,
-        "audio_reasoning": true,
-        "multihop_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 8
     },
     {
         "sites": [
@@ -1255,12 +1284,13 @@
             "url_note": "GOLD in PRED"
         },
         "overall_difficulty": "medium",
+        "intermediate_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 9
     },
     {
         "sites": [
@@ -1310,13 +1340,14 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "overall_difficulty": "medium",
+        "overall_difficulty": "hard",
+        "intermediate_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 10
     },
     {
         "sites": [
@@ -1366,13 +1397,14 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "overall_difficulty": "medium",
+        "overall_difficulty": "hard",
+        "intermediate_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 11
     },
     {
         "sites": [
@@ -1415,12 +1447,13 @@
             "url_note": "EXACT"
         },
         "overall_difficulty": "easy",
+        "intermediate_difficulty": "easy",
         "visual_reasoning": true,
-        "audio_reasoning": true,
+        "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 12
     },
     {
         "sites": [
@@ -1463,12 +1496,13 @@
             "url_note": "EXACT"
         },
         "overall_difficulty": "easy",
+        "intermediate_difficulty": "easy",
         "visual_reasoning": true,
-        "audio_reasoning": true,
+        "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 12
     },
     {
         "sites": [
@@ -1511,12 +1545,13 @@
             "url_note": "EXACT"
         },
         "overall_difficulty": "medium",
+        "intermediate_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 12
     },
     {
         "sites": [
@@ -1558,13 +1593,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "easy",
+        "overall_difficulty": "medium",
+        "intermediate_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 13
     },
     {
         "sites": [
@@ -1607,12 +1643,13 @@
             "url_note": "EXACT"
         },
         "overall_difficulty": "medium",
+        "intermediate_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 12
     },
     {
         "sites": [
@@ -1655,12 +1692,13 @@
             "url_note": "EXACT"
         },
         "overall_difficulty": "easy",
+        "intermediate_difficulty": "easy",
         "visual_reasoning": true,
-        "audio_reasoning": true,
+        "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 14
     },
     {
         "sites": [
@@ -1704,12 +1742,13 @@
             "url_note": "EXACT"
         },
         "overall_difficulty": "easy",
+        "intermediate_difficulty": "easy",
         "visual_reasoning": true,
-        "audio_reasoning": true,
-        "multihop_reasoning": true,
+        "audio_reasoning": false,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 14
     },
     {
         "sites": [
@@ -1759,13 +1798,14 @@
             ],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "medium",
+        "overall_difficulty": "hard",
+        "intermediate_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 15
     },
     {
         "sites": [
@@ -1815,13 +1855,14 @@
             ],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "medium",
+        "overall_difficulty": "hard",
+        "intermediate_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 15
     },
     {
         "sites": [
@@ -1871,13 +1912,14 @@
             ],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "medium",
+        "overall_difficulty": "hard",
+        "intermediate_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 15
     },
     {
         "sites": [
@@ -1966,12 +2008,13 @@
             "url_note": "GOLD in PRED"
         },
         "overall_difficulty": "hard",
+        "intermediate_difficulty": "easy",
         "visual_reasoning": true,
-        "audio_reasoning": true,
+        "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 16
     },
     {
         "sites": [
@@ -2060,12 +2103,13 @@
             "url_note": "GOLD in PRED"
         },
         "overall_difficulty": "hard",
+        "intermediate_difficulty": "easy",
         "visual_reasoning": true,
-        "audio_reasoning": true,
+        "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 16
     },
     {
         "sites": [
@@ -2116,12 +2160,13 @@
             ]
         },
         "overall_difficulty": "hard",
+        "intermediate_difficulty": "medium",
         "visual_reasoning": true,
-        "audio_reasoning": true,
+        "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 15
     },
     {
         "sites": [
@@ -2172,12 +2217,13 @@
             ]
         },
         "overall_difficulty": "hard",
+        "intermediate_difficulty": "medium",
         "visual_reasoning": true,
-        "audio_reasoning": true,
+        "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 15
     },
     {
         "sites": [
@@ -2229,13 +2275,14 @@
                 }
             ]
         },
-        "overall_difficulty": "medium",
+        "overall_difficulty": "hard",
+        "intermediate_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 17
     },
     {
         "sites": [
@@ -2302,13 +2349,14 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "overall_difficulty": "medium",
+        "overall_difficulty": "hard",
+        "intermediate_difficulty": "medium",
         "visual_reasoning": true,
-        "audio_reasoning": true,
-        "multihop_reasoning": false,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 18
     },
     {
         "sites": [
@@ -2375,13 +2423,14 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "overall_difficulty": "medium",
+        "overall_difficulty": "hard",
+        "intermediate_difficulty": "medium",
         "visual_reasoning": true,
-        "audio_reasoning": true,
-        "multihop_reasoning": false,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 18
     },
     {
         "sites": [
@@ -2448,13 +2497,14 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "overall_difficulty": "medium",
+        "overall_difficulty": "hard",
+        "intermediate_difficulty": "medium",
         "visual_reasoning": true,
-        "audio_reasoning": true,
-        "multihop_reasoning": false,
+        "audio_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 18
     },
     {
         "sites": [
@@ -2522,12 +2572,13 @@
             "url_note": "GOLD in PRED"
         },
         "overall_difficulty": "hard",
+        "intermediate_difficulty": "medium",
         "visual_reasoning": true,
-        "audio_reasoning": true,
+        "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 19
     },
     {
         "sites": [
@@ -2593,12 +2644,13 @@
             ],
             "url_note": "GOLD in PRED"
         },
-        "overall_difficulty": "medium",
+        "overall_difficulty": "hard",
+        "intermediate_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 19
     }
 ]

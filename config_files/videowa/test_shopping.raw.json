@@ -50,6 +50,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
         "visual_reasoning": false,
         "audio_reasoning": false,
@@ -107,11 +108,12 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
-        "temporal_reasoning": false,
+        "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 0
     },
@@ -155,13 +157,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "easy",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 1
     },
     {
         "sites": [
@@ -203,13 +206,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "easy",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 2
     },
     {
         "sites": [
@@ -264,13 +268,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 3
     },
     {
         "sites": [
@@ -325,8 +330,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
@@ -382,6 +388,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -439,13 +446,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 3
     },
     {
         "sites": [
@@ -505,13 +513,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 4
     },
     {
         "sites": [
@@ -563,13 +572,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "hard",
         "visual_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 5
     },
     {
         "sites": [
@@ -621,13 +631,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
         "visual_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 6
     },
     {
         "sites": [
@@ -681,13 +692,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 7
     },
     {
         "sites": [
@@ -738,13 +750,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 8
     },
     {
         "sites": [
@@ -796,13 +809,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "medium",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 6
     },
     {
         "sites": [
@@ -862,13 +876,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "medium",
         "visual_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 8
     },
     {
         "sites": [
@@ -910,13 +925,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "visual_reasoning": false,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 9
     },
     {
         "sites": [
@@ -967,8 +983,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "medium",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
@@ -1024,13 +1041,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 3
     },
     {
         "sites": [
@@ -1081,13 +1099,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "visual_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 4
     },
     {
         "sites": [
@@ -1139,13 +1158,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "visual_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 10
     },
     {
         "sites": [
@@ -1202,13 +1222,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 11
     },
     {
         "sites": [
@@ -1269,13 +1290,14 @@
                 }
             ]
         },
-        "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "intermediate_difficulty": "medium",
+        "overall_difficulty": "medium",
+        "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 12
     },
     {
         "sites": [
@@ -1326,13 +1348,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 3
     },
     {
         "sites": [
@@ -1386,13 +1409,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 13
     },
     {
         "sites": [
@@ -1435,13 +1459,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "easy",
         "visual_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 14
     },
     {
         "sites": [
@@ -1493,13 +1518,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 15
     },
     {
         "sites": [
@@ -1550,13 +1576,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 16
     },
     {
         "sites": [
@@ -1609,13 +1636,14 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "medium",
         "visual_reasoning": false,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 17
     },
     {
         "sites": [
@@ -1666,13 +1694,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 12
     },
     {
         "sites": [
@@ -1723,13 +1752,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 3
     },
     {
         "sites": [
@@ -1781,13 +1811,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 5
     },
     {
         "sites": [
@@ -1839,13 +1870,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "visual_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 5
     },
     {
         "sites": [
@@ -1905,13 +1937,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 4
     },
     {
         "sites": [
@@ -1964,13 +1997,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 18
     },
     {
         "sites": [
@@ -2013,13 +2047,14 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 19
     },
     {
         "sites": [
@@ -2071,13 +2106,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "hard",
         "visual_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 5
     },
     {
         "sites": [
@@ -2129,13 +2165,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "hard",
         "visual_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 6
     },
     {
         "sites": [
@@ -2190,13 +2227,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "hard",
         "visual_reasoning": false,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 20
     },
     {
         "sites": [
@@ -2260,13 +2298,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 4
     },
     {
         "sites": [
@@ -2317,13 +2356,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 3
     },
     {
         "sites": [
@@ -2376,13 +2416,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 6
     },
     {
         "sites": [
@@ -2435,13 +2476,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 5
     },
     {
         "sites": [
@@ -2496,8 +2538,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
@@ -2545,13 +2588,14 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 21
     },
     {
         "sites": [
@@ -2612,13 +2656,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 22
     },
     {
         "sites": [
@@ -2670,13 +2715,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "visual_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 5
     },
     {
         "sites": [
@@ -2727,13 +2773,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 3
     },
     {
         "sites": [
@@ -2784,13 +2831,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 18
     },
     {
         "sites": [
@@ -2841,13 +2889,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 18
     },
     {
         "sites": [
@@ -2898,6 +2947,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -2954,12 +3004,13 @@
             "reference_answer_raw_annotation": ""
         },
         "overall_difficulty": "medium",
+        "intermediate_difficulty": "hard",
         "visual_reasoning": false,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 23
     },
     {
         "sites": [
@@ -3011,13 +3062,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "medium",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 5
     },
     {
         "sites": [
@@ -3068,13 +3120,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 22
     },
     {
         "sites": [
@@ -3127,13 +3180,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "medium",
         "visual_reasoning": false,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 12
     },
     {
         "sites": [
@@ -3193,13 +3247,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 4
     },
     {
         "sites": [
@@ -3251,13 +3306,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "easy",
         "visual_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 4
     },
     {
         "sites": [
@@ -3314,13 +3370,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 18
     },
     {
         "sites": [
@@ -3373,6 +3430,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
         "visual_reasoning": false,
         "audio_reasoning": false,
@@ -3426,13 +3484,14 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 21
     },
     {
         "sites": [
@@ -3485,13 +3544,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
         "visual_reasoning": false,
         "audio_reasoning": true,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 4
     },
     {
         "sites": [
@@ -3542,6 +3602,7 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "easy",
         "visual_reasoning": false,
         "audio_reasoning": false,
@@ -3601,13 +3662,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "easy",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": false,
-        "temporal_reasoning": true,
+        "multihop_reasoning": true,
+        "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 18
     },
     {
         "sites": [
@@ -3659,13 +3721,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 12
     },
     {
         "sites": [
@@ -3709,13 +3772,14 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "medium",
         "visual_reasoning": false,
         "audio_reasoning": true,
-        "multihop_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 24
     },
     {
         "sites": [
@@ -3758,13 +3822,14 @@
             "string_note": "",
             "reference_answer_raw_annotation": ""
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "easy",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 25
     },
     {
         "sites": [
@@ -3817,8 +3882,9 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
@@ -3883,13 +3949,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 4
     },
     {
         "sites": [
@@ -3949,13 +4016,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 4
     },
     {
         "sites": [
@@ -4017,13 +4085,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 5
     },
     {
         "sites": [
@@ -4074,13 +4143,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 22
     },
     {
         "sites": [
@@ -4131,13 +4201,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 8
     },
     {
         "sites": [
@@ -4188,13 +4259,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "medium",
         "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 8
     },
     {
         "sites": [
@@ -4255,13 +4327,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "hard",
         "overall_difficulty": "hard",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 8
     },
     {
         "sites": [
@@ -4313,13 +4386,14 @@
                 }
             ]
         },
+        "intermediate_difficulty": "easy",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 26
     },
     {
         "sites": [
@@ -4361,13 +4435,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty":"easy",
         "overall_difficulty": "easy",
-        "visual_reasoning": false,
+        "visual_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 9
     },
     {
         "sites": [
@@ -4420,13 +4495,14 @@
                 }
             ]
         },
+        "intermediate_difficulty":"easy",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 27
     },
     {
         "sites": [
@@ -4477,13 +4553,14 @@
                 }
             ]
         },
+        "intermediate_difficulty":"easy",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 28
     },
     {
         "sites": [
@@ -4534,13 +4611,14 @@
                 }
             ]
         },
+        "intermediate_difficulty":"medium",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": false,
+        "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 8
     },
     {
         "sites": [
@@ -4582,13 +4660,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 9
     },
     {
         "sites": [
@@ -4641,6 +4720,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -4701,12 +4781,13 @@
             ]
         },
         "overall_difficulty": "hard",
+        "intermediate_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 3
     },
     {
         "sites": [
@@ -4759,13 +4840,14 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 18
     },
     {
         "sites": [
@@ -4816,13 +4898,14 @@
                 }
             ]
         },
+        "intermediate_difficulty":"easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 18
     },
     {
         "sites": [
@@ -4873,6 +4956,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -4930,13 +5014,14 @@
                 }
             ]
         },
+        "intermediate_difficulty":"easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 3
     },
     {
         "sites": [
@@ -4978,13 +5063,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty":"easy",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 25
     },
     {
         "sites": [
@@ -5035,13 +5121,14 @@
                 }
             ]
         },
+        "intermediate_difficulty":"easy",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 18
     },
     {
         "sites": [
@@ -5092,6 +5179,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -5149,13 +5237,14 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 3
     },
     {
         "sites": [
@@ -5197,13 +5286,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 25
     },
     {
         "sites": [
@@ -5254,13 +5344,14 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 18
     },
     {
         "sites": [
@@ -5311,6 +5402,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -5368,13 +5460,14 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 3
     },
     {
         "sites": [
@@ -5416,13 +5509,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 25
     },
     {
         "sites": [
@@ -5465,13 +5559,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty":"easy",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 29
     },
     {
         "sites": [
@@ -5514,13 +5609,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty":"easy",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 29
     },
     {
         "sites": [
@@ -5563,13 +5659,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty":"easy",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 29
     },
     {
         "sites": [
@@ -5620,13 +5717,14 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 18
     },
     {
         "sites": [
@@ -5677,6 +5775,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -5734,13 +5833,14 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 3
     },
     {
         "sites": [
@@ -5782,13 +5882,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "easy",
+        "intermediate_difficulty":"hard",
+        "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 25
     },
     {
         "sites": [
@@ -5839,13 +5940,14 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 18
     },
     {
         "sites": [
@@ -5896,6 +5998,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -5953,13 +6056,14 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 3
     },
     {
         "sites": [
@@ -6001,13 +6105,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 25
     },
     {
         "sites": [
@@ -6058,13 +6163,14 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 18
     },
     {
         "sites": [
@@ -6115,6 +6221,7 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
@@ -6172,13 +6279,14 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 3
     },
     {
         "sites": [
@@ -6220,13 +6328,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "easy",
+        "intermediate_difficulty":"hard",
+        "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": true,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 25
     },
     {
         "sites": [
@@ -6269,13 +6378,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty":"medium",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": true,
         "multihop_reasoning": false,
-        "temporal_reasoning": true,
+        "temporal_reasoning": false,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 29
     },
     {
         "sites": [
@@ -6326,13 +6436,14 @@
                 }
             ]
         },
+        "intermediate_difficulty":"medium",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 18
     },
     {
         "sites": [
@@ -6383,10 +6494,11 @@
                 }
             ]
         },
+        "intermediate_difficulty":"medium",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 0
@@ -6440,13 +6552,14 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 3
     },
     {
         "sites": [
@@ -6488,13 +6601,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 25
     },
     {
         "sites": [
@@ -6545,13 +6659,14 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 18
     },
     {
         "sites": [
@@ -6602,10 +6717,11 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
         "intent_template_id": 0
@@ -6659,13 +6775,14 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 3
     },
     {
         "sites": [
@@ -6707,13 +6824,14 @@
             "program_html": [],
             "url_note": "EXACT"
         },
-        "overall_difficulty": "easy",
+        "intermediate_difficulty":"hard",
+        "overall_difficulty": "medium",
         "visual_reasoning": true,
         "audio_reasoning": false,
-        "multihop_reasoning": true,
+        "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 25
     },
     {
         "sites": [
@@ -6764,13 +6882,14 @@
                 }
             ]
         },
-        "overall_difficulty": "medium",
+       "intermediate_difficulty":"medium",
+        "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
-        "temporal_reasoning": false,
+        "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 3
     },
     {
         "sites": [
@@ -6830,13 +6949,14 @@
                 }
             ]
         },
+        "intermediate_difficulty":"hard",
         "overall_difficulty": "hard",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 4
     },
     {
         "sites": [
@@ -6887,12 +7007,13 @@
                 }
             ]
         },
-        "overall_difficulty": "hard",
+        "intermediate_difficulty":"hard",
+        "overall_difficulty": "easy",
         "visual_reasoning": true,
         "audio_reasoning": false,
         "multihop_reasoning": false,
         "temporal_reasoning": true,
         "comments": "",
-        "intent_template_id": 0
+        "intent_template_id": 8
     }
 ]
