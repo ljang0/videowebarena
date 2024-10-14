@@ -11,7 +11,9 @@
 [<a href="https://example.com">Website</a>] 
 [<a href="https://example.com">Paper</a>]
 
-<i>VisualWebArena</i> is a realistic and diverse benchmark for evaluating multimodal autonomous language agents. It comprises of a set of diverse and complex web-based visual tasks that evaluate various capabilities of autonomous multimodal agents. It builds off the reproducible, execution based evaluation introduced in <a href="https://webarena.dev" target="_blank">WebArena</a>.
+
+VideoWebArena is a realistic and diverse benchmark for evaluating multimodal autonomous language agents. It comprises of a set of diverse and complex web-based visual tasks and a set of instruction videos that can be used to assist the agent in completing such tasks. This benchmark can be used to evaluate various capabilities of autonomous multimodal agents especially their capability of utilizing tutorial videos in completing the task. It builds off the reproducible, execution based evaluation introduced in 
+<a href="https://jykoh.com/vwa"> VisualWebArena</a> and <a href="https://webarena.dev" target="_blank">WebArena</a>. 
 
 ![Overview](media/overview.png)
 
@@ -46,7 +48,7 @@ Please check out [this page](environment_docker/README.md) for details.
 2. Configurate the urls for each website.
 First, export the `DATASET` to be `videowebarena`:
 ```bash
-export DATASET=visualwebarena
+export DATASET=videowebarnea
 ```
 Then, set the URL for the websites
 
@@ -108,10 +110,11 @@ There are two types of agent in general for videowebarena evaluation:
 There are two ways a LLM can understand video:
 - use video frames sampled from the video (e.g. gpt-4o)
 - use entire video as input (e.g. gemini-pro)
-More information can be found in the paper.
+
+More information can be found in our paper.
 
 
-* here is an example for video frame agent evaluation: video frame agent is agent that uses frames from the provided tutorial videos as input. In our paper, we use gpt-4o as the video frame agent. You can use the following command to run the evaluation:
+Here is an example for video frame agent evaluation: video frame agent is agent that uses frames from the provided tutorial videos as input. In our paper, we use gpt-4o as the video frame agent. You can use the following command to run the evaluation:
 ```bash
 python run.py \
   --instruction_path agent/prompts/jsons/p_som_cot_id_actree_3s_video_frame.json \ # this is the prompt file for video frame agent
@@ -119,7 +122,7 @@ python run.py \
   --test_end_idx <end_idx> \ #  by default 999
   --test_idx_ls 56 63 67\  # if you only want to test a list of tasks, provide id in this way and test start idx and test end idx will be ignored
   --test_config_base_dir config_files/videowa/test_classifieds \ # the config dir for which taskset to evaluate on
-  --provider openai  \ # model_provider_name like openai, azure, gemini
+  --provider openai  \ # model_provider_name like openai, azopenai, google
   --model gpt-4o\ # model_name like gpt-4o, gemini-1.5-pro-001
   --action_set_tag som \ # no need to change
   --observation_type image_som\  # no need to change
@@ -152,7 +155,7 @@ bash scripts/parallel_run_start_end.sh
 
 
 ## Citation
-If you find our environment or our models useful, please consider citing <a href="https://jykoh.com/vwa" target="_blank">VisualWebArena</a> as well as <a href="https://webarena.dev/" target="_blank">WebArena</a>:
+If you find our environment or our models useful, please consider citing  <a href="https://example.com" target="_blank">videowebarena</a>, <a href="https://jykoh.com/vwa" target="_blank">VisualWebArena</a> as well as <a href="https://webarena.dev/" target="_blank">WebArena</a>:
 ```
 
 @article{videowebarena,
