@@ -54,7 +54,7 @@ Please check out [this page](environment_docker/README.md) for details.
 2. Configurate the urls for each website.
 First, export the `DATASET` to be `videowebarena`:
 ```bash
-export DATASET=videowebarnea
+export DATASET=videowebarena
 ```
 Then, set the URL for the websites
 
@@ -156,7 +156,7 @@ If you'd like to reproduce the results from our paper, we have also provided scr
 bash scripts/run_vwa.sh "test_classifieds" 0 100
 ```
 
-We also support running the evaluation in parallel using screen command
+We also support running the evaluation in parallel using the screen command!
 
 ```bash
 bash scripts/parallel_run_start_end.sh
