@@ -12,7 +12,8 @@
 [<a href="https://example.com">Paper</a>]
 
 
-VideoWebArena is a realistic and diverse benchmark for evaluating multimodal autonomous language agents. It comprises of a set of diverse and complex web-based visual tasks and a set of instruction videos that can be used to assist the agent in completing such tasks. This benchmark can be used to evaluate various capabilities of autonomous multimodal agents especially their capability of utilizing tutorial videos in completing the task. It builds off the reproducible, execution based evaluation introduced in 
+VideoWebArena is an agent benchmark dedicated towards evaluating long context multimodal agents with video-based tasks. VideoWebArena tests agents' ability to take videos in-context and utilize them to complete realistic web tasks. VideoWebArena consists of 2,021 web agent tasks based on manually crafted video tutorials, which total almost four hours of content. 
+For our benchmark, we define a taxonomy of long-context video-based agent tasks with two main areas of focus: skill retention and factual retention. It builds off the reproducible, execution based evaluation introduced in 
 <a href="https://jykoh.com/vwa"> VisualWebArena</a> and <a href="https://webarena.dev" target="_blank">WebArena</a>. 
 
 ![Overview](media/overview.png)
