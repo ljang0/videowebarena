@@ -19,8 +19,8 @@ For our benchmark, we define a taxonomy of long-context video-based agent tasks 
 ![Overview](media/overview.png)
 
 ## TODOs
-- [x] Add websited and arxiv links, update arxiv citation
-- [x] Add Human evaluation section
+- [x] Add website and arxiv links, update arxiv citation
+- [x] Add human evaluation section
 
 ## News
 - [10/14/2024]: release of the VideoWebArena benchmark and codebase.
@@ -110,7 +110,7 @@ export VERTEXAI_PROJECT=<your_project_name>
 pip install gdown
 gdown --id 17DwmsM7KzBWyz1BN1aq7NHDvgcTIrCgx
 ```
-then move all videos to the media folder
+then move all videos to the media folder.
 
 
 
@@ -121,14 +121,15 @@ There are two types of agent in general for videowebarena evaluation:
 - video_agent (agent type name: video_prompt): this type of agent uses the entire video (or video frames) as part of context during each step when agent takes action.
 
 
-There are two ways a LLM can understand video:
+There are two ways an LLM agent can process videos in-context:
 - use video frames sampled from the video (e.g. gpt-4o)
 - use entire video as input (e.g. gemini-pro)
 
 More information can be found in our paper.
 
+Video Frame Agent Evaluation Example: 
 
-Here is an example for video frame agent evaluation: video frame agent is agent that uses frames from the provided tutorial videos as input. In our paper, we use gpt-4o as the video frame agent. You can use the following command to run the evaluation:
+The video frame agent uses frames from the provided tutorial videos as input. In our paper, we use gpt-4o as the video frame agent. You can use the following command to run this evaluation:
 ```bash
 python run.py \
   --instruction_path agent/prompts/jsons/p_som_cot_id_actree_3s_video_frame.json \ # this is the prompt file for video frame agent
@@ -148,7 +149,7 @@ python run.py \
   --intermediate_intent_instruction_path agent/prompts/jsons/video_frame_intent_understanding.json # if this is present, the agent will also evaluate on intermediate intent understanding
 ```
 
-This script will run the first Classifieds example with the gpt-4o video frame agent. The trajectory will be saved in <your_result_dir>/0.html. Note that the baselines that include a captioning model run on GPU by default (e.g., BLIP-2-T5XL as the captioning model will take up approximately 12GB of GPU VRAM). For parallel evaluation in one machine, it might be easier to load the model on CPU with the default setting `--eval_captioning_model_device cpu`.
+This script will run the first Classifieds example with the GPT-4o video frame agent. The trajectory will be saved in <your_result_dir>/0.html. Note that the baselines that include a captioning model run on GPU by default (e.g., BLIP-2-T5XL as the captioning model will take up approximately 12GB of GPU VRAM). For parallel evaluation in one machine, it might be easier to load the model on CPU with the default setting `--eval_captioning_model_device cpu`.
 
 If you'd like to reproduce the results from our paper, we have also provided scripts in `scripts/run_vwa.sh` to run the full evaluation pipeline on each of the VWA environments. For example, to reproduce the results from the Classifieds environment, you can run:
 
