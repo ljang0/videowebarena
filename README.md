@@ -90,6 +90,7 @@ export OPENAI_API_KEY=your_key
 If using azure openai models, set a valid Azure API key (starting with `sk-`) as the environment variable:
 ```
 export OPENAI_API_KEY=your_key
+export AZURE_OPENAI_ENDPOINT=your_endpoint
 ```
 You will also need to pip install azure-identify to use azure openai models
 
