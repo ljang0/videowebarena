@@ -35,6 +35,11 @@ pip install -e .
 ```
 After that, you also need to install openai-whisper following this [link](https://github.com/openai/whisper)
 
+Open a python shell and run the following commands to download the necessary models:
+```python
+import nltk
+nltk.download('punkt')
+```
 You can also run the unit tests to ensure that VisualWebArena is installed correctly:
 ```
 pytest -x
