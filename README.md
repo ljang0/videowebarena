@@ -8,7 +8,7 @@
 <a href="https://beartype.readthedocs.io"><img src="https://raw.githubusercontent.com/beartype/beartype-assets/main/badge/bear-ified.svg" alt="bear-ified"></a>
 </p> -->
 
-[<a href="https://example.com">Website</a>] 
+[<a href="https://videowebarena.github.io">Website</a>] 
 [<a href="https://example.com">Paper</a>]
 
 
