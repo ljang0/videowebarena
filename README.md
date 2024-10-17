@@ -34,11 +34,7 @@ pip install -r requirements.txt
 playwright install
 pip install -e .
 ```
-You will need FFmpeg to process the videos running the baseline agents. You can use brew or download from the [FFmpeg source directly](https://www.ffmpeg.org/download.html) .
-
-```
-brew install ffmpeg
-```
+You will need OpenAI Whisper to process the videos running the baseline agents. You download from the [their source repository](https://github.com/openai/whisper) .
 
 Open a python shell and run the following commands to download the necessary models:
 ```python
