@@ -104,7 +104,7 @@ elif DATASET == "videowebarena":
         + f"Wikipedia: {WIKIPEDIA}"
         + f"Homepage: {HOMEPAGE}"
         + f"Classifieds: {CLASSIFIEDS}"
-        + f"Classifieds reset token: {CLASSIFIEDS_RESET_TOKEN}",
+        + f"Classifieds reset token: {CLASSIFIEDS_RESET_TOKEN}"
         + f"Shopping Admin: {SHOPPING_ADMIN}\n"
         + f"Gitlab: {GITLAB}\n"
         + f"Map: {MAP}\n"
