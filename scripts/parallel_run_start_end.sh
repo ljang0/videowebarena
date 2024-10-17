@@ -3,8 +3,8 @@
 
 # List of input texts  
   
-# input_text_ls=("test_reddit" "test_shopping")  
-# start_end_idx_ls=("100 206" "100 206")  
+input_text_ls=("test_classifieds")  
+start_end_idx_ls=("0 2")  
 
   
 for idx in "${!input_text_ls[@]}"; do  
@@ -15,5 +15,5 @@ for idx in "${!input_text_ls[@]}"; do
     end_idx=${ADDR[1]}  
     session_name=${input_text:5}$start_idx$end_idx 
     # echo $session_name
-    screen -dmS $session_name bash -c ". scripts/run_vwa.sh $input_text $start_idx $end_idx; exit"  
+    screen -dmS $session_name bash -c ". scripts/run_videowa.sh $input_text $start_idx $end_idx; exit"  
 done  

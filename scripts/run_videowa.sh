@@ -1,9 +1,9 @@
 export max_frame_num=60
 export videoframe_model="gpt-4o"
-export videoframe_model_provider="azopenai"
+export videoframe_model_provider="openai"
 export video_model="gemini-1.5-pro-001"
 export video_model_provider="google"
-
+export test_config_dir="config_files/videowa"
 
 export domain=$1 # test_classifieds
 export test_start_idx=$2 # 100
