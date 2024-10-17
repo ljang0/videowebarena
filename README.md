@@ -151,7 +151,7 @@ python run.py \
 
 This script will run the first Classifieds example with the GPT-4o video frame agent. The trajectory will be saved in <your_result_dir>/0.html. Note that the baselines that include a captioning model run on GPU by default (e.g., BLIP-2-T5XL as the captioning model will take up approximately 12GB of GPU VRAM). For parallel evaluation in one machine, it might be easier to load the model on CPU with the default setting `--eval_captioning_model_device cpu`.
 
-If you'd like to reproduce the results from our paper, we have also provided scripts in `scripts/run_vwa.sh` to run the full evaluation pipeline on each of the VWA environments. For example, to reproduce the results from the Classifieds environment, you can run:
+If you'd like to reproduce the results from our paper, we have also provided scripts in `scripts/run_vwa.sh` to run the full evaluation pipeline on each of the VideoWebArena environments. For example, to reproduce the results from the Classifieds environment, you can run:
 
 ```bash
 bash scripts/run_vwa.sh "test_classifieds" 0 100
