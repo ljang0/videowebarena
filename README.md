@@ -167,7 +167,7 @@ bash scripts/parallel_run_start_end.sh
 
 
 ## Citation
-If you find our environment or our models useful, please consider citing  <a href="https://example.com" target="_blank">videowebarena</a>, <a href="https://jykoh.com/vwa" target="_blank">VisualWebArena</a> as well as <a href="https://webarena.dev/" target="_blank">WebArena</a>:
+If you find our environment or our models useful, please consider citing  <a href="videowebarena.github.io" target="_blank">VideoWebArena</a>, <a href="https://jykoh.com/vwa" target="_blank">VisualWebArena</a> as well as <a href="https://webarena.dev/" target="_blank">WebArena</a>:
 ```
 
 @article{videowebarena,
