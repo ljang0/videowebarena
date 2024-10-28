@@ -9,7 +9,7 @@
 </p> -->
 
 [<a href="https://videowebarena.github.io">Website</a>] 
-[<a href="https://example.com">Paper</a>]
+[<a href="https://arxiv.org/abs/2410.19100">Paper</a>]
 
 
 VideoWebArena is an agent benchmark dedicated towards evaluating long context multimodal agents with video-based tasks. VideoWebArena tests agents' ability to take videos in-context and utilize them to complete realistic web tasks. VideoWebArena consists of 2,021 web agent tasks based on manually crafted video tutorials, which total almost four hours of content. 
