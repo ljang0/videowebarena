@@ -169,14 +169,15 @@ bash scripts/parallel_run_start_end.sh
 ## Citation
 If you find our environment or our models useful, please consider citing  <a href="videowebarena.github.io" target="_blank">VideoWebArena</a>, <a href="https://jykoh.com/vwa" target="_blank">VisualWebArena</a> as well as <a href="https://webarena.dev/" target="_blank">WebArena</a>:
 ```
-
-@article{videowebarena,
-  title={VideoWebArena: Evaluating Long Context Multimodal Agents with Video Understanding Web Tasks},
-  author={Lawrence Keunho Jang, Yinheng Li, Charles Ding, Justin Lin, Paul Pu Liang, Dan Zhao, Rogerio Bonatti, Kazuhito Koishida},
-  journal={arXiv preprint},
-  year={2024}
+@article{jang2024videowebarenaevaluatinglongcontext,
+      title={VideoWebArena: Evaluating Long Context Multimodal Agents with Video Understanding Web Tasks}, 
+      author={Lawrence Jang and Yinheng Li and Charles Ding and Justin Lin and Paul Pu Liang and Dan Zhao and Rogerio Bonatti and Kazuhito Koishida},
+      year={2024},
+      eprint={2410.19100},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2410.19100}, 
 }
-
 
 @article{koh2024visualwebarena,
   title={VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks},
