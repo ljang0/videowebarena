@@ -15,7 +15,7 @@ from llms import (
     generate_from_huggingface_completion,
     generate_from_openai_chat_completion,
     generate_from_openai_completion,
-    generate_from_azopenai_chat_completion,
+    generate_from_azure_chat_completion,
     lm_config,
 )
 
@@ -90,10 +90,10 @@ def call_llm(
             max_tokens=lm_config.gen_config["max_tokens"],
             top_p=lm_config.gen_config["top_p"],
         )
-    elif lm_config.provider == "azopenai":
+    elif lm_config.provider == "azure":
         if lm_config.mode == "chat":
             assert isinstance(prompt, list)
-            response = generate_from_azopenai_chat_completion(
+            response = generate_from_azure_chat_completion(
                 messages=prompt,
                 model=lm_config.model,
                 temperature=lm_config.gen_config["temperature"],
@@ -108,7 +108,7 @@ def call_llm(
             )
     else:
         raise NotImplementedError(
-            f"Provider {lm_config.provider} not implemented, please choose from 'openai', 'huggingface', 'google', or 'azopenai'"
+            f"Provider {lm_config.provider} not implemented, please choose from 'openai', 'huggingface', 'google', or 'azure'"
         )
     return response
 

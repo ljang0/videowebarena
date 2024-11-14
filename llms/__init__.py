@@ -7,16 +7,17 @@ except:
 from .providers.hf_utils import generate_from_huggingface_completion
 from .providers.openai_utils import (
     generate_from_openai_chat_completion,
-    generate_from_openai_completion,
-    generate_from_azopenai_chat_completion,
+    generate_from_openai_completion
 )
-from .utils import call_llm
+from .providers.azure_utils import generate_from_azure_chat_completion
+
+from .utils import call_llm # do this after import provider to avoid circular imports
 
 __all__ = [
     "generate_from_openai_completion",
     "generate_from_openai_chat_completion",
     "generate_from_huggingface_completion",
     "generate_from_gemini_completion",
-    "generate_from_azopenai_chat_completion",
+    "generate_from_azure_chat_completion",
     "call_llm",
 ]

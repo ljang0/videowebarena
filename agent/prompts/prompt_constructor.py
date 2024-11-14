@@ -42,7 +42,7 @@ class PromptConstructor(object):
     ) -> APIInput:
         """Return the require format for an API"""
         message: list[dict[str, str]] | str
-        if "openai" in self.lm_config.provider or "azopenai" in self.lm_config.provider:
+        if "openai" in self.lm_config.provider or "azure" in self.lm_config.provider:
             if self.lm_config.mode == "chat":
                 message = [{"role": "system", "content": intro}]
                 for x, y in examples:
@@ -334,7 +334,7 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
     ) -> APIInput:
         """Return the require format for an API"""
         message: list[dict[str, str]] | str | list[str | Image.Image]
-        if "openai" in self.lm_config.provider:
+        if "openai" in self.lm_config.provider or "azure" in self.lm_config.provider:
             if self.lm_config.mode == "chat":
                 message = [
                     {
@@ -493,7 +493,7 @@ class VideoFrameUnderstandingPromptConstructor(PromptConstructor):
         """Return the require format for an API"""
         message: list[dict[str, str]] | str | list[str | Image.Image]
 
-        if "openai" in self.lm_config.provider:
+        if "openai" in self.lm_config.provider or "azure" in self.lm_config.provider:
             if self.lm_config.mode == "chat":
                 message = [
                     {
@@ -631,7 +631,7 @@ class VideoFramePromptConstructor(MultimodalCoTPromptConstructor):
         images: list[Image.Image],
         video_frames: list[Image.Image],
     ) -> APIInput:
-        if "openai" in self.lm_config.provider:
+        if "openai" in self.lm_config.provider or "azure" in self.lm_config.provider:
             if self.lm_config.mode == "chat":
                 message = [
                     {

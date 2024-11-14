@@ -10,18 +10,11 @@ from typing import Any
 
 import aiolimiter
 import openai
-from openai import AsyncOpenAI, OpenAI, AzureOpenAI
-from azure.identity import DefaultAzureCredential, get_bearer_token_provider
+from openai import AsyncOpenAI, OpenAI
 client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
-aclient = AsyncOpenAI(api_key=os.environ["OPENAI_API_KEY"])
-az_endpoint = os.environ["AZURE_OPENAI_ENDPOINT"]
-azclient = AzureOpenAI(
-    api_version="2024-02-15-preview",
-    azure_endpoint=az_endpoint,
-    azure_ad_token_provider=get_bearer_token_provider(
-    DefaultAzureCredential(), "https://cognitiveservices.azure.com/.default"
-)
-)
+aclient = AsyncOpenAI(api_key=os.environ["AZURE_API_KEY"])
+
+
 from tqdm.asyncio import tqdm_asyncio
 
 
@@ -290,28 +283,6 @@ def fake_generate_from_openai_chat_completion(
         )
 
     answer = "Let's think step-by-step. This page shows a list of links and buttons. There is a search box with the label 'Search query'. I will click on the search box to type the query. So the action I will perform is \"click [60]\"."
-    return answer
-
-
-
-@retry_with_exponential_backoff
-def generate_from_azopenai_chat_completion(
-    messages: list[dict[str, str]],
-    model: str,
-    temperature: float,
-    max_tokens: int,
-    top_p: float,
-    context_length: int,
-    stop_token: str | None = None,
-) -> str:
-    response = azclient.chat.completions.create(
-        model=model,
-        messages=messages,
-        temperature=temperature,
-        max_tokens=max_tokens,
-        top_p=top_p,
-    )
-    answer: str = response.choices[0].message.content
     return answer
 
 

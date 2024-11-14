@@ -1,12 +1,14 @@
 from typing import Any
 
 import tiktoken
-from transformers import LlamaTokenizer  # type: ignore
+from transformers import LlamaTokenizer, AutoTokenizer  # type: ignore
 
 
 class Tokenizer(object):
     def __init__(self, provider: str, model_name: str) -> None:
-        if provider == "openai" or provider == "azopenai":
+        if "phi3v" in model_name:
+            self.tokenizer = AutoTokenizer.from_pretrained("microsoft/Phi-3-vision-128k-instruct")
+        elif provider == "openai" or provider == "azure":
             self.tokenizer = tiktoken.encoding_for_model(model_name)
         elif provider == "huggingface":
             self.tokenizer = LlamaTokenizer.from_pretrained(model_name)

@@ -89,7 +89,7 @@ export OPENAI_API_KEY=your_key
 If using azure openai models, set a valid Azure API key (starting with `sk-`) as the environment variable:
 ```
 export OPENAI_API_KEY=your_key
-export AZURE_OPENAI_ENDPOINT=your_endpoint
+export AZURE_ENDPOINT=your_endpoint
 ```
 You will also need to pip install azure-identify to use azure openai models
 
@@ -137,7 +137,7 @@ python run.py \
   --test_end_idx <end_idx> \ #  by default 999
   --test_idx_ls 56 63 67\  # if you only want to test a list of tasks, provide id in this way and test start idx and test end idx will be ignored
   --test_config_base_dir config_files/videowa/test_classifieds \ # the config dir for which taskset to evaluate on
-  --provider openai  \ # model_provider_name like openai, azopenai, google
+  --provider openai  \ # model_provider_name like openai, azure, google
   --model gpt-4o\ # model_name like gpt-4o, gemini-1.5-pro-001
   --action_set_tag som \ # no need to change
   --observation_type image_som\  # no need to change

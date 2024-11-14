@@ -240,7 +240,7 @@ class VideoPromptAgent(PromptAgent):
         super().__init__(action_set_tag, lm_config, prompt_constructor)
         self.video_dir = video_dir
         assert (
-            "gpt-4o" in lm_config.model or "gemini" in lm_config.model
+            "gpt-4o" in lm_config.model or "gemini" in lm_config.model or "phi3v" in lm_config.model
         ), "VideoPromptAgent only supports gpt-4o model and gemini model"
 
     @beartype
