@@ -872,11 +872,11 @@
         "start_url": "__GITLAB__",
         "geolocation": null,
         "intent_template": "Can you assign the issue {description}?",
-        "intent": "Can you assign the issue with the critical priority label which showed up first in the video to @earlev4?",
-        "intermediate_intent": "What was the name of the issue with the critical priority label which showed up first in the video?",
+        "intent": "Can you assign the issue with the critical priority label which showed up earliest in the video to @earlev4?",
+        "intermediate_intent": "What was the name of the issue with the critical priority label which showed up earliest in the video?",
         "video": "issue_tutorial",
         "instantiation_dict": {
-            "description": "with the critical priority label which showed up first in the video to @earlev4"
+            "description": "with the critical priority label which showed up earliest in the video to @earlev4"
         },
         "require_reset": false,
         "intermediate_eval": {
