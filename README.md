@@ -105,6 +105,17 @@ Then, set the following environment variables:
 export VERTEXAI_LOCATION=<your_location>
 export VERTEXAI_PROJECT=<your_project_name>
 ```
+
+If using vllm, use the follow code to launch vllm server in a seperate terminal session
+```
+conda create -n vllm python=3.10 
+conda activate vllm
+pip install vllm
+vllm serve <model name> --trust-remote-code --tensor-parallel-size <number of GPU> --limit-mm-per-prompt "image=100" --max-model-len <max token number supported by GPU memory>  --dtype <half if using old cuda verion>
+# when error message says use float16, do --dtype half
+# when error message says kv cache memory exceed memory, use --max-model-len to adjust length
+vllm serve "microsoft/Phi-3.5-vision-instruct" --trust-remote-code  --tensor-parallel-size 4  --limit-mm-per-prompt "image=100" --max-model-len 32760 --dtype half # an example for 4*V100 GPU
+```
 6. Download the videos from this link: [videos](https://drive.google.com/file/d/17DwmsM7KzBWyz1BN1aq7NHDvgcTIrCgx/view?usp=sharing). You can use gdown to download the videos:
 ```bash
 pip install gdown
