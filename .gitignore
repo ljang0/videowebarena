@@ -174,8 +174,9 @@ result*
 
 archive
 scripts/run_prepare_data.sh
-
+scripts/run_videowa_test.sh
 
 *.ipynb
 temp
 error_run.sh
+dev.ipynb
