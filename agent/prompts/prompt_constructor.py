@@ -42,7 +42,7 @@ class PromptConstructor(object):
     ) -> APIInput:
         """Return the require format for an API"""
         message: list[dict[str, str]] | str
-        if "openai" in self.lm_config.provider or "azopenai" in self.lm_config.provider:
+        if "openai" in self.lm_config.provider or "azopenai" in self.lm_config.provider or "vllm" in self.lm_config.provider:
             if self.lm_config.mode == "chat":
                 message = [{"role": "system", "content": intro}]
                 for x, y in examples:
@@ -334,7 +334,7 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
     ) -> APIInput:
         """Return the require format for an API"""
         message: list[dict[str, str]] | str | list[str | Image.Image]
-        if "openai" in self.lm_config.provider:
+        if "openai" in self.lm_config.provider or "vllm" in self.lm_config.provider:
             if self.lm_config.mode == "chat":
                 message = [
                     {
@@ -396,6 +396,8 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
                 content = [{"type": "text", "text": current}] + content
 
                 message.append({"role": "user", "content": content})
+                message.append({"role": "user", "content": self.answer_phrase})
+
                 return message
             else:
                 raise ValueError(
@@ -459,7 +461,7 @@ class VideoFrameUnderstandingPromptConstructor(PromptConstructor):
         self.video_processor = VideoProcessor()
         self.max_frame_num = max_frame_num
         self.gpt_system_example_role = "user" if "openai" in lm_config.provider else "system"
-
+        self.answer_phrase = self.instruction["meta_data"]["answer_phrase"]
     def construct(
         self,
         video_path: str,
@@ -493,7 +495,7 @@ class VideoFrameUnderstandingPromptConstructor(PromptConstructor):
         """Return the require format for an API"""
         message: list[dict[str, str]] | str | list[str | Image.Image]
 
-        if "openai" in self.lm_config.provider:
+        if "openai" in self.lm_config.provider or "vllm" in self.lm_config.provider:
             if self.lm_config.mode == "chat":
                 message = [
                     {
@@ -550,6 +552,7 @@ class VideoFrameUnderstandingPromptConstructor(PromptConstructor):
                 )
             content = [{"type": "text", "text": current}] + content
             message.append({"role": "user", "content": content})
+            message.append({"role": "user", "content": self.answer_phrase})
             return message
         else:
             raise NotImplementedError(
@@ -631,7 +634,7 @@ class VideoFramePromptConstructor(MultimodalCoTPromptConstructor):
         images: list[Image.Image],
         video_frames: list[Image.Image],
     ) -> APIInput:
-        if "openai" in self.lm_config.provider:
+        if "openai" in self.lm_config.provider or "vllm" in self.lm_config.provider:
             if self.lm_config.mode == "chat":
                 message = [
                     {
@@ -724,6 +727,8 @@ class VideoFramePromptConstructor(MultimodalCoTPromptConstructor):
                 content = [{"type": "text", "text": current}] + content
 
                 message.append({"role": "user", "content": content})
+                message.append({"role": "user", "content": self.answer_phrase})
+
                 return message
             else:
                 raise ValueError(
@@ -934,11 +939,10 @@ class VideoUnderstandingPromptConstructor(PromptConstructor):
                 message.append(example_video)
                 message.append(f"OBJECTIVE\n:{x}\n")
                 message.append(f"Summary: {y}")
-            message.append("Now summaries the useful information from the video that would help you achieve the objective")
+            message.append("Now summerize the useful information from the video that would help you achieve the objective")
             message.append("VIDEO:")
             message.append(video)
             message.append(current)
-                
             return message
         else:
             raise NotImplementedError(

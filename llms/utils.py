@@ -16,6 +16,7 @@ from llms import (
     generate_from_openai_chat_completion,
     generate_from_openai_completion,
     generate_from_azopenai_chat_completion,
+    generate_from_vllm_openai_chat_completion,
     lm_config,
 )
 
@@ -59,6 +60,22 @@ def call_llm(
         else:
             raise ValueError(
                 f"OpenAI models do not support mode {lm_config.mode}"
+            )
+    elif lm_config.provider == "vllm":
+        if lm_config.mode == "chat":
+            assert isinstance(prompt, list)
+            response = generate_from_vllm_openai_chat_completion(
+                messages=prompt,
+                model=lm_config.model,
+                temperature=lm_config.gen_config["temperature"],
+                top_p=lm_config.gen_config["top_p"],
+                context_length=lm_config.gen_config["context_length"],
+                max_tokens=lm_config.gen_config["max_tokens"],
+                stop_token=None,
+            )
+        else:
+            raise ValueError(
+                f"VLLM models do not support mode {lm_config.mode}"
             )
     elif lm_config.provider == "anthropic":
         assert isinstance(prompt, list)
